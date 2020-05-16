@@ -1,0 +1,267 @@
+{
+  "title": "Language Features",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "e16002df32bd8c91",
+      "text": "I find it fascinating to see the number of language features which used to be uncommon that have made it into programming languages in regular use today."
+    },
+    {
+      "type": "paragraph",
+      "id": "d4e9a9c8346ce616",
+      "text": "I will hasten to acknowledge that Smalltalk and LISP possessed many of these qualities long before they made it into the Javas and C++'s of the world."
+    },
+    {
+      "type": "paragraph",
+      "id": "30628f8d0bd86759",
+      "text": "As a self-proclaimed language geek. This is my attempt at cataloging language features."
+    },
+    {
+      "type": "paragraph",
+      "id": "cd1dc72577c1d36e",
+      "text": "- String interpolation"
+    },
+    {
+      "type": "paragraph",
+      "id": "2aa7471ffd13cbb0",
+      "text": "- Algebraic Data Types: Used to be relegated to the ML based languages of the world. Now become much more mainstream thanks to [[Rust]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "d3a9c2c6f03939df",
+      "text": "- Garbage collection: This more and more feels like it allows us to paper over too many legitimate design problems, but that might be my research into rust speaking. It is actually rare to find a new language that isn't garbage collected (though I'd love to be proven wrong on this point)."
+    },
+    {
+      "type": "paragraph",
+      "id": "4dbc1368a1504a8b",
+      "text": "- Classes: This is an example of the reverse trend. Everything used to want to be OO, but now we have languages like [[Rust]] and [[Golang]] that are actively fighting against the trend."
+    },
+    {
+      "type": "paragraph",
+      "id": "fba0459f33b5ba59",
+      "text": "- Higher order functions: Functions that produce functions? This used to be quite uncommon."
+    },
+    {
+      "type": "paragraph",
+      "id": "8381a886dc02f3ee",
+      "text": "- Closures: Pulling unbound variables from the surrounding scope. Used to be relegated to interpreted languages."
+    },
+    {
+      "type": "paragraph",
+      "id": "2d4a4517ba207c2d",
+      "text": "- Algebraic Effects: I'm just now learning about these and I don't grok them yet. [https://overreacted.io/algebraic-effects-for-the-rest-of-us/ post]"
+    },
+    {
+      "type": "paragraph",
+      "id": "023e62bb1fa3211f",
+      "text": "- Promises, async / await. [[Bob Nystrom]] has a fun rant about function color that is worth reading. [https://journal.stuffwithstuff.com/2015/02/01/what-color-is-your-function/ post]"
+    },
+    {
+      "type": "paragraph",
+      "id": "8b79863baf21c32e",
+      "text": "- Strong typing"
+    },
+    {
+      "type": "paragraph",
+      "id": "1d6c8b945b6fe4d9",
+      "text": "- Dynamic types"
+    },
+    {
+      "type": "paragraph",
+      "id": "3a6b155523ff1928",
+      "text": "- Stringly types: Ever program in TCL? [http://wiki.c2.com/?StringlyTyped c2]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Language Features",
+        "story": []
+      },
+      "date": 1564113654168
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "e16002df32bd8c91"
+      },
+      "id": "e16002df32bd8c91",
+      "type": "add",
+      "date": 1564113656427
+    },
+    {
+      "type": "edit",
+      "id": "e16002df32bd8c91",
+      "item": {
+        "type": "paragraph",
+        "id": "e16002df32bd8c91",
+        "text": "I find it fascinating to see the number of language features which used to be uncommon that have made it into programming languages in regular use today."
+      },
+      "date": 1564113697398
+    },
+    {
+      "type": "add",
+      "id": "30628f8d0bd86759",
+      "item": {
+        "type": "paragraph",
+        "id": "30628f8d0bd86759",
+        "text": "As a self-proclaimed language geek. This is my attempt at cataloging language features."
+      },
+      "after": "e16002df32bd8c91",
+      "date": 1564113736941
+    },
+    {
+      "type": "add",
+      "id": "cd1dc72577c1d36e",
+      "item": {
+        "type": "paragraph",
+        "id": "cd1dc72577c1d36e",
+        "text": "- String interpolation"
+      },
+      "after": "30628f8d0bd86759",
+      "date": 1564113749998
+    },
+    {
+      "type": "add",
+      "id": "2aa7471ffd13cbb0",
+      "item": {
+        "type": "paragraph",
+        "id": "2aa7471ffd13cbb0",
+        "text": "- Algebraic Data Types: Used to be relegated to the ML based languages of the world. Now become much more mainstream thanks to [[Rust]]"
+      },
+      "after": "cd1dc72577c1d36e",
+      "date": 1564113786143
+    },
+    {
+      "type": "add",
+      "id": "d3a9c2c6f03939df",
+      "item": {
+        "type": "paragraph",
+        "id": "d3a9c2c6f03939df",
+        "text": "- Garbage collection: This more and more feels like it allows us to paper over too many legitimate design problems, but that might be my research into rust speaking. :)"
+      },
+      "after": "2aa7471ffd13cbb0",
+      "date": 1564113831846
+    },
+    {
+      "type": "add",
+      "id": "4dbc1368a1504a8b",
+      "item": {
+        "type": "paragraph",
+        "id": "4dbc1368a1504a8b",
+        "text": "- Classes: This is an example of the reverse trend. Everything used to want to be OO, but now we have languages like [[Rust]] and [[Golang]] that are actively fighting against the trend."
+      },
+      "after": "d3a9c2c6f03939df",
+      "date": 1564113886737
+    },
+    {
+      "type": "edit",
+      "id": "d3a9c2c6f03939df",
+      "item": {
+        "type": "paragraph",
+        "id": "d3a9c2c6f03939df",
+        "text": "- Garbage collection: This more and more feels like it allows us to paper over too many legitimate design problems, but that might be my research into rust speaking. It is actually rare to find a new language that isn't garbage collected (though I'd love to be proven wrong on this point)."
+      },
+      "date": 1564113925037
+    },
+    {
+      "type": "add",
+      "id": "fba0459f33b5ba59",
+      "item": {
+        "type": "paragraph",
+        "id": "fba0459f33b5ba59",
+        "text": "- Higher order functions: Functions that produce functions? This used to be quite uncommon."
+      },
+      "after": "4dbc1368a1504a8b",
+      "date": 1564114332457
+    },
+    {
+      "type": "add",
+      "id": "8381a886dc02f3ee",
+      "item": {
+        "type": "paragraph",
+        "id": "8381a886dc02f3ee",
+        "text": "- Closures: "
+      },
+      "after": "fba0459f33b5ba59",
+      "date": 1564114342271
+    },
+    {
+      "type": "add",
+      "id": "d4e9a9c8346ce616",
+      "item": {
+        "type": "paragraph",
+        "id": "d4e9a9c8346ce616",
+        "text": "I will hasten to acknowledge that Smalltalk and LISP possessed many of these qualities long before they made it into the Javas and C++'s of the world."
+      },
+      "after": "e16002df32bd8c91",
+      "date": 1564114423422
+    },
+    {
+      "type": "edit",
+      "id": "8381a886dc02f3ee",
+      "item": {
+        "type": "paragraph",
+        "id": "8381a886dc02f3ee",
+        "text": "- Closures: Pulling unbound variables from the surrounding scope. Used to be relegated to interpreted languages."
+      },
+      "date": 1564114458295
+    },
+    {
+      "type": "add",
+      "id": "2d4a4517ba207c2d",
+      "item": {
+        "type": "paragraph",
+        "id": "2d4a4517ba207c2d",
+        "text": "- Algebraic Effects: I'm just now learning about these and I don't grok them yet. [https://overreacted.io/algebraic-effects-for-the-rest-of-us/ post]"
+      },
+      "after": "8381a886dc02f3ee",
+      "date": 1564114941270
+    },
+    {
+      "type": "add",
+      "id": "023e62bb1fa3211f",
+      "item": {
+        "type": "paragraph",
+        "id": "023e62bb1fa3211f",
+        "text": "- Promises, async / await. [[Bob Nystrom]] has a fun rant about function color that is worth reading. [https://journal.stuffwithstuff.com/2015/02/01/what-color-is-your-function/ post]"
+      },
+      "after": "2d4a4517ba207c2d",
+      "date": 1564115059421
+    },
+    {
+      "type": "add",
+      "id": "8b79863baf21c32e",
+      "item": {
+        "type": "paragraph",
+        "id": "8b79863baf21c32e",
+        "text": "- Strong typing"
+      },
+      "after": "023e62bb1fa3211f",
+      "date": 1564179700318
+    },
+    {
+      "type": "add",
+      "id": "1d6c8b945b6fe4d9",
+      "item": {
+        "type": "paragraph",
+        "id": "1d6c8b945b6fe4d9",
+        "text": "- Dynamic types"
+      },
+      "after": "8b79863baf21c32e",
+      "date": 1564179708927
+    },
+    {
+      "type": "add",
+      "id": "3a6b155523ff1928",
+      "item": {
+        "type": "paragraph",
+        "id": "3a6b155523ff1928",
+        "text": "- Stringly types: Ever program in TCL? [http://wiki.c2.com/?StringlyTyped c2]"
+      },
+      "after": "1d6c8b945b6fe4d9",
+      "date": 1564179727393
+    }
+  ]
+}

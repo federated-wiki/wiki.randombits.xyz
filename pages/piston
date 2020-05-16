@@ -1,0 +1,263 @@
+{
+  "title": "piston",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "72f3f65c60645c57",
+      "text": "Rust game development library"
+    },
+    {
+      "type": "paragraph",
+      "id": "37857e5e4e33ebbc",
+      "text": "Setting an icon for a running executable. Use Icon. [http://docs.piston.rs/conrod/glutin/struct.Icon.html docs.rs]"
+    },
+    {
+      "type": "paragraph",
+      "id": "9ca19b090bffa05d",
+      "text": "Show an image on the screen [https://github.com/PistonDevelopers/piston-examples/blob/master/src/image.rs github]"
+    },
+    {
+      "type": "paragraph",
+      "id": "8aa439966c17d609",
+      "text": "Image struct [https://docs.rs/piston2d-graphics/0.35.0/graphics/image/struct.Image.html docs.rs]"
+    },
+    {
+      "type": "paragraph",
+      "id": "15c17a0beb99f472",
+      "text": "Rectangle struct [http://docs.piston.rs/mush/graphics/rectangle/struct.Rectangle.html#method.new_border docs.rs]"
+    },
+    {
+      "type": "paragraph",
+      "id": "a5fcdc5b025b9b2f",
+      "text": "DrawState struct [http://docs.piston.rs/mush/graphics/struct.DrawState.html docs.rs]"
+    },
+    {
+      "type": "paragraph",
+      "id": "9c64a6bcb842ece5",
+      "text": "DrawState example [https://github.com/PistonDevelopers/piston-examples/blob/master/src/draw_state.rs github]"
+    },
+    {
+      "type": "paragraph",
+      "id": "f6b34e682bff5ee2",
+      "text": "Paint example [https://github.com/PistonDevelopers/piston-examples/blob/master/src/paint.rs github]"
+    },
+    {
+      "type": "paragraph",
+      "id": "fb52c08455e114ee",
+      "text": "Getting started tutorial [https://github.com/PistonDevelopers/Piston-Tutorials/tree/master/getting-started github]"
+    },
+    {
+      "type": "paragraph",
+      "id": "7e51578d868c805d",
+      "text": "Window trait definition [https://docs.piston.rs/piston_window/src/window/lib.rs.html#206-245 github]"
+    },
+    {
+      "type": "paragraph",
+      "id": "17b0aec0476f2c25",
+      "text": "winit Window [http://docs.piston.rs/piston_window/winit/struct.Window.html docs.rs]"
+    },
+    {
+      "type": "paragraph",
+      "id": "ec3338993b5d44c1",
+      "text": "piston_window helper implementation [https://docs.piston.rs/piston_window/src/piston_window/lib.rs.html#212-342 github]"
+    },
+    {
+      "type": "paragraph",
+      "id": "4c9022bd552959e8",
+      "text": "EventSettings struct [https://docs.piston.rs/piston_window/src/event_loop/lib.rs.html#33-59 github]"
+    },
+    {
+      "type": "paragraph",
+      "id": "f23ee3c767e1b204",
+      "text": "Setting the scaling method to use when scaling an image [https://github.com/PistonDevelopers/piston/issues/1238 github]"
+    },
+    {
+      "type": "paragraph",
+      "id": "728b4ec9288a1b59",
+      "text": "Sudoku tutorial [https://github.com/PistonDevelopers/Piston-Tutorials/tree/master/sudoku github]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "piston",
+        "story": []
+      },
+      "date": 1574866627940
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "72f3f65c60645c57"
+      },
+      "id": "72f3f65c60645c57",
+      "type": "add",
+      "date": 1574866629409
+    },
+    {
+      "type": "edit",
+      "id": "72f3f65c60645c57",
+      "item": {
+        "type": "paragraph",
+        "id": "72f3f65c60645c57",
+        "text": "Rust game development library"
+      },
+      "date": 1574866636911
+    },
+    {
+      "type": "add",
+      "id": "37857e5e4e33ebbc",
+      "item": {
+        "type": "paragraph",
+        "id": "37857e5e4e33ebbc",
+        "text": "Setting an icon for a running executable. Use Icon. [http://docs.piston.rs/conrod/glutin/struct.Icon.html docs.rs]"
+      },
+      "after": "72f3f65c60645c57",
+      "date": 1574866655887
+    },
+    {
+      "type": "add",
+      "id": "9ca19b090bffa05d",
+      "item": {
+        "type": "paragraph",
+        "id": "9ca19b090bffa05d",
+        "text": "Show an image on the screen [https://github.com/PistonDevelopers/piston-examples/blob/master/src/image.rs github]"
+      },
+      "after": "37857e5e4e33ebbc",
+      "date": 1574866678927
+    },
+    {
+      "type": "add",
+      "id": "fb52c08455e114ee",
+      "item": {
+        "type": "paragraph",
+        "id": "fb52c08455e114ee",
+        "text": "Getting started tutorial [https://github.com/PistonDevelopers/Piston-Tutorials/tree/master/getting-started github]"
+      },
+      "after": "9ca19b090bffa05d",
+      "date": 1574866828736
+    },
+    {
+      "type": "add",
+      "id": "8aa439966c17d609",
+      "item": {
+        "type": "paragraph",
+        "id": "8aa439966c17d609",
+        "text": "Image struct [https://docs.rs/piston2d-graphics/0.35.0/graphics/image/struct.Image.html docs.rs]"
+      },
+      "after": "9ca19b090bffa05d",
+      "date": 1574866916327
+    },
+    {
+      "type": "add",
+      "id": "ec3338993b5d44c1",
+      "item": {
+        "type": "paragraph",
+        "id": "ec3338993b5d44c1",
+        "text": "piston_window helper implementation [https://docs.piston.rs/piston_window/src/piston_window/lib.rs.html#212-342 github]"
+      },
+      "after": "fb52c08455e114ee",
+      "date": 1574866974206
+    },
+    {
+      "type": "add",
+      "id": "f23ee3c767e1b204",
+      "item": {
+        "type": "paragraph",
+        "id": "f23ee3c767e1b204",
+        "text": "Setting the scaling method to use when scaling an image [https://github.com/PistonDevelopers/piston/issues/1238 github]"
+      },
+      "after": "ec3338993b5d44c1",
+      "date": 1574867022558
+    },
+    {
+      "type": "add",
+      "id": "7e51578d868c805d",
+      "item": {
+        "type": "paragraph",
+        "id": "7e51578d868c805d",
+        "text": "Window trait definition [https://docs.piston.rs/piston_window/src/window/lib.rs.html#206-245 github]"
+      },
+      "after": "fb52c08455e114ee",
+      "date": 1574867053142
+    },
+    {
+      "type": "add",
+      "id": "4c9022bd552959e8",
+      "item": {
+        "type": "paragraph",
+        "id": "4c9022bd552959e8",
+        "text": "EventSettings struct [https://docs.piston.rs/piston_window/src/event_loop/lib.rs.html#33-59 github]"
+      },
+      "after": "ec3338993b5d44c1",
+      "date": 1574867104190
+    },
+    {
+      "type": "add",
+      "id": "728b4ec9288a1b59",
+      "item": {
+        "type": "paragraph",
+        "id": "728b4ec9288a1b59",
+        "text": "Sudoku tutorial [https://github.com/PistonDevelopers/Piston-Tutorials/tree/master/sudoku github]"
+      },
+      "after": "f23ee3c767e1b204",
+      "date": 1574868064182
+    },
+    {
+      "type": "add",
+      "id": "15c17a0beb99f472",
+      "item": {
+        "type": "paragraph",
+        "id": "15c17a0beb99f472",
+        "text": "Rectangle struct [http://docs.piston.rs/mush/graphics/rectangle/struct.Rectangle.html#method.new_border docs.rs]"
+      },
+      "after": "8aa439966c17d609",
+      "date": 1574868094813
+    },
+    {
+      "type": "add",
+      "id": "a5fcdc5b025b9b2f",
+      "item": {
+        "type": "paragraph",
+        "id": "a5fcdc5b025b9b2f",
+        "text": "DrawState struct [http://docs.piston.rs/mush/graphics/struct.DrawState.html docs.rs]"
+      },
+      "after": "15c17a0beb99f472",
+      "date": 1574868116541
+    },
+    {
+      "type": "add",
+      "id": "9c64a6bcb842ece5",
+      "item": {
+        "type": "paragraph",
+        "id": "9c64a6bcb842ece5",
+        "text": "DrawState example [https://github.com/PistonDevelopers/piston-examples/blob/master/src/draw_state.rs github]"
+      },
+      "after": "a5fcdc5b025b9b2f",
+      "date": 1574868147446
+    },
+    {
+      "type": "add",
+      "id": "f6b34e682bff5ee2",
+      "item": {
+        "type": "paragraph",
+        "id": "f6b34e682bff5ee2",
+        "text": "Paint example [https://github.com/PistonDevelopers/piston-examples/blob/master/src/paint.rs github]"
+      },
+      "after": "9c64a6bcb842ece5",
+      "date": 1574868172205
+    },
+    {
+      "type": "add",
+      "id": "17b0aec0476f2c25",
+      "item": {
+        "type": "paragraph",
+        "id": "17b0aec0476f2c25",
+        "text": "winit Window [http://docs.piston.rs/piston_window/winit/struct.Window.html docs.rs]"
+      },
+      "after": "7e51578d868c805d",
+      "date": 1574868206500
+    }
+  ]
+}

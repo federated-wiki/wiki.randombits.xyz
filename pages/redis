@@ -1,0 +1,113 @@
+{
+  "title": "redis",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "cfbd0314793b38fd",
+      "text": "A popular key / value store. [https://redis.io/topics/rediscli docs]"
+    },
+    {
+      "type": "paragraph",
+      "id": "177b588721c98f24",
+      "text": "redis-cli -h <host> -p <port>"
+    },
+    {
+      "type": "paragraph",
+      "id": "5b1a601244b77a30",
+      "text": "flushall - erase the db"
+    },
+    {
+      "type": "paragraph",
+      "id": "b14a655eeb5b5ae8",
+      "text": "See pretty output of a redis key."
+    },
+    {
+      "type": "paragraph",
+      "id": "018c3ddb69623f68",
+      "text": "redis-cli get <key> | jq -C"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "redis",
+        "story": []
+      },
+      "date": 1556750338898
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "cfbd0314793b38fd"
+      },
+      "id": "cfbd0314793b38fd",
+      "type": "add",
+      "date": 1556750340088
+    },
+    {
+      "type": "edit",
+      "id": "cfbd0314793b38fd",
+      "item": {
+        "type": "paragraph",
+        "id": "cfbd0314793b38fd",
+        "text": "A popular key / value store."
+      },
+      "date": 1556750347345
+    },
+    {
+      "type": "add",
+      "id": "177b588721c98f24",
+      "item": {
+        "type": "paragraph",
+        "id": "177b588721c98f24",
+        "text": "redis-cli -h <host> -p <port>"
+      },
+      "after": "cfbd0314793b38fd",
+      "date": 1556750360903
+    },
+    {
+      "type": "add",
+      "id": "5b1a601244b77a30",
+      "item": {
+        "type": "paragraph",
+        "id": "5b1a601244b77a30",
+        "text": "flushall - erase the db"
+      },
+      "after": "177b588721c98f24",
+      "date": 1556759372996
+    },
+    {
+      "type": "edit",
+      "id": "cfbd0314793b38fd",
+      "item": {
+        "type": "paragraph",
+        "id": "cfbd0314793b38fd",
+        "text": "A popular key / value store. [https://redis.io/topics/rediscli docs]"
+      },
+      "date": 1556759391159
+    },
+    {
+      "type": "add",
+      "id": "b14a655eeb5b5ae8",
+      "item": {
+        "type": "paragraph",
+        "id": "b14a655eeb5b5ae8",
+        "text": "See pretty output of a redis key."
+      },
+      "after": "5b1a601244b77a30",
+      "date": 1557937043831
+    },
+    {
+      "type": "add",
+      "id": "018c3ddb69623f68",
+      "item": {
+        "type": "paragraph",
+        "id": "018c3ddb69623f68",
+        "text": "redis-cli get <key> | jq -C"
+      },
+      "after": "b14a655eeb5b5ae8",
+      "date": 1557937045184
+    }
+  ]
+}

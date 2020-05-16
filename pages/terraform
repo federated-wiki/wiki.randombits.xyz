@@ -1,0 +1,55 @@
+{
+  "title": "terraform",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "b419af6abac208be",
+      "text": "I'm still trying to figure out terraform."
+    },
+    {
+      "type": "paragraph",
+      "id": "6dcc12b2588a5304",
+      "text": "A funny application of the technology to order pizzas from dominos. [https://github.com/ndmckinley/terraform-provider-dominos github]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "terraform",
+        "story": []
+      },
+      "date": 1556590771915
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "b419af6abac208be"
+      },
+      "id": "b419af6abac208be",
+      "type": "add",
+      "date": 1556590773280
+    },
+    {
+      "type": "edit",
+      "id": "b419af6abac208be",
+      "item": {
+        "type": "paragraph",
+        "id": "b419af6abac208be",
+        "text": "I'm still trying to figure out terraform."
+      },
+      "date": 1556590785909
+    },
+    {
+      "type": "add",
+      "id": "6dcc12b2588a5304",
+      "item": {
+        "type": "paragraph",
+        "id": "6dcc12b2588a5304",
+        "text": "A funny application of the technology to order pizzas from dominos. [https://github.com/ndmckinley/terraform-provider-dominos github]"
+      },
+      "after": "b419af6abac208be",
+      "date": 1556590817040
+    }
+  ]
+}

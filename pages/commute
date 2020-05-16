@@ -1,0 +1,89 @@
+{
+  "title": "Commute",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "f931bc1ff90bc35b",
+      "text": "Information I use to manage my daily commute."
+    },
+    {
+      "type": "paragraph",
+      "id": "38d6dcf024ee199e",
+      "text": "MAX Blue Line Portland to Hillsboro schedule. [http://trimet.org/schedules/w/t1100_1.htm trimet]"
+    },
+    {
+      "type": "paragraph",
+      "id": "d24e4010a01aec6d",
+      "text": "MAX Blue Line Hillsboro to Portland schedule. [http://trimet.org/schedules/w/t1100_0.htm trimet]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Commute",
+        "story": []
+      },
+      "date": 1558126877707
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "f931bc1ff90bc35b"
+      },
+      "id": "f931bc1ff90bc35b",
+      "type": "add",
+      "date": 1558126878921
+    },
+    {
+      "type": "edit",
+      "id": "f931bc1ff90bc35b",
+      "item": {
+        "type": "paragraph",
+        "id": "f931bc1ff90bc35b",
+        "text": "Information I use to manage my daily commute."
+      },
+      "date": 1558126888771
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "38d6dcf024ee199e"
+      },
+      "id": "38d6dcf024ee199e",
+      "type": "add",
+      "after": "f931bc1ff90bc35b",
+      "date": 1558126915065
+    },
+    {
+      "type": "edit",
+      "id": "38d6dcf024ee199e",
+      "item": {
+        "type": "paragraph",
+        "id": "38d6dcf024ee199e",
+        "text": "MAX Blue Line Portland to Hillsboro schedule. [http://trimet.org/schedules/w/t1100_1.htm trimet]"
+      },
+      "date": 1558126935551
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "d24e4010a01aec6d"
+      },
+      "id": "d24e4010a01aec6d",
+      "type": "add",
+      "after": "38d6dcf024ee199e",
+      "date": 1558126946205
+    },
+    {
+      "type": "edit",
+      "id": "d24e4010a01aec6d",
+      "item": {
+        "type": "paragraph",
+        "id": "d24e4010a01aec6d",
+        "text": "MAX Blue Line Hillsboro to Portland schedule. [http://trimet.org/schedules/w/t1100_0.htm trimet]"
+      },
+      "date": 1558126962594
+    }
+  ]
+}

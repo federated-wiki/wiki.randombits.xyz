@@ -1,0 +1,55 @@
+{
+  "title": "curl",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "ec4b299b11e08541",
+      "text": "The ubiquitous tool for interacting with the web from the command line."
+    },
+    {
+      "type": "paragraph",
+      "id": "ebbbf095dc37babe",
+      "text": "-H \"Authorization: Token token=....\""
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "curl",
+        "story": []
+      },
+      "date": 1560973632637
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "ec4b299b11e08541"
+      },
+      "id": "ec4b299b11e08541",
+      "type": "add",
+      "date": 1560973633697
+    },
+    {
+      "type": "edit",
+      "id": "ec4b299b11e08541",
+      "item": {
+        "type": "paragraph",
+        "id": "ec4b299b11e08541",
+        "text": "The ubiquitous tool for interacting with the web from the command line."
+      },
+      "date": 1560973653225
+    },
+    {
+      "type": "add",
+      "id": "ebbbf095dc37babe",
+      "item": {
+        "type": "paragraph",
+        "id": "ebbbf095dc37babe",
+        "text": "-H \"Authorization: Token token=....\""
+      },
+      "after": "ec4b299b11e08541",
+      "date": 1560973672441
+    }
+  ]
+}

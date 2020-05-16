@@ -1,0 +1,223 @@
+{
+  "title": "Patterns",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "368a36a41ee93de5",
+      "text": "[[Observe in Context]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "59a7d3a8eab7aa27",
+      "text": "[[Breakable Toy]]s"
+    },
+    {
+      "type": "paragraph",
+      "id": "f342c8c74249ac63",
+      "text": "[[Self Updating Program]]s"
+    },
+    {
+      "type": "pagefold",
+      "id": "13ffcdffe9393a03",
+      "text": "people patterns"
+    },
+    {
+      "type": "paragraph",
+      "id": "cdc3205a6a67c2ec",
+      "text": "Imposter Syndrome"
+    },
+    {
+      "type": "paragraph",
+      "id": "b48def01c1ddfee5",
+      "text": "Sufficiently Smart"
+    },
+    {
+      "type": "paragraph",
+      "id": "7e8e7cc05c7deac2",
+      "text": "Humble Learner"
+    },
+    {
+      "type": "paragraph",
+      "id": "d193dd339e75c40f",
+      "text": "Psychological Safety"
+    },
+    {
+      "type": "paragraph",
+      "id": "984a5c7d51a85c35",
+      "text": "Permission to Fail"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Patterns",
+        "story": []
+      },
+      "date": 1556033656242
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "647f8f974c1d59c4"
+      },
+      "id": "647f8f974c1d59c4",
+      "type": "add",
+      "date": 1556033657378
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "13ffcdffe9393a03"
+      },
+      "id": "13ffcdffe9393a03",
+      "type": "add",
+      "after": "647f8f974c1d59c4",
+      "date": 1556033660919
+    },
+    {
+      "type": "remove",
+      "id": "647f8f974c1d59c4",
+      "date": 1556033662280
+    },
+    {
+      "type": "edit",
+      "id": "13ffcdffe9393a03",
+      "item": {
+        "type": "pagefold",
+        "id": "13ffcdffe9393a03",
+        "text": "people patterns"
+      },
+      "date": 1556033667418
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "cdc3205a6a67c2ec"
+      },
+      "id": "cdc3205a6a67c2ec",
+      "type": "add",
+      "after": "13ffcdffe9393a03",
+      "date": 1556033670086
+    },
+    {
+      "type": "edit",
+      "id": "cdc3205a6a67c2ec",
+      "item": {
+        "type": "paragraph",
+        "id": "cdc3205a6a67c2ec",
+        "text": "Imposter Syndrome"
+      },
+      "date": 1556033677199
+    },
+    {
+      "type": "add",
+      "id": "b48def01c1ddfee5",
+      "item": {
+        "type": "paragraph",
+        "id": "b48def01c1ddfee5",
+        "text": "Sufficiently Smart"
+      },
+      "after": "cdc3205a6a67c2ec",
+      "date": 1556033681011
+    },
+    {
+      "type": "add",
+      "id": "7e8e7cc05c7deac2",
+      "item": {
+        "type": "paragraph",
+        "id": "7e8e7cc05c7deac2",
+        "text": "Humble Learner"
+      },
+      "after": "b48def01c1ddfee5",
+      "date": 1556033686234
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "d193dd339e75c40f"
+      },
+      "id": "d193dd339e75c40f",
+      "type": "add",
+      "after": "7e8e7cc05c7deac2",
+      "date": 1556033697774
+    },
+    {
+      "type": "edit",
+      "id": "d193dd339e75c40f",
+      "item": {
+        "type": "paragraph",
+        "id": "d193dd339e75c40f",
+        "text": "Psychological Safety"
+      },
+      "date": 1556033704852
+    },
+    {
+      "type": "add",
+      "id": "984a5c7d51a85c35",
+      "item": {
+        "type": "paragraph",
+        "id": "984a5c7d51a85c35",
+        "text": "Permission to Fail"
+      },
+      "after": "d193dd339e75c40f",
+      "date": 1556033707221
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "368a36a41ee93de5"
+      },
+      "id": "368a36a41ee93de5",
+      "type": "add",
+      "after": "984a5c7d51a85c35",
+      "date": 1557940431487
+    },
+    {
+      "type": "edit",
+      "id": "368a36a41ee93de5",
+      "item": {
+        "type": "paragraph",
+        "id": "368a36a41ee93de5",
+        "text": "[[Observe in Context]]"
+      },
+      "date": 1557940438579
+    },
+    {
+      "type": "move",
+      "order": [
+        "368a36a41ee93de5",
+        "13ffcdffe9393a03",
+        "cdc3205a6a67c2ec",
+        "b48def01c1ddfee5",
+        "7e8e7cc05c7deac2",
+        "d193dd339e75c40f",
+        "984a5c7d51a85c35"
+      ],
+      "id": "368a36a41ee93de5",
+      "date": 1557940440904
+    },
+    {
+      "type": "add",
+      "id": "59a7d3a8eab7aa27",
+      "item": {
+        "type": "paragraph",
+        "id": "59a7d3a8eab7aa27",
+        "text": "[[Breakable Toy]]s"
+      },
+      "after": "368a36a41ee93de5",
+      "date": 1564066838153
+    },
+    {
+      "type": "add",
+      "id": "f342c8c74249ac63",
+      "item": {
+        "type": "paragraph",
+        "id": "f342c8c74249ac63",
+        "text": "[[Self Updating Program]]s"
+      },
+      "after": "59a7d3a8eab7aa27",
+      "date": 1564079645259
+    }
+  ]
+}

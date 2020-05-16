@@ -1,0 +1,55 @@
+{
+  "title": "Dark Lang",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "f01e6782ad9d05af",
+      "text": "A language that seeks to redefine how we develop software."
+    },
+    {
+      "type": "paragraph",
+      "id": "54a9005b7a6d4486",
+      "text": "This article shows a setup that is reminiscent of the original [[Light Table]] demos. [https://medium.com/@wilk/dark-lang-an-uncommon-step-towards-the-future-of-programming-921cf7f38baf medium]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Dark Lang",
+        "story": []
+      },
+      "date": 1585002796100
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "f01e6782ad9d05af"
+      },
+      "id": "f01e6782ad9d05af",
+      "type": "add",
+      "date": 1585002797398
+    },
+    {
+      "type": "edit",
+      "id": "f01e6782ad9d05af",
+      "item": {
+        "type": "paragraph",
+        "id": "f01e6782ad9d05af",
+        "text": "A language that seeks to redefine how we develop software."
+      },
+      "date": 1585002838241
+    },
+    {
+      "type": "add",
+      "id": "54a9005b7a6d4486",
+      "item": {
+        "type": "paragraph",
+        "id": "54a9005b7a6d4486",
+        "text": "This article shows a setup that is reminiscent of the original [[Light Table]] demos. [https://medium.com/@wilk/dark-lang-an-uncommon-step-towards-the-future-of-programming-921cf7f38baf medium]"
+      },
+      "after": "f01e6782ad9d05af",
+      "date": 1585002870371
+    }
+  ]
+}

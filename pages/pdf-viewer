@@ -1,0 +1,71 @@
+{
+  "title": "PDF Viewer",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "0d99b4257785c9ca",
+      "text": "Resources that could be used to write a custom PDF viewer."
+    },
+    {
+      "type": "paragraph",
+      "id": "c88cca9f999699fc",
+      "text": "Inline PDF viewer [https://stackoverflow.com/questions/5586717/inline-pdf-viewer so]"
+    },
+    {
+      "type": "paragraph",
+      "id": "5495f49228c17522",
+      "text": "pdf.js [https://github.com/mozilla/pdf.js/ github]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "PDF Viewer",
+        "story": []
+      },
+      "date": 1583168330589
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "0d99b4257785c9ca"
+      },
+      "id": "0d99b4257785c9ca",
+      "type": "add",
+      "date": 1583168331747
+    },
+    {
+      "type": "edit",
+      "id": "0d99b4257785c9ca",
+      "item": {
+        "type": "paragraph",
+        "id": "0d99b4257785c9ca",
+        "text": "Resources that could be used to write a custom PDF viewer."
+      },
+      "date": 1583168403582
+    },
+    {
+      "type": "add",
+      "id": "c88cca9f999699fc",
+      "item": {
+        "type": "paragraph",
+        "id": "c88cca9f999699fc",
+        "text": "Inline PDF viewer [https://stackoverflow.com/questions/5586717/inline-pdf-viewer so]"
+      },
+      "after": "0d99b4257785c9ca",
+      "date": 1583168425212
+    },
+    {
+      "type": "add",
+      "id": "5495f49228c17522",
+      "item": {
+        "type": "paragraph",
+        "id": "5495f49228c17522",
+        "text": "pdf.js [https://github.com/mozilla/pdf.js/ github]"
+      },
+      "after": "c88cca9f999699fc",
+      "date": 1583168448261
+    }
+  ]
+}

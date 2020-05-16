@@ -1,0 +1,197 @@
+{
+  "title": "bash",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "5dbcde8e6944a743",
+      "text": "Bash shell scripting"
+    },
+    {
+      "type": "pagefold",
+      "id": "6401b66d1415ff6b",
+      "text": "syntax"
+    },
+    {
+      "type": "paragraph",
+      "id": "989a0c0f7925ac2c",
+      "text": "case statements [https://linuxize.com/post/bash-case-statement/ article]"
+    },
+    {
+      "type": "code",
+      "id": "34c9938850bf0d42",
+      "text": "case $VAR in\n  one)\n    cmd\n    ;;\n  two)\n    cmd\n    ;;\n  *)\n    cmd\n    ;;\nesac"
+    },
+    {
+      "type": "paragraph",
+      "id": "9d1162ecbed3c8af",
+      "text": "Avoid adding a path more than once. [https://superuser.com/questions/39751/add-directory-to-path-if-its-not-already-there su]"
+    },
+    {
+      "type": "code",
+      "id": "7774f4130beaa970",
+      "text": "pathadd() {\n    if [ -d \"$1\" ] && [[ \":$PATH:\" != *\":$1:\"* ]]; then\n        PATH=\"${PATH:+\"$PATH:\"}$1\"\n    fi\n} "
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "bash",
+        "story": []
+      },
+      "date": 1559058984678
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "5dbcde8e6944a743"
+      },
+      "id": "5dbcde8e6944a743",
+      "type": "add",
+      "date": 1559058985645
+    },
+    {
+      "type": "edit",
+      "id": "5dbcde8e6944a743",
+      "item": {
+        "type": "paragraph",
+        "id": "5dbcde8e6944a743",
+        "text": "Bash shell scripting"
+      },
+      "date": 1559058989299
+    },
+    {
+      "type": "add",
+      "id": "6401b66d1415ff6b",
+      "item": {
+        "type": "factory",
+        "id": "6401b66d1415ff6b",
+        "text": "s"
+      },
+      "after": "5dbcde8e6944a743",
+      "date": 1559058993997
+    },
+    {
+      "type": "edit",
+      "id": "6401b66d1415ff6b",
+      "item": {
+        "type": "pagefold",
+        "id": "6401b66d1415ff6b",
+        "text": "syntax"
+      },
+      "date": 1559058999964
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "34c9938850bf0d42"
+      },
+      "id": "34c9938850bf0d42",
+      "type": "add",
+      "after": "6401b66d1415ff6b",
+      "date": 1559059001079
+    },
+    {
+      "type": "edit",
+      "id": "34c9938850bf0d42",
+      "item": {
+        "type": "factory",
+        "id": "34c9938850bf0d42",
+        "text": "cas"
+      },
+      "date": 1559059004702
+    },
+    {
+      "type": "edit",
+      "id": "34c9938850bf0d42",
+      "item": {
+        "type": "code",
+        "id": "34c9938850bf0d42",
+        "text": "case $VAR in\n  one)\n    cmd\n    ;;\n  two)\n    cmd\n    ;;\n  *)\n    cmd\n    ;;\nesac"
+      },
+      "date": 1559059047573
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "989a0c0f7925ac2c"
+      },
+      "id": "989a0c0f7925ac2c",
+      "type": "add",
+      "after": "34c9938850bf0d42",
+      "date": 1559059063741
+    },
+    {
+      "type": "edit",
+      "id": "989a0c0f7925ac2c",
+      "item": {
+        "type": "paragraph",
+        "id": "989a0c0f7925ac2c",
+        "text": "case statements [https://linuxize.com/post/bash-case-statement/ article]"
+      },
+      "date": 1559059071868
+    },
+    {
+      "id": "989a0c0f7925ac2c",
+      "type": "move",
+      "order": [
+        "5dbcde8e6944a743",
+        "6401b66d1415ff6b",
+        "989a0c0f7925ac2c",
+        "34c9938850bf0d42"
+      ],
+      "date": 1559059073858
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "9d1162ecbed3c8af"
+      },
+      "id": "9d1162ecbed3c8af",
+      "type": "add",
+      "after": "34c9938850bf0d42",
+      "date": 1559140309603
+    },
+    {
+      "type": "edit",
+      "id": "9d1162ecbed3c8af",
+      "item": {
+        "type": "paragraph",
+        "id": "9d1162ecbed3c8af",
+        "text": "Avoid adding a path more than once."
+      },
+      "date": 1559140319106
+    },
+    {
+      "type": "add",
+      "id": "7774f4130beaa970",
+      "item": {
+        "type": "factory",
+        "id": "7774f4130beaa970",
+        "text": " "
+      },
+      "after": "9d1162ecbed3c8af",
+      "date": 1559140320450
+    },
+    {
+      "type": "edit",
+      "id": "9d1162ecbed3c8af",
+      "item": {
+        "type": "paragraph",
+        "id": "9d1162ecbed3c8af",
+        "text": "Avoid adding a path more than once. [https://superuser.com/questions/39751/add-directory-to-path-if-its-not-already-there su]"
+      },
+      "date": 1559140330253
+    },
+    {
+      "type": "edit",
+      "id": "7774f4130beaa970",
+      "item": {
+        "type": "code",
+        "id": "7774f4130beaa970",
+        "text": "pathadd() {\n    if [ -d \"$1\" ] && [[ \":$PATH:\" != *\":$1:\"* ]]; then\n        PATH=\"${PATH:+\"$PATH:\"}$1\"\n    fi\n} "
+      },
+      "date": 1559140344081
+    }
+  ]
+}

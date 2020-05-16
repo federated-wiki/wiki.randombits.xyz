@@ -1,0 +1,148 @@
+{
+  "title": "Library",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "dc3f457d8b52e6a8",
+      "text": "Links to books or articles I have found to be highly valuable."
+    },
+    {
+      "type": "paragraph",
+      "id": "02d420711c31af02",
+      "text": "The Text Triumvirate. The article which first clued me into tmux. [http://www.drbunsen.org/the-text-triumvirate/ website]"
+    },
+    {
+      "type": "paragraph",
+      "id": "539be9813d3adadf",
+      "text": "A good, but not quite as good article on the same. [https://www.lucasfcosta.com/2019/02/10/terminal-guide-2019.html website]"
+    },
+    {
+      "type": "paragraph",
+      "id": "7119ca0419ea9012",
+      "text": "Apprenticeship Patterns - As a lifelong learner, it is great to have a vocabulary to talk about techniques for learning. Fun note: The forward to the book was written by Ward."
+    },
+    {
+      "type": "paragraph",
+      "id": "52b81e4b87df2a82",
+      "text": "PragProg Vim Book"
+    },
+    {
+      "type": "paragraph",
+      "id": "feb75db013a18928",
+      "text": "Conceptual introduction to git. Highly recommended! [https://www.sbf5.com/~cduan/technical/git/ website]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Library",
+        "story": []
+      },
+      "date": 1555222827803
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "dc3f457d8b52e6a8"
+      },
+      "id": "dc3f457d8b52e6a8",
+      "type": "add",
+      "date": 1555222831290
+    },
+    {
+      "type": "edit",
+      "id": "dc3f457d8b52e6a8",
+      "item": {
+        "type": "paragraph",
+        "id": "dc3f457d8b52e6a8",
+        "text": "Apprenticeship Patterns"
+      },
+      "date": 1555222838934
+    },
+    {
+      "type": "add",
+      "id": "52b81e4b87df2a82",
+      "item": {
+        "type": "paragraph",
+        "id": "52b81e4b87df2a82",
+        "text": "PragProg Vim Book"
+      },
+      "after": "dc3f457d8b52e6a8",
+      "date": 1555222844317
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "feb75db013a18928"
+      },
+      "id": "feb75db013a18928",
+      "type": "add",
+      "after": "52b81e4b87df2a82",
+      "date": 1555344348332
+    },
+    {
+      "type": "edit",
+      "id": "feb75db013a18928",
+      "item": {
+        "type": "paragraph",
+        "id": "feb75db013a18928",
+        "text": "Conceptual introduction to git. Highly recommended! [https://www.sbf5.com/~cduan/technical/git/ website]"
+      },
+      "date": 1555344351520
+    },
+    {
+      "type": "edit",
+      "id": "dc3f457d8b52e6a8",
+      "item": {
+        "type": "paragraph",
+        "id": "dc3f457d8b52e6a8",
+        "text": "Links to books or articles I have found to be highly valuable."
+      },
+      "date": 1555344370746
+    },
+    {
+      "type": "add",
+      "id": "7119ca0419ea9012",
+      "item": {
+        "type": "paragraph",
+        "id": "7119ca0419ea9012",
+        "text": "Apprenticeship Patterns"
+      },
+      "after": "dc3f457d8b52e6a8",
+      "date": 1555344373602
+    },
+    {
+      "type": "edit",
+      "id": "7119ca0419ea9012",
+      "item": {
+        "type": "paragraph",
+        "id": "7119ca0419ea9012",
+        "text": "Apprenticeship Patterns - As a lifelong learner, it is great to have a vocabulary to talk about techniques for learning. Fun note: The forward to the book was written by Ward."
+      },
+      "date": 1555477104807
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "02d420711c31af02",
+        "text": "The Text Triumvirate. The article which first clued me into tmux. [http://www.drbunsen.org/the-text-triumvirate/ website]"
+      },
+      "after": "dc3f457d8b52e6a8",
+      "id": "02d420711c31af02",
+      "date": 1556819587926
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "539be9813d3adadf",
+        "text": "A good, but not quite as good article on the same. [https://www.lucasfcosta.com/2019/02/10/terminal-guide-2019.html website]"
+      },
+      "after": "02d420711c31af02",
+      "id": "539be9813d3adadf",
+      "date": 1556819598208
+    }
+  ]
+}

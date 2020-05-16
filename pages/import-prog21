@@ -1,0 +1,96 @@
+{
+  "title": "Import Prog21",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "88eeb94e3228bccc",
+      "text": "One of my favorite blogs is [http://prog21.dadgum.com Programming in the 21st Century]. This page discusses importing it into a wiki."
+    },
+    {
+      "type": "paragraph",
+      "id": "1bc6eba30e189956",
+      "text": "I have a local download of the entire archive of the site."
+    },
+    {
+      "type": "reference",
+      "id": "9dddfbaccd036b1a",
+      "site": "fed.wiki.randombits.xyz",
+      "slug": "import--export",
+      "title": "Import / Export",
+      "text": "Information about the various ways to and discussions about importing and / or export to / from fed wiki."
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Import Prog21",
+        "story": []
+      },
+      "date": 1556856850281
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "88eeb94e3228bccc"
+      },
+      "id": "88eeb94e3228bccc",
+      "type": "add",
+      "date": 1556856852022
+    },
+    {
+      "type": "edit",
+      "id": "88eeb94e3228bccc",
+      "item": {
+        "type": "paragraph",
+        "id": "88eeb94e3228bccc",
+        "text": "One of my favorite blogs is [http://prog21.dadgum.com Programming in the 21st Century]."
+      },
+      "date": 1556856887728
+    },
+    {
+      "type": "edit",
+      "id": "88eeb94e3228bccc",
+      "item": {
+        "type": "paragraph",
+        "id": "88eeb94e3228bccc",
+        "text": "One of my favorite blogs is [http://prog21.dadgum.com Programming in the 21st Century]. This page discusses importing it into a wiki."
+      },
+      "date": 1556856904371
+    },
+    {
+      "type": "add",
+      "id": "1bc6eba30e189956",
+      "item": {
+        "type": "paragraph",
+        "id": "1bc6eba30e189956",
+        "text": "I have a local download of the entire archive of the site."
+      },
+      "after": "88eeb94e3228bccc",
+      "date": 1556856926897
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "9dddfbaccd036b1a"
+      },
+      "id": "9dddfbaccd036b1a",
+      "type": "add",
+      "after": "1bc6eba30e189956",
+      "date": 1556856987800
+    },
+    {
+      "type": "edit",
+      "id": "9dddfbaccd036b1a",
+      "item": {
+        "type": "reference",
+        "id": "9dddfbaccd036b1a",
+        "site": "fed.wiki.randombits.xyz",
+        "slug": "import--export",
+        "title": "Import / Export",
+        "text": "Information about the various ways to and discussions about importing and / or export to / from fed wiki."
+      },
+      "date": 1556856991728
+    }
+  ]
+}

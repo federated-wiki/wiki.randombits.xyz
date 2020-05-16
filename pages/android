@@ -1,0 +1,128 @@
+{
+  "title": "Android",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "7f087ba9dd4427ac",
+      "text": "Google's mobile phone operating system."
+    },
+    {
+      "type": "paragraph",
+      "id": "6a980e20f7adc91c",
+      "text": "Running Rust on Android [https://medium.com/visly/rust-on-android-19f34a2fb43 medium]"
+    },
+    {
+      "type": "paragraph",
+      "id": "206bfb0b71bc12a3",
+      "text": "Rust for Android games using SDL2 [https://lliwynd.blogspot.com/2018/05/rust-for-android-games-using-sdl2.html blog]"
+    },
+    {
+      "type": "paragraph",
+      "id": "34791a875707906d",
+      "text": "android-rs-glue [https://github.com/rust-windowing/android-rs-glue github]"
+    },
+    {
+      "type": "paragraph",
+      "id": "c0854a278f9af722",
+      "text": "Building and Deploying a Rust library on Android [https://mozilla.github.io/firefox-browser-architecture/experiments/2017-09-21-rust-on-android.html blog]"
+    },
+    {
+      "type": "paragraph",
+      "id": "e8b37b41e87b3f4d",
+      "text": "cargo-ndk [https://docs.rs/crate/cargo-ndk/0.2.0 docs.rs]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Android",
+        "story": []
+      },
+      "date": 1574519036227
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "7f087ba9dd4427ac"
+      },
+      "id": "7f087ba9dd4427ac",
+      "type": "add",
+      "date": 1574519055824
+    },
+    {
+      "type": "edit",
+      "id": "7f087ba9dd4427ac",
+      "item": {
+        "type": "paragraph",
+        "id": "7f087ba9dd4427ac",
+        "text": "Google's mobile phone operating system."
+      },
+      "date": 1574519074291
+    },
+    {
+      "type": "add",
+      "id": "6a980e20f7adc91c",
+      "item": {
+        "type": "paragraph",
+        "id": "6a980e20f7adc91c",
+        "text": "Running Rust on Android [https://medium.com/visly/rust-on-android-19f34a2fb43 medium]"
+      },
+      "after": "7f087ba9dd4427ac",
+      "date": 1574519086028
+    },
+    {
+      "type": "add",
+      "id": "206bfb0b71bc12a3",
+      "item": {
+        "type": "paragraph",
+        "id": "206bfb0b71bc12a3",
+        "text": "Rust for Android games using SDL2 [https://lliwynd.blogspot.com/2018/05/rust-for-android-games-using-sdl2.html blog]"
+      },
+      "after": "6a980e20f7adc91c",
+      "date": 1574519116004
+    },
+    {
+      "type": "add",
+      "id": "34791a875707906d",
+      "item": {
+        "type": "paragraph",
+        "id": "34791a875707906d",
+        "text": "android-rs-glue [https://github.com/rust-windowing/android-rs-glue github]"
+      },
+      "after": "206bfb0b71bc12a3",
+      "date": 1574519135756
+    },
+    {
+      "type": "add",
+      "id": "c0854a278f9af722",
+      "item": {
+        "type": "paragraph",
+        "id": "c0854a278f9af722",
+        "text": "Building and Deploying a Rust library on Android [https://mozilla.github.io/firefox-browser-architecture/experiments/2017-09-21-rust-on-android.html blog]"
+      },
+      "after": "34791a875707906d",
+      "date": 1574519340011
+    },
+    {
+      "type": "add",
+      "id": "e8b37b41e87b3f4d",
+      "item": {
+        "type": "paragraph",
+        "id": "e8b37b41e87b3f4d",
+        "text": "cargo-ndk [https://docs.rs/crate/cargo-ndk/0.2.0 docs.rs]"
+      },
+      "after": "c0854a278f9af722",
+      "date": 1574866469956,
+      "error": {
+        "type": "error",
+        "msg": "Forbidden",
+        "response": "Forbidden"
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1574866501619
+    }
+  ]
+}

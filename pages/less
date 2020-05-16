@@ -1,0 +1,64 @@
+{
+  "title": "less",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "cc30706aa5119891",
+      "text": "less is more than more and more is less than less..."
+    },
+    {
+      "type": "paragraph",
+      "id": "61b196ffe415830d",
+      "text": "Ideas on how to enable syntax highlighting in less. [https://unix.stackexchange.com/questions/90990/less-command-and-syntax-highlighting so]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "less",
+        "story": []
+      },
+      "date": 1559575077963
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "cc30706aa5119891"
+      },
+      "id": "cc30706aa5119891",
+      "type": "add",
+      "date": 1559575079400
+    },
+    {
+      "type": "edit",
+      "id": "cc30706aa5119891",
+      "item": {
+        "type": "paragraph",
+        "id": "cc30706aa5119891",
+        "text": "less is more than more and more is less than less..."
+      },
+      "date": 1559575094054
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "61b196ffe415830d"
+      },
+      "id": "61b196ffe415830d",
+      "type": "add",
+      "after": "cc30706aa5119891",
+      "date": 1559575099714
+    },
+    {
+      "type": "edit",
+      "id": "61b196ffe415830d",
+      "item": {
+        "type": "paragraph",
+        "id": "61b196ffe415830d",
+        "text": "Ideas on how to enable syntax highlighting in less. [https://unix.stackexchange.com/questions/90990/less-command-and-syntax-highlighting so]"
+      },
+      "date": 1559575123744
+    }
+  ]
+}

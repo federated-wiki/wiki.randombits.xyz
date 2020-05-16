@@ -1,0 +1,579 @@
+{
+  "title": "Languages",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "6015e10aa13cc8a9",
+      "text": "I've always considered myself a programming language enthusiast. I enjoy how learning a new language (especially one with a foreign paradigm) forces you to think about how to solve problems in a new way."
+    },
+    {
+      "type": "paragraph",
+      "id": "ea35f9c9468cd8e8",
+      "text": "Ashley Williams said in her [[Zen and the Art of Convincing Your Company]] talk:"
+    },
+    {
+      "type": "paragraph",
+      "id": "58dd7687bdc5d817",
+      "text": "The thing is, I really really love programming languages and the reason I love programming languages is because I like to think about thinking and in particular the type of thinking that happens when people write code."
+    },
+    {
+      "type": "paragraph",
+      "id": "64efc07b3678ca58",
+      "text": "Someone else who seems to also enjoy this is [[Steve Yegge]]."
+    },
+    {
+      "type": "paragraph",
+      "id": "90ca8bed5b940c0d",
+      "text": "[[Language Features]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "2b83074ccec862c1",
+      "text": "This page lists languages I've studied or would like to study."
+    },
+    {
+      "type": "paragraph",
+      "id": "5ff846b764ac50d8",
+      "text": "Languages used:"
+    },
+    {
+      "type": "paragraph",
+      "id": "726edc668d4fc7f3",
+      "text": "- Perl"
+    },
+    {
+      "type": "paragraph",
+      "id": "e7b840f99871a3af",
+      "text": "- TCL / Expect"
+    },
+    {
+      "type": "paragraph",
+      "id": "a74b3a1576e44c18",
+      "text": "- Python"
+    },
+    {
+      "type": "paragraph",
+      "id": "0ad4531ca00ad2c5",
+      "text": "- C / C++"
+    },
+    {
+      "type": "paragraph",
+      "id": "0ec28313de69500b",
+      "text": "- Erlang"
+    },
+    {
+      "type": "paragraph",
+      "id": "13ac3f7a81455874",
+      "text": "- Haskell"
+    },
+    {
+      "type": "paragraph",
+      "id": "b58e18679e6ffc0f",
+      "text": "- Java"
+    },
+    {
+      "type": "paragraph",
+      "id": "9b25a7da856cd438",
+      "text": "- JavaScript"
+    },
+    {
+      "type": "paragraph",
+      "id": "590bec0f60f3e3a1",
+      "text": "- Squeak Smalltalk"
+    },
+    {
+      "type": "paragraph",
+      "id": "c466f471cb6267c5",
+      "text": "- Newspeak"
+    },
+    {
+      "type": "paragraph",
+      "id": "2e29892920a8c3ea",
+      "text": "- Dart"
+    },
+    {
+      "type": "paragraph",
+      "id": "bdd7dc2c4dc8f273",
+      "text": "- Common Lisp"
+    },
+    {
+      "type": "paragraph",
+      "id": "8afcb2a847d37d10",
+      "text": "- Clojure"
+    },
+    {
+      "type": "paragraph",
+      "id": "818ed26352ce3ba9",
+      "text": "- Ruby"
+    },
+    {
+      "type": "paragraph",
+      "id": "7e8f180b7f828360",
+      "text": "- Coffeescript"
+    },
+    {
+      "type": "paragraph",
+      "id": "71793bbd94627835",
+      "text": "- Go. See [[golang]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "8fca5173513b884f",
+      "text": "- [[Rust]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "152c963557e16419",
+      "text": "- XSLT"
+    },
+    {
+      "type": "paragraph",
+      "id": "3c3b22bfefb5573a",
+      "text": "- Chicken Scheme"
+    },
+    {
+      "type": "paragraph",
+      "id": "0421b8dd8728758a",
+      "text": "- The Little Schemer Scheme"
+    },
+    {
+      "type": "paragraph",
+      "id": "870f0f3dfd1f0b71",
+      "text": "Would like to study:"
+    },
+    {
+      "type": "paragraph",
+      "id": "109dc436c0211a99",
+      "text": "- [[Modular Smalltalk]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "a1ec058822c5c313",
+      "text": "- Strongtalk"
+    },
+    {
+      "type": "paragraph",
+      "id": "7ec46fd611d792f6",
+      "text": "- [[Idris]]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Languages",
+        "story": []
+      },
+      "date": 1560825926241
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "6015e10aa13cc8a9"
+      },
+      "id": "6015e10aa13cc8a9",
+      "type": "add",
+      "date": 1560825927750
+    },
+    {
+      "type": "edit",
+      "id": "6015e10aa13cc8a9",
+      "item": {
+        "type": "paragraph",
+        "id": "6015e10aa13cc8a9",
+        "text": "I've always considered myself a programming language enthusiast. I enjoy how learning a new language (especially one with a foreign paradigm) forces you to think about how to solve problems in a new way. This page lists languages I've studied or would like to study."
+      },
+      "date": 1560826001201
+    },
+    {
+      "type": "add",
+      "id": "5ff846b764ac50d8",
+      "item": {
+        "type": "paragraph",
+        "id": "5ff846b764ac50d8",
+        "text": "Languages used:"
+      },
+      "after": "6015e10aa13cc8a9",
+      "date": 1560826014582
+    },
+    {
+      "type": "add",
+      "id": "726edc668d4fc7f3",
+      "item": {
+        "type": "paragraph",
+        "id": "726edc668d4fc7f3",
+        "text": "- Perl"
+      },
+      "after": "5ff846b764ac50d8",
+      "date": 1560826016019
+    },
+    {
+      "type": "add",
+      "id": "e7b840f99871a3af",
+      "item": {
+        "type": "paragraph",
+        "id": "e7b840f99871a3af",
+        "text": "- TCL / Expect"
+      },
+      "after": "726edc668d4fc7f3",
+      "date": 1560826019083
+    },
+    {
+      "type": "add",
+      "id": "a74b3a1576e44c18",
+      "item": {
+        "type": "paragraph",
+        "id": "a74b3a1576e44c18",
+        "text": "- Python"
+      },
+      "after": "e7b840f99871a3af",
+      "date": 1560826023176
+    },
+    {
+      "type": "add",
+      "id": "0ad4531ca00ad2c5",
+      "item": {
+        "type": "paragraph",
+        "id": "0ad4531ca00ad2c5",
+        "text": "- C / C++"
+      },
+      "after": "a74b3a1576e44c18",
+      "date": 1560826025991
+    },
+    {
+      "type": "add",
+      "id": "0ec28313de69500b",
+      "item": {
+        "type": "paragraph",
+        "id": "0ec28313de69500b",
+        "text": "- Erlang"
+      },
+      "after": "0ad4531ca00ad2c5",
+      "date": 1560826030193
+    },
+    {
+      "type": "add",
+      "id": "13ac3f7a81455874",
+      "item": {
+        "type": "paragraph",
+        "id": "13ac3f7a81455874",
+        "text": "- Haskell"
+      },
+      "after": "0ec28313de69500b",
+      "date": 1560826032999
+    },
+    {
+      "type": "add",
+      "id": "b58e18679e6ffc0f",
+      "item": {
+        "type": "paragraph",
+        "id": "b58e18679e6ffc0f",
+        "text": "- Java"
+      },
+      "after": "13ac3f7a81455874",
+      "date": 1560826035966
+    },
+    {
+      "type": "add",
+      "id": "9b25a7da856cd438",
+      "item": {
+        "type": "paragraph",
+        "id": "9b25a7da856cd438",
+        "text": "- JavaScript"
+      },
+      "after": "b58e18679e6ffc0f",
+      "date": 1560826038542
+    },
+    {
+      "type": "add",
+      "id": "870f0f3dfd1f0b71",
+      "item": {
+        "type": "paragraph",
+        "id": "870f0f3dfd1f0b71",
+        "text": "Would like to study:"
+      },
+      "after": "9b25a7da856cd438",
+      "date": 1560826045372
+    },
+    {
+      "type": "add",
+      "id": "109dc436c0211a99",
+      "item": {
+        "type": "paragraph",
+        "id": "109dc436c0211a99",
+        "text": "- Modular Smalltalk"
+      },
+      "after": "870f0f3dfd1f0b71",
+      "date": 1560826050051
+    },
+    {
+      "type": "add",
+      "id": "a1ec058822c5c313",
+      "item": {
+        "type": "paragraph",
+        "id": "a1ec058822c5c313",
+        "text": "- Strongtalk"
+      },
+      "after": "109dc436c0211a99",
+      "date": 1560826054352
+    },
+    {
+      "type": "add",
+      "id": "590bec0f60f3e3a1",
+      "item": {
+        "type": "paragraph",
+        "id": "590bec0f60f3e3a1",
+        "text": "- Squeak / Smalltalk"
+      },
+      "after": "9b25a7da856cd438",
+      "date": 1560826061636
+    },
+    {
+      "type": "edit",
+      "id": "590bec0f60f3e3a1",
+      "item": {
+        "type": "paragraph",
+        "id": "590bec0f60f3e3a1",
+        "text": "- Squeak Smalltalk"
+      },
+      "date": 1560826065941
+    },
+    {
+      "type": "add",
+      "id": "c466f471cb6267c5",
+      "item": {
+        "type": "paragraph",
+        "id": "c466f471cb6267c5",
+        "text": "- Newspeak"
+      },
+      "after": "590bec0f60f3e3a1",
+      "date": 1560826070660
+    },
+    {
+      "type": "add",
+      "id": "2e29892920a8c3ea",
+      "item": {
+        "type": "paragraph",
+        "id": "2e29892920a8c3ea",
+        "text": "- Dart"
+      },
+      "after": "c466f471cb6267c5",
+      "date": 1560826074190
+    },
+    {
+      "type": "add",
+      "id": "bdd7dc2c4dc8f273",
+      "item": {
+        "type": "paragraph",
+        "id": "bdd7dc2c4dc8f273",
+        "text": "- Common Lisp"
+      },
+      "after": "2e29892920a8c3ea",
+      "date": 1560826079057
+    },
+    {
+      "type": "add",
+      "id": "8afcb2a847d37d10",
+      "item": {
+        "type": "paragraph",
+        "id": "8afcb2a847d37d10",
+        "text": "- Clojure"
+      },
+      "after": "bdd7dc2c4dc8f273",
+      "date": 1560826093586
+    },
+    {
+      "type": "add",
+      "id": "818ed26352ce3ba9",
+      "item": {
+        "type": "paragraph",
+        "id": "818ed26352ce3ba9",
+        "text": "- Ruby"
+      },
+      "after": "8afcb2a847d37d10",
+      "date": 1560826104193
+    },
+    {
+      "type": "add",
+      "id": "7e8f180b7f828360",
+      "item": {
+        "type": "paragraph",
+        "id": "7e8f180b7f828360",
+        "text": "- Coffeescript"
+      },
+      "after": "818ed26352ce3ba9",
+      "date": 1560826111523
+    },
+    {
+      "type": "add",
+      "id": "8fca5173513b884f",
+      "item": {
+        "type": "paragraph",
+        "id": "8fca5173513b884f",
+        "text": "- Rust"
+      },
+      "after": "7e8f180b7f828360",
+      "date": 1560826129518
+    },
+    {
+      "type": "add",
+      "id": "152c963557e16419",
+      "item": {
+        "type": "paragraph",
+        "id": "152c963557e16419",
+        "text": "- XSLT"
+      },
+      "after": "8fca5173513b884f",
+      "date": 1560826142353
+    },
+    {
+      "type": "add",
+      "id": "3c3b22bfefb5573a",
+      "item": {
+        "type": "paragraph",
+        "id": "3c3b22bfefb5573a",
+        "text": "- Chicken Scheme"
+      },
+      "after": "152c963557e16419",
+      "date": 1560826149875
+    },
+    {
+      "type": "add",
+      "id": "0421b8dd8728758a",
+      "item": {
+        "type": "paragraph",
+        "id": "0421b8dd8728758a",
+        "text": "- The Little Schemer Scheme"
+      },
+      "after": "3c3b22bfefb5573a",
+      "date": 1560826165302
+    },
+    {
+      "type": "edit",
+      "id": "109dc436c0211a99",
+      "item": {
+        "type": "paragraph",
+        "id": "109dc436c0211a99",
+        "text": "- [[Modular Smalltalk]]"
+      },
+      "date": 1560826197109
+    },
+    {
+      "type": "add",
+      "id": "71793bbd94627835",
+      "item": {
+        "type": "paragraph",
+        "id": "71793bbd94627835",
+        "text": "- Go"
+      },
+      "after": "7e8f180b7f828360",
+      "date": 1564074256877
+    },
+    {
+      "type": "edit",
+      "id": "6015e10aa13cc8a9",
+      "item": {
+        "type": "paragraph",
+        "id": "6015e10aa13cc8a9",
+        "text": "I've always considered myself a programming language enthusiast. I enjoy how learning a new language (especially one with a foreign paradigm) forces you to think about how to solve problems in a new way."
+      },
+      "date": 1564102002969
+    },
+    {
+      "type": "add",
+      "id": "2b83074ccec862c1",
+      "item": {
+        "type": "paragraph",
+        "id": "2b83074ccec862c1",
+        "text": "This page lists languages I've studied or would like to study."
+      },
+      "after": "6015e10aa13cc8a9",
+      "date": 1564102005033
+    },
+    {
+      "type": "add",
+      "id": "ea35f9c9468cd8e8",
+      "item": {
+        "type": "paragraph",
+        "id": "ea35f9c9468cd8e8",
+        "text": "Ashley Williams said in her [[Zen and the Art of Convincing Your Company]] talk:"
+      },
+      "after": "6015e10aa13cc8a9",
+      "date": 1564102037914
+    },
+    {
+      "type": "add",
+      "id": "58dd7687bdc5d817",
+      "item": {
+        "type": "paragraph",
+        "id": "58dd7687bdc5d817",
+        "text": "The thing is, I really really love programming languages and the reason I love programming languages is because I like to think about thinking and in particular the type of thinking that happens when people write code."
+      },
+      "after": "ea35f9c9468cd8e8",
+      "date": 1564102234393
+    },
+    {
+      "type": "add",
+      "id": "64efc07b3678ca58",
+      "item": {
+        "type": "paragraph",
+        "id": "64efc07b3678ca58",
+        "text": "Someone else who seems to also enjoy this is Steve Yegge."
+      },
+      "after": "58dd7687bdc5d817",
+      "date": 1564102279865
+    },
+    {
+      "type": "edit",
+      "id": "64efc07b3678ca58",
+      "item": {
+        "type": "paragraph",
+        "id": "64efc07b3678ca58",
+        "text": "Someone else who seems to also enjoy this is [[Steve Yegge]]."
+      },
+      "date": 1564102413628
+    },
+    {
+      "type": "add",
+      "id": "90ca8bed5b940c0d",
+      "item": {
+        "type": "paragraph",
+        "id": "90ca8bed5b940c0d",
+        "text": "[[Language Features]]"
+      },
+      "after": "64efc07b3678ca58",
+      "date": 1564113651623
+    },
+    {
+      "type": "add",
+      "id": "7ec46fd611d792f6",
+      "item": {
+        "type": "paragraph",
+        "id": "7ec46fd611d792f6",
+        "text": "- [[Idris]]"
+      },
+      "after": "a1ec058822c5c313",
+      "date": 1565409892707
+    },
+    {
+      "type": "edit",
+      "id": "8fca5173513b884f",
+      "item": {
+        "type": "paragraph",
+        "id": "8fca5173513b884f",
+        "text": "- [[Rust]]"
+      },
+      "date": 1565412937482
+    },
+    {
+      "type": "edit",
+      "id": "71793bbd94627835",
+      "item": {
+        "type": "paragraph",
+        "id": "71793bbd94627835",
+        "text": "- Go. See [[golang]]"
+      },
+      "date": 1565412949600
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "title": "ctags",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "423d72462f4f9441",
+      "text": "Tool used to generate tag files which allow developers to jump to variable and function definitions."
+    },
+    {
+      "type": "paragraph",
+      "id": "1e02e7382f4f0a5d",
+      "text": "The problem with ctags is that active development was stopped. ES6 and coffeescript are not supported out fo the box. The rules in this repo helps improve things. [https://github.com/winstonwolff/ctags-javascript-coffeescript/blob/master/ctags.conf github]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "ctags",
+        "story": []
+      },
+      "date": 1556585405414
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "423d72462f4f9441"
+      },
+      "id": "423d72462f4f9441",
+      "type": "add",
+      "date": 1556585406729
+    },
+    {
+      "type": "edit",
+      "id": "423d72462f4f9441",
+      "item": {
+        "type": "paragraph",
+        "id": "423d72462f4f9441",
+        "text": "Tool used to generate tag files which allow developers to jump to variable and function definitions."
+      },
+      "date": 1556585431907
+    },
+    {
+      "type": "add",
+      "id": "1e02e7382f4f0a5d",
+      "item": {
+        "type": "paragraph",
+        "id": "1e02e7382f4f0a5d",
+        "text": "The problem with ctags is that active development was stopped. ES6 and coffeescript are not supported out fo the box. The rules in this repo helps improve things. [https://github.com/winstonwolff/ctags-javascript-coffeescript/blob/master/ctags.conf github]"
+      },
+      "after": "423d72462f4f9441",
+      "date": 1556585527593
+    }
+  ]
+}

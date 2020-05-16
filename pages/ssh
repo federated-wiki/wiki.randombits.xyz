@@ -1,0 +1,106 @@
+{
+  "title": "ssh",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "0b93b006efc50fc8",
+      "text": "Secure Shell"
+    },
+    {
+      "type": "paragraph",
+      "id": "ddc02d84c2fa3128",
+      "text": "To force password authentication. [https://unix.stackexchange.com/questions/15138/how-to-force-ssh-client-to-use-only-password-auth se]"
+    },
+    {
+      "type": "paragraph",
+      "id": "9e4c7a2bdb4d4a36",
+      "text": "ssh -o PreferredAuthentications=password -o PubkeyAuthentication=no <host>"
+    },
+    {
+      "type": "paragraph",
+      "id": "13d13ad2af48e336",
+      "text": "Though, if you are getting 'Permission denied (publickey).', the more likely problem is that the public key isn't in authorized_keys or the permissions on authorized_keys isn't right."
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "ssh",
+        "story": []
+      },
+      "date": 1558985189254
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "0b93b006efc50fc8"
+      },
+      "id": "0b93b006efc50fc8",
+      "type": "add",
+      "date": 1558985190434
+    },
+    {
+      "type": "edit",
+      "id": "0b93b006efc50fc8",
+      "item": {
+        "type": "paragraph",
+        "id": "0b93b006efc50fc8",
+        "text": "Secure Shell"
+      },
+      "date": 1558985195374
+    },
+    {
+      "type": "add",
+      "id": "ddc02d84c2fa3128",
+      "item": {
+        "type": "paragraph",
+        "id": "ddc02d84c2fa3128",
+        "text": "To force password authentication. [https://unix.stackexchange.com/questions/15138/how-to-force-ssh-client-to-use-only-password-auth se]"
+      },
+      "after": "0b93b006efc50fc8",
+      "date": 1558985215123
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "9e4c7a2bdb4d4a36"
+      },
+      "id": "9e4c7a2bdb4d4a36",
+      "type": "add",
+      "after": "ddc02d84c2fa3128",
+      "date": 1558985226134
+    },
+    {
+      "type": "edit",
+      "id": "9e4c7a2bdb4d4a36",
+      "item": {
+        "type": "paragraph",
+        "id": "9e4c7a2bdb4d4a36",
+        "text": "ssh -o PreferredAuthentications=password -o PubkeyAuthentication=no <host>"
+      },
+      "date": 1558985232770
+    },
+    {
+      "type": "add",
+      "id": "13d13ad2af48e336",
+      "item": {
+        "type": "paragraph",
+        "id": "13d13ad2af48e336",
+        "text": "Though, if you are getting "
+      },
+      "after": "9e4c7a2bdb4d4a36",
+      "date": 1558985242022
+    },
+    {
+      "type": "edit",
+      "id": "13d13ad2af48e336",
+      "item": {
+        "type": "paragraph",
+        "id": "13d13ad2af48e336",
+        "text": "Though, if you are getting 'Permission denied (publickey).', the more likely problem is that the public key isn't in authorized_keys or the permissions on authorized_keys isn't right."
+      },
+      "date": 1558985291054
+    }
+  ]
+}

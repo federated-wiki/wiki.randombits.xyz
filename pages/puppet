@@ -1,0 +1,132 @@
+{
+  "title": "puppet",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "85f5a9a2333d5877",
+      "text": "Puppet is a configuration management tool."
+    },
+    {
+      "type": "paragraph",
+      "id": "a53fa54e6106b370",
+      "text": "Info: Not using expired certificate for ca from cache; expired at 2018-12-18 18:54:27 UTC"
+    },
+    {
+      "type": "paragraph",
+      "id": "3258bd6aeaa5d8c6",
+      "text": "To resolve this, you must remove the ca.pem file in /etc/puppet/ssl/certs/ca.pem and then rerun \"puppet agent -t\"."
+    },
+    {
+      "type": "paragraph",
+      "id": "e96223c25e1fc8cf",
+      "text": "This information was loosely pieced together by looking at a few related articles. [https://puppet.com/docs/puppet/6.4/ssl_regenerate_certificates.html#task-5986 article]"
+    },
+    {
+      "type": "paragraph",
+      "id": "9d0d00e8f9aeaa8e",
+      "text": "Puppet agent doesn't necessarily run as a service. It may be run manually or via cron. [https://puppet.com/docs/puppet/4.10/services_agent_unix.html docs]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "puppet",
+        "story": []
+      },
+      "date": 1560379731985
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "85f5a9a2333d5877"
+      },
+      "id": "85f5a9a2333d5877",
+      "type": "add",
+      "date": 1560379733065
+    },
+    {
+      "type": "edit",
+      "id": "85f5a9a2333d5877",
+      "item": {
+        "type": "paragraph",
+        "id": "85f5a9a2333d5877",
+        "text": "Puppet is a configuration management tool."
+      },
+      "date": 1560379742295
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "a53fa54e6106b370"
+      },
+      "id": "a53fa54e6106b370",
+      "type": "add",
+      "after": "85f5a9a2333d5877",
+      "date": 1560379760480
+    },
+    {
+      "type": "edit",
+      "id": "a53fa54e6106b370",
+      "item": {
+        "type": "paragraph",
+        "id": "a53fa54e6106b370",
+        "text": "Info: Not using expired certificate for ca from cache; expired at 2018-12-18 18:54:27 UTC"
+      },
+      "date": 1560379764228
+    },
+    {
+      "type": "add",
+      "id": "3258bd6aeaa5d8c6",
+      "item": {
+        "type": "paragraph",
+        "id": "3258bd6aeaa5d8c6",
+        "text": "To resolve this, you must remove the ca.pem file in /etc/puppet/puppetlabs"
+      },
+      "after": "a53fa54e6106b370",
+      "date": 1560379784998
+    },
+    {
+      "type": "edit",
+      "id": "3258bd6aeaa5d8c6",
+      "item": {
+        "type": "paragraph",
+        "id": "3258bd6aeaa5d8c6",
+        "text": "To resolve this, you must remove the ca.pem file in /etc/puppet/ssl/certs/ca.pem and then rerun \"puppet agent -t\"."
+      },
+      "date": 1560379897317
+    },
+    {
+      "type": "add",
+      "id": "e96223c25e1fc8cf",
+      "item": {
+        "type": "paragraph",
+        "id": "e96223c25e1fc8cf",
+        "text": "This information was loosely pieced together by looking at a few related articles."
+      },
+      "after": "3258bd6aeaa5d8c6",
+      "date": 1560379923773
+    },
+    {
+      "type": "edit",
+      "id": "e96223c25e1fc8cf",
+      "item": {
+        "type": "paragraph",
+        "id": "e96223c25e1fc8cf",
+        "text": "This information was loosely pieced together by looking at a few related articles. [https://puppet.com/docs/puppet/6.4/ssl_regenerate_certificates.html#task-5986 article]"
+      },
+      "date": 1560379936729
+    },
+    {
+      "type": "add",
+      "id": "9d0d00e8f9aeaa8e",
+      "item": {
+        "type": "paragraph",
+        "id": "9d0d00e8f9aeaa8e",
+        "text": "Puppet agent doesn't necessarily run as a service. It may be run manually or via cron. [https://puppet.com/docs/puppet/4.10/services_agent_unix.html docs]"
+      },
+      "after": "e96223c25e1fc8cf",
+      "date": 1560379976829
+    }
+  ]
+}

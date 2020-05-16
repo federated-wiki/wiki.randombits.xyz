@@ -1,0 +1,242 @@
+{
+  "title": "wasm",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "59a87b6df7bcea44",
+      "text": "Web Assembly - a way to run code written in additional languages on the web. [https://developer.mozilla.org/en-US/docs/WebAssembly/Concepts mdn]"
+    },
+    {
+      "type": "paragraph",
+      "id": "130ec578d07cf28d",
+      "text": "wasm specifications and design proposals are kept in open repositories. [https://webassembly.org/docs/future-features/#tracking-issues github]"
+    },
+    {
+      "type": "paragraph",
+      "id": "6d9c72e0db4d6b1f",
+      "text": "One of the current limitations is that you cannot directly access the DOM from within a wasm compiled program. [http://webassemblycode.com/webassembly-cant-access-dom/ blog] [https://developer.mozilla.org/en-US/docs/WebAssembly/Concepts#Porting_from_CC mdn]"
+    },
+    {
+      "type": "paragraph",
+      "id": "44b050030472cb1a",
+      "text": "Instead, you need to go through JavaScript."
+    },
+    {
+      "type": "paragraph",
+      "id": "0dbcf0c7f3ed9743",
+      "text": "Techniques exist to provide wrapper APIs that do this work for you. [https://github.com/mbasso/asm-dom asm-dom]"
+    },
+    {
+      "type": "paragraph",
+      "id": "4cc8b625927619c6",
+      "text": "Native access to the DOM. (Note: I'm still not sure why this links to a document on garbage collection) [https://stackoverflow.com/questions/42628328/wasm-access-dom so]"
+    },
+    {
+      "type": "paragraph",
+      "id": "8f93bd8716676b73",
+      "text": "Web IDL bindings looks like it may also fill this need. [https://github.com/WebAssembly/webidl-bindings/blob/master/proposals/webidl-bindings/Explainer.md webidl-bindings]"
+    },
+    {
+      "type": "paragraph",
+      "id": "1cb8a333434be588",
+      "text": "Native support for garbage collection proposal. [https://github.com/WebAssembly/gc/blob/master/proposals/gc/Overview.md github]"
+    },
+    {
+      "type": "paragraph",
+      "id": "0a8fe6475d14f3c6",
+      "text": "When loading a page with wasm on it, the files may need to be served up with the proper MIME type. [https://github.com/mdn/webassembly-examples/issues/5 mdn]"
+    },
+    {
+      "type": "paragraph",
+      "id": "ddbe0a32c5d67781",
+      "text": "This short python script can be modified to do that. Add a wasm mapping to 'application/wasm'. [https://gist.github.com/HaiyangXu/ec88cbdce3cdbac7b8d5 gist]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "wasm",
+        "story": []
+      },
+      "date": 1560175295026
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "59a87b6df7bcea44"
+      },
+      "id": "59a87b6df7bcea44",
+      "type": "add",
+      "date": 1560175296512
+    },
+    {
+      "type": "edit",
+      "id": "59a87b6df7bcea44",
+      "item": {
+        "type": "paragraph",
+        "id": "59a87b6df7bcea44",
+        "text": "Web Assembly - a way to run code written in additional languages on the web."
+      },
+      "date": 1560175331467
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "1cb8a333434be588"
+      },
+      "id": "1cb8a333434be588",
+      "type": "add",
+      "after": "59a87b6df7bcea44",
+      "date": 1560175356184
+    },
+    {
+      "type": "edit",
+      "id": "1cb8a333434be588",
+      "item": {
+        "type": "paragraph",
+        "id": "1cb8a333434be588",
+        "text": "Native support for garbage collection proposal. [https://github.com/WebAssembly/gc/blob/master/proposals/gc/Overview.md github]"
+      },
+      "date": 1560175380011
+    },
+    {
+      "type": "add",
+      "id": "4cc8b625927619c6",
+      "item": {
+        "type": "paragraph",
+        "id": "4cc8b625927619c6",
+        "text": "Native access to the DOM. [https://stackoverflow.com/questions/42628328/wasm-access-dom so]"
+      },
+      "after": "59a87b6df7bcea44",
+      "date": 1560175424971
+    },
+    {
+      "type": "edit",
+      "id": "4cc8b625927619c6",
+      "item": {
+        "type": "paragraph",
+        "id": "4cc8b625927619c6",
+        "text": "Native access to the DOM. (Note: I'm still not sure why this links to a document on garbage collection) [https://stackoverflow.com/questions/42628328/wasm-access-dom so]"
+      },
+      "date": 1560175449539
+    },
+    {
+      "type": "add",
+      "id": "6d9c72e0db4d6b1f",
+      "item": {
+        "type": "paragraph",
+        "id": "6d9c72e0db4d6b1f",
+        "text": "One of the current limitations is that you cannot directly access the DOM from within a wasm compiled program."
+      },
+      "after": "59a87b6df7bcea44",
+      "date": 1560175547155
+    },
+    {
+      "type": "add",
+      "id": "44b050030472cb1a",
+      "item": {
+        "type": "paragraph",
+        "id": "44b050030472cb1a",
+        "text": "Instead, you need to go through JavaScript."
+      },
+      "after": "6d9c72e0db4d6b1f",
+      "date": 1560175557033
+    },
+    {
+      "type": "add",
+      "id": "0dbcf0c7f3ed9743",
+      "item": {
+        "type": "paragraph",
+        "id": "0dbcf0c7f3ed9743",
+        "text": "Techniques exist to provide wrapper APIs that do this work for you. [https://github.com/mbasso/asm-dom asm-dom]"
+      },
+      "after": "44b050030472cb1a",
+      "date": 1560175588622
+    },
+    {
+      "type": "edit",
+      "id": "6d9c72e0db4d6b1f",
+      "item": {
+        "type": "paragraph",
+        "id": "6d9c72e0db4d6b1f",
+        "text": "One of the current limitations is that you cannot directly access the DOM from within a wasm compiled program. [http://webassemblycode.com/webassembly-cant-access-dom/ blog]"
+      },
+      "date": 1560175635963
+    },
+    {
+      "type": "add",
+      "id": "130ec578d07cf28d",
+      "item": {
+        "type": "paragraph",
+        "id": "130ec578d07cf28d",
+        "text": "wasm specifications and design proposals are kept in open repositories. [https://webassembly.org/docs/future-features/#tracking-issues github]"
+      },
+      "after": "59a87b6df7bcea44",
+      "date": 1560175723939
+    },
+    {
+      "type": "add",
+      "id": "8f93bd8716676b73",
+      "item": {
+        "type": "paragraph",
+        "id": "8f93bd8716676b73",
+        "text": "Web IDL bindings looks like it may also fill this need. [https://github.com/WebAssembly/webidl-bindings/blob/master/proposals/webidl-bindings/Explainer.md webidl-bindings]"
+      },
+      "after": "4cc8b625927619c6",
+      "date": 1560175794150
+    },
+    {
+      "type": "edit",
+      "id": "6d9c72e0db4d6b1f",
+      "item": {
+        "type": "paragraph",
+        "id": "6d9c72e0db4d6b1f",
+        "text": "One of the current limitations is that you cannot directly access the DOM from within a wasm compiled program. [http://webassemblycode.com/webassembly-cant-access-dom/ blog] [https://developer.mozilla.org/en-US/docs/WebAssembly/Concepts#Porting_from_CC mdn]"
+      },
+      "date": 1560175879983
+    },
+    {
+      "type": "edit",
+      "id": "59a87b6df7bcea44",
+      "item": {
+        "type": "paragraph",
+        "id": "59a87b6df7bcea44",
+        "text": "Web Assembly - a way to run code written in additional languages on the web. [https://developer.mozilla.org/en-US/docs/WebAssembly/Concepts mdn]"
+      },
+      "date": 1560175899810
+    },
+    {
+      "type": "add",
+      "id": "0a8fe6475d14f3c6",
+      "item": {
+        "type": "paragraph",
+        "id": "0a8fe6475d14f3c6",
+        "text": "When loading a page with wasm on it, the files may need to be served up with the proper MIME type."
+      },
+      "after": "1cb8a333434be588",
+      "date": 1575320957812
+    },
+    {
+      "type": "add",
+      "id": "ddbe0a32c5d67781",
+      "item": {
+        "type": "paragraph",
+        "id": "ddbe0a32c5d67781",
+        "text": "This short python script can be modified to do that. Add a wasm mapping to 'application/wasm'. [https://gist.github.com/HaiyangXu/ec88cbdce3cdbac7b8d5 gist]"
+      },
+      "after": "0a8fe6475d14f3c6",
+      "date": 1575320990076
+    },
+    {
+      "type": "edit",
+      "id": "0a8fe6475d14f3c6",
+      "item": {
+        "type": "paragraph",
+        "id": "0a8fe6475d14f3c6",
+        "text": "When loading a page with wasm on it, the files may need to be served up with the proper MIME type. [https://github.com/mdn/webassembly-examples/issues/5 mdn]"
+      },
+      "date": 1575321013164
+    }
+  ]
+}

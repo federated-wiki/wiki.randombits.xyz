@@ -1,0 +1,87 @@
+{
+  "title": "Category Theory",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "691ceba8889ff65b",
+      "text": "This is the branch of mathematics from which functional programming is derived and is also the origin for [[String Diagrams]]."
+    },
+    {
+      "type": "paragraph",
+      "id": "219466f20538623e",
+      "text": "[[Rust]] pulls several of its typing concepts from languages like Haskell and has a very functional flavor to it."
+    },
+    {
+      "type": "paragraph",
+      "id": "d8d5a098dc69496d",
+      "text": "The twitter thread in [[string diagrams]] links to a book called \"Seven Sketches of Applied Category Theory\" [https://arxiv.org/pdf/1803.05316.pdf pdf]"
+    },
+    {
+      "type": "paragraph",
+      "id": "b8313fb43b570c8d",
+      "text": "Category Theory enthusiasts seem convinced that is provides a framework that will help solve world problems. I don't grok it well enough to see why they feel that way. Perhaps this book will help?"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Category Theory",
+        "story": []
+      },
+      "date": 1565325703202
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "691ceba8889ff65b"
+      },
+      "id": "691ceba8889ff65b",
+      "type": "add",
+      "date": 1565325704511
+    },
+    {
+      "type": "edit",
+      "id": "691ceba8889ff65b",
+      "item": {
+        "type": "paragraph",
+        "id": "691ceba8889ff65b",
+        "text": "This is the branch of mathematics from which functional programming is derived and is also the origin for [[String Diagrams]]."
+      },
+      "date": 1565325760434
+    },
+    {
+      "type": "add",
+      "id": "219466f20538623e",
+      "item": {
+        "type": "paragraph",
+        "id": "219466f20538623e",
+        "text": "[[Rust]] pulls several of its typing concepts from languages like Haskell and has a very functional flavor to it."
+      },
+      "after": "691ceba8889ff65b",
+      "date": 1565325810268
+    },
+    {
+      "type": "add",
+      "id": "d8d5a098dc69496d",
+      "item": {
+        "type": "paragraph",
+        "id": "d8d5a098dc69496d",
+        "text": "The twitter thread in [[string diagrams]] links to a book called \"Seven Sketches of Applied Category Theory\" [https://arxiv.org/pdf/1803.05316.pdf pdf]"
+      },
+      "after": "219466f20538623e",
+      "date": 1565444618017
+    },
+    {
+      "type": "add",
+      "id": "b8313fb43b570c8d",
+      "item": {
+        "type": "paragraph",
+        "id": "b8313fb43b570c8d",
+        "text": "Category Theory enthusiasts seem convinced that is provides a framework that will help solve world problems. I don't grok it well enough to see why they feel that way. Perhaps this book will help?"
+      },
+      "after": "d8d5a098dc69496d",
+      "date": 1565444669304
+    }
+  ]
+}

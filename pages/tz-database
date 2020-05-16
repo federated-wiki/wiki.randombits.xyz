@@ -1,0 +1,167 @@
+{
+  "title": "tz database",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "824379ca43c5ee41",
+      "text": "The canonical source of information about time zones across the world."
+    },
+    {
+      "type": "paragraph",
+      "id": "1bb5b190fc00a107",
+      "text": "Homepage [https://www.iana.org/time-zones site]"
+    },
+    {
+      "type": "paragraph",
+      "id": "a79ed524531253ff",
+      "text": "Details [https://data.iana.org/time-zones/tz-link.html site]"
+    },
+    {
+      "type": "paragraph",
+      "id": "b5b83fea83ef49af",
+      "text": "Wikipedia [https://en.wikipedia.org/wiki/Tz_database entry]"
+    },
+    {
+      "type": "paragraph",
+      "id": "71c8b2d00c9f3ea5",
+      "text": "tz example implementation [https://github.com/eggert/tz github]"
+    },
+    {
+      "type": "paragraph",
+      "id": "9d8a6db8f1f65871",
+      "text": "Question on timezone calculations in Rust [https://stackoverflow.com/questions/56050292/is-there-a-way-to-parse-a-timezone-abbreviation-into-a-timezone-offset-in-rust so]"
+    },
+    {
+      "type": "paragraph",
+      "id": "ede644e47538b8cd",
+      "text": "How to get a mapping of cities to time zones [https://stackoverflow.com/questions/262264/i-need-a-mapping-list-of-cities-to-timezones-best-way-to-get-it so]"
+    },
+    {
+      "type": "paragraph",
+      "id": "cd17ff7b1d2fa6e4",
+      "text": "Geonames [http://www.geonames.org/export/ws-overview.html site]"
+    },
+    {
+      "type": "paragraph",
+      "id": "11917a43a61709c4",
+      "text": "Geonames [http://download.geonames.org/export/dump/ dump]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "tz database",
+        "story": []
+      },
+      "date": 1575653974570
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "824379ca43c5ee41"
+      },
+      "id": "824379ca43c5ee41",
+      "type": "add",
+      "date": 1575653975905
+    },
+    {
+      "type": "edit",
+      "id": "824379ca43c5ee41",
+      "item": {
+        "type": "paragraph",
+        "id": "824379ca43c5ee41",
+        "text": "The canonical source of information about time zones across the world."
+      },
+      "date": 1575654002519
+    },
+    {
+      "type": "add",
+      "id": "a79ed524531253ff",
+      "item": {
+        "type": "paragraph",
+        "id": "a79ed524531253ff",
+        "text": "Details [https://data.iana.org/time-zones/tz-link.html site]"
+      },
+      "after": "824379ca43c5ee41",
+      "date": 1575654018009
+    },
+    {
+      "type": "add",
+      "id": "71c8b2d00c9f3ea5",
+      "item": {
+        "type": "paragraph",
+        "id": "71c8b2d00c9f3ea5",
+        "text": "tz example implementation [https://github.com/eggert/tz github]"
+      },
+      "after": "a79ed524531253ff",
+      "date": 1575654043608
+    },
+    {
+      "type": "add",
+      "id": "1bb5b190fc00a107",
+      "item": {
+        "type": "paragraph",
+        "id": "1bb5b190fc00a107",
+        "text": "Homepage [https://www.iana.org/time-zones site]"
+      },
+      "after": "824379ca43c5ee41",
+      "date": 1575654064913
+    },
+    {
+      "type": "add",
+      "id": "9d8a6db8f1f65871",
+      "item": {
+        "type": "paragraph",
+        "id": "9d8a6db8f1f65871",
+        "text": "Question on timezone calculations in Rust [https://stackoverflow.com/questions/56050292/is-there-a-way-to-parse-a-timezone-abbreviation-into-a-timezone-offset-in-rust so]"
+      },
+      "after": "71c8b2d00c9f3ea5",
+      "date": 1575654115977
+    },
+    {
+      "type": "add",
+      "id": "ede644e47538b8cd",
+      "item": {
+        "type": "paragraph",
+        "id": "ede644e47538b8cd",
+        "text": "How to get a mapping of cities to time zones [https://stackoverflow.com/questions/262264/i-need-a-mapping-list-of-cities-to-timezones-best-way-to-get-it so]"
+      },
+      "after": "9d8a6db8f1f65871",
+      "date": 1575666491808
+    },
+    {
+      "type": "add",
+      "id": "b5b83fea83ef49af",
+      "item": {
+        "type": "paragraph",
+        "id": "b5b83fea83ef49af",
+        "text": "Wikipedia [https://en.wikipedia.org/wiki/Tz_database entry]"
+      },
+      "after": "a79ed524531253ff",
+      "date": 1575666512742
+    },
+    {
+      "type": "add",
+      "id": "cd17ff7b1d2fa6e4",
+      "item": {
+        "type": "paragraph",
+        "id": "cd17ff7b1d2fa6e4",
+        "text": "Geonames [http://www.geonames.org/export/ws-overview.html site]"
+      },
+      "after": "ede644e47538b8cd",
+      "date": 1575666540631
+    },
+    {
+      "type": "add",
+      "id": "11917a43a61709c4",
+      "item": {
+        "type": "paragraph",
+        "id": "11917a43a61709c4",
+        "text": "Geonames [http://download.geonames.org/export/dump/ dump]"
+      },
+      "after": "cd17ff7b1d2fa6e4",
+      "date": 1575666556081
+    }
+  ]
+}

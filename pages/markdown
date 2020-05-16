@@ -1,0 +1,161 @@
+{
+  "title": "markdown",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "c61e6628bba71a0f",
+      "text": "A DSL for creating HTML documents that are still readable as plain text."
+    },
+    {
+      "type": "paragraph",
+      "id": "b3b8c76b161a652d",
+      "text": "Restructured text is the most common alternative I see referenced."
+    },
+    {
+      "type": "paragraph",
+      "id": "4b08aacf11359990",
+      "text": "Github has a variant called Github Flavored Markdown which adds features."
+    },
+    {
+      "type": "paragraph",
+      "id": "b64b6c54e1a3d2c8",
+      "text": "GFMD cheatsheet [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet github] [https://gist.github.com/stevenyap/7038119 gist]"
+    },
+    {
+      "type": "paragraph",
+      "id": "759f3b8c39e5f45b",
+      "text": "Autolinked references [https://help.github.com/en/articles/autolinked-references-and-urls github]"
+    },
+    {
+      "type": "paragraph",
+      "id": "7be98825bd5b6370",
+      "text": "Previewing markdown when developing locally is a common problem."
+    },
+    {
+      "type": "paragraph",
+      "id": "7fcb44b8ea8e64a4",
+      "text": "github-markdown-preview: A ruby gem to start a server which allows one to preview markdown file changes automatically. [https://github.com/dmarcotte/github-markdown-preview github]"
+    },
+    {
+      "type": "paragraph",
+      "id": "fd5a5f5e2b88769c",
+      "text": "Inline a local image in GitHub Flavored Markdown [https://stackoverflow.com/questions/15764242/is-it-possible-to-make-relative-link-to-image-in-a-markdown-file-in-a-gist so]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "markdown",
+        "story": []
+      },
+      "date": 1556584732934
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "c61e6628bba71a0f"
+      },
+      "id": "c61e6628bba71a0f",
+      "type": "add",
+      "date": 1556584734407
+    },
+    {
+      "type": "edit",
+      "id": "c61e6628bba71a0f",
+      "item": {
+        "type": "paragraph",
+        "id": "c61e6628bba71a0f",
+        "text": "A DSL for creating HTML documents that are still readable as plain text."
+      },
+      "date": 1556584747603
+    },
+    {
+      "type": "add",
+      "id": "b3b8c76b161a652d",
+      "item": {
+        "type": "paragraph",
+        "id": "b3b8c76b161a652d",
+        "text": "Restructured text is the most common alternative I see referenced."
+      },
+      "after": "c61e6628bba71a0f",
+      "date": 1556584768688
+    },
+    {
+      "type": "add",
+      "id": "4b08aacf11359990",
+      "item": {
+        "type": "paragraph",
+        "id": "4b08aacf11359990",
+        "text": "Github has a variant called Github Flavored Markdown which adds features."
+      },
+      "after": "b3b8c76b161a652d",
+      "date": 1556584791208
+    },
+    {
+      "type": "add",
+      "id": "7be98825bd5b6370",
+      "item": {
+        "type": "paragraph",
+        "id": "7be98825bd5b6370",
+        "text": "Previewing markdown when developing locally is a common problem."
+      },
+      "after": "4b08aacf11359990",
+      "date": 1556584807512
+    },
+    {
+      "type": "add",
+      "id": "7fcb44b8ea8e64a4",
+      "item": {
+        "type": "paragraph",
+        "id": "7fcb44b8ea8e64a4",
+        "text": "github-markdown-preview: A ruby gem to start a server which allows one to preview markdown file changes automatically. [https://github.com/dmarcotte/github-markdown-preview github]"
+      },
+      "after": "7be98825bd5b6370",
+      "date": 1556584852974
+    },
+    {
+      "type": "add",
+      "id": "b64b6c54e1a3d2c8",
+      "item": {
+        "type": "paragraph",
+        "id": "b64b6c54e1a3d2c8",
+        "text": "GFMD cheatsheet [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet github]"
+      },
+      "after": "4b08aacf11359990",
+      "date": 1556591925511
+    },
+    {
+      "type": "add",
+      "id": "759f3b8c39e5f45b",
+      "item": {
+        "type": "paragraph",
+        "id": "759f3b8c39e5f45b",
+        "text": "Autolinked references [https://help.github.com/en/articles/autolinked-references-and-urls github]"
+      },
+      "after": "b64b6c54e1a3d2c8",
+      "date": 1556592073324
+    },
+    {
+      "type": "edit",
+      "id": "b64b6c54e1a3d2c8",
+      "item": {
+        "type": "paragraph",
+        "id": "b64b6c54e1a3d2c8",
+        "text": "GFMD cheatsheet [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet github] [https://gist.github.com/stevenyap/7038119 gist]"
+      },
+      "date": 1556592657592
+    },
+    {
+      "type": "add",
+      "id": "fd5a5f5e2b88769c",
+      "item": {
+        "type": "paragraph",
+        "id": "fd5a5f5e2b88769c",
+        "text": "Inline a local image in GitHub Flavored Markdown [https://stackoverflow.com/questions/15764242/is-it-possible-to-make-relative-link-to-image-in-a-markdown-file-in-a-gist so]"
+      },
+      "after": "7fcb44b8ea8e64a4",
+      "date": 1575694395057
+    }
+  ]
+}

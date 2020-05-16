@@ -1,0 +1,242 @@
+{
+  "title": "Observable",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "d191f47e9977e812",
+      "text": "A more polished implementation of the literate programming concept (at least as compared to [[Jupyter Notebook]]."
+    },
+    {
+      "type": "paragraph",
+      "id": "0387529e44e823b4",
+      "text": "Hackernews [https://news.ycombinator.com/item?id=16274686 post]"
+    },
+    {
+      "type": "paragraph",
+      "id": "5963408e03e76929",
+      "text": "Embedding guide [https://observablehq.com/@observablehq/downloading-and-embedding-notebooks site]"
+    },
+    {
+      "type": "paragraph",
+      "id": "b2df44e667d2a5c5",
+      "text": "Embedding example [http://ashkenas.com/breakout/ game] [https://observablehq.com/@jashkenas/breakout source]"
+    },
+    {
+      "type": "paragraph",
+      "id": "67102b2897879d22",
+      "text": "Open source inspector component [https://github.com/observablehq/inspector github]"
+    },
+    {
+      "type": "paragraph",
+      "id": "0fce4e0b7da8d96a",
+      "text": "Runtime [https://github.com/observablehq/runtime github]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Observable",
+        "story": []
+      },
+      "date": 1556589261538
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "d191f47e9977e812"
+      },
+      "id": "d191f47e9977e812",
+      "type": "add",
+      "date": 1556589272099
+    },
+    {
+      "type": "edit",
+      "id": "d191f47e9977e812",
+      "item": {
+        "type": "paragraph",
+        "id": "d191f47e9977e812",
+        "text": "A more polished implementation of the literate programming concept (at least as compared to [[Jupyter Notebook]]."
+      },
+      "date": 1556589312096
+    },
+    {
+      "type": "add",
+      "id": "67102b2897879d22",
+      "item": {
+        "type": "paragraph",
+        "id": "67102b2897879d22",
+        "text": "Open source inspector component [https://github.com/observablehq/inspector github]"
+      },
+      "after": "d191f47e9977e812",
+      "date": 1556589328435
+    },
+    {
+      "type": "add",
+      "id": "0fce4e0b7da8d96a",
+      "item": {
+        "type": "paragraph",
+        "id": "0fce4e0b7da8d96a",
+        "text": "Runtime [https://github.com/observablehq/runtime github]"
+      },
+      "after": "67102b2897879d22",
+      "date": 1556589364323
+    },
+    {
+      "type": "add",
+      "id": "5963408e03e76929",
+      "item": {
+        "type": "paragraph",
+        "id": "5963408e03e76929",
+        "text": "Embedding guide [https://observablehq.com/@observablehq/downloading-and-embedding-notebooks site]"
+      },
+      "after": "0fce4e0b7da8d96a",
+      "date": 1556589411720
+    },
+    {
+      "type": "add",
+      "id": "b2df44e667d2a5c5",
+      "item": {
+        "type": "paragraph",
+        "id": "b2df44e667d2a5c5",
+        "text": "Embedding example [http://ashkenas.com/breakout/ breakout]"
+      },
+      "after": "5963408e03e76929",
+      "date": 1556589434232
+    },
+    {
+      "type": "edit",
+      "id": "b2df44e667d2a5c5",
+      "item": {
+        "type": "paragraph",
+        "id": "b2df44e667d2a5c5",
+        "text": "Embedding example [http://ashkenas.com/breakout/ game] [https://observablehq.com/@jashkenas/breakout source]"
+      },
+      "date": 1556589456375
+    },
+    {
+      "type": "add",
+      "id": "0387529e44e823b4",
+      "item": {
+        "type": "paragraph",
+        "id": "0387529e44e823b4",
+        "text": "Hackernews [https://news.ycombinator.com/item?id=16274686 post]"
+      },
+      "after": "b2df44e667d2a5c5",
+      "date": 1556589568969
+    },
+    {
+      "type": "add",
+      "id": "a5ac24a527bcfa00",
+      "item": {
+        "type": "paragraph",
+        "id": "a5ac24a527bcfa00",
+        "text": "Radial tidy-tree layout algorithm [https://observablehq.com/@d3/radial-tidy-tree observable]"
+      },
+      "after": "0387529e44e823b4",
+      "date": 1556589732855
+    },
+    {
+      "type": "edit",
+      "id": "a5ac24a527bcfa00",
+      "item": {
+        "type": "paragraph",
+        "id": "a5ac24a527bcfa00",
+        "text": "Radial tidy-tree layout algorithm [https://observablehq.com/@d3/radial-tidy-tree observable] [https://github.com/d3/d3-hierarchy/blob/master/README.md#tree d3]"
+      },
+      "date": 1556589765380
+    },
+    {
+      "type": "add",
+      "id": "0ce6822661572507",
+      "item": {
+        "type": "paragraph",
+        "id": "0ce6822661572507",
+        "text": "d3 example layouts [https://observablehq.com/collection/@d3/d3-hierarchy observable]"
+      },
+      "after": "a5ac24a527bcfa00",
+      "date": 1556589798078
+    },
+    {
+      "type": "add",
+      "id": "d0babad8f054f2ea",
+      "item": {
+        "type": "paragraph",
+        "id": "d0babad8f054f2ea",
+        "text": "Sunburst layout [https://observablehq.com/@d3/sunburst observable]"
+      },
+      "after": "0ce6822661572507",
+      "date": 1556589832718
+    },
+    {
+      "type": "add",
+      "id": "df31f2fe8cf5b026",
+      "item": {
+        "type": "paragraph",
+        "id": "df31f2fe8cf5b026",
+        "text": "Zoomable sunburst [https://observablehq.com/@d3/zoomable-sunburst observable]"
+      },
+      "after": "d0babad8f054f2ea",
+      "date": 1556589853639
+    },
+    {
+      "type": "remove",
+      "id": "df31f2fe8cf5b026",
+      "date": 1556590011930
+    },
+    {
+      "type": "remove",
+      "id": "d0babad8f054f2ea",
+      "date": 1556590015242
+    },
+    {
+      "type": "remove",
+      "id": "0ce6822661572507",
+      "date": 1556590018887
+    },
+    {
+      "type": "remove",
+      "id": "a5ac24a527bcfa00",
+      "date": 1556590022758
+    },
+    {
+      "type": "move",
+      "order": [
+        "d191f47e9977e812",
+        "0387529e44e823b4",
+        "67102b2897879d22",
+        "0fce4e0b7da8d96a",
+        "5963408e03e76929",
+        "b2df44e667d2a5c5"
+      ],
+      "id": "0387529e44e823b4",
+      "date": 1556590031499
+    },
+    {
+      "type": "move",
+      "order": [
+        "d191f47e9977e812",
+        "0387529e44e823b4",
+        "5963408e03e76929",
+        "67102b2897879d22",
+        "0fce4e0b7da8d96a",
+        "b2df44e667d2a5c5"
+      ],
+      "id": "5963408e03e76929",
+      "date": 1556590035906
+    },
+    {
+      "type": "move",
+      "order": [
+        "d191f47e9977e812",
+        "0387529e44e823b4",
+        "5963408e03e76929",
+        "b2df44e667d2a5c5",
+        "67102b2897879d22",
+        "0fce4e0b7da8d96a"
+      ],
+      "id": "b2df44e667d2a5c5",
+      "date": 1556590038735
+    }
+  ]
+}

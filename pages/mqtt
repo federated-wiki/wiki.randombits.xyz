@@ -1,0 +1,65 @@
+{
+  "title": "MQTT",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "3baed9c642f4c7f7",
+      "text": "Message Queuing Telemetry Transport: Protocol used by constrained (and not so constrained) devices to communicate in an asynchronous and loosely coupled manner."
+    },
+    {
+      "type": "paragraph",
+      "id": "588d87656a889b3c",
+      "text": "Intro [https://www.ably.io/concepts/mqtt article]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "MQTT",
+        "story": []
+      },
+      "date": 1564105692969
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "3baed9c642f4c7f7"
+      },
+      "id": "3baed9c642f4c7f7",
+      "type": "add",
+      "date": 1564105694304
+    },
+    {
+      "type": "edit",
+      "id": "3baed9c642f4c7f7",
+      "item": {
+        "type": "paragraph",
+        "id": "3baed9c642f4c7f7",
+        "text": "Protocol used by constrained (and not so constrained) devices to communicate in an asynchronous and loosely coupled manner."
+      },
+      "date": 1564105733397
+    },
+    {
+      "type": "add",
+      "id": "588d87656a889b3c",
+      "item": {
+        "type": "paragraph",
+        "id": "588d87656a889b3c",
+        "text": "Intro [https://www.ably.io/concepts/mqtt article]"
+      },
+      "after": "3baed9c642f4c7f7",
+      "date": 1564105751666
+    },
+    {
+      "type": "edit",
+      "id": "3baed9c642f4c7f7",
+      "item": {
+        "type": "paragraph",
+        "id": "3baed9c642f4c7f7",
+        "text": "Message Queuing Telemetry Transport: Protocol used by constrained (and not so constrained) devices to communicate in an asynchronous and loosely coupled manner."
+      },
+      "date": 1564105866958
+    }
+  ]
+}

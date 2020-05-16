@@ -1,0 +1,119 @@
+{
+  "title": "jQuery UI",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "4c0c7e9c02d1bbb4",
+      "text": "Info about various jQuery UI APIs"
+    },
+    {
+      "type": "paragraph",
+      "id": "920781484cf90356",
+      "text": "jQuery based collapsible JSON tree viewer. [https://www.jqueryscript.net/other/jQuery-Based-Pretty-Collapsible-JSON-Tree-Viewer.html site]"
+    },
+    {
+      "type": "pagefold",
+      "id": "64bc36deed5c40fb",
+      "text": "draggable"
+    },
+    {
+      "type": "paragraph",
+      "id": "3205c7e8dc6eaca2",
+      "text": "containment option [https://api.jqueryui.com/draggable/#option-containment docs]"
+    },
+    {
+      "type": "factory",
+      "id": "866e512b54cbff65"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "jQuery UI",
+        "story": []
+      },
+      "date": 1558468975379
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "4c0c7e9c02d1bbb4"
+      },
+      "id": "4c0c7e9c02d1bbb4",
+      "type": "add",
+      "date": 1558468976779
+    },
+    {
+      "type": "edit",
+      "id": "4c0c7e9c02d1bbb4",
+      "item": {
+        "type": "paragraph",
+        "id": "4c0c7e9c02d1bbb4",
+        "text": "Info about various jQuery UI APIs"
+      },
+      "date": 1558468983985
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "64bc36deed5c40fb"
+      },
+      "id": "64bc36deed5c40fb",
+      "type": "add",
+      "after": "4c0c7e9c02d1bbb4",
+      "date": 1558468988122
+    },
+    {
+      "type": "edit",
+      "id": "64bc36deed5c40fb",
+      "item": {
+        "type": "pagefold",
+        "id": "64bc36deed5c40fb",
+        "text": "draggable"
+      },
+      "date": 1558468992906
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "3205c7e8dc6eaca2"
+      },
+      "id": "3205c7e8dc6eaca2",
+      "type": "add",
+      "after": "64bc36deed5c40fb",
+      "date": 1558468994498
+    },
+    {
+      "type": "edit",
+      "id": "3205c7e8dc6eaca2",
+      "item": {
+        "type": "paragraph",
+        "id": "3205c7e8dc6eaca2",
+        "text": "containment option [https://api.jqueryui.com/draggable/#option-containment docs]"
+      },
+      "date": 1558469015872
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "866e512b54cbff65"
+      },
+      "id": "866e512b54cbff65",
+      "type": "add",
+      "after": "3205c7e8dc6eaca2",
+      "date": 1560379263939
+    },
+    {
+      "type": "add",
+      "id": "920781484cf90356",
+      "item": {
+        "type": "paragraph",
+        "id": "920781484cf90356",
+        "text": "jQuery based collapsible JSON tree viewer. [https://www.jqueryscript.net/other/jQuery-Based-Pretty-Collapsible-JSON-Tree-Viewer.html site]"
+      },
+      "after": "4c0c7e9c02d1bbb4",
+      "date": 1560379292224
+    }
+  ]
+}

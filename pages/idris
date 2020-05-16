@@ -1,0 +1,71 @@
+{
+  "title": "Idris",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "5b59ee708e9f2ef6",
+      "text": "A language with dependent types."
+    },
+    {
+      "type": "paragraph",
+      "id": "b2c9049016a63996",
+      "text": "[https://www.idris-lang.org/ homepage]"
+    },
+    {
+      "type": "paragraph",
+      "id": "f97b5115d41499e5",
+      "text": "The statebox tool is written in Idris. [https://www.statebox.org homepage]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Idris",
+        "story": []
+      },
+      "date": 1565409904613
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "5b59ee708e9f2ef6"
+      },
+      "id": "5b59ee708e9f2ef6",
+      "type": "add",
+      "date": 1565409905764
+    },
+    {
+      "type": "edit",
+      "id": "5b59ee708e9f2ef6",
+      "item": {
+        "type": "paragraph",
+        "id": "5b59ee708e9f2ef6",
+        "text": "A language with dependent types."
+      },
+      "date": 1565409913843
+    },
+    {
+      "type": "add",
+      "id": "b2c9049016a63996",
+      "item": {
+        "type": "paragraph",
+        "id": "b2c9049016a63996",
+        "text": "[https://www.idris-lang.org/ homepage]"
+      },
+      "after": "5b59ee708e9f2ef6",
+      "date": 1565409922611
+    },
+    {
+      "type": "add",
+      "id": "f97b5115d41499e5",
+      "item": {
+        "type": "paragraph",
+        "id": "f97b5115d41499e5",
+        "text": "The statebox tool is written in Idris. [https://www.statebox.org homepage]"
+      },
+      "after": "b2c9049016a63996",
+      "date": 1565410252584
+    }
+  ]
+}

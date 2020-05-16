@@ -1,0 +1,543 @@
+{
+  "title": "vim",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "251567517e604b06",
+      "text": "Use vi{ or va{ to select enclosing curly braces. di{ or da{ to delete the same. zcD to close a fold and delete the folded code. [https://www.reddit.com/r/vim/comments/1it33e/delete_everything_in_a_block_on_same_indentation/ reddit]"
+    },
+    {
+      "type": "paragraph",
+      "id": "72829fe66876fae8",
+      "text": "Delete a line before, through a line after for every line that matches pattern. [https://vi.stackexchange.com/questions/3411/deleting-a-range-of-n-lines-before-and-after-a-matched-line stackoverflow]"
+    },
+    {
+      "type": "paragraph",
+      "id": "4b6d5b392f1d68c9",
+      "text": ":g/pattern/-1,+1d"
+    },
+    {
+      "type": "paragraph",
+      "id": "3eab1d2809cdabda",
+      "text": "Delete all lines that don't match pattern."
+    },
+    {
+      "type": "paragraph",
+      "id": "c7d3f35c4fce9e94",
+      "text": ":v/pattern/d"
+    },
+    {
+      "type": "paragraph",
+      "id": "65da19df0d1c2e4c",
+      "text": "Enter unicode characters [https://unix.stackexchange.com/questions/61118/how-to-enter-non-ascii-characters-using-hex-or-octal-codes-in-vi so]:"
+    },
+    {
+      "type": "paragraph",
+      "id": "90127a90fbda768e",
+      "text": "Ctrl+V+[0-9]{3}: Ascii"
+    },
+    {
+      "type": "paragraph",
+      "id": "ababbf1fc9dfcbfa",
+      "text": "Ctrl+V+o0-o377: Octal"
+    },
+    {
+      "type": "paragraph",
+      "id": "121b00f5f333e454",
+      "text": "Ctrl+V+x00-xFF: Hex (max of 255)"
+    },
+    {
+      "type": "paragraph",
+      "id": "27fcd9bef6653a1b",
+      "text": "Ctrl+V+u4hexchar: Unicode sequence"
+    },
+    {
+      "type": "paragraph",
+      "id": "a65e956b6a5936a0",
+      "text": "Ctrl+V+u8hexchar: Unicode sequence"
+    },
+    {
+      "type": "paragraph",
+      "id": "a1965163a72e22f2",
+      "text": "ASCII value for current character [https://vim.fandom.com/wiki/Showing_the_ASCII_value_of_the_current_character site]:"
+    },
+    {
+      "type": "paragraph",
+      "id": "9f388391d7cfef94",
+      "text": "ga in command mode"
+    },
+    {
+      "type": "paragraph",
+      "id": "1156f2135f7d80f0",
+      "text": ":as ex command"
+    },
+    {
+      "type": "paragraph",
+      "id": "8cb71aef0dbe55b0",
+      "text": "Plugins:"
+    },
+    {
+      "type": "paragraph",
+      "id": "23f0e0d0f0a25a14",
+      "text": "gutentags - automatically generates tag files using a tool like [http://docs.ctags.io/en/latest/ ctags]. [https://github.com/ludovicchabant/vim-gutentags/blob/master/doc/gutentags.txt doc]"
+    },
+    {
+      "type": "paragraph",
+      "id": "391b42417e6b3141",
+      "text": "[https://github.com/thaerkh/vim-indentguides vim-indentguides] - visually shows tabs and spaces (not currently being used)"
+    },
+    {
+      "type": "paragraph",
+      "id": "156ab9f8b2566c06",
+      "text": "[https://github.com/junegunn/vim-easy-align vim-easy-align] - (not currently being used)"
+    },
+    {
+      "type": "paragraph",
+      "id": "b85179a9936b19d7",
+      "text": "[https://github.com/junegunn/fzf.vim fzf.vim]"
+    },
+    {
+      "type": "paragraph",
+      "id": "082fb609e0a4142b",
+      "text": "[https://github.com/tpope/vim-fugitive vim-fugitive] - (not currently being used)"
+    },
+    {
+      "type": "paragraph",
+      "id": "f0c13dd6b6684248",
+      "text": "[https://github.com/fatih/vim-go-tutorial vim-go-tutorial]"
+    },
+    {
+      "type": "paragraph",
+      "id": "5c1ae752bbb94aa7",
+      "text": "[https://github.com/fatih/vim-go vim-go]"
+    },
+    {
+      "type": "paragraph",
+      "id": "0b0eefb76eee5f9b",
+      "text": "vim-adventures.com"
+    },
+    {
+      "type": "paragraph",
+      "id": "433bf98969ae15f1",
+      "text": "vim-surround [https://github.com/tpope/vim-surround github]"
+    },
+    {
+      "type": "paragraph",
+      "id": "c9dd65123d1d43af",
+      "text": "rust.vim [https://github.com/rust-lang/rust.vim github]"
+    },
+    {
+      "type": "paragraph",
+      "id": "508a69cf715b5973",
+      "text": "RLS neovim integration [https://rls.booyaa.wtf/ article]"
+    },
+    {
+      "type": "paragraph",
+      "id": "53f865897cf74595",
+      "text": "Options for parser generators in Rust [https://www.reddit.com/r/rust/comments/6w6vak/writing_a_pl_in_rust_lalrpop_or_nom_or/ reddit]"
+    },
+    {
+      "type": "paragraph",
+      "id": "24310ec09adb8dea",
+      "text": "Learning:"
+    },
+    {
+      "type": "paragraph",
+      "id": "7a8e9a6757692b80",
+      "text": "PacVim [https://github.com/jmoon018/PacVim github]"
+    },
+    {
+      "type": "paragraph",
+      "id": "fb8cc3125341da72",
+      "text": "Vim Adventures [https://vim-adventures.com/ site]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "vim",
+        "story": []
+      },
+      "date": 1555344255969
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "251567517e604b06"
+      },
+      "id": "251567517e604b06",
+      "type": "add",
+      "date": 1555344265465
+    },
+    {
+      "type": "edit",
+      "id": "251567517e604b06",
+      "item": {
+        "type": "paragraph",
+        "id": "251567517e604b06",
+        "text": "Use vi{ or va{ to select enclosing curly braces. di{ or da{ to delete the same. zcD to close a fold and delete the folded code. [https://www.reddit.com/r/vim/comments/1it33e/delete_everything_in_a_block_on_same_indentation/ reddit]"
+      },
+      "date": 1555344267631
+    },
+    {
+      "type": "add",
+      "id": "4b6d5b392f1d68c9",
+      "item": {
+        "type": "paragraph",
+        "id": "4b6d5b392f1d68c9",
+        "text": ":g/pattern/-1,+1d"
+      },
+      "after": "251567517e604b06",
+      "date": 1556054417424
+    },
+    {
+      "type": "add",
+      "id": "c7d3f35c4fce9e94",
+      "item": {
+        "type": "paragraph",
+        "id": "c7d3f35c4fce9e94",
+        "text": ":v/pattern/d"
+      },
+      "after": "4b6d5b392f1d68c9",
+      "date": 1556054424314
+    },
+    {
+      "type": "add",
+      "id": "72829fe66876fae8",
+      "item": {
+        "type": "paragraph",
+        "id": "72829fe66876fae8",
+        "text": "Delete a line before, through a line after for every line that matches pattern."
+      },
+      "after": "251567517e604b06",
+      "date": 1556054450655
+    },
+    {
+      "type": "add",
+      "id": "3eab1d2809cdabda",
+      "item": {
+        "type": "paragraph",
+        "id": "3eab1d2809cdabda",
+        "text": "Delete all lines that don't match pattern."
+      },
+      "after": "4b6d5b392f1d68c9",
+      "date": 1556054463591
+    },
+    {
+      "type": "add",
+      "id": "65da19df0d1c2e4c",
+      "item": {
+        "type": "paragraph",
+        "id": "65da19df0d1c2e4c",
+        "text": "Enter unicode characters:"
+      },
+      "after": "c7d3f35c4fce9e94",
+      "date": 1556378053689
+    },
+    {
+      "type": "add",
+      "id": "90127a90fbda768e",
+      "item": {
+        "type": "paragraph",
+        "id": "90127a90fbda768e",
+        "text": "Ctrl+V+[0-9]{3}: Ascii"
+      },
+      "after": "65da19df0d1c2e4c",
+      "date": 1556378109079
+    },
+    {
+      "type": "add",
+      "id": "ababbf1fc9dfcbfa",
+      "item": {
+        "type": "paragraph",
+        "id": "ababbf1fc9dfcbfa",
+        "text": "Ctrl+V+o0-o377: Octal"
+      },
+      "after": "90127a90fbda768e",
+      "date": 1556378157655
+    },
+    {
+      "type": "add",
+      "id": "121b00f5f333e454",
+      "item": {
+        "type": "paragraph",
+        "id": "121b00f5f333e454",
+        "text": "Ctrl+V+x00-xFF: Hex (max of 255)"
+      },
+      "after": "ababbf1fc9dfcbfa",
+      "date": 1556378179682
+    },
+    {
+      "type": "add",
+      "id": "27fcd9bef6653a1b",
+      "item": {
+        "type": "paragraph",
+        "id": "27fcd9bef6653a1b",
+        "text": "Ctrl+V+u4hexchar: Unicode sequence"
+      },
+      "after": "121b00f5f333e454",
+      "date": 1556378228733
+    },
+    {
+      "type": "add",
+      "id": "a65e956b6a5936a0",
+      "item": {
+        "type": "paragraph",
+        "id": "a65e956b6a5936a0",
+        "text": "Ctrl+V+u8hexchar: Unicode sequence"
+      },
+      "after": "27fcd9bef6653a1b",
+      "date": 1556378245176
+    },
+    {
+      "type": "edit",
+      "id": "65da19df0d1c2e4c",
+      "item": {
+        "type": "paragraph",
+        "id": "65da19df0d1c2e4c",
+        "text": "Enter unicode characters [https://unix.stackexchange.com/questions/61118/how-to-enter-non-ascii-characters-using-hex-or-octal-codes-in-vi so]:"
+      },
+      "date": 1556378272767
+    },
+    {
+      "type": "add",
+      "id": "a1965163a72e22f2",
+      "item": {
+        "type": "paragraph",
+        "id": "a1965163a72e22f2",
+        "text": "ASCII value for current character:"
+      },
+      "after": "a65e956b6a5936a0",
+      "date": 1556378320951
+    },
+    {
+      "type": "add",
+      "id": "9f388391d7cfef94",
+      "item": {
+        "type": "paragraph",
+        "id": "9f388391d7cfef94",
+        "text": "ga in command mode"
+      },
+      "after": "a1965163a72e22f2",
+      "date": 1556378325217
+    },
+    {
+      "type": "add",
+      "id": "1156f2135f7d80f0",
+      "item": {
+        "type": "paragraph",
+        "id": "1156f2135f7d80f0",
+        "text": ":as ex command"
+      },
+      "after": "9f388391d7cfef94",
+      "date": 1556378333636
+    },
+    {
+      "type": "edit",
+      "id": "a1965163a72e22f2",
+      "item": {
+        "type": "paragraph",
+        "id": "a1965163a72e22f2",
+        "text": "ASCII value for current character [https://vim.fandom.com/wiki/Showing_the_ASCII_value_of_the_current_character site]:"
+      },
+      "date": 1556378347809
+    },
+    {
+      "type": "edit",
+      "id": "72829fe66876fae8",
+      "item": {
+        "type": "paragraph",
+        "id": "72829fe66876fae8",
+        "text": "Delete a line before, through a line after for every line that matches pattern. [https://vi.stackexchange.com/questions/3411/deleting-a-range-of-n-lines-before-and-after-a-matched-line stackoverflow]"
+      },
+      "date": 1556583109865
+    },
+    {
+      "type": "add",
+      "id": "8cb71aef0dbe55b0",
+      "item": {
+        "type": "paragraph",
+        "id": "8cb71aef0dbe55b0",
+        "text": "Plugins:"
+      },
+      "after": "1156f2135f7d80f0",
+      "date": 1556584961717
+    },
+    {
+      "type": "add",
+      "id": "23f0e0d0f0a25a14",
+      "item": {
+        "type": "paragraph",
+        "id": "23f0e0d0f0a25a14",
+        "text": "gutentags - automatically generates tag files using a tool like [http://docs.ctags.io/en/latest/ ctags]."
+      },
+      "after": "8cb71aef0dbe55b0",
+      "date": 1556584997851
+    },
+    {
+      "type": "edit",
+      "id": "23f0e0d0f0a25a14",
+      "item": {
+        "type": "paragraph",
+        "id": "23f0e0d0f0a25a14",
+        "text": "gutentags - automatically generates tag files using a tool like [http://docs.ctags.io/en/latest/ ctags]. [https://github.com/ludovicchabant/vim-gutentags/blob/master/doc/gutentags.txt doc]"
+      },
+      "date": 1556585085931
+    },
+    {
+      "type": "add",
+      "id": "391b42417e6b3141",
+      "item": {
+        "type": "paragraph",
+        "id": "391b42417e6b3141",
+        "text": "[https://github.com/thaerkh/vim-indentguides vim-indentguides] - visually shows tabs and spaces (not currently being used)"
+      },
+      "after": "23f0e0d0f0a25a14",
+      "date": 1556585181035
+    },
+    {
+      "type": "add",
+      "id": "156ab9f8b2566c06",
+      "item": {
+        "type": "paragraph",
+        "id": "156ab9f8b2566c06",
+        "text": "[https://github.com/junegunn/vim-easy-align vim-easy-align] - (not currently being used)"
+      },
+      "after": "391b42417e6b3141",
+      "date": 1556585221834
+    },
+    {
+      "type": "add",
+      "id": "b85179a9936b19d7",
+      "item": {
+        "type": "paragraph",
+        "id": "b85179a9936b19d7",
+        "text": "[https://github.com/junegunn/fzf.vim fzf.vim]"
+      },
+      "after": "156ab9f8b2566c06",
+      "date": 1556592252891
+    },
+    {
+      "type": "add",
+      "id": "082fb609e0a4142b",
+      "item": {
+        "type": "paragraph",
+        "id": "082fb609e0a4142b",
+        "text": "[https://github.com/tpope/vim-fugitive vim-fugitive] - (not currently being used)"
+      },
+      "after": "b85179a9936b19d7",
+      "date": 1556592275130
+    },
+    {
+      "type": "add",
+      "id": "f0c13dd6b6684248",
+      "item": {
+        "type": "paragraph",
+        "id": "f0c13dd6b6684248",
+        "text": "[https://github.com/fatih/vim-go-tutorial vim-go-tutorial]"
+      },
+      "after": "082fb609e0a4142b",
+      "date": 1556592293880
+    },
+    {
+      "type": "add",
+      "id": "5c1ae752bbb94aa7",
+      "item": {
+        "type": "paragraph",
+        "id": "5c1ae752bbb94aa7",
+        "text": "[https://github.com/fatih/vim-go vim-go]"
+      },
+      "after": "f0c13dd6b6684248",
+      "date": 1556592313948
+    },
+    {
+      "type": "add",
+      "id": "0b0eefb76eee5f9b",
+      "item": {
+        "type": "paragraph",
+        "id": "0b0eefb76eee5f9b",
+        "text": "vim-adventures.com"
+      },
+      "after": "5c1ae752bbb94aa7",
+      "date": 1556821110972
+    },
+    {
+      "type": "add",
+      "id": "433bf98969ae15f1",
+      "item": {
+        "type": "paragraph",
+        "id": "433bf98969ae15f1",
+        "text": "vim-surround [https://github.com/tpope/vim-surround github]"
+      },
+      "after": "0b0eefb76eee5f9b",
+      "date": 1556938021737
+    },
+    {
+      "type": "add",
+      "id": "c9dd65123d1d43af",
+      "item": {
+        "type": "paragraph",
+        "id": "c9dd65123d1d43af",
+        "text": "rust.vim [https://github.com/rust-lang/rust.vim github]"
+      },
+      "after": "433bf98969ae15f1",
+      "date": 1564280180823
+    },
+    {
+      "type": "add",
+      "id": "508a69cf715b5973",
+      "item": {
+        "type": "paragraph",
+        "id": "508a69cf715b5973",
+        "text": "RLS neovim integration [https://rls.booyaa.wtf/ article]"
+      },
+      "after": "c9dd65123d1d43af",
+      "date": 1564280842918
+    },
+    {
+      "type": "add",
+      "id": "53f865897cf74595",
+      "item": {
+        "type": "paragraph",
+        "id": "53f865897cf74595",
+        "text": "Options for parser generators in Rust [https://www.reddit.com/r/rust/comments/6w6vak/writing_a_pl_in_rust_lalrpop_or_nom_or/ reddit]"
+      },
+      "after": "508a69cf715b5973",
+      "date": 1564286393993
+    },
+    {
+      "type": "add",
+      "id": "24310ec09adb8dea",
+      "item": {
+        "type": "paragraph",
+        "id": "24310ec09adb8dea",
+        "text": "Learning:"
+      },
+      "after": "53f865897cf74595",
+      "date": 1566784855858
+    },
+    {
+      "type": "add",
+      "id": "7a8e9a6757692b80",
+      "item": {
+        "type": "paragraph",
+        "id": "7a8e9a6757692b80",
+        "text": "PacVim [https://github.com/jmoon018/PacVim github]"
+      },
+      "after": "24310ec09adb8dea",
+      "date": 1566784865840
+    },
+    {
+      "type": "add",
+      "id": "fb8cc3125341da72",
+      "item": {
+        "type": "paragraph",
+        "id": "fb8cc3125341da72",
+        "text": "Vim Adventures [https://vim-adventures.com/ site]"
+      },
+      "after": "7a8e9a6757692b80",
+      "date": 1566784894122
+    }
+  ]
+}

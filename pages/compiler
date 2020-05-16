@@ -1,0 +1,55 @@
+{
+  "title": "Compiler",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "65b91911b92d9b54",
+      "text": "..."
+    },
+    {
+      "type": "paragraph",
+      "id": "62a83b4da34a8bac",
+      "text": "Writing an Interpreter in Go [https://interpreterbook.com/ site]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Compiler",
+        "story": []
+      },
+      "date": 1564179544136
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "65b91911b92d9b54"
+      },
+      "id": "65b91911b92d9b54",
+      "type": "add",
+      "date": 1564179545042
+    },
+    {
+      "type": "edit",
+      "id": "65b91911b92d9b54",
+      "item": {
+        "type": "paragraph",
+        "id": "65b91911b92d9b54",
+        "text": "..."
+      },
+      "date": 1564179547280
+    },
+    {
+      "type": "add",
+      "id": "62a83b4da34a8bac",
+      "item": {
+        "type": "paragraph",
+        "id": "62a83b4da34a8bac",
+        "text": "Writing an Interpreter in Go [https://interpreterbook.com/ site]"
+      },
+      "after": "65b91911b92d9b54",
+      "date": 1564179558169
+    }
+  ]
+}

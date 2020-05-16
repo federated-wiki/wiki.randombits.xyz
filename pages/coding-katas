@@ -1,0 +1,80 @@
+{
+  "title": "Coding Katas",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "d5658b418a3512dd",
+      "text": "Thoughts on coding exercises which could be used as coding katas. (This is probably a horrible abuse of the term)."
+    },
+    {
+      "type": "paragraph",
+      "id": "a42e2bd511a6b1ba",
+      "text": "Elevator Simulator [https://play.elevatorsaga.com/ site]"
+    },
+    {
+      "type": "paragraph",
+      "id": "0b2c74bebd4c64e9",
+      "text": "Minesweepers [https://github.com/joshuabenuck/minesweeper/ github]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Coding Katas",
+        "story": []
+      },
+      "date": 1556662267346
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "d5658b418a3512dd"
+      },
+      "id": "d5658b418a3512dd",
+      "type": "add",
+      "date": 1556662268425
+    },
+    {
+      "type": "edit",
+      "id": "d5658b418a3512dd",
+      "item": {
+        "type": "paragraph",
+        "id": "d5658b418a3512dd",
+        "text": "Thoughts on coding exercises which could be used as coding katas. (This is probably a horrible abuse of the term)."
+      },
+      "date": 1556662306873
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "a42e2bd511a6b1ba"
+      },
+      "id": "a42e2bd511a6b1ba",
+      "type": "add",
+      "after": "d5658b418a3512dd",
+      "date": 1556662315324
+    },
+    {
+      "type": "edit",
+      "id": "a42e2bd511a6b1ba",
+      "item": {
+        "type": "paragraph",
+        "id": "a42e2bd511a6b1ba",
+        "text": "Elevator Simulator [https://play.elevatorsaga.com/ site]"
+      },
+      "date": 1556662326723
+    },
+    {
+      "type": "add",
+      "id": "0b2c74bebd4c64e9",
+      "item": {
+        "type": "paragraph",
+        "id": "0b2c74bebd4c64e9",
+        "text": "Minesweepers [https://github.com/joshuabenuck/minesweeper/ github]"
+      },
+      "after": "a42e2bd511a6b1ba",
+      "date": 1556662349038
+    }
+  ]
+}

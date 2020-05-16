@@ -1,0 +1,161 @@
+{
+  "title": "Observe in Context",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "8355d086780d477e",
+      "text": "The best learning is done when you observe things in context."
+    },
+    {
+      "type": "paragraph",
+      "id": "7d68d6155401e90a",
+      "text": "Examples:"
+    },
+    {
+      "type": "paragraph",
+      "id": "fe81d8fbe0d866ff",
+      "text": "Anthropologists observing people"
+    },
+    {
+      "type": "paragraph",
+      "id": "b8e5a5727218dea3",
+      "text": "User Experience designers doing user studies"
+    },
+    {
+      "type": "paragraph",
+      "id": "b3e5bdc443062fee",
+      "text": "Developers scratching their own itch by writing personal tools"
+    },
+    {
+      "type": "paragraph",
+      "id": "5575cdc37d35c014",
+      "text": "Using a program written in a language with dynamic typing and runtime introspection."
+    },
+    {
+      "type": "paragraph",
+      "id": "23f9355f212291bf",
+      "text": "---"
+    },
+    {
+      "type": "paragraph",
+      "id": "de550095192c441d",
+      "text": "All of these allow one to gain insights not possible if one merely operates off of their own opinions."
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Observe in Context",
+        "story": []
+      },
+      "date": 1557940443890
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "8355d086780d477e"
+      },
+      "id": "8355d086780d477e",
+      "type": "add",
+      "date": 1557940447956
+    },
+    {
+      "type": "edit",
+      "id": "8355d086780d477e",
+      "item": {
+        "type": "paragraph",
+        "id": "8355d086780d477e",
+        "text": "The best learning is done when you observe things in context."
+      },
+      "date": 1557940464414
+    },
+    {
+      "type": "add",
+      "id": "7d68d6155401e90a",
+      "item": {
+        "type": "paragraph",
+        "id": "7d68d6155401e90a",
+        "text": "Examples:"
+      },
+      "after": "8355d086780d477e",
+      "date": 1557940468597
+    },
+    {
+      "type": "add",
+      "id": "fe81d8fbe0d866ff",
+      "item": {
+        "type": "paragraph",
+        "id": "fe81d8fbe0d866ff",
+        "text": "Anthropologists observing people"
+      },
+      "after": "7d68d6155401e90a",
+      "date": 1557940481851
+    },
+    {
+      "type": "add",
+      "id": "b8e5a5727218dea3",
+      "item": {
+        "type": "paragraph",
+        "id": "b8e5a5727218dea3",
+        "text": "User Experience designers doing user studies"
+      },
+      "after": "fe81d8fbe0d866ff",
+      "date": 1557940499556
+    },
+    {
+      "type": "add",
+      "id": "b3e5bdc443062fee",
+      "item": {
+        "type": "paragraph",
+        "id": "b3e5bdc443062fee",
+        "text": "Developers scratching their own itch by writing personal tools"
+      },
+      "after": "b8e5a5727218dea3",
+      "date": 1557940519954
+    },
+    {
+      "type": "add",
+      "id": "5575cdc37d35c014",
+      "item": {
+        "type": "paragraph",
+        "id": "5575cdc37d35c014",
+        "text": "Using a program written in a language with dynamic typing and runtime introspection."
+      },
+      "after": "b3e5bdc443062fee",
+      "date": 1557940563784
+    },
+    {
+      "type": "add",
+      "id": "23f9355f212291bf",
+      "item": {
+        "type": "paragraph",
+        "id": "23f9355f212291bf",
+        "text": "---"
+      },
+      "after": "5575cdc37d35c014",
+      "date": 1557940566751
+    },
+    {
+      "type": "add",
+      "id": "de550095192c441d",
+      "item": {
+        "type": "paragraph",
+        "id": "de550095192c441d",
+        "text": "All of these allow one to gain insights not possible if one merely operates off of their "
+      },
+      "after": "23f9355f212291bf",
+      "date": 1557940590255
+    },
+    {
+      "type": "edit",
+      "id": "de550095192c441d",
+      "item": {
+        "type": "paragraph",
+        "id": "de550095192c441d",
+        "text": "All of these allow one to gain insights not possible if one merely operates off of their own opinions."
+      },
+      "date": 1557940596731
+    }
+  ]
+}

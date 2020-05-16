@@ -1,0 +1,257 @@
+{
+  "title": "Bespoke Queries",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "f139d6d9a94b1406",
+      "text": "An idea for a utility for running ad hoc, custom queries on json data returned by REST APIs."
+    },
+    {
+      "type": "paragraph",
+      "id": "09c90e5e588214a4",
+      "text": "Random API sketches:"
+    },
+    {
+      "type": "paragraph",
+      "id": "e12d8b1bf575c569",
+      "text": "curl https://some.api | jq \".entries | .[]\" | bq \"select name, team, service group by name, team\""
+    },
+    {
+      "type": "paragraph",
+      "id": "55e80af42bd45f2b",
+      "text": "curl https://some.api | bq \"store table.json\""
+    },
+    {
+      "type": "paragraph",
+      "id": "b8d6480188667ba3",
+      "text": "bq \"load table.json; select * from table where ...\""
+    },
+    {
+      "type": "paragraph",
+      "id": "03588783f46556be",
+      "text": "Design notes:"
+    },
+    {
+      "type": "paragraph",
+      "id": "417bb0153476e32b",
+      "text": "- Default table content loaded from stdin"
+    },
+    {
+      "type": "paragraph",
+      "id": "1504f1f77820e49c",
+      "text": "- Create a shell like interface if no params are passed in and there is a controlling terminal"
+    },
+    {
+      "type": "paragraph",
+      "id": "b4e6596af1cd8a24",
+      "text": "- Allow for registration of dynamic tables that pull their data from a remote web service"
+    },
+    {
+      "type": "paragraph",
+      "id": "6a858feeb88c60c7",
+      "text": "- Dynamic tables should cache by default and age out after some configurable amount of time"
+    },
+    {
+      "type": "paragraph",
+      "id": "eb74b62bda03d9ab",
+      "text": "- Performing a select should display data in a formatted table similar to what MySQL and Postgres shells do."
+    },
+    {
+      "type": "paragraph",
+      "id": "3bc9eea8a869b707",
+      "text": "- Transformations that translate between an ID in one system and one in another should be registerable."
+    },
+    {
+      "type": "paragraph",
+      "id": "5703a2b56ac4ef98",
+      "text": "- Cached and static table data should be stored within json files in a configurable directory."
+    },
+    {
+      "type": "paragraph",
+      "id": "ae4b2b00733fe446",
+      "text": "- Nested data in a json object should be queryable. Perhaps something like: select prop1, prop2, nested_prop(\"select ...\")"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Bespoke Queries",
+        "story": []
+      },
+      "date": 1570075621350
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "f139d6d9a94b1406"
+      },
+      "id": "f139d6d9a94b1406",
+      "type": "add",
+      "date": 1570075622956
+    },
+    {
+      "type": "edit",
+      "id": "f139d6d9a94b1406",
+      "item": {
+        "type": "paragraph",
+        "id": "f139d6d9a94b1406",
+        "text": "An idea for a utility for running ad hoc, custom queries on json data returned by REST APIs."
+      },
+      "date": 1570075676827
+    },
+    {
+      "type": "add",
+      "id": "09c90e5e588214a4",
+      "item": {
+        "type": "paragraph",
+        "id": "09c90e5e588214a4",
+        "text": "curl https://some.api | jq \".entries | .[]\" | bq \"select name, team, service group by name, team\""
+      },
+      "after": "f139d6d9a94b1406",
+      "date": 1570075929166
+    },
+    {
+      "type": "add",
+      "id": "55e80af42bd45f2b",
+      "item": {
+        "type": "paragraph",
+        "id": "55e80af42bd45f2b",
+        "text": "curl https://some.api | bq \"store table.json\""
+      },
+      "after": "09c90e5e588214a4",
+      "date": 1570076003056
+    },
+    {
+      "type": "add",
+      "id": "b8d6480188667ba3",
+      "item": {
+        "type": "paragraph",
+        "id": "b8d6480188667ba3",
+        "text": "bq \"load table.json; select * from table where ...\""
+      },
+      "after": "55e80af42bd45f2b",
+      "date": 1570076607895
+    },
+    {
+      "type": "edit",
+      "id": "09c90e5e588214a4",
+      "item": {
+        "type": "paragraph",
+        "id": "09c90e5e588214a4",
+        "text": "Random API sketches:"
+      },
+      "date": 1570076616871
+    },
+    {
+      "type": "add",
+      "id": "e12d8b1bf575c569",
+      "item": {
+        "type": "paragraph",
+        "id": "e12d8b1bf575c569",
+        "text": "curl https://some.api | jq \".entries | .[]\" | bq \"select name, team, service group by name, team\""
+      },
+      "after": "09c90e5e588214a4",
+      "date": 1570076619341
+    },
+    {
+      "type": "add",
+      "id": "03588783f46556be",
+      "item": {
+        "type": "paragraph",
+        "id": "03588783f46556be",
+        "text": "Design notes:"
+      },
+      "after": "b8d6480188667ba3",
+      "date": 1570076624036
+    },
+    {
+      "type": "add",
+      "id": "417bb0153476e32b",
+      "item": {
+        "type": "paragraph",
+        "id": "417bb0153476e32b",
+        "text": "- Default table content loaded from stdin"
+      },
+      "after": "03588783f46556be",
+      "date": 1570076636812
+    },
+    {
+      "type": "add",
+      "id": "1504f1f77820e49c",
+      "item": {
+        "type": "paragraph",
+        "id": "1504f1f77820e49c",
+        "text": "- Create a shell like interface if no params are passed in and there is a controlling terminal"
+      },
+      "after": "417bb0153476e32b",
+      "date": 1570076658570
+    },
+    {
+      "type": "add",
+      "id": "b4e6596af1cd8a24",
+      "item": {
+        "type": "paragraph",
+        "id": "b4e6596af1cd8a24",
+        "text": "- Allow for registration of dynamic tables that pull their data from a remote web service"
+      },
+      "after": "1504f1f77820e49c",
+      "date": 1570076682502
+    },
+    {
+      "type": "add",
+      "id": "6a858feeb88c60c7",
+      "item": {
+        "type": "paragraph",
+        "id": "6a858feeb88c60c7",
+        "text": "- Dynamic tables should cache by default and age out after some configurable amount of time"
+      },
+      "after": "b4e6596af1cd8a24",
+      "date": 1570076706874
+    },
+    {
+      "type": "add",
+      "id": "eb74b62bda03d9ab",
+      "item": {
+        "type": "paragraph",
+        "id": "eb74b62bda03d9ab",
+        "text": "- Performing a select should display data in a formatted table similar to what MySQL and Postgres shells do."
+      },
+      "after": "6a858feeb88c60c7",
+      "date": 1570076753024
+    },
+    {
+      "type": "add",
+      "id": "3bc9eea8a869b707",
+      "item": {
+        "type": "paragraph",
+        "id": "3bc9eea8a869b707",
+        "text": "- Transformations that translate between an ID in one system and one in another should be registerable."
+      },
+      "after": "eb74b62bda03d9ab",
+      "date": 1570076800936
+    },
+    {
+      "type": "add",
+      "id": "5703a2b56ac4ef98",
+      "item": {
+        "type": "paragraph",
+        "id": "5703a2b56ac4ef98",
+        "text": "- Cached and static table data should be stored within json files in a configurable directory."
+      },
+      "after": "3bc9eea8a869b707",
+      "date": 1570076862708
+    },
+    {
+      "type": "add",
+      "id": "ae4b2b00733fe446",
+      "item": {
+        "type": "paragraph",
+        "id": "ae4b2b00733fe446",
+        "text": "- Nested data in a json object should be queryable. Perhaps something like: select prop1, prop2, nested_prop(\"select ...\")"
+      },
+      "after": "5703a2b56ac4ef98",
+      "date": 1570077281495
+    }
+  ]
+}

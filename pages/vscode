@@ -1,0 +1,259 @@
+{
+  "title": "vscode",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "db1ac89e790b9797",
+      "text": "Microsoft Visual Studio Code"
+    },
+    {
+      "type": "paragraph",
+      "id": "02471141e7c184ad",
+      "text": "VS Code will not repeat keys by default on [[macOS]]. [https://stackoverflow.com/questions/39972335/how-do-i-press-and-hold-a-key-and-have-it-repeat-in-vscode so]"
+    },
+    {
+      "type": "paragraph",
+      "id": "f39f59ad0b505920",
+      "text": "To fix this, run:"
+    },
+    {
+      "type": "code",
+      "id": "6111f7902bbfe1ba",
+      "text": "defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false"
+    },
+    {
+      "type": "paragraph",
+      "id": "699c32a625d83a71",
+      "text": "and restart VS Code."
+    },
+    {
+      "type": "paragraph",
+      "id": "141a59d1272cea32",
+      "text": "Markdown preview doesn't support spaces in filenames. [https://github.com/microsoft/vscode/issues/11933 defect]"
+    },
+    {
+      "type": "paragraph",
+      "id": "c8e0cb34a15c3fa7",
+      "text": "To enable format on save set editor.formatOnSave in your preferences. [https://github.com/editor-rs/vscode-rust/blob/master/doc/format.md docs]"
+    },
+    {
+      "type": "paragraph",
+      "id": "d41ca925b1ee3092",
+      "text": "To prevent vim mode from eating all ctrl-k shortcuts, put this in your settings.json [https://github.com/VSCodeVim/Vim/issues/1720 issue]"
+    },
+    {
+      "type": "code",
+      "id": "e3bed1a91c571a01",
+      "text": "\"vim.handleKeys\": {\n    \"<C-k>\": false\n},"
+    },
+    {
+      "type": "paragraph",
+      "id": "f1f21bb5b99bda99",
+      "text": "Terminal rendering settings [https://code.visualstudio.com/docs/editor/integrated-terminal#_changing-how-the-terminal-is-rendered docs]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "vscode",
+        "story": []
+      },
+      "date": 1560202589440
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "db1ac89e790b9797"
+      },
+      "id": "db1ac89e790b9797",
+      "type": "add",
+      "date": 1560202590528
+    },
+    {
+      "type": "edit",
+      "id": "db1ac89e790b9797",
+      "item": {
+        "type": "paragraph",
+        "id": "db1ac89e790b9797",
+        "text": "Microsoft Visual Studio Code"
+      },
+      "date": 1560202598753
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "02471141e7c184ad"
+      },
+      "id": "02471141e7c184ad",
+      "type": "add",
+      "after": "db1ac89e790b9797",
+      "date": 1560202808509
+    },
+    {
+      "type": "edit",
+      "id": "02471141e7c184ad",
+      "item": {
+        "type": "paragraph",
+        "id": "02471141e7c184ad",
+        "text": "VS Code will not repeat keys by default on [[macOS]]. [https://stackoverflow.com/questions/39972335/how-do-i-press-and-hold-a-key-and-have-it-repeat-in-vscode so]"
+      },
+      "date": 1560202834436
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "f39f59ad0b505920"
+      },
+      "id": "f39f59ad0b505920",
+      "type": "add",
+      "after": "02471141e7c184ad",
+      "date": 1560202839909
+    },
+    {
+      "type": "edit",
+      "id": "f39f59ad0b505920",
+      "item": {
+        "type": "paragraph",
+        "id": "f39f59ad0b505920",
+        "text": "To fix this, run:"
+      },
+      "date": 1560202847686
+    },
+    {
+      "type": "add",
+      "id": "6111f7902bbfe1ba",
+      "item": {
+        "type": "factory",
+        "id": "6111f7902bbfe1ba",
+        "text": " "
+      },
+      "after": "f39f59ad0b505920",
+      "date": 1560202848965
+    },
+    {
+      "type": "edit",
+      "id": "6111f7902bbfe1ba",
+      "item": {
+        "type": "code",
+        "id": "6111f7902bbfe1ba",
+        "text": "defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false"
+      },
+      "date": 1560202853417
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "699c32a625d83a71"
+      },
+      "id": "699c32a625d83a71",
+      "type": "add",
+      "after": "6111f7902bbfe1ba",
+      "date": 1560202856549
+    },
+    {
+      "type": "edit",
+      "id": "699c32a625d83a71",
+      "item": {
+        "type": "paragraph",
+        "id": "699c32a625d83a71",
+        "text": "and restart VS Code."
+      },
+      "date": 1560202861791
+    },
+    {
+      "type": "add",
+      "id": "141a59d1272cea32",
+      "item": {
+        "type": "paragraph",
+        "id": "141a59d1272cea32",
+        "text": "Markdown preview doesn't support spaces in filenames. [https://github.com/microsoft/vscode/issues/11933 defect]"
+      },
+      "after": "699c32a625d83a71",
+      "date": 1560205573685
+    },
+    {
+      "type": "add",
+      "id": "c8e0cb34a15c3fa7",
+      "item": {
+        "type": "paragraph",
+        "id": "c8e0cb34a15c3fa7",
+        "text": "To enable format on save set editor.formatOnSave in your preferences. [https://github.com/editor-rs/vscode-rust/blob/master/doc/format.md docs]"
+      },
+      "after": "141a59d1272cea32",
+      "date": 1570246550413
+    },
+    {
+      "type": "add",
+      "id": "d41ca925b1ee3092",
+      "item": {
+        "type": "paragraph",
+        "id": "d41ca925b1ee3092",
+        "text": "To prevent vim mode from eating all ctrl-k shortcuts [https://github.com/VSCodeVim/Vim/issues/1720 issue]"
+      },
+      "after": "c8e0cb34a15c3fa7",
+      "date": 1570887453066
+    },
+    {
+      "type": "add",
+      "id": "e3bed1a91c571a01",
+      "item": {
+        "type": "factory",
+        "id": "e3bed1a91c571a01",
+        "text": " "
+      },
+      "after": "d41ca925b1ee3092",
+      "date": 1570887481588
+    },
+    {
+      "type": "edit",
+      "id": "e3bed1a91c571a01",
+      "item": {
+        "type": "code",
+        "id": "e3bed1a91c571a01",
+        "text": "\"vim.handleKeys\": {\n    \"<C-k>\": false\n},"
+      },
+      "date": 1570887488537
+    },
+    {
+      "type": "edit",
+      "id": "d41ca925b1ee3092",
+      "item": {
+        "type": "paragraph",
+        "id": "d41ca925b1ee3092",
+        "text": "To prevent vim mode from eating all ctrl-k shortcuts, put this in your settings.json [https://github.com/VSCodeVim/Vim/issues/1720 issue]"
+      },
+      "date": 1570887500949
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "f1f21bb5b99bda99"
+      },
+      "id": "f1f21bb5b99bda99",
+      "type": "add",
+      "after": "e3bed1a91c571a01",
+      "date": 1572730491019
+    },
+    {
+      "type": "edit",
+      "id": "f1f21bb5b99bda99",
+      "item": {
+        "type": "paragraph",
+        "id": "f1f21bb5b99bda99",
+        "text": "Terminal rendering settings ["
+      },
+      "date": 1572730498641
+    },
+    {
+      "type": "edit",
+      "id": "f1f21bb5b99bda99",
+      "item": {
+        "type": "paragraph",
+        "id": "f1f21bb5b99bda99",
+        "text": "Terminal rendering settings [https://code.visualstudio.com/docs/editor/integrated-terminal#_changing-how-the-terminal-is-rendered docs]"
+      },
+      "date": 1572730503662
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "title": "Dart",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "3e429f9a0ff4f554",
+      "text": "Dart is a language produced by Google which supported an optional type system and an object capability model inspired mirrors API for reflection. The former was later removed. I have often wondered if Gilad's departure from Google and the change in Dart's type system are related events."
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Dart",
+        "story": []
+      },
+      "date": 1555511680088
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "3e429f9a0ff4f554"
+      },
+      "id": "3e429f9a0ff4f554",
+      "type": "add",
+      "date": 1555511681281
+    },
+    {
+      "type": "edit",
+      "id": "3e429f9a0ff4f554",
+      "item": {
+        "type": "paragraph",
+        "id": "3e429f9a0ff4f554",
+        "text": "Dart is a language produced by Google which supported an optional type system and an object capability model inspired mirrors API for reflection. The formal was later removed. I have often wondered if Gilad's departure from Google and the change in Dart's type system are related events."
+      },
+      "date": 1555511821365
+    },
+    {
+      "type": "edit",
+      "id": "3e429f9a0ff4f554",
+      "item": {
+        "type": "paragraph",
+        "id": "3e429f9a0ff4f554",
+        "text": "Dart is a language produced by Google which supported an optional type system and an object capability model inspired mirrors API for reflection. The former was later removed. I have often wondered if Gilad's departure from Google and the change in Dart's type system are related events."
+      },
+      "date": 1555640068635
+    }
+  ]
+}

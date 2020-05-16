@@ -1,0 +1,524 @@
+{
+  "title": "Projects",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "2b97e7bd94820a64",
+      "text": "Information about current, pending, and past projects."
+    },
+    {
+      "type": "pagefold",
+      "id": "9e5fc3ced9ceca09",
+      "text": "current"
+    },
+    {
+      "type": "paragraph",
+      "id": "b6cfb9140e7334e1",
+      "text": "Drag to reorder or remove pages. See [https://github.com/fedwiki/wiki-client/pull/235 PR #235]"
+    },
+    {
+      "type": "paragraph",
+      "id": "0404761ccb1470ba",
+      "text": "Improve drag and drop actions. See [https://github.com/fedwiki/wiki-client/pull/236 PR #236]"
+    },
+    {
+      "type": "paragraph",
+      "id": "1853b7a0eafbc283",
+      "text": "Electron client for fedwiki. See [http://fed.wiki.randombits.xyz/electrified-wiki.html Electrified Wiki]"
+    },
+    {
+      "type": "paragraph",
+      "id": "190128ed2ad5e0cb",
+      "text": "[http://fed.wiki.randombits.xyz/proper-plugin-api.html Plugin API]"
+    },
+    {
+      "type": "paragraph",
+      "id": "c3f75f1ed2831da8",
+      "text": "[[Drip Irrigation]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "344da7f8ace7087b",
+      "text": "[[Tarnish]]"
+    },
+    {
+      "type": "pagefold",
+      "id": "3396bea36d5b90c6",
+      "text": "past"
+    },
+    {
+      "type": "pagefold",
+      "id": "d59ae7499310169e",
+      "text": "pending"
+    },
+    {
+      "type": "paragraph",
+      "id": "06df740ed3928e49",
+      "text": "Implement the [http://fed.wiki.randombits.xyz/export-plugin.html export plugin]."
+    },
+    {
+      "type": "paragraph",
+      "id": "3c05091ccf2eaaae",
+      "text": "[[Import Prog21]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "77d189f5e28b42c4",
+      "text": "[[Import VimTips]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "8eeab018b4587ba5",
+      "text": "Prototype a new plugin system."
+    },
+    {
+      "type": "paragraph",
+      "id": "29d1018d4d2c050c",
+      "text": "Investigate drip irrigation setups for the family garden."
+    },
+    {
+      "type": "paragraph",
+      "id": "3fd298f52ab92d17",
+      "text": "Command line transit table query [https://developer.trimet.org/ws_docs/ site]"
+    },
+    {
+      "type": "paragraph",
+      "id": "38847f40d7d88d47",
+      "text": "Convert VimTips category export into a fedwiki site. [https://vim.fandom.com/wiki/Special:Export export] [https://www.mediawiki.org/wiki/Help:Export format]"
+    },
+    {
+      "type": "paragraph",
+      "id": "fa76e68425c0a15c",
+      "text": "Write a [[Roguelike]]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Projects",
+        "story": []
+      },
+      "date": 1556545948878
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "2b97e7bd94820a64",
+        "text": "Information about current, pending, and past projects."
+      },
+      "id": "2b97e7bd94820a64",
+      "type": "add",
+      "date": 1556545950374
+    },
+    {
+      "type": "edit",
+      "id": "2b97e7bd94820a64",
+      "item": {
+        "type": "paragraph",
+        "id": "2b97e7bd94820a64",
+        "text": "Information about current, pending, and past projects."
+      },
+      "date": 1556545967550
+    },
+    {
+      "item": {
+        "type": "pagefold",
+        "id": "9e5fc3ced9ceca09",
+        "text": "current"
+      },
+      "id": "9e5fc3ced9ceca09",
+      "type": "add",
+      "after": "0cb27314498ee293",
+      "date": 1556545969755
+    },
+    {
+      "type": "edit",
+      "id": "9e5fc3ced9ceca09",
+      "item": {
+        "type": "pagefold",
+        "id": "9e5fc3ced9ceca09",
+        "text": "current"
+      },
+      "date": 1556545974030
+    },
+    {
+      "item": {
+        "type": "pagefold",
+        "id": "3396bea36d5b90c6",
+        "text": "past"
+      },
+      "id": "3396bea36d5b90c6",
+      "type": "add",
+      "after": "9e5fc3ced9ceca09",
+      "date": 1556545975681
+    },
+    {
+      "type": "edit",
+      "id": "3396bea36d5b90c6",
+      "item": {
+        "type": "pagefold",
+        "id": "3396bea36d5b90c6",
+        "text": "past"
+      },
+      "date": 1556545979218
+    },
+    {
+      "item": {
+        "type": "pagefold",
+        "id": "d59ae7499310169e",
+        "text": "pending"
+      },
+      "id": "d59ae7499310169e",
+      "type": "add",
+      "after": "3396bea36d5b90c6",
+      "date": 1556545980530
+    },
+    {
+      "type": "edit",
+      "id": "d59ae7499310169e",
+      "item": {
+        "type": "pagefold",
+        "id": "d59ae7499310169e",
+        "text": "pending"
+      },
+      "date": 1556545984052
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "06df740ed3928e49",
+        "text": "Implement the export plugin."
+      },
+      "id": "06df740ed3928e49",
+      "type": "add",
+      "after": "d59ae7499310169e",
+      "date": 1556545986366
+    },
+    {
+      "type": "edit",
+      "id": "06df740ed3928e49",
+      "item": {
+        "type": "paragraph",
+        "id": "06df740ed3928e49",
+        "text": "Implement the export plugin."
+      },
+      "date": 1556546004830
+    },
+    {
+      "type": "add",
+      "id": "8eeab018b4587ba5",
+      "item": {
+        "type": "paragraph",
+        "id": "8eeab018b4587ba5",
+        "text": "Prototype a new plugin system."
+      },
+      "after": "06df740ed3928e49",
+      "date": 1556546019030
+    },
+    {
+      "type": "add",
+      "id": "1853b7a0eafbc283",
+      "item": {
+        "type": "paragraph",
+        "id": "1853b7a0eafbc283",
+        "text": "Electron client for fedwiki."
+      },
+      "after": "8eeab018b4587ba5",
+      "date": 1556546045025
+    },
+    {
+      "type": "add",
+      "id": "b6cfb9140e7334e1",
+      "item": {
+        "type": "paragraph",
+        "id": "b6cfb9140e7334e1",
+        "text": "Improve drag and drop actions."
+      },
+      "after": "1853b7a0eafbc283",
+      "date": 1556546068162
+    },
+    {
+      "type": "move",
+      "order": [
+        "2b97e7bd94820a64",
+        "9e5fc3ced9ceca09",
+        "b6cfb9140e7334e1",
+        "3396bea36d5b90c6",
+        "d59ae7499310169e",
+        "06df740ed3928e49",
+        "8eeab018b4587ba5",
+        "1853b7a0eafbc283",
+        "2d52f010c079a6d8"
+      ],
+      "id": "b6cfb9140e7334e1",
+      "date": 1556546071395,
+      "error": {
+        "type": "error",
+        "msg": "Internal Server Error",
+        "response": "Server Ignoring move. Try reload."
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1556546076564
+    },
+    {
+      "type": "move",
+      "order": [
+        "2b97e7bd94820a64",
+        "9e5fc3ced9ceca09",
+        "b6cfb9140e7334e1",
+        "1853b7a0eafbc283",
+        "3396bea36d5b90c6",
+        "d59ae7499310169e",
+        "06df740ed3928e49",
+        "8eeab018b4587ba5"
+      ],
+      "id": "1853b7a0eafbc283",
+      "date": 1556546081848
+    },
+    {
+      "type": "add",
+      "id": "29d1018d4d2c050c",
+      "item": {
+        "type": "paragraph",
+        "id": "29d1018d4d2c050c",
+        "text": "Investigate drip irrigation setups for the family garden."
+      },
+      "after": "8eeab018b4587ba5",
+      "date": 1556546106745
+    },
+    {
+      "type": "add",
+      "id": "3fd298f52ab92d17",
+      "item": {
+        "type": "paragraph",
+        "id": "3fd298f52ab92d17",
+        "text": "Command line transit table query [https://developer.trimet.org/ws_docs/ site]"
+      },
+      "after": "29d1018d4d2c050c",
+      "date": 1556571633441
+    },
+    {
+      "type": "add",
+      "id": "38847f40d7d88d47",
+      "item": {
+        "type": "paragraph",
+        "id": "38847f40d7d88d47",
+        "text": "Convert VimTips category export into a fedwiki site. [https://vim.fandom.com/wiki/Special:Export export]"
+      },
+      "after": "3fd298f52ab92d17",
+      "date": 1556584167445
+    },
+    {
+      "type": "edit",
+      "id": "38847f40d7d88d47",
+      "item": {
+        "type": "paragraph",
+        "id": "38847f40d7d88d47",
+        "text": "Convert VimTips category export into a fedwiki site. [https://vim.fandom.com/wiki/Special:Export export] [https://www.mediawiki.org/wiki/Help:Export format]"
+      },
+      "date": 1556584188849
+    },
+    {
+      "type": "edit",
+      "id": "1853b7a0eafbc283",
+      "item": {
+        "type": "paragraph",
+        "id": "1853b7a0eafbc283",
+        "text": "Electron client for fedwiki. See [fed.wiki.randombits.xyz/electrified-wiki.html]"
+      },
+      "date": 1556856519883
+    },
+    {
+      "type": "edit",
+      "id": "1853b7a0eafbc283",
+      "item": {
+        "type": "paragraph",
+        "id": "1853b7a0eafbc283",
+        "text": "Electron client for fedwiki. See [http://fed.wiki.randombits.xyz/electrified-wiki.html]"
+      },
+      "date": 1556856528509
+    },
+    {
+      "type": "edit",
+      "id": "1853b7a0eafbc283",
+      "item": {
+        "type": "paragraph",
+        "id": "1853b7a0eafbc283",
+        "text": "Electron client for fedwiki. See [fed.wiki.randombits.xyz/electrified-wiki.html Electrified Wiki]"
+      },
+      "date": 1556856542794
+    },
+    {
+      "type": "edit",
+      "id": "1853b7a0eafbc283",
+      "item": {
+        "type": "paragraph",
+        "id": "1853b7a0eafbc283",
+        "text": "Electron client for fedwiki. See [http://fed.wiki.randombits.xyz/electrified-wiki.html Electrified Wiki]"
+      },
+      "date": 1556856548571
+    },
+    {
+      "type": "edit",
+      "id": "b6cfb9140e7334e1",
+      "item": {
+        "type": "paragraph",
+        "id": "b6cfb9140e7334e1",
+        "text": "Improve drag and drop actions. See [https://github.com/fedwiki/wiki-client/pull/235 PR #235]"
+      },
+      "date": 1556856587167
+    },
+    {
+      "type": "edit",
+      "id": "06df740ed3928e49",
+      "item": {
+        "type": "paragraph",
+        "id": "06df740ed3928e49",
+        "text": "Implement the [http://fed.wiki.randombits.xyz/export-plugin.html export plugin]."
+      },
+      "date": 1556856805742
+    },
+    {
+      "type": "add",
+      "id": "3c05091ccf2eaaae",
+      "item": {
+        "type": "paragraph",
+        "id": "3c05091ccf2eaaae",
+        "text": "[[Import Prog21]"
+      },
+      "after": "06df740ed3928e49",
+      "date": 1556856827158
+    },
+    {
+      "type": "edit",
+      "id": "3c05091ccf2eaaae",
+      "item": {
+        "type": "paragraph",
+        "id": "3c05091ccf2eaaae",
+        "text": "[[Import Prog21]]"
+      },
+      "date": 1556856831584
+    },
+    {
+      "type": "add",
+      "id": "77d189f5e28b42c4",
+      "item": {
+        "type": "paragraph",
+        "id": "77d189f5e28b42c4",
+        "text": "[[Import VimTips]]"
+      },
+      "after": "3c05091ccf2eaaae",
+      "date": 1556856838732
+    },
+    {
+      "type": "edit",
+      "id": "b6cfb9140e7334e1",
+      "item": {
+        "type": "paragraph",
+        "id": "b6cfb9140e7334e1",
+        "text": "Improve drag and drop actions. See [https://github.com/fedwiki/wiki-client/pull/236 PR #236]"
+      },
+      "date": 1556932940359
+    },
+    {
+      "type": "add",
+      "id": "0404761ccb1470ba",
+      "item": {
+        "type": "paragraph",
+        "id": "0404761ccb1470ba",
+        "text": "Improve drag and drop actions. See [https://github.com/fedwiki/wiki-client/pull/236 PR #236]"
+      },
+      "after": "b6cfb9140e7334e1",
+      "date": 1556932941417
+    },
+    {
+      "type": "edit",
+      "id": "b6cfb9140e7334e1",
+      "item": {
+        "type": "paragraph",
+        "id": "b6cfb9140e7334e1",
+        "text": "Drag to reorder or remove pages. See [https://github.com/fedwiki/wiki-client/pull/235 PR #235]"
+      },
+      "date": 1556932962695
+    },
+    {
+      "type": "add",
+      "id": "190128ed2ad5e0cb",
+      "item": {
+        "type": "paragraph",
+        "id": "190128ed2ad5e0cb",
+        "text": "[http://fed.wiki.randombits.xyz/proper-plugin-api.html Plugin API]"
+      },
+      "after": "1853b7a0eafbc283",
+      "date": 1556932994465
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "c3f75f1ed2831da8"
+      },
+      "id": "c3f75f1ed2831da8",
+      "type": "add",
+      "after": "38847f40d7d88d47",
+      "date": 1560196825974
+    },
+    {
+      "type": "edit",
+      "id": "c3f75f1ed2831da8",
+      "item": {
+        "type": "paragraph",
+        "id": "c3f75f1ed2831da8",
+        "text": "[[Drip Irrigation]]"
+      },
+      "date": 1560196833396
+    },
+    {
+      "id": "c3f75f1ed2831da8",
+      "type": "move",
+      "order": [
+        "2b97e7bd94820a64",
+        "9e5fc3ced9ceca09",
+        "b6cfb9140e7334e1",
+        "0404761ccb1470ba",
+        "1853b7a0eafbc283",
+        "190128ed2ad5e0cb",
+        "c3f75f1ed2831da8",
+        "3396bea36d5b90c6",
+        "d59ae7499310169e",
+        "06df740ed3928e49",
+        "3c05091ccf2eaaae",
+        "77d189f5e28b42c4",
+        "8eeab018b4587ba5",
+        "29d1018d4d2c050c",
+        "3fd298f52ab92d17",
+        "38847f40d7d88d47"
+      ],
+      "date": 1560196836632
+    },
+    {
+      "type": "add",
+      "id": "344da7f8ace7087b",
+      "item": {
+        "type": "paragraph",
+        "id": "344da7f8ace7087b",
+        "text": "[[Tarnish]]"
+      },
+      "after": "c3f75f1ed2831da8",
+      "date": 1564108833371
+    },
+    {
+      "type": "add",
+      "id": "fa76e68425c0a15c",
+      "item": {
+        "type": "paragraph",
+        "id": "fa76e68425c0a15c",
+        "text": "Write a [[Roguelike]]"
+      },
+      "after": "38847f40d7d88d47",
+      "date": 1564109562680
+    }
+  ]
+}

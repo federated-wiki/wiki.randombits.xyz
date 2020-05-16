@@ -1,0 +1,386 @@
+{
+  "title": "golang",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "58ecc57b0d948b32",
+      "text": "Notes on golang and related packages."
+    },
+    {
+      "type": "pagefold",
+      "id": "531669aa9e6ebc5f",
+      "text": "syntax"
+    },
+    {
+      "type": "paragraph",
+      "id": "bda3eac5e7c5610d",
+      "text": "var a[2]string"
+    },
+    {
+      "type": "paragraph",
+      "id": "58aa33150ca53b43",
+      "text": "The size is part of an array's type. Arrays cannot be resized. [https://tour.golang.org/moretypes/6 tour]"
+    },
+    {
+      "type": "paragraph",
+      "id": "9f12a7c701ff5214",
+      "text": "Opening a browser window. [https://gist.github.com/hyg/9c4afcd91fe24316cbf0 gist]"
+    },
+    {
+      "type": "code",
+      "id": "cfc3b5307105c7ae",
+      "text": "func openbrowser(url string) {\n\tvar err error\n\n\tswitch runtime.GOOS {\n\tcase \"linux\":\n\t\terr = exec.Command(\"xdg-open\", url).Start()\n\tcase \"windows\":\n\t\terr = exec.Command(\"rundll32\", \"url.dll,FileProtocolHandler\", url).Start()\n\tcase \"darwin\":\n\t\terr = exec.Command(\"open\", url).Start()\n\tdefault:\n\t\terr = fmt.Errorf(\"unsupported platform\")\n\t}\n\tif err != nil {\n\t\tlog.Fatal(err)\n\t}\n\n}"
+    },
+    {
+      "type": "paragraph",
+      "id": "f18501521b0baf1c",
+      "text": "or with github.com/pkg/browser. [https://godoc.org/github.com/pkg/browser godoc]"
+    },
+    {
+      "type": "paragraph",
+      "id": "22c10c0575ff68f1",
+      "text": "go get failure fix [https://stackoverflow.com/questions/32232655/go-get-results-in-terminal-prompts-disabled-error-for-github-private-repo so]"
+    },
+    {
+      "type": "paragraph",
+      "id": "b655e2891115ebf8",
+      "text": "git config --global --add url.\"git@github.com:\".insteadOf \"https://github.com/\""
+    },
+    {
+      "type": "paragraph",
+      "id": "b26c9809c30925eb",
+      "text": "Need to add ~/go/bin to the PATH, but don't want to add multiple times each time ~/.zshrc is run. [https://superuser.com/questions/39751/add-directory-to-path-if-its-not-already-there so]"
+    },
+    {
+      "type": "paragraph",
+      "id": "8e3cafe8f2a0ae22",
+      "text": "net/http [https://golang.org/pkg/net/http/ godocs]"
+    },
+    {
+      "type": "paragraph",
+      "id": "6bb80d9afcb63d30",
+      "text": "Intro to web apps (simple wiki) [https://golang.org/doc/articles/wiki/ godocs]"
+    },
+    {
+      "type": "paragraph",
+      "id": "7d2ba1585d065fd7",
+      "text": "Go and JSON intro [https://golang.org/doc/articles/json_and_go.html godocs]"
+    },
+    {
+      "type": "paragraph",
+      "id": "9acd794477878e86",
+      "text": "encoding/json [https://golang.org/pkg/encoding/json/ godocs]"
+    },
+    {
+      "type": "paragraph",
+      "id": "8b5d1642443382a7",
+      "text": "go bgp [https://github.com/osrg/gobgp github]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "golang",
+        "story": []
+      },
+      "date": 1558912201905
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "58ecc57b0d948b32"
+      },
+      "id": "58ecc57b0d948b32",
+      "type": "add",
+      "date": 1558912203384
+    },
+    {
+      "type": "edit",
+      "id": "58ecc57b0d948b32",
+      "item": {
+        "type": "paragraph",
+        "id": "58ecc57b0d948b32",
+        "text": "Notes on golang and related packages."
+      },
+      "date": 1558912214856
+    },
+    {
+      "type": "add",
+      "id": "9f12a7c701ff5214",
+      "item": {
+        "type": "paragraph",
+        "id": "9f12a7c701ff5214",
+        "text": "Opening a browser window"
+      },
+      "after": "58ecc57b0d948b32",
+      "date": 1558912227827
+    },
+    {
+      "type": "add",
+      "id": "a214cdc29c905ac1",
+      "item": {
+        "type": "paragraph",
+        "id": "a214cdc29c905ac1",
+        "text": "https://gist.github.com/hyg/9c4afcd91fe24316cbf0"
+      },
+      "after": "9f12a7c701ff5214",
+      "date": 1558912234360
+    },
+    {
+      "type": "add",
+      "id": "cfc3b5307105c7ae",
+      "item": {
+        "type": "factory",
+        "id": "cfc3b5307105c7ae",
+        "text": " "
+      },
+      "after": "a214cdc29c905ac1",
+      "date": 1558912246487
+    },
+    {
+      "type": "edit",
+      "id": "cfc3b5307105c7ae",
+      "item": {
+        "type": "code",
+        "id": "cfc3b5307105c7ae",
+        "text": "func openbrowser(url string) {\n\tvar err error\n\n\tswitch runtime.GOOS {\n\tcase \"linux\":\n\t\terr = exec.Command(\"xdg-open\", url).Start()\n\tcase \"windows\":\n\t\terr = exec.Command(\"rundll32\", \"url.dll,FileProtocolHandler\", url).Start()\n\tcase \"darwin\":\n\t\terr = exec.Command(\"open\", url).Start()\n\tdefault:\n\t\terr = fmt.Errorf(\"unsupported platform\")\n\t}\n\tif err != nil {\n\t\tlog.Fatal(err)\n\t}\n\n} "
+      },
+      "date": 1558912250728
+    },
+    {
+      "type": "edit",
+      "id": "cfc3b5307105c7ae",
+      "item": {
+        "type": "code",
+        "id": "cfc3b5307105c7ae",
+        "text": "func openbrowser(url string) {\n\tvar err error\n\n\tswitch runtime.GOOS {\n\tcase \"linux\":\n\t\terr = exec.Command(\"xdg-open\", url).Start()\n\tcase \"windows\":\n\t\terr = exec.Command(\"rundll32\", \"url.dll,FileProtocolHandler\", url).Start()\n\tcase \"darwin\":\n\t\terr = exec.Command(\"open\", url).Start()\n\tdefault:\n\t\terr = fmt.Errorf(\"unsupported platform\")\n\t}\n\tif err != nil {\n\t\tlog.Fatal(err)\n\t}\n\n}"
+      },
+      "date": 1558912262518
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "f18501521b0baf1c"
+      },
+      "id": "f18501521b0baf1c",
+      "type": "add",
+      "after": "cfc3b5307105c7ae",
+      "date": 1558912264243
+    },
+    {
+      "type": "edit",
+      "id": "f18501521b0baf1c",
+      "item": {
+        "type": "paragraph",
+        "id": "f18501521b0baf1c",
+        "text": "or with the browser package."
+      },
+      "date": 1558912276880
+    },
+    {
+      "type": "remove",
+      "id": "a214cdc29c905ac1",
+      "date": 1558912282297
+    },
+    {
+      "type": "edit",
+      "id": "9f12a7c701ff5214",
+      "item": {
+        "type": "paragraph",
+        "id": "9f12a7c701ff5214",
+        "text": "Opening a browser window. [https://gist.github.com/hyg/9c4afcd91fe24316cbf0 gist]"
+      },
+      "date": 1558912291302
+    },
+    {
+      "type": "edit",
+      "id": "f18501521b0baf1c",
+      "item": {
+        "type": "paragraph",
+        "id": "f18501521b0baf1c",
+        "text": "or with the browser package. [https://godoc.org/github.com/pkg/browser godoc]"
+      },
+      "date": 1558912310092
+    },
+    {
+      "type": "add",
+      "id": "22c10c0575ff68f1",
+      "item": {
+        "type": "paragraph",
+        "id": "22c10c0575ff68f1",
+        "text": "go get failure fix"
+      },
+      "after": "f18501521b0baf1c",
+      "date": 1558913283557
+    },
+    {
+      "type": "add",
+      "id": "b655e2891115ebf8",
+      "item": {
+        "type": "paragraph",
+        "id": "b655e2891115ebf8",
+        "text": "git config --global --add url.\"git@github.com:\".insteadOf \"https://github.com/\""
+      },
+      "after": "22c10c0575ff68f1",
+      "date": 1558913284709
+    },
+    {
+      "type": "edit",
+      "id": "22c10c0575ff68f1",
+      "item": {
+        "type": "paragraph",
+        "id": "22c10c0575ff68f1",
+        "text": "go get failure fix [https://stackoverflow.com/questions/32232655/go-get-results-in-terminal-prompts-disabled-error-for-github-private-repo so]"
+      },
+      "date": 1558913319514
+    },
+    {
+      "type": "add",
+      "id": "b26c9809c30925eb",
+      "item": {
+        "type": "paragraph",
+        "id": "b26c9809c30925eb",
+        "text": "Need to add ~/go/bin to the PATH, but don't want to add multiple times each time ~/.zshrc is run. [https://superuser.com/questions/39751/add-directory-to-path-if-its-not-already-there so]"
+      },
+      "after": "b655e2891115ebf8",
+      "date": 1558913568954
+    },
+    {
+      "type": "add",
+      "id": "8e3cafe8f2a0ae22",
+      "item": {
+        "type": "paragraph",
+        "id": "8e3cafe8f2a0ae22",
+        "text": "net/http [https://golang.org/pkg/net/http/ godocs]"
+      },
+      "after": "b26c9809c30925eb",
+      "date": 1558980501215
+    },
+    {
+      "type": "add",
+      "id": "6bb80d9afcb63d30",
+      "item": {
+        "type": "paragraph",
+        "id": "6bb80d9afcb63d30",
+        "text": "Intro to web apps (simple wiki) [https://golang.org/doc/articles/wiki/ godocs]"
+      },
+      "after": "8e3cafe8f2a0ae22",
+      "date": 1558980536777
+    },
+    {
+      "type": "add",
+      "id": "9acd794477878e86",
+      "item": {
+        "type": "paragraph",
+        "id": "9acd794477878e86",
+        "text": "json [https://golang.org/pkg/encoding/json/ godocs]"
+      },
+      "after": "6bb80d9afcb63d30",
+      "date": 1558980590855
+    },
+    {
+      "type": "edit",
+      "id": "9acd794477878e86",
+      "item": {
+        "type": "paragraph",
+        "id": "9acd794477878e86",
+        "text": "encoding/json [https://golang.org/pkg/encoding/json/ godocs]"
+      },
+      "date": 1558983333669
+    },
+    {
+      "type": "add",
+      "id": "7d2ba1585d065fd7",
+      "item": {
+        "type": "paragraph",
+        "id": "7d2ba1585d065fd7",
+        "text": "Go and JSON intro [https://golang.org/doc/articles/json_and_go.html godocs]"
+      },
+      "after": "9acd794477878e86",
+      "date": 1558983343753
+    },
+    {
+      "id": "7d2ba1585d065fd7",
+      "type": "move",
+      "order": [
+        "58ecc57b0d948b32",
+        "9f12a7c701ff5214",
+        "cfc3b5307105c7ae",
+        "f18501521b0baf1c",
+        "22c10c0575ff68f1",
+        "b655e2891115ebf8",
+        "b26c9809c30925eb",
+        "8e3cafe8f2a0ae22",
+        "6bb80d9afcb63d30",
+        "7d2ba1585d065fd7",
+        "9acd794477878e86"
+      ],
+      "date": 1558983388191
+    },
+    {
+      "type": "add",
+      "id": "531669aa9e6ebc5f",
+      "item": {
+        "type": "factory",
+        "id": "531669aa9e6ebc5f",
+        "text": " "
+      },
+      "after": "58ecc57b0d948b32",
+      "date": 1559139955318
+    },
+    {
+      "type": "edit",
+      "id": "531669aa9e6ebc5f",
+      "item": {
+        "type": "pagefold",
+        "id": "531669aa9e6ebc5f",
+        "text": "syntax"
+      },
+      "date": 1559139962501
+    },
+    {
+      "type": "add",
+      "id": "bda3eac5e7c5610d",
+      "item": {
+        "type": "paragraph",
+        "id": "bda3eac5e7c5610d",
+        "text": "var a[2]string"
+      },
+      "after": "531669aa9e6ebc5f",
+      "date": 1559139991282
+    },
+    {
+      "type": "add",
+      "id": "58aa33150ca53b43",
+      "item": {
+        "type": "paragraph",
+        "id": "58aa33150ca53b43",
+        "text": "The size is part of an array's type. Arrays cannot be resized. [https://tour.golang.org/moretypes/6 tour]"
+      },
+      "after": "bda3eac5e7c5610d",
+      "date": 1559140037177
+    },
+    {
+      "type": "edit",
+      "id": "f18501521b0baf1c",
+      "item": {
+        "type": "paragraph",
+        "id": "f18501521b0baf1c",
+        "text": "or with github.com/pkg/browser. [https://godoc.org/github.com/pkg/browser godoc]"
+      },
+      "date": 1559140092417
+    },
+    {
+      "type": "add",
+      "id": "8b5d1642443382a7",
+      "item": {
+        "type": "paragraph",
+        "id": "8b5d1642443382a7",
+        "text": "go bgp [https://github.com/osrg/gobgp github]"
+      },
+      "after": "9acd794477878e86",
+      "date": 1564104212484
+    }
+  ]
+}

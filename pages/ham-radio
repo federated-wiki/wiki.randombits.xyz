@@ -1,0 +1,70 @@
+{
+  "title": "Ham Radio",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "87b29d2c92982e87",
+      "text": "Notes on ham radio topics I may eventually explore."
+    },
+    {
+      "type": "reference",
+      "id": "a38c266debbf2440",
+      "site": "found.ward.bay.wiki.org",
+      "slug": "ft8-at-k9ox",
+      "title": "FT8 at K9OX",
+      "text": "New digital modes appear in amateur radio with software downloads and a sound card connection to a suitable laptop computer. FT8 is the new thing logging at least 10x more contacts than any other, or perhaps all other modes combined."
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Ham Radio",
+        "story": []
+      },
+      "date": 1556582916883
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "87b29d2c92982e87"
+      },
+      "id": "87b29d2c92982e87",
+      "type": "add",
+      "date": 1556582919478
+    },
+    {
+      "type": "edit",
+      "id": "87b29d2c92982e87",
+      "item": {
+        "type": "paragraph",
+        "id": "87b29d2c92982e87",
+        "text": "Notes on ham radio topics I may eventually explore."
+      },
+      "date": 1556582938377
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "a38c266debbf2440"
+      },
+      "id": "a38c266debbf2440",
+      "type": "add",
+      "after": "87b29d2c92982e87",
+      "date": 1556582958335
+    },
+    {
+      "type": "edit",
+      "id": "a38c266debbf2440",
+      "item": {
+        "type": "reference",
+        "id": "a38c266debbf2440",
+        "site": "found.ward.bay.wiki.org",
+        "slug": "ft8-at-k9ox",
+        "title": "FT8 at K9OX",
+        "text": "New digital modes appear in amateur radio with software downloads and a sound card connection to a suitable laptop computer. FT8 is the new thing logging at least 10x more contacts than any other, or perhaps all other modes combined."
+      },
+      "date": 1556582960913
+    }
+  ]
+}

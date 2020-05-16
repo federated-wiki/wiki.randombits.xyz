@@ -1,0 +1,107 @@
+{
+  "title": "Steve Yegge",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "1837e04966c22770",
+      "text": "A former Amazon, former Google employee. I stumbled across some internal blog posts he made while at Amazon about a bunch of different programming languages and I have followed him off and on since."
+    },
+    {
+      "type": "paragraph",
+      "id": "ba5fac5dcec9e86d",
+      "text": "His original blog was taken offline. Here is what looks to be a scrape of the original. [https://sites.google.com/site/steveyegge2/blog-rants sites.google]"
+    },
+    {
+      "type": "paragraph",
+      "id": "bd8a6cb3a938fb05",
+      "text": "And here is a copy from the wayback machine. [http://web.archive.org/web/20060828151939/http://www.cabochon.com/~stevey/blog-rants/ wayback]"
+    },
+    {
+      "type": "paragraph",
+      "id": "76f34f748863a630",
+      "text": "Stevey's JVM Language Shootout [http://web.archive.org/web/20060821020418/http://www.cabochon.com/~stevey/sokoban/ wayback]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Steve Yegge",
+        "story": []
+      },
+      "date": 1564102454811
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "1837e04966c22770"
+      },
+      "id": "1837e04966c22770",
+      "type": "add",
+      "date": 1564102456690
+    },
+    {
+      "type": "edit",
+      "id": "1837e04966c22770",
+      "item": {
+        "type": "paragraph",
+        "id": "1837e04966c22770",
+        "text": "A former Amazon, former Google employee. I stumbled across some internal blog posts he made while at Amazon about a bunch of different programming languages and I have followed him off and on since."
+      },
+      "date": 1564102508931
+    },
+    {
+      "type": "add",
+      "id": "ba5fac5dcec9e86d",
+      "item": {
+        "type": "paragraph",
+        "id": "ba5fac5dcec9e86d",
+        "text": "Original [https://sites.google.com/site/steveyegge2/blog-rants blog]"
+      },
+      "after": "1837e04966c22770",
+      "date": 1564102518485
+    },
+    {
+      "type": "add",
+      "id": "76f34f748863a630",
+      "item": {
+        "type": "paragraph",
+        "id": "76f34f748863a630",
+        "text": "Stevey's JVM Language Shootout [http://web.archive.org/web/20060821020418/http://www.cabochon.com/~stevey/sokoban/ web.archive.org]"
+      },
+      "after": "ba5fac5dcec9e86d",
+      "date": 1564102968546
+    },
+    {
+      "type": "edit",
+      "id": "ba5fac5dcec9e86d",
+      "item": {
+        "type": "paragraph",
+        "id": "ba5fac5dcec9e86d",
+        "text": "His original blog was taken offline. Here is what looks to be a scrape of the original. [https://sites.google.com/site/steveyegge2/blog-rants sites.google]"
+      },
+      "date": 1564103105039
+    },
+    {
+      "type": "add",
+      "id": "bd8a6cb3a938fb05",
+      "item": {
+        "type": "paragraph",
+        "id": "bd8a6cb3a938fb05",
+        "text": "And here is a copy from the wayback machine. [http://web.archive.org/web/20060828151939/http://www.cabochon.com/~stevey/blog-rants/ wayback]"
+      },
+      "after": "ba5fac5dcec9e86d",
+      "date": 1564103126464
+    },
+    {
+      "type": "edit",
+      "id": "76f34f748863a630",
+      "item": {
+        "type": "paragraph",
+        "id": "76f34f748863a630",
+        "text": "Stevey's JVM Language Shootout [http://web.archive.org/web/20060821020418/http://www.cabochon.com/~stevey/sokoban/ wayback]"
+      },
+      "date": 1564103134273
+    }
+  ]
+}

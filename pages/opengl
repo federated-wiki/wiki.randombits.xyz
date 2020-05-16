@@ -1,0 +1,87 @@
+{
+  "title": "OpenGL",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "c4befd412116991b",
+      "text": "The original graphics API."
+    },
+    {
+      "type": "paragraph",
+      "id": "9318b56beb2bfb87",
+      "text": "It has been through several revisions."
+    },
+    {
+      "type": "paragraph",
+      "id": "e6912b6783b7ed7e",
+      "text": "OpenlGL 1.x is very different from so called modern OpenGL. The current version is 4.x."
+    },
+    {
+      "type": "paragraph",
+      "id": "1f78b96506d64465",
+      "text": "LearnOpenGL.com [http://LearnOpenGL.com web]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "OpenGL",
+        "story": []
+      },
+      "date": 1578413663236
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "c4befd412116991b"
+      },
+      "id": "c4befd412116991b",
+      "type": "add",
+      "date": 1578413664343
+    },
+    {
+      "type": "edit",
+      "id": "c4befd412116991b",
+      "item": {
+        "type": "paragraph",
+        "id": "c4befd412116991b",
+        "text": "The original graphics API."
+      },
+      "date": 1578413670375
+    },
+    {
+      "type": "add",
+      "id": "9318b56beb2bfb87",
+      "item": {
+        "type": "paragraph",
+        "id": "9318b56beb2bfb87",
+        "text": "It has been through several revisions."
+      },
+      "after": "c4befd412116991b",
+      "date": 1578413687359
+    },
+    {
+      "type": "add",
+      "id": "e6912b6783b7ed7e",
+      "item": {
+        "type": "paragraph",
+        "id": "e6912b6783b7ed7e",
+        "text": "OpenlGL 1.x is very different from so called modern OpenGL. The current version is 4.x."
+      },
+      "after": "9318b56beb2bfb87",
+      "date": 1578413714115
+    },
+    {
+      "type": "add",
+      "id": "1f78b96506d64465",
+      "item": {
+        "type": "paragraph",
+        "id": "1f78b96506d64465",
+        "text": "LearnOpenGL.com [http://LearnOpenGL.com web]"
+      },
+      "after": "e6912b6783b7ed7e",
+      "date": 1578413738360
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "title": "Zen and the Art of Convincing Your Company",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "a1adc2cfbc40aa12",
+      "text": "...to Use Rust."
+    },
+    {
+      "type": "paragraph",
+      "id": "91b532502003a1e0",
+      "text": "Introducing rust into a company tips by Ashley Williams. [https://www.youtube.com/watch?v=GCsxYAxw3JQ youtube]"
+    },
+    {
+      "type": "paragraph",
+      "id": "dd90bd74ffea47b9",
+      "text": "1. Don't rewrite your project in rust (at least not completely)"
+    },
+    {
+      "type": "paragraph",
+      "id": "c657293d882e282b",
+      "text": "2. Show up with code"
+    },
+    {
+      "type": "paragraph",
+      "id": "50419e997d00749b",
+      "text": "3. Don't sell (too hard). Bashing other languages makes everyone look bad. You don't have to control other people's first experience of rust. Not everyone will love everything about rust (right away)."
+    },
+    {
+      "type": "paragraph",
+      "id": "1617e3e9c5c106e6",
+      "text": "4. Sell sell sell. Ambiently share things. reacji-channeler in slack."
+    },
+    {
+      "type": "paragraph",
+      "id": "321067c935bb04fe",
+      "text": "5. The hard part of programming isn't programming. Docs: Nomicon, rust book, rust reference. Tools: cargo, clippy, rustup, rustfmt. Community: exercism.io, #rust-beginners on mozilla irc. Docs, community, and tooling may seem easy and common, but are neither."
+    },
+    {
+      "type": "paragraph",
+      "id": "b3725970fbd7dece",
+      "text": "6. The hard part of programming is programming. Selling something on technical merit is easy. Getting to the point where you get to sell it on technical merit is hard."
+    },
+    {
+      "type": "paragraph",
+      "id": "4051c5f42e04cd28",
+      "text": "7. Be prepared for things to change. \"oh no, my rust parser is 2x slower than the js version\". Expected to sell rust for speed, instead selling it because of its safety. The slowdowns were due to not taking a lock on stdin and a small default stdio buffer. Making rust fast is hard, making rust correct is pretty simple."
+    },
+    {
+      "type": "paragraph",
+      "id": "6bfbd1c020852e2a",
+      "text": "8. Be prepared for things to stay the same. Boring code is my favorite code. Only change one thing at a time is to measure the impact of rust. Changing one thing at a time also prevents burning people out."
+    },
+    {
+      "type": "paragraph",
+      "id": "5cedac5dd202d341",
+      "text": "9. Have a problem to solve (this should be easy because all software is terrible). npm is averaging 2 billion downloads a week. They targeted transforming dynamic data into static. Find a problematic part of your project and try rewriting it in rust."
+    },
+    {
+      "type": "paragraph",
+      "id": "2c45472760a31be0",
+      "text": "10. Learning curves are a blessing in disguise. Learning something new can be energizing (even if or maybe even because it is hard)."
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Zen and the Art of Convincing Your Company",
+        "story": []
+      },
+      "date": 1564028028226
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "a1adc2cfbc40aa12"
+      },
+      "id": "a1adc2cfbc40aa12",
+      "type": "add",
+      "date": 1564028029886
+    },
+    {
+      "type": "edit",
+      "id": "a1adc2cfbc40aa12",
+      "item": {
+        "type": "paragraph",
+        "id": "a1adc2cfbc40aa12",
+        "text": "...to Use Rust."
+      },
+      "date": 1564028038147
+    },
+    {
+      "id": "91b532502003a1e0",
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "91b532502003a1e0",
+        "text": "Introducing rust into a company tips by Ashley Williams. [https://www.youtube.com/watch?v=GCsxYAxw3JQ youtube]"
+      },
+      "after": "a1adc2cfbc40aa12",
+      "date": 1564028047845
+    },
+    {
+      "id": "dd90bd74ffea47b9",
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "dd90bd74ffea47b9",
+        "text": "1. Don't rewrite your project in rust (at least not completely)"
+      },
+      "after": "91b532502003a1e0",
+      "date": 1564028050685
+    },
+    {
+      "id": "c657293d882e282b",
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "c657293d882e282b",
+        "text": "2. Show up with code"
+      },
+      "after": "dd90bd74ffea47b9",
+      "date": 1564028054165
+    },
+    {
+      "id": "50419e997d00749b",
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "50419e997d00749b",
+        "text": "3. Don't sell (too hard). Bashing other languages makes everyone look bad. You don't have to control other people's first experience of rust. Not everyone will love everything about rust (right away)."
+      },
+      "after": "c657293d882e282b",
+      "date": 1564028056666
+    },
+    {
+      "id": "1617e3e9c5c106e6",
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "1617e3e9c5c106e6",
+        "text": "4. Sell sell sell. Ambiently share things. reacji-channeler in slack."
+      },
+      "after": "50419e997d00749b",
+      "date": 1564028060044
+    },
+    {
+      "id": "321067c935bb04fe",
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "321067c935bb04fe",
+        "text": "5. The hard part of programming isn't programming. Docs: Nomicon, rust book, rust reference. Tools: cargo, clippy, rustup, rustfmt. Community: exercism.io, #rust-beginners on mozilla irc. Docs, community, and tooling may seem easy and common, but are neither."
+      },
+      "after": "1617e3e9c5c106e6",
+      "date": 1564028063443
+    },
+    {
+      "id": "b3725970fbd7dece",
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "b3725970fbd7dece",
+        "text": "6. The hard part of programming is programming. Selling something on technical merit is easy. Getting to the point where you get to sell it on technical merit is hard."
+      },
+      "after": "321067c935bb04fe",
+      "date": 1564028066936
+    },
+    {
+      "id": "4051c5f42e04cd28",
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "4051c5f42e04cd28",
+        "text": "7. Be prepared for things to change. \"oh no, my rust parser is 2x slower than the js version\". Expected to sell rust for speed, instead selling it because of its safety. The slowdowns were due to not taking a lock on stdin and a small default stdio buffer. Making rust fast is hard, making rust correct is pretty simple."
+      },
+      "after": "b3725970fbd7dece",
+      "date": 1564028069286
+    },
+    {
+      "id": "6bfbd1c020852e2a",
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "6bfbd1c020852e2a",
+        "text": "8. Be prepared for things to stay the same. Boring code is my favorite code. Only change one thing at a time is to measure the impact of rust. Changing one thing at a time also prevents burning people out."
+      },
+      "after": "b3725970fbd7dece",
+      "date": 1564028076510
+    },
+    {
+      "id": "6bfbd1c020852e2a",
+      "type": "move",
+      "order": [
+        "a1adc2cfbc40aa12",
+        "91b532502003a1e0",
+        "dd90bd74ffea47b9",
+        "c657293d882e282b",
+        "50419e997d00749b",
+        "1617e3e9c5c106e6",
+        "321067c935bb04fe",
+        "b3725970fbd7dece",
+        "4051c5f42e04cd28",
+        "6bfbd1c020852e2a"
+      ],
+      "date": 1564028081099
+    },
+    {
+      "id": "5cedac5dd202d341",
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "5cedac5dd202d341",
+        "text": "9. Have a problem to solve (this should be easy because all software is terrible). npm is averaging 2 billion downloads a week. They targeted transforming dynamic data into static. Find a problematic part of your project and try rewriting it in rust."
+      },
+      "after": "6bfbd1c020852e2a",
+      "date": 1564028087835
+    },
+    {
+      "id": "2c45472760a31be0",
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "2c45472760a31be0",
+        "text": "10. Learning curves are a blessing in disguise. Learning something new can be energizing (even if or maybe even because it is hard)."
+      },
+      "after": "5cedac5dd202d341",
+      "date": 1564028090640
+    }
+  ]
+}

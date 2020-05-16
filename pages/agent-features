@@ -1,0 +1,203 @@
+{
+  "title": "Agent Features",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "227ef3340153112c",
+      "text": "What should or could an agent do?"
+    },
+    {
+      "type": "paragraph",
+      "id": "6b5547dfe048af96",
+      "text": "First off, what do I mean by an 'agent'?"
+    },
+    {
+      "type": "paragraph",
+      "id": "fa26b54e866de7d5",
+      "text": "An agent is a program installed across a fleet of systems. Its purpose is to actively collect data about and to take actions on those systems."
+    },
+    {
+      "type": "paragraph",
+      "id": "e225ce0d3145ff7a",
+      "text": "The data being collected and the actions being performed are usually dictated in some manner by a server side program most commonly called a manager."
+    },
+    {
+      "type": "paragraph",
+      "id": "de3531006ea3f76b",
+      "text": "During my career, I've seen several different implementations of agents."
+    },
+    {
+      "type": "paragraph",
+      "id": "f262312291754d8a",
+      "text": "This is a collection of agent features I think are interesting."
+    },
+    {
+      "type": "paragraph",
+      "id": "c9683d8cd8a351fb",
+      "text": "* The ability to self-update (while protecting against a bad update from requiring manual intervention)"
+    },
+    {
+      "type": "paragraph",
+      "id": "8d113e436d1e5b47",
+      "text": "* Coordination with peers to share data"
+    },
+    {
+      "type": "paragraph",
+      "id": "6cb3ea77869b1591",
+      "text": "* Distributed caching"
+    },
+    {
+      "type": "paragraph",
+      "id": "11de3bf1c33a75d8",
+      "text": "* Remote access (even through firewalls)"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Agent Features",
+        "story": []
+      },
+      "date": 1564156960662
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "227ef3340153112c"
+      },
+      "id": "227ef3340153112c",
+      "type": "add",
+      "date": 1564156961638
+    },
+    {
+      "type": "edit",
+      "id": "227ef3340153112c",
+      "item": {
+        "type": "paragraph",
+        "id": "227ef3340153112c",
+        "text": "What should or could an agent do?"
+      },
+      "date": 1564157036968
+    },
+    {
+      "type": "add",
+      "id": "6b5547dfe048af96",
+      "item": {
+        "type": "paragraph",
+        "id": "6b5547dfe048af96",
+        "text": "First off, what do I mean by an 'agent'?"
+      },
+      "after": "227ef3340153112c",
+      "date": 1564157047719
+    },
+    {
+      "type": "add",
+      "id": "fa26b54e866de7d5",
+      "item": {
+        "type": "paragraph",
+        "id": "fa26b54e866de7d5",
+        "text": "An agent is a program installed across a fleet of systems. Its purpose is to actively collect data about and to take actions on those systems."
+      },
+      "after": "6b5547dfe048af96",
+      "date": 1564157220580
+    },
+    {
+      "type": "add",
+      "id": "e225ce0d3145ff7a",
+      "item": {
+        "type": "paragraph",
+        "id": "e225ce0d3145ff7a",
+        "text": "The data being collected and the actions being performed are usually dictated in some manner by a server side program most commonly called a manager."
+      },
+      "after": "fa26b54e866de7d5",
+      "date": 1564157254448
+    },
+    {
+      "type": "add",
+      "id": "de3531006ea3f76b",
+      "item": {
+        "type": "paragraph",
+        "id": "de3531006ea3f76b",
+        "text": "During my career, I've seen several different implementations of agents."
+      },
+      "after": "e225ce0d3145ff7a",
+      "date": 1564157279505
+    },
+    {
+      "type": "add",
+      "id": "f262312291754d8a",
+      "item": {
+        "type": "paragraph",
+        "id": "f262312291754d8a",
+        "text": "This is a collection of agent features I think are interesting."
+      },
+      "after": "de3531006ea3f76b",
+      "date": 1564157298105
+    },
+    {
+      "type": "add",
+      "id": "c9683d8cd8a351fb",
+      "item": {
+        "type": "paragraph",
+        "id": "c9683d8cd8a351fb",
+        "text": "* The ability to self-update"
+      },
+      "after": "f262312291754d8a",
+      "date": 1564157305636
+    },
+    {
+      "type": "edit",
+      "id": "c9683d8cd8a351fb",
+      "item": {
+        "type": "paragraph",
+        "id": "c9683d8cd8a351fb",
+        "text": "* The ability to self-update (while protecting against a bad update from requiring manual intervention)"
+      },
+      "date": 1564157327054
+    },
+    {
+      "type": "add",
+      "id": "8d113e436d1e5b47",
+      "item": {
+        "type": "paragraph",
+        "id": "8d113e436d1e5b47",
+        "text": "* "
+      },
+      "after": "c9683d8cd8a351fb",
+      "date": 1564157338649
+    },
+    {
+      "type": "edit",
+      "id": "8d113e436d1e5b47",
+      "item": {
+        "type": "paragraph",
+        "id": "8d113e436d1e5b47",
+        "text": "* Coordination with peers to share data"
+      },
+      "date": 1564157451477
+    },
+    {
+      "type": "add",
+      "id": "6cb3ea77869b1591",
+      "item": {
+        "type": "paragraph",
+        "id": "6cb3ea77869b1591",
+        "text": "* Distributed caching"
+      },
+      "after": "8d113e436d1e5b47",
+      "date": 1564157468298
+    },
+    {
+      "type": "add",
+      "id": "11de3bf1c33a75d8",
+      "item": {
+        "type": "paragraph",
+        "id": "11de3bf1c33a75d8",
+        "text": "* Remote access (even through firewalls)"
+      },
+      "after": "6cb3ea77869b1591",
+      "date": 1564157488016
+    }
+  ]
+}

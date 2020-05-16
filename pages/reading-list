@@ -1,0 +1,1176 @@
+{
+  "title": "Reading List",
+  "story": [
+    {
+      "type": "pagefold",
+      "id": "78d3142190686f0d",
+      "text": "Articles"
+    },
+    {
+      "type": "paragraph",
+      "id": "a8f6cdbaa7b3d310",
+      "text": "Links to articles to read at some point."
+    },
+    {
+      "type": "paragraph",
+      "id": "af21bff69552112d",
+      "text": "zsh prompt customization. [http://stevelosh.com/blog/2010/02/my-extravagant-zsh-prompt/ blog]"
+    },
+    {
+      "type": "paragraph",
+      "id": "b4120f89f3a4d8c4",
+      "text": "A terminal theme that comes highly recommended. [https://ethanschoonover.com/solarized/ website]"
+    },
+    {
+      "type": "paragraph",
+      "id": "c531f0e2b7a7acc9",
+      "text": "Dracula - Alternative theme a co-worker uses."
+    },
+    {
+      "type": "paragraph",
+      "id": "a1f0faa3c7797824",
+      "text": "String and Wiring Diagrams [https://twitter.com/KenScambler/status/1108738366529400832 tweet]"
+    },
+    {
+      "type": "paragraph",
+      "id": "17c7496ef6cfe503",
+      "text": "Article about Elixir / Pheonix [https://habr.com/en/post/449522/ site]"
+    },
+    {
+      "type": "paragraph",
+      "id": "e245a9ca2d7ebe21",
+      "text": "Tool to practice coding and get mentor feedback. [https://exercism.io/tracks/go exercism]"
+    },
+    {
+      "type": "paragraph",
+      "id": "a83ac91ada0abeb1",
+      "text": "Operating a High Scale Distributed System [https://blog.pragmaticengineer.com/operating-a-high-scale-distributed-system/ blog]"
+    },
+    {
+      "type": "paragraph",
+      "id": "08014053c56bee81",
+      "text": "7 foes of system intervention [https://humanisticsystems.com/2019/03/23/system-safety-seven-foes-of-intervention/ blog]"
+    },
+    {
+      "type": "paragraph",
+      "id": "2ee657968347114f",
+      "text": "AWS Builders' Library [https://aws.amazon.com/builders-library/ site]"
+    },
+    {
+      "type": "paragraph",
+      "id": "62c4cf861178213d",
+      "text": "Safety Differently papers [https://safetydifferently.com/papers/ site]"
+    },
+    {
+      "type": "paragraph",
+      "id": "9399557279e3aa28",
+      "text": "Etsy Debriefing guide [https://extfiles.etsy.com/DebriefingFacilitationGuide.pdf pdf]"
+    },
+    {
+      "type": "paragraph",
+      "id": "ae6a5a54fe07402c",
+      "text": "Styx protocol design doc [http://doc.cat-v.org/inferno/4th_edition/styx web]"
+    },
+    {
+      "type": "paragraph",
+      "id": "3d3b2fd616bfb543",
+      "text": "Obstacles to Learning from Incidents [https://www.learningfromincidents.io/blog/obstacles-to-learning-from-incidents web]"
+    },
+    {
+      "type": "paragraph",
+      "id": "950b08104853f5e4",
+      "text": "Managing the Hidden Costs of Coordination [https://queue.acm.org/detail.cfm?id=3380779 acm]"
+    },
+    {
+      "type": "paragraph",
+      "id": "cc3524ba20a01c92",
+      "text": "12 Principles of Error Management [http://aerossurance.com/helicopters/james-reasons-12-principles-error-management/ web]"
+    },
+    {
+      "type": "paragraph",
+      "id": "c32957320c3a0118",
+      "text": "STELLA Report [https://snafucatchers.github.io/ web]"
+    },
+    {
+      "type": "paragraph",
+      "id": "8a34b9f38e0e01ec",
+      "text": "Beyond Simon Slice [https://www.researchgate.net/publication/220628177_Beyond_Simon's_Slice_Five_Fundamental_Trade-Offs_that_Bound_the_Performance_of_Macrocognitive_Work_Systems rg]"
+    },
+    {
+      "type": "paragraph",
+      "id": "632aa186f90ea6b0",
+      "text": "HFACS - focuses too much on errors [https://www.skybrary.aero/index.php/Human_Factors_Analysis_and_Classification_System_(HFACS) web]"
+    },
+    {
+      "type": "paragraph",
+      "id": "f7c1c784f0501562",
+      "text": "Gall's Law - complex systems evolve from simpler working systems [https://en.wikipedia.org/wiki/John_Gall_(author)#Gall%27s_law wikipedia]"
+    },
+    {
+      "type": "paragraph",
+      "id": "d160ec4f19c4486d",
+      "text": "Safety II Professionals: how resilience engineering can transform safety practice [https://www.researchgate.net/publication/337179120_Safety_II_professionals_How_resilience_engineering_can_transform_safety_practice pdf]"
+    },
+    {
+      "type": "pagefold",
+      "id": "ce8eefc94ac36b61",
+      "text": " Books"
+    },
+    {
+      "type": "paragraph",
+      "id": "19da183d22b1066a",
+      "text": "Free Programming Books. [https://goalkicker.com/ website]"
+    },
+    {
+      "type": "paragraph",
+      "id": "32189050c8720163",
+      "text": "[http://learnvimscriptthehardway.stevelosh.com/ Learn Vim Script the Hard Way]"
+    },
+    {
+      "type": "paragraph",
+      "id": "0ffc936071fba75c",
+      "text": "[https://learning.oreilly.com/library/view/systems-performance-enterprise/9780133390124/ Systems Performance: Enterprise and the Cloud] [http://www.brendangregg.com/sysperfbook.html homepage]"
+    },
+    {
+      "type": "paragraph",
+      "id": "3f2751fb756844b7",
+      "text": "[https://learning.oreilly.com/library/view/streaming-systems/9781491983867/ Streaming Systems]"
+    },
+    {
+      "type": "paragraph",
+      "id": "01262d166585acb1",
+      "text": "[https://www.amazon.com/Navigating-Safety-Compromises-Trade-Offs-SpringerBriefs/dp/9400765487 Navigating Safety]"
+    },
+    {
+      "type": "paragraph",
+      "id": "dd0f6d93a1bf4444",
+      "text": "[https://www.amazon.com/Just-Culture-Sidney-Dekker/dp/1409440605 Just Culture]"
+    },
+    {
+      "type": "pagefold",
+      "id": "916aa6a34a1971c9",
+      "text": "Book on Testing"
+    },
+    {
+      "type": "paragraph",
+      "id": "d1c4818ccde276e2",
+      "text": "The Way of the Web Tester [https://learning.oreilly.com/library/view/the-way-of/9781680502251 safari]"
+    },
+    {
+      "type": "paragraph",
+      "id": "b8e1a764b4965bf7",
+      "text": "Beyond Legacy Code [https://learning.oreilly.com/library/view/beyond-legacy-code/9781680501827/ safari]"
+    },
+    {
+      "type": "paragraph",
+      "id": "0d811f8f67cbf026",
+      "text": "Manage Your Project Portfolio [https://learning.oreilly.com/library/view/manage-your-project/9781680502176/ safari]"
+    },
+    {
+      "type": "pagefold",
+      "id": "2a10328403d16e17",
+      "text": "Topic Wikis"
+    },
+    {
+      "type": "paragraph",
+      "id": "dd29b51e8ba1270d",
+      "text": "Theory of Graceful Extensibility [https://http://tge.wiki.dbbs.co wiki]"
+    },
+    {
+      "type": "paragraph",
+      "id": "87007531e0e96108",
+      "text": "Domain Driven Design [http://ddd.fed.wiki.org wiki]"
+    },
+    {
+      "type": "paragraph",
+      "id": "60a5a0ee02c4b47a",
+      "text": "C2 [http://c2.fed.wiki.org wiki]"
+    },
+    {
+      "type": "pagefold",
+      "id": "130a10973cd70dd1",
+      "text": "Wikis"
+    },
+    {
+      "type": "reference",
+      "id": "8d03ff7fa2c8d492",
+      "site": "wiki.dbbs.co",
+      "slug": "welcome-visitors",
+      "title": "Welcome Visitors",
+      "text": "Eric's wiki"
+    },
+    {
+      "type": "pagefold",
+      "id": "c5b48ac3a1d767ef",
+      "text": "Source Code"
+    },
+    {
+      "type": "paragraph",
+      "id": "9d2c00142ddd7610",
+      "text": "Game Source Code Collection [https://archive.org/details/gamesourcecode?&sort=-downloads&page=4 archive.org]"
+    },
+    {
+      "type": "pagefold",
+      "id": "3691eb63b5297a52",
+      "text": "Videos"
+    },
+    {
+      "type": "paragraph",
+      "id": "39fe975c2732fb82",
+      "text": "AWS re:Invent [https://reinventvideos.com/? videos]"
+    },
+    {
+      "type": "paragraph",
+      "id": "f508a4e6468da75c",
+      "text": "Functional programming in 40 minutes [https://www.youtube.com/watch?v=0if71HOyVjY youtube]"
+    },
+    {
+      "type": "paragraph",
+      "id": "4e77ae9932d0bbcd",
+      "text": "Podcast: Epic stories of NASA's mission to the Moon [https://podcasts.files.bbci.co.uk/w13xttx2.rss rss]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Reading List",
+        "story": []
+      },
+      "date": 1555091715432
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "a8f6cdbaa7b3d310"
+      },
+      "id": "a8f6cdbaa7b3d310",
+      "type": "add",
+      "date": 1555091717041
+    },
+    {
+      "type": "edit",
+      "id": "a8f6cdbaa7b3d310",
+      "item": {
+        "type": "paragraph",
+        "id": "a8f6cdbaa7b3d310",
+        "text": "Links to articles to read at some point."
+      },
+      "date": 1555091747168
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "pagefold",
+        "id": "78d3142190686f0d",
+        "text": "Articles"
+      },
+      "after": "cf22864da299332b",
+      "id": "78d3142190686f0d",
+      "date": 1555091754816
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "02d420711c31af02",
+        "text": "The Text Triumvirate. The article which first clued me into tmux. [http://www.drbunsen.org/the-text-triumvirate/ website]"
+      },
+      "after": "78d3142190686f0d",
+      "id": "02d420711c31af02",
+      "date": 1555091758828
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "539be9813d3adadf",
+        "text": "A good, but not quite as good article on the same. [https://www.lucasfcosta.com/2019/02/10/terminal-guide-2019.html website]"
+      },
+      "after": "02d420711c31af02",
+      "id": "539be9813d3adadf",
+      "date": 1555091761379
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "af21bff69552112d",
+        "text": "zsh prompt customization. [http://stevelosh.com/blog/2010/02/my-extravagant-zsh-prompt/ blog]"
+      },
+      "after": "539be9813d3adadf",
+      "id": "af21bff69552112d",
+      "date": 1555091764698
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "b4120f89f3a4d8c4",
+        "text": "A highly recommended terminal theme. [https://ethanschoonover.com/solarized/ website]"
+      },
+      "after": "af21bff69552112d",
+      "id": "b4120f89f3a4d8c4",
+      "date": 1555091768669
+    },
+    {
+      "type": "move",
+      "order": [
+        "78d3142190686f0d",
+        "a8f6cdbaa7b3d310",
+        "02d420711c31af02",
+        "539be9813d3adadf",
+        "af21bff69552112d",
+        "b4120f89f3a4d8c4"
+      ],
+      "id": "a8f6cdbaa7b3d310",
+      "date": 1555222930785
+    },
+    {
+      "type": "fork",
+      "site": "joshua.nrrd.wiki.org",
+      "date": 1555222948108
+    },
+    {
+      "type": "add",
+      "id": "ce8eefc94ac36b61",
+      "item": {
+        "type": "factory",
+        "id": "ce8eefc94ac36b61",
+        "text": "Books"
+      },
+      "after": "b4120f89f3a4d8c4",
+      "date": 1555344206534
+    },
+    {
+      "type": "edit",
+      "id": "ce8eefc94ac36b61",
+      "item": {
+        "type": "pagefold",
+        "id": "ce8eefc94ac36b61",
+        "text": " Books"
+      },
+      "date": 1555344210771
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "19da183d22b1066a"
+      },
+      "id": "19da183d22b1066a",
+      "type": "add",
+      "after": "ce8eefc94ac36b61",
+      "date": 1555344212366
+    },
+    {
+      "type": "edit",
+      "id": "19da183d22b1066a",
+      "item": {
+        "type": "paragraph",
+        "id": "19da183d22b1066a",
+        "text": "Free Programming Books. [https://goalkicker.com/ website]"
+      },
+      "date": 1555344216403
+    },
+    {
+      "type": "add",
+      "id": "32189050c8720163",
+      "item": {
+        "type": "paragraph",
+        "id": "32189050c8720163",
+        "text": "[http://learnvimscriptthehardway.stevelosh.com/ Learn Vim Script the Hard Way]"
+      },
+      "after": "19da183d22b1066a",
+      "date": 1555344227588
+    },
+    {
+      "type": "add",
+      "id": "a1f0faa3c7797824",
+      "item": {
+        "type": "paragraph",
+        "id": "a1f0faa3c7797824",
+        "text": "[https://twitter.com/KenScambler/status/1108738366529400832 "
+      },
+      "after": "b4120f89f3a4d8c4",
+      "date": 1556040801684
+    },
+    {
+      "type": "edit",
+      "id": "a1f0faa3c7797824",
+      "item": {
+        "type": "paragraph",
+        "id": "a1f0faa3c7797824",
+        "text": "String and Wiring Diagrams [https://twitter.com/KenScambler/status/1108738366529400832 tweet]"
+      },
+      "date": 1556040821583
+    },
+    {
+      "type": "edit",
+      "id": "b4120f89f3a4d8c4",
+      "item": {
+        "type": "paragraph",
+        "id": "b4120f89f3a4d8c4",
+        "text": "A terminal theme that comes highly recommended. [https://ethanschoonover.com/solarized/ website]"
+      },
+      "date": 1556040838177
+    },
+    {
+      "type": "add",
+      "id": "c531f0e2b7a7acc9",
+      "item": {
+        "type": "paragraph",
+        "id": "c531f0e2b7a7acc9",
+        "text": "Dracula - Alternative theme a co-worker uses."
+      },
+      "after": "b4120f89f3a4d8c4",
+      "date": 1556040856922
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "916aa6a34a1971c9"
+      },
+      "id": "916aa6a34a1971c9",
+      "type": "add",
+      "after": "32189050c8720163",
+      "date": 1556636682130
+    },
+    {
+      "type": "edit",
+      "id": "916aa6a34a1971c9",
+      "item": {
+        "type": "pagefold",
+        "id": "916aa6a34a1971c9",
+        "text": "Book on Testing"
+      },
+      "date": 1556636695998
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "d1c4818ccde276e2"
+      },
+      "id": "d1c4818ccde276e2",
+      "type": "add",
+      "after": "916aa6a34a1971c9",
+      "date": 1556636697329
+    },
+    {
+      "type": "edit",
+      "id": "d1c4818ccde276e2",
+      "item": {
+        "type": "paragraph",
+        "id": "d1c4818ccde276e2",
+        "text": "The Way of the Web Tester [https://learning.oreilly.com/library/view/the-way-of/9781680502251 safari]"
+      },
+      "date": 1556636713821
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "b8e1a764b4965bf7"
+      },
+      "id": "b8e1a764b4965bf7",
+      "type": "add",
+      "after": "d1c4818ccde276e2",
+      "date": 1556636729249
+    },
+    {
+      "type": "edit",
+      "id": "b8e1a764b4965bf7",
+      "item": {
+        "type": "paragraph",
+        "id": "b8e1a764b4965bf7",
+        "text": "Beyond Legacy Code [https://learning.oreilly.com/library/view/beyond-legacy-code/9781680501827/ safari]"
+      },
+      "date": 1556636738465
+    },
+    {
+      "type": "add",
+      "id": "0d811f8f67cbf026",
+      "item": {
+        "type": "paragraph",
+        "id": "0d811f8f67cbf026",
+        "text": "Manage Your Project Portfolio [https://learning.oreilly.com/library/view/manage-your-project/9781680502176/ safari]"
+      },
+      "after": "b8e1a764b4965bf7",
+      "date": 1556637019241
+    },
+    {
+      "type": "add",
+      "id": "17c7496ef6cfe503",
+      "item": {
+        "type": "paragraph",
+        "id": "17c7496ef6cfe503",
+        "text": "Article about Elixir / Pheonix [https://habr.com/en/post/449522/ site]"
+      },
+      "after": "a1f0faa3c7797824",
+      "date": 1556637753654
+    },
+    {
+      "type": "remove",
+      "id": "02d420711c31af02",
+      "date": 1556819587924
+    },
+    {
+      "type": "remove",
+      "id": "539be9813d3adadf",
+      "date": 1556819598206
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "2a10328403d16e17"
+      },
+      "id": "2a10328403d16e17",
+      "type": "add",
+      "after": "0d811f8f67cbf026",
+      "date": 1556903194988
+    },
+    {
+      "type": "edit",
+      "id": "2a10328403d16e17",
+      "item": {
+        "type": "pagefold",
+        "id": "2a10328403d16e17",
+        "text": "Topic Wikis"
+      },
+      "date": 1556903203250
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "8d620168b0a757c0"
+      },
+      "id": "8d620168b0a757c0",
+      "type": "add",
+      "after": "2a10328403d16e17",
+      "date": 1556903204727
+    },
+    {
+      "type": "remove",
+      "id": "8d620168b0a757c0",
+      "date": 1556903207928
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "dd29b51e8ba1270d"
+      },
+      "id": "dd29b51e8ba1270d",
+      "type": "add",
+      "after": "2a10328403d16e17",
+      "date": 1556903217238
+    },
+    {
+      "type": "edit",
+      "id": "dd29b51e8ba1270d",
+      "item": {
+        "type": "paragraph",
+        "id": "dd29b51e8ba1270d",
+        "text": "Theory of Graceful Extensibility ["
+      },
+      "date": 1556903228941
+    },
+    {
+      "type": "edit",
+      "id": "dd29b51e8ba1270d",
+      "item": {
+        "type": "paragraph",
+        "id": "dd29b51e8ba1270d",
+        "text": "Theory of Graceful Extensibility [https://http://tge.wiki.dbbs.co]"
+      },
+      "date": 1556903245729
+    },
+    {
+      "type": "add",
+      "id": "87007531e0e96108",
+      "item": {
+        "type": "paragraph",
+        "id": "87007531e0e96108",
+        "text": "Domain Driven Design "
+      },
+      "after": "dd29b51e8ba1270d",
+      "date": 1556903253708
+    },
+    {
+      "type": "edit",
+      "id": "dd29b51e8ba1270d",
+      "item": {
+        "type": "paragraph",
+        "id": "dd29b51e8ba1270d",
+        "text": "Theory of Graceful Extensibility [https://http://tge.wiki.dbbs.co wiki]"
+      },
+      "date": 1556903256892
+    },
+    {
+      "type": "edit",
+      "id": "87007531e0e96108",
+      "item": {
+        "type": "paragraph",
+        "id": "87007531e0e96108",
+        "text": "Domain Driven Design [https://ddd.fed.wiki.org wiki]"
+      },
+      "date": 1556903270723
+    },
+    {
+      "type": "edit",
+      "id": "87007531e0e96108",
+      "item": {
+        "type": "paragraph",
+        "id": "87007531e0e96108",
+        "text": "Domain Driven Design [http://ddd.fed.wiki.org wiki]"
+      },
+      "date": 1556903314915
+    },
+    {
+      "type": "add",
+      "id": "60a5a0ee02c4b47a",
+      "item": {
+        "type": "paragraph",
+        "id": "60a5a0ee02c4b47a",
+        "text": "C2 [http://c2.fed.wiki.org wiki"
+      },
+      "after": "87007531e0e96108",
+      "date": 1556903328872
+    },
+    {
+      "type": "edit",
+      "id": "60a5a0ee02c4b47a",
+      "item": {
+        "type": "paragraph",
+        "id": "60a5a0ee02c4b47a",
+        "text": "C2 [http://c2.fed.wiki.org wiki]"
+      },
+      "date": 1556903332490
+    },
+    {
+      "type": "edit",
+      "id": "60a5a0ee02c4b47a",
+      "item": {
+        "type": "paragraph",
+        "id": "60a5a0ee02c4b47a",
+        "text": "C2 [http://c2.fed.wiki.org wiki] - TODO: Find the correct link."
+      },
+      "date": 1556903359303
+    },
+    {
+      "type": "add",
+      "id": "e245a9ca2d7ebe21",
+      "item": {
+        "type": "paragraph",
+        "id": "e245a9ca2d7ebe21",
+        "text": "Exercism: Tool to practice coding and get mentor feedback. [https://exercism.io/tracks/go]"
+      },
+      "after": "17c7496ef6cfe503",
+      "date": 1558453623026
+    },
+    {
+      "type": "edit",
+      "id": "e245a9ca2d7ebe21",
+      "item": {
+        "type": "paragraph",
+        "id": "e245a9ca2d7ebe21",
+        "text": "Tool to practice coding and get mentor feedback. [https://exercism.io/tracks/go exercism]"
+      },
+      "date": 1558453635347
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "130a10973cd70dd1"
+      },
+      "id": "130a10973cd70dd1",
+      "type": "add",
+      "after": "60a5a0ee02c4b47a",
+      "date": 1559921335774
+    },
+    {
+      "type": "edit",
+      "id": "130a10973cd70dd1",
+      "item": {
+        "type": "pagefold",
+        "id": "130a10973cd70dd1",
+        "text": "Wikis"
+      },
+      "date": 1559921342820
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "8d03ff7fa2c8d492"
+      },
+      "id": "8d03ff7fa2c8d492",
+      "type": "add",
+      "after": "130a10973cd70dd1",
+      "date": 1559921344550
+    },
+    {
+      "type": "edit",
+      "id": "8d03ff7fa2c8d492",
+      "item": {
+        "type": "reference",
+        "id": "8d03ff7fa2c8d492",
+        "site": "wiki.dbbs.co",
+        "slug": "welcome-visitors",
+        "title": "Welcome Visitors",
+        "text": "Welcome to this [[Federated Wiki]] site. From this page you can find who we are and what we do. New sites provide this information and then claim the site as their own. You will need your own site to participate."
+      },
+      "date": 1559921364477
+    },
+    {
+      "type": "edit",
+      "id": "8d03ff7fa2c8d492",
+      "item": {
+        "type": "reference",
+        "id": "8d03ff7fa2c8d492",
+        "site": "wiki.dbbs.co",
+        "slug": "welcome-visitors",
+        "title": "Welcome Visitors",
+        "text": "Eric's wiki"
+      },
+      "date": 1559921372324
+    },
+    {
+      "type": "edit",
+      "id": "60a5a0ee02c4b47a",
+      "item": {
+        "type": "paragraph",
+        "id": "60a5a0ee02c4b47a",
+        "text": "C2 [http://c2.fed.wiki.org wiki]"
+      },
+      "date": 1564104754011
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "c5b48ac3a1d767ef"
+      },
+      "id": "c5b48ac3a1d767ef",
+      "type": "add",
+      "after": "8d03ff7fa2c8d492",
+      "date": 1564104765628
+    },
+    {
+      "type": "edit",
+      "id": "c5b48ac3a1d767ef",
+      "item": {
+        "type": "pagefold",
+        "id": "c5b48ac3a1d767ef",
+        "text": "Source Code"
+      },
+      "date": 1564104774087
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "9d2c00142ddd7610"
+      },
+      "id": "9d2c00142ddd7610",
+      "type": "add",
+      "after": "c5b48ac3a1d767ef",
+      "date": 1564104775840
+    },
+    {
+      "type": "edit",
+      "id": "9d2c00142ddd7610",
+      "item": {
+        "type": "paragraph",
+        "id": "9d2c00142ddd7610",
+        "text": "Game Source Code Collection [https://archive.org/details/gamesourcecode?&sort=-downloads&page=4 archive.org]"
+      },
+      "date": 1564104798901
+    },
+    {
+      "type": "add",
+      "id": "a83ac91ada0abeb1",
+      "item": {
+        "type": "paragraph",
+        "id": "a83ac91ada0abeb1",
+        "text": "Operating a High Scale Distributed System [https://blog.pragmaticengineer.com/operating-a-high-scale-distributed-system/ blog]"
+      },
+      "after": "e245a9ca2d7ebe21",
+      "date": 1564107281805
+    },
+    {
+      "type": "add",
+      "id": "f508a4e6468da75c",
+      "item": {
+        "type": "paragraph",
+        "id": "f508a4e6468da75c",
+        "text": "Functional programming in 40 minutes [https://www.youtube.com/watch?v=0if71HOyVjY youtube]"
+      },
+      "after": "a83ac91ada0abeb1",
+      "date": 1565410475582
+    },
+    {
+      "type": "add",
+      "id": "0ffc936071fba75c",
+      "item": {
+        "type": "paragraph",
+        "id": "0ffc936071fba75c",
+        "text": "[https://learning.oreilly.com/library/view/systems-performance-enterprise/9780133390124/ Systems Performance: Enterprise and the Cloud]"
+      },
+      "after": "32189050c8720163",
+      "date": 1570142786921
+    },
+    {
+      "type": "edit",
+      "id": "0ffc936071fba75c",
+      "item": {
+        "type": "paragraph",
+        "id": "0ffc936071fba75c",
+        "text": "[https://learning.oreilly.com/library/view/systems-performance-enterprise/9780133390124/ Systems Performance: Enterprise and the Cloud] [http://www.brendangregg.com/sysperfbook.html homepage]"
+      },
+      "date": 1570142814392
+    },
+    {
+      "type": "add",
+      "id": "3f2751fb756844b7",
+      "item": {
+        "type": "paragraph",
+        "id": "3f2751fb756844b7",
+        "text": "[https://learning.oreilly.com/library/view/streaming-systems/9781491983867/ Streaming Systems]"
+      },
+      "after": "0ffc936071fba75c",
+      "date": 1571079017467,
+      "error": {
+        "type": "error",
+        "msg": "Forbidden",
+        "response": "Forbidden"
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1571079034079
+    },
+    {
+      "type": "add",
+      "id": "08014053c56bee81",
+      "item": {
+        "type": "paragraph",
+        "id": "08014053c56bee81",
+        "text": "7 foes of system intervention [https://humanisticsystems.com/2019/03/23/system-safety-seven-foes-of-intervention/ blog]"
+      },
+      "after": "f508a4e6468da75c",
+      "date": 1573059168206
+    },
+    {
+      "type": "add",
+      "id": "39fe975c2732fb82",
+      "item": {
+        "type": "paragraph",
+        "id": "39fe975c2732fb82",
+        "text": "AWS re:Invent [https://reinventvideos.com/? videos]"
+      },
+      "after": "9d2c00142ddd7610",
+      "date": 1576103968178,
+      "error": {
+        "type": "error",
+        "msg": "Forbidden",
+        "response": "Forbidden"
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1576103971634,
+      "error": {
+        "type": "error",
+        "msg": "Forbidden",
+        "response": "Forbidden"
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1576103989144
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "3691eb63b5297a52"
+      },
+      "id": "3691eb63b5297a52",
+      "type": "add",
+      "after": "39fe975c2732fb82",
+      "date": 1576103992567
+    },
+    {
+      "type": "edit",
+      "id": "3691eb63b5297a52",
+      "item": {
+        "type": "pagefold",
+        "id": "3691eb63b5297a52",
+        "text": "Videos"
+      },
+      "date": 1576103998878
+    },
+    {
+      "id": "3691eb63b5297a52",
+      "type": "move",
+      "order": [
+        "78d3142190686f0d",
+        "a8f6cdbaa7b3d310",
+        "af21bff69552112d",
+        "b4120f89f3a4d8c4",
+        "c531f0e2b7a7acc9",
+        "a1f0faa3c7797824",
+        "17c7496ef6cfe503",
+        "e245a9ca2d7ebe21",
+        "a83ac91ada0abeb1",
+        "f508a4e6468da75c",
+        "08014053c56bee81",
+        "ce8eefc94ac36b61",
+        "19da183d22b1066a",
+        "32189050c8720163",
+        "0ffc936071fba75c",
+        "3f2751fb756844b7",
+        "916aa6a34a1971c9",
+        "d1c4818ccde276e2",
+        "b8e1a764b4965bf7",
+        "0d811f8f67cbf026",
+        "2a10328403d16e17",
+        "dd29b51e8ba1270d",
+        "87007531e0e96108",
+        "60a5a0ee02c4b47a",
+        "130a10973cd70dd1",
+        "8d03ff7fa2c8d492",
+        "c5b48ac3a1d767ef",
+        "9d2c00142ddd7610",
+        "3691eb63b5297a52",
+        "39fe975c2732fb82"
+      ],
+      "date": 1576104001652
+    },
+    {
+      "id": "f508a4e6468da75c",
+      "type": "move",
+      "order": [
+        "78d3142190686f0d",
+        "a8f6cdbaa7b3d310",
+        "af21bff69552112d",
+        "b4120f89f3a4d8c4",
+        "c531f0e2b7a7acc9",
+        "a1f0faa3c7797824",
+        "17c7496ef6cfe503",
+        "e245a9ca2d7ebe21",
+        "a83ac91ada0abeb1",
+        "08014053c56bee81",
+        "ce8eefc94ac36b61",
+        "19da183d22b1066a",
+        "32189050c8720163",
+        "0ffc936071fba75c",
+        "3f2751fb756844b7",
+        "916aa6a34a1971c9",
+        "d1c4818ccde276e2",
+        "b8e1a764b4965bf7",
+        "0d811f8f67cbf026",
+        "2a10328403d16e17",
+        "dd29b51e8ba1270d",
+        "87007531e0e96108",
+        "60a5a0ee02c4b47a",
+        "130a10973cd70dd1",
+        "8d03ff7fa2c8d492",
+        "c5b48ac3a1d767ef",
+        "9d2c00142ddd7610",
+        "3691eb63b5297a52",
+        "39fe975c2732fb82",
+        "f508a4e6468da75c"
+      ],
+      "date": 1576104034715
+    },
+    {
+      "type": "add",
+      "id": "2ee657968347114f",
+      "item": {
+        "type": "paragraph",
+        "id": "2ee657968347114f",
+        "text": "AWS Builders Library [https://aws.amazon.com/builders-library/ site]"
+      },
+      "after": "08014053c56bee81",
+      "date": 1576104324214
+    },
+    {
+      "type": "edit",
+      "id": "2ee657968347114f",
+      "item": {
+        "type": "paragraph",
+        "id": "2ee657968347114f",
+        "text": "AWS Builders' Library [https://aws.amazon.com/builders-library/ site]"
+      },
+      "date": 1576104336286
+    },
+    {
+      "type": "add",
+      "id": "62c4cf861178213d",
+      "item": {
+        "type": "paragraph",
+        "id": "62c4cf861178213d",
+        "text": "Safety Differently papers [https://safetydifferently.com/papers/ site]"
+      },
+      "after": "2ee657968347114f",
+      "date": 1576104365661
+    },
+    {
+      "type": "add",
+      "id": "9399557279e3aa28",
+      "item": {
+        "type": "paragraph",
+        "id": "9399557279e3aa28",
+        "text": "Etsy Debriefing guide [https://extfiles.etsy.com/DebriefingFacilitationGuide.pdf pdf]"
+      },
+      "after": "62c4cf861178213d",
+      "date": 1576104391311
+    },
+    {
+      "type": "add",
+      "id": "ae6a5a54fe07402c",
+      "item": {
+        "type": "paragraph",
+        "id": "ae6a5a54fe07402c",
+        "text": "Styx protocol design doc [http://doc.cat-v.org/inferno/4th_edition/styx web]"
+      },
+      "after": "9399557279e3aa28",
+      "date": 1576108325331
+    },
+    {
+      "type": "add",
+      "id": "01262d166585acb1",
+      "item": {
+        "type": "paragraph",
+        "id": "01262d166585acb1",
+        "text": "[https://www.amazon.com/Navigating-Safety-Compromises-Trade-Offs-SpringerBriefs/dp/9400765487 Navigating Safety]"
+      },
+      "after": "3f2751fb756844b7",
+      "date": 1582926623537
+    },
+    {
+      "type": "add",
+      "id": "3d3b2fd616bfb543",
+      "item": {
+        "type": "paragraph",
+        "id": "3d3b2fd616bfb543",
+        "text": "Obstacles to Learning from Incidents [https://www.learningfromincidents.io/blog/obstacles-to-learning-from-incidents web]"
+      },
+      "after": "ae6a5a54fe07402c",
+      "date": 1582926687290
+    },
+    {
+      "type": "add",
+      "id": "950b08104853f5e4",
+      "item": {
+        "type": "paragraph",
+        "id": "950b08104853f5e4",
+        "text": "Managing the Hidden Costs of Coordination [https://queue.acm.org/detail.cfm?id=3380779 acm]"
+      },
+      "after": "3d3b2fd616bfb543",
+      "date": 1583169566093
+    },
+    {
+      "type": "add",
+      "id": "cc3524ba20a01c92",
+      "item": {
+        "type": "paragraph",
+        "id": "cc3524ba20a01c92",
+        "text": "12 Principles of Error Management [http://aerossurance.com/helicopters/james-reasons-12-principles-error-management/ web]"
+      },
+      "after": "950b08104853f5e4",
+      "date": 1583511511468
+    },
+    {
+      "type": "add",
+      "id": "c32957320c3a0118",
+      "item": {
+        "type": "paragraph",
+        "id": "c32957320c3a0118",
+        "text": "STELLA Report [https://snafucatchers.github.io/ web]"
+      },
+      "after": "cc3524ba20a01c92",
+      "date": 1583511533443
+    },
+    {
+      "type": "add",
+      "id": "8a34b9f38e0e01ec",
+      "item": {
+        "type": "paragraph",
+        "id": "8a34b9f38e0e01ec",
+        "text": "Beyond Simon Slice [https://www.researchgate.net/publication/220628177_Beyond_Simon's_Slice_Five_Fundamental_Trade-Offs_that_Bound_the_Performance_of_Macrocognitive_Work_Systems rg]"
+      },
+      "after": "c32957320c3a0118",
+      "date": 1583511643976
+    },
+    {
+      "type": "add",
+      "id": "632aa186f90ea6b0",
+      "item": {
+        "type": "paragraph",
+        "id": "632aa186f90ea6b0",
+        "text": "HFACS - focuses too much on errors [https://www.skybrary.aero/index.php/Human_Factors_Analysis_and_Classification_System_(HFACS) web]"
+      },
+      "after": "8a34b9f38e0e01ec",
+      "date": 1583511723259
+    },
+    {
+      "type": "add",
+      "id": "f7c1c784f0501562",
+      "item": {
+        "type": "paragraph",
+        "id": "f7c1c784f0501562",
+        "text": "Gall's Law - complex systems evolve from simpler working systems [https://en.wikipedia.org/wiki/John_Gall_(author)#Gall%27s_law wikipedia]"
+      },
+      "after": "632aa186f90ea6b0",
+      "date": 1583511775528
+    },
+    {
+      "type": "add",
+      "id": "d160ec4f19c4486d",
+      "item": {
+        "type": "paragraph",
+        "id": "d160ec4f19c4486d",
+        "text": "Safety II Professionals: how resilience engineering can transform safety practice [https://www.researchgate.net/publication/337179120_Safety_II_professionals_How_resilience_engineering_can_transform_safety_practice pdf]"
+      },
+      "after": "f7c1c784f0501562",
+      "date": 1583939903723,
+      "error": {
+        "type": "error",
+        "msg": "Forbidden",
+        "response": "Forbidden"
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1583939949256
+    },
+    {
+      "type": "add",
+      "id": "dd0f6d93a1bf4444",
+      "item": {
+        "type": "paragraph",
+        "id": "dd0f6d93a1bf4444",
+        "text": "[https://www.amazon.com/Just-Culture-Sidney-Dekker/dp/1409440605 Just Culture]"
+      },
+      "after": "01262d166585acb1",
+      "date": 1583940519112
+    },
+    {
+      "type": "add",
+      "id": "4e77ae9932d0bbcd",
+      "item": {
+        "type": "paragraph",
+        "id": "4e77ae9932d0bbcd",
+        "text": "Epic stories of NASA's mission to the Moon [https://podcasts.files.bbci.co.uk/w13xttx2.rss rss]"
+      },
+      "after": "f508a4e6468da75c",
+      "date": 1584991443633
+    },
+    {
+      "type": "edit",
+      "id": "4e77ae9932d0bbcd",
+      "item": {
+        "type": "paragraph",
+        "id": "4e77ae9932d0bbcd",
+        "text": "Podcast: Epic stories of NASA's mission to the Moon [https://podcasts.files.bbci.co.uk/w13xttx2.rss rss]"
+      },
+      "date": 1584991450995
+    }
+  ]
+}

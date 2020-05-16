@@ -1,0 +1,113 @@
+{
+  "title": "Debian",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "7d08aa29dd9eeb7e",
+      "text": "Debian Linux is the foundation for quite a few other Linux distributions."
+    },
+    {
+      "type": "paragraph",
+      "id": "32008d9c03ac67ac",
+      "text": "It takes a hard line approach when it comes to non-free software. Their default images do not include any proprietary drivers."
+    },
+    {
+      "type": "paragraph",
+      "id": "f50c2a326e800b3f",
+      "text": "I have an udoo x86 which makes use of Intel chips. The firmware for my wireless card ships as a proprietary blob and needs to be downloaded separately if you make the mistake I did and download the default installer."
+    },
+    {
+      "type": "paragraph",
+      "id": "1e5b4740626fde87",
+      "text": "Intel hosts them on a site, you just have to pay careful attention to the filename displayed by the error message in the Debian installer. [https://www.intel.com/content/www/us/en/support/articles/000005511/network-and-i-o/wireless-networking.html intel] [https://wiki.debian.org/Firmware instructions]"
+    },
+    {
+      "type": "paragraph",
+      "id": "7f25edd9b00b5df3",
+      "text": "If booting your system takes forever, it might be because of a recent switch to using a true random number generator rather than a pseudo random one. A previous project I worked on had this same problem. Security definitely comes at a cost. [https://daniel-lange.com/archives/152-hello-buster.html post]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Debian",
+        "story": []
+      },
+      "date": 1564105273237
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "7d08aa29dd9eeb7e"
+      },
+      "id": "7d08aa29dd9eeb7e",
+      "type": "add",
+      "date": 1564105274431
+    },
+    {
+      "type": "edit",
+      "id": "7d08aa29dd9eeb7e",
+      "item": {
+        "type": "paragraph",
+        "id": "7d08aa29dd9eeb7e",
+        "text": "Debian Linux is the foundation for quite a few other Linux distributions."
+      },
+      "date": 1564105310941
+    },
+    {
+      "type": "add",
+      "id": "32008d9c03ac67ac",
+      "item": {
+        "type": "paragraph",
+        "id": "32008d9c03ac67ac",
+        "text": "It takes a hard line approach when it comes to non-free software. Their default images do not include any proprietary drivers."
+      },
+      "after": "7d08aa29dd9eeb7e",
+      "date": 1564105341441
+    },
+    {
+      "type": "add",
+      "id": "f50c2a326e800b3f",
+      "item": {
+        "type": "paragraph",
+        "id": "f50c2a326e800b3f",
+        "text": "I have an udoo x86 which makes use of Intel chips. The firmware for my wireless card ships as a proprietary blob and needs to be downloaded separately if you make the mistake I did and download the default installer."
+      },
+      "after": "32008d9c03ac67ac",
+      "date": 1564105402271
+    },
+    {
+      "type": "add",
+      "id": "1e5b4740626fde87",
+      "item": {
+        "type": "paragraph",
+        "id": "1e5b4740626fde87",
+        "text": "Intel hosts them on a site, you just have to pay careful attention to the filename displayed by the error message in the Debian installer. [https://www.intel.com/content/www/us/en/support/articles/000005511/network-and-i-o/wireless-networking.html intel]"
+      },
+      "after": "f50c2a326e800b3f",
+      "date": 1564105444914
+    },
+    {
+      "type": "edit",
+      "id": "1e5b4740626fde87",
+      "item": {
+        "type": "paragraph",
+        "id": "1e5b4740626fde87",
+        "text": "Intel hosts them on a site, you just have to pay careful attention to the filename displayed by the error message in the Debian installer. [https://www.intel.com/content/www/us/en/support/articles/000005511/network-and-i-o/wireless-networking.html intel] [https://wiki.debian.org/Firmware instructions]"
+      },
+      "date": 1564105475619
+    },
+    {
+      "type": "add",
+      "id": "7f25edd9b00b5df3",
+      "item": {
+        "type": "paragraph",
+        "id": "7f25edd9b00b5df3",
+        "text": "If booting your system takes forever, it might be because of a recent switch to using a true random number generator rather than a pseudo random one. A previous project I worked on had this same problem. Security definitely comes at a cost. [https://daniel-lange.com/archives/152-hello-buster.html post]"
+      },
+      "after": "1e5b4740626fde87",
+      "date": 1564115866406
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "title": "mysql",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "6efb51149aae8dc5",
+      "text": "..."
+    },
+    {
+      "type": "paragraph",
+      "id": "989bbc8b0a6e8448",
+      "text": "Config files [https://dev.mysql.com/doc/refman/8.0/en/option-files.html docs]"
+    },
+    {
+      "type": "paragraph",
+      "id": "936824207965675c",
+      "text": "Connecting to databases [https://dev.mysql.com/doc/refman/8.0/en/creating-database.html docs]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "mysql",
+        "story": []
+      },
+      "date": 1567784105240
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "6efb51149aae8dc5"
+      },
+      "id": "6efb51149aae8dc5",
+      "type": "add",
+      "date": 1567784107058
+    },
+    {
+      "type": "edit",
+      "id": "6efb51149aae8dc5",
+      "item": {
+        "type": "paragraph",
+        "id": "6efb51149aae8dc5",
+        "text": "..."
+      },
+      "date": 1567784110029
+    },
+    {
+      "type": "add",
+      "id": "989bbc8b0a6e8448",
+      "item": {
+        "type": "paragraph",
+        "id": "989bbc8b0a6e8448",
+        "text": "Config files [https://dev.mysql.com/doc/refman/8.0/en/option-files.html docs]"
+      },
+      "after": "6efb51149aae8dc5",
+      "date": 1567784119193
+    },
+    {
+      "type": "add",
+      "id": "936824207965675c",
+      "item": {
+        "type": "paragraph",
+        "id": "936824207965675c",
+        "text": "Connecting to databases [https://dev.mysql.com/doc/refman/8.0/en/creating-database.html docs]"
+      },
+      "after": "989bbc8b0a6e8448",
+      "date": 1567784136174
+    }
+  ]
+}

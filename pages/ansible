@@ -1,0 +1,81 @@
+{
+  "title": "ansible",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "23751cdc1eda4313",
+      "text": "Tool used to automate running ssh commands across many systems."
+    },
+    {
+      "type": "paragraph",
+      "id": "62875df580b87365",
+      "text": "Running your first command and playbook. [https://docs.ansible.com/ansible/latest/network/getting_started/first_playbook.html docs]"
+    },
+    {
+      "type": "paragraph",
+      "id": "8c76cd2e4f8c0b25",
+      "text": "hosts files [https://docs.ansible.com/ansible/latest/user_guide/intro_inventory.html doc]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "ansible",
+        "story": []
+      },
+      "date": 1556590931887
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "23751cdc1eda4313"
+      },
+      "id": "23751cdc1eda4313",
+      "type": "add",
+      "date": 1556590934067
+    },
+    {
+      "type": "edit",
+      "id": "23751cdc1eda4313",
+      "item": {
+        "type": "paragraph",
+        "id": "23751cdc1eda4313",
+        "text": "Tool used to automate running ssh commands across many systems."
+      },
+      "date": 1556591009502
+    },
+    {
+      "type": "add",
+      "id": "8c76cd2e4f8c0b25",
+      "item": {
+        "type": "paragraph",
+        "id": "8c76cd2e4f8c0b25",
+        "text": "[https://docs.ansible.com/ansible/latest/user_guide/intro_inventory.html]"
+      },
+      "after": "23751cdc1eda4313",
+      "date": 1556591028722
+    },
+    {
+      "type": "edit",
+      "id": "8c76cd2e4f8c0b25",
+      "item": {
+        "type": "paragraph",
+        "id": "8c76cd2e4f8c0b25",
+        "text": "hosts files [https://docs.ansible.com/ansible/latest/user_guide/intro_inventory.html doc]"
+      },
+      "date": 1556591046252
+    },
+    {
+      "type": "add",
+      "id": "62875df580b87365",
+      "item": {
+        "type": "paragraph",
+        "id": "62875df580b87365",
+        "text": "Running your first command and playbook. [https://docs.ansible.com/ansible/latest/network/getting_started/first_playbook.html docs]"
+      },
+      "after": "23751cdc1eda4313",
+      "date": 1560378433252
+    }
+  ]
+}

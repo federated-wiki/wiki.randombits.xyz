@@ -1,0 +1,65 @@
+{
+  "title": "dotenv",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "3125b521b2340daa",
+      "text": "A common pattern to provide a simple way for setting needed environmental variables when running cloud services."
+    },
+    {
+      "type": "paragraph",
+      "id": "7d5d1c62b02797ed",
+      "text": "Ruby implementation [https://github.com/bkeepers/dotenv github]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "dotenv",
+        "story": []
+      },
+      "date": 1556590142811
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "3125b521b2340daa"
+      },
+      "id": "3125b521b2340daa",
+      "type": "add",
+      "date": 1556590144365
+    },
+    {
+      "type": "edit",
+      "id": "3125b521b2340daa",
+      "item": {
+        "type": "paragraph",
+        "id": "3125b521b2340daa",
+        "text": "A common pattern to provide a simple way for setting needed environmental variables when running cloud services."
+      },
+      "date": 1556590169188
+    },
+    {
+      "type": "add",
+      "id": "7d5d1c62b02797ed",
+      "item": {
+        "type": "paragraph",
+        "id": "7d5d1c62b02797ed",
+        "text": "Ruby implementation"
+      },
+      "after": "3125b521b2340daa",
+      "date": 1556590179247
+    },
+    {
+      "type": "edit",
+      "id": "7d5d1c62b02797ed",
+      "item": {
+        "type": "paragraph",
+        "id": "7d5d1c62b02797ed",
+        "text": "Ruby implementation [https://github.com/bkeepers/dotenv github]"
+      },
+      "date": 1556590190487
+    }
+  ]
+}

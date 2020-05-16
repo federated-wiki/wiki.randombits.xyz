@@ -1,0 +1,159 @@
+{
+  "title": "WebUSB",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "c230a69defb1bb46",
+      "text": "Information about controlling USB devices using web pages."
+    },
+    {
+      "type": "paragraph",
+      "id": "38e3c5292fbe986e",
+      "text": "Access USB device over the web example. [https://developers.google.com/web/updates/2016/03/access-usb-devices-on-the-web google]"
+    },
+    {
+      "type": "paragraph",
+      "id": "e30e992228389850",
+      "text": "Draft WebUSB spec [https://wicg.github.io/webusb/ github]"
+    },
+    {
+      "type": "paragraph",
+      "id": "5eefaa9ab769f6d9",
+      "text": "Local whitelist request [https://github.com/WICG/webusb/issues/48 github]"
+    },
+    {
+      "type": "paragraph",
+      "id": "9943f0923f9389ab",
+      "text": "Temporary workaround while waiting for public device registry: --disable-webusb-security [https://bugs.chromium.org/p/chromium/issues/detail?id=598763 bug]"
+    },
+    {
+      "type": "paragraph",
+      "id": "1dc3c58ea276feaf",
+      "text": "Public device registry not happening [https://bugs.chromium.org/p/chromium/issues/detail?id=598765 bug]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "WebUSB",
+        "story": []
+      },
+      "date": 1557755540520
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "c230a69defb1bb46"
+      },
+      "id": "c230a69defb1bb46",
+      "type": "add",
+      "date": 1557755541883
+    },
+    {
+      "type": "edit",
+      "id": "c230a69defb1bb46",
+      "item": {
+        "type": "paragraph",
+        "id": "c230a69defb1bb46",
+        "text": "Information about controlling USB devices using web pages."
+      },
+      "date": 1557755562399
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "1dc3c58ea276feaf"
+      },
+      "id": "1dc3c58ea276feaf",
+      "type": "add",
+      "after": "c230a69defb1bb46",
+      "date": 1557755570764
+    },
+    {
+      "type": "edit",
+      "id": "1dc3c58ea276feaf",
+      "item": {
+        "type": "paragraph",
+        "id": "1dc3c58ea276feaf",
+        "text": "Public device registry not happening [https://bugs.chromium.org/p/chromium/issues/detail?id=598765 bug]"
+      },
+      "date": 1557755593583
+    },
+    {
+      "type": "add",
+      "id": "5eefaa9ab769f6d9",
+      "item": {
+        "type": "paragraph",
+        "id": "5eefaa9ab769f6d9",
+        "text": "--disable-web-security [https://bugs.chromium.org/p/chromium/issues/detail?id=598763 bug]"
+      },
+      "after": "1dc3c58ea276feaf",
+      "date": 1557755612703
+    },
+    {
+      "type": "edit",
+      "id": "5eefaa9ab769f6d9",
+      "item": {
+        "type": "paragraph",
+        "id": "5eefaa9ab769f6d9",
+        "text": "Temporary workaround while waiting for public device registry: --disable-webusb-security [https://bugs.chromium.org/p/chromium/issues/detail?id=598763 bug]"
+      },
+      "date": 1557755642438
+    },
+    {
+      "type": "add",
+      "id": "e30e992228389850",
+      "item": {
+        "type": "paragraph",
+        "id": "e30e992228389850",
+        "text": "Draft WebUSB spec [https://wicg.github.io/webusb/ github]"
+      },
+      "after": "c230a69defb1bb46",
+      "date": 1557755684105
+    },
+    {
+      "type": "move",
+      "order": [
+        "c230a69defb1bb46",
+        "e30e992228389850",
+        "5eefaa9ab769f6d9",
+        "1dc3c58ea276feaf"
+      ],
+      "id": "1dc3c58ea276feaf",
+      "date": 1557755713206
+    },
+    {
+      "type": "edit",
+      "id": "5eefaa9ab769f6d9",
+      "item": {
+        "type": "paragraph",
+        "id": "5eefaa9ab769f6d9",
+        "text": "Local whitelist request [https://github.com/WICG/webusb/issues/48 github]"
+      },
+      "date": 1557755728544
+    },
+    {
+      "type": "add",
+      "id": "9943f0923f9389ab",
+      "item": {
+        "type": "paragraph",
+        "id": "9943f0923f9389ab",
+        "text": "Temporary workaround while waiting for public device registry: --disable-webusb-security [https://bugs.chromium.org/p/chromium/issues/detail?id=598763 bug]"
+      },
+      "after": "5eefaa9ab769f6d9",
+      "date": 1557755729660
+    },
+    {
+      "type": "add",
+      "id": "38e3c5292fbe986e",
+      "item": {
+        "type": "paragraph",
+        "id": "38e3c5292fbe986e",
+        "text": "Access USB device over the web example. [https://developers.google.com/web/updates/2016/03/access-usb-devices-on-the-web google]"
+      },
+      "after": "c230a69defb1bb46",
+      "date": 1557755782024
+    }
+  ]
+}

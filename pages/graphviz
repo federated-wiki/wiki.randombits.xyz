@@ -1,0 +1,134 @@
+{
+  "title": "graphviz",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "97a3959934fd827b",
+      "text": "DSL for generating diagrams."
+    },
+    {
+      "type": "paragraph",
+      "id": "28897de201baaf35",
+      "text": "DOT language spec [https://graphviz.gitlab.io/_pages/doc/info/lang.html gitlab]"
+    },
+    {
+      "type": "paragraph",
+      "id": "8e218c44ba5a72cd",
+      "text": "Website for experimenting with dot [http://viz-js.com/ site]"
+    },
+    {
+      "type": "paragraph",
+      "id": "277104d7f3fa198b",
+      "text": "DOT user guide [https://graphviz.gitlab.io/_pages/pdf/dotguide.pdf pdf]"
+    },
+    {
+      "type": "paragraph",
+      "id": "10b2f3a3ac7de396",
+      "text": "NEATO user guide [https://www.graphviz.org/pdf/neatoguide.pdf pdf]"
+    },
+    {
+      "type": "reference",
+      "id": "a6cf8b56f434771c",
+      "site": "ward.fed.wiki.org",
+      "slug": "graphviz-idioms",
+      "title": "Graphviz Idioms",
+      "text": "I make the same sort of diagrams over and over. Here I list fragments of dot code that have proven useful. [http://graphviz.org/ website]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "graphviz",
+        "story": []
+      },
+      "date": 1556584498915
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "97a3959934fd827b"
+      },
+      "id": "97a3959934fd827b",
+      "type": "add",
+      "date": 1556584500378
+    },
+    {
+      "type": "edit",
+      "id": "97a3959934fd827b",
+      "item": {
+        "type": "paragraph",
+        "id": "97a3959934fd827b",
+        "text": "DSL for generating diagrams."
+      },
+      "date": 1556584515264
+    },
+    {
+      "type": "add",
+      "id": "28897de201baaf35",
+      "item": {
+        "type": "paragraph",
+        "id": "28897de201baaf35",
+        "text": "DOT language spec [https://graphviz.gitlab.io/_pages/doc/info/lang.html gitlab]"
+      },
+      "after": "97a3959934fd827b",
+      "date": 1556584539322
+    },
+    {
+      "type": "add",
+      "id": "8e218c44ba5a72cd",
+      "item": {
+        "type": "paragraph",
+        "id": "8e218c44ba5a72cd",
+        "text": "Website for experimenting with dot [http://viz-js.com/ site]"
+      },
+      "after": "28897de201baaf35",
+      "date": 1556584569412
+    },
+    {
+      "type": "add",
+      "id": "277104d7f3fa198b",
+      "item": {
+        "type": "paragraph",
+        "id": "277104d7f3fa198b",
+        "text": "DOT user guide [https://graphviz.gitlab.io/_pages/pdf/dotguide.pdf pdf]"
+      },
+      "after": "8e218c44ba5a72cd",
+      "date": 1556584691133
+    },
+    {
+      "type": "add",
+      "id": "10b2f3a3ac7de396",
+      "item": {
+        "type": "paragraph",
+        "id": "10b2f3a3ac7de396",
+        "text": "NEATO user guide [https://www.graphviz.org/pdf/neatoguide.pdf pdf]"
+      },
+      "after": "277104d7f3fa198b",
+      "date": 1556584715446
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "a6cf8b56f434771c"
+      },
+      "id": "a6cf8b56f434771c",
+      "type": "add",
+      "after": "10b2f3a3ac7de396",
+      "date": 1556857591364
+    },
+    {
+      "type": "edit",
+      "id": "a6cf8b56f434771c",
+      "item": {
+        "type": "reference",
+        "id": "a6cf8b56f434771c",
+        "site": "ward.fed.wiki.org",
+        "slug": "graphviz-idioms",
+        "title": "Graphviz Idioms",
+        "text": "I make the same sort of diagrams over and over. Here I list fragments of dot code that have proven useful. [http://graphviz.org/ website]"
+      },
+      "date": 1556857857407
+    }
+  ]
+}

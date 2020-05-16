@@ -1,0 +1,521 @@
+{
+  "title": "Jupyter Notebook",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "d56ef37bc669854a",
+      "text": "Jupyter Notebook is a tool which allows for \"literate programming\" in which the code, its output, and textual descriptions are all intermingled in a single document to make it easier to understand and iterate."
+    },
+    {
+      "type": "paragraph",
+      "id": "f985ea3342c12173",
+      "text": "It started out just supporting a single language, back when it was called iPython Notebook."
+    },
+    {
+      "type": "paragraph",
+      "id": "7d52fc4549816b03",
+      "text": "Since then support has been added for Julia and R (among others). The name itself is a combination of Julia, python, and R (JuPytR)."
+    },
+    {
+      "type": "paragraph",
+      "id": "b6369615eb308779",
+      "text": "The underlying document format has been separated from the implementation. It would be worth comparing that format to the one used by fed wiki."
+    },
+    {
+      "type": "paragraph",
+      "id": "c0797034b328b115",
+      "text": "[https://nbformat.readthedocs.io/en/latest/format_description.html Jupyter Notebook File Format]"
+    },
+    {
+      "type": "paragraph",
+      "id": "fbee2337546bce92",
+      "text": "The UI has many similarities with fed wiki. Editor fields for markup are replaced with rendered versions."
+    },
+    {
+      "type": "html",
+      "id": "195bfe1ec6d18989",
+      "text": "<img src=\"https://wiki.randombits.xyz/assets/jupyter-notebook-default%5B1%5D.png\" width=\"450\"/>"
+    },
+    {
+      "type": "paragraph",
+      "id": "f475b96933f670ff",
+      "text": "When edited, the content is replaced with the original markup."
+    },
+    {
+      "type": "html",
+      "id": "8dee9b09ce3f3bd2",
+      "text": "<img src=\"https://wiki.randombits.xyz/assets/jupyter-notebook-edit%5B1%5D.png\" width=\"450\"/>"
+    },
+    {
+      "type": "paragraph",
+      "id": "2c11f854407309ba",
+      "text": "One place it differs is when it executes code. The code is always displayed with its output below it."
+    },
+    {
+      "type": "html",
+      "id": "0c1848cb745ed1eb",
+      "text": "<img src=\"https://wiki.randombits.xyz/assets/jupyter_code_edit.PNG\" width=\"450\"/>"
+    },
+    {
+      "type": "paragraph",
+      "id": "f750d6f30f43aa98",
+      "text": "Keyboard navigation is a place I would dearly like to see fed wiki follow after jupyter notebook. Their editing flow is pretty polished (though even there, I will admit to wanting a bit more)."
+    },
+    {
+      "type": "paragraph",
+      "id": "dd71e4298ff32077",
+      "text": "Here are the keybindings the project recommends their users learn. [https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Notebook%20Basics.html#Keyboard-Navigation web]"
+    },
+    {
+      "type": "markdown",
+      "id": "eb5513ee2f0508eb",
+      "text": "Basic navigation: enter, shift-enter, up/k, down/j\nSaving the notebook: s\nChange Cell types: y, m, 1-6, t\nCell creation: a, b\nCell editing: x, c, v, d, z\nKernel operations: i, 0 (press twice)\n"
+    },
+    {
+      "type": "paragraph",
+      "id": "71c485e7d7e42582",
+      "text": "There are online instances of jupyter notebook for people to try. [https://mybinder.org/v2/gh/ipython/ipython-in-depth/master?filepath=binder/Index.ipynb example] ",
+      "data": []
+    },
+    {
+      "type": "paragraph",
+      "id": "2a532bf0d1a717e8",
+      "text": "As an aside: The above makes use of a service called binder which is designed to support sandboxed computing environments in the cloud."
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Jupyter Notebook",
+        "story": []
+      },
+      "date": 1555415073732
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "d56ef37bc669854a"
+      },
+      "id": "d56ef37bc669854a",
+      "type": "add",
+      "date": 1555415076078
+    },
+    {
+      "type": "edit",
+      "id": "d56ef37bc669854a",
+      "item": {
+        "type": "paragraph",
+        "id": "d56ef37bc669854a",
+        "text": "Jupyter Notebook is a tool which allows for \"literate programming\" in which the code, its output, and textual descriptions are all intermingled in a single document to make it easier to understand and iterate."
+      },
+      "date": 1555415151090
+    },
+    {
+      "type": "add",
+      "id": "f985ea3342c12173",
+      "item": {
+        "type": "paragraph",
+        "id": "f985ea3342c12173",
+        "text": "It started out just supporting a single language, back when it was called iPython Notebook."
+      },
+      "after": "d56ef37bc669854a",
+      "date": 1555415172101
+    },
+    {
+      "type": "add",
+      "id": "7d52fc4549816b03",
+      "item": {
+        "type": "paragraph",
+        "id": "7d52fc4549816b03",
+        "text": "Since then support has been added for Julia and R (among others). The name itself is a combination of Julia, python, and R (JuPytR)."
+      },
+      "after": "f985ea3342c12173",
+      "date": 1555415220990
+    },
+    {
+      "type": "add",
+      "id": "b6369615eb308779",
+      "item": {
+        "type": "paragraph",
+        "id": "b6369615eb308779",
+        "text": "The underlying document format has been separated from the implementation. It would be worth comparing that format to the one used by fed wiki."
+      },
+      "after": "7d52fc4549816b03",
+      "date": 1555415284736
+    },
+    {
+      "type": "add",
+      "id": "c0797034b328b115",
+      "item": {
+        "type": "paragraph",
+        "id": "c0797034b328b115",
+        "text": "[https://nbformat.readthedocs.io/en/latest/format_description.html Jupyter Notebook File Format]"
+      },
+      "after": "b6369615eb308779",
+      "date": 1555475999836
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "31bca0eade9d8143"
+      },
+      "id": "31bca0eade9d8143",
+      "type": "add",
+      "after": "c0797034b328b115",
+      "date": 1555476080046
+    },
+    {
+      "type": "remove",
+      "id": "31bca0eade9d8143",
+      "date": 1555476082998
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "6f91605387fb27a9"
+      },
+      "id": "6f91605387fb27a9",
+      "type": "add",
+      "after": "c0797034b328b115",
+      "date": 1555476085072
+    },
+    {
+      "type": "edit",
+      "id": "6f91605387fb27a9",
+      "item": {
+        "type": "assets",
+        "id": "6f91605387fb27a9",
+        "text": " "
+      },
+      "date": 1555476087469
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "195bfe1ec6d18989"
+      },
+      "id": "195bfe1ec6d18989",
+      "type": "add",
+      "after": "6f91605387fb27a9",
+      "date": 1555476125794
+    },
+    {
+      "type": "edit",
+      "id": "195bfe1ec6d18989",
+      "item": {
+        "type": "html",
+        "id": "195bfe1ec6d18989",
+        "text": "<img src=\"https://wiki.randombits.xyz/assets/jupyter-notebook-default%5B1%5D.png\"/>"
+      },
+      "date": 1555476135557
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "8dee9b09ce3f3bd2"
+      },
+      "id": "8dee9b09ce3f3bd2",
+      "type": "add",
+      "after": "195bfe1ec6d18989",
+      "date": 1555476143279
+    },
+    {
+      "type": "edit",
+      "id": "8dee9b09ce3f3bd2",
+      "item": {
+        "type": "html",
+        "id": "8dee9b09ce3f3bd2",
+        "text": "<img src=\"https://wiki.randombits.xyz/assets/jupyter-notebook-edit%5B1%5D.png\" width=\"450\"/>"
+      },
+      "date": 1555476159401
+    },
+    {
+      "type": "edit",
+      "id": "195bfe1ec6d18989",
+      "item": {
+        "type": "html",
+        "id": "195bfe1ec6d18989",
+        "text": "<img src=\"https://wiki.randombits.xyz/assets/jupyter-notebook-default%5B1%5D.png\" width=\"450\"/>"
+      },
+      "date": 1555476170892
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "eb5513ee2f0508eb"
+      },
+      "id": "eb5513ee2f0508eb",
+      "type": "add",
+      "after": "8dee9b09ce3f3bd2",
+      "date": 1555476263239
+    },
+    {
+      "type": "edit",
+      "id": "eb5513ee2f0508eb",
+      "item": {
+        "type": "paragraph",
+        "id": "eb5513ee2f0508eb",
+        "text": "Basic navigation: enter, shift-enter, up/k, down/j\nSaving the notebook: s\nChange Cell types: y, m, 1-6, t\nCell creation: a, b\nCell editing: x, c, v, d, z\nKernel operations: i, 0 (press twice)"
+      },
+      "date": 1555476274358
+    },
+    {
+      "type": "edit",
+      "id": "eb5513ee2f0508eb",
+      "item": {
+        "type": "markdown",
+        "id": "eb5513ee2f0508eb",
+        "text": "Basic navigation: enter, shift-enter, up/k, down/j\nSaving the notebook: s\nChange Cell types: y, m, 1-6, t\nCell creation: a, b\nCell editing: x, c, v, d, z\nKernel operations: i, 0 (press twice)\n"
+      },
+      "date": 1555476292036
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "0c1848cb745ed1eb"
+      },
+      "id": "0c1848cb745ed1eb",
+      "type": "add",
+      "after": "eb5513ee2f0508eb",
+      "date": 1555476446313
+    },
+    {
+      "type": "edit",
+      "id": "0c1848cb745ed1eb",
+      "item": {
+        "type": "html",
+        "id": "0c1848cb745ed1eb",
+        "text": "<img src=\"https://wiki.randombits.xyz/assets/jupyter_code_edit.PNG\" width=\"450\"/>"
+      },
+      "date": 1555476459459
+    },
+    {
+      "type": "move",
+      "order": [
+        "d56ef37bc669854a",
+        "f985ea3342c12173",
+        "7d52fc4549816b03",
+        "b6369615eb308779",
+        "c0797034b328b115",
+        "195bfe1ec6d18989",
+        "8dee9b09ce3f3bd2",
+        "eb5513ee2f0508eb",
+        "0c1848cb745ed1eb",
+        "6f91605387fb27a9"
+      ],
+      "id": "6f91605387fb27a9",
+      "date": 1555476473434
+    },
+    {
+      "type": "add",
+      "id": "fbee2337546bce92",
+      "item": {
+        "type": "paragraph",
+        "id": "fbee2337546bce92",
+        "text": "The UI has many similarities with fed wiki. Editor fields for markup are replaced with rendered versions."
+      },
+      "after": "c0797034b328b115",
+      "date": 1555476535725
+    },
+    {
+      "type": "add",
+      "id": "f475b96933f670ff",
+      "item": {
+        "type": "paragraph",
+        "id": "f475b96933f670ff",
+        "text": "When edited, the content is replaced with the original markup."
+      },
+      "after": "fbee2337546bce92",
+      "date": 1555476553855
+    },
+    {
+      "type": "move",
+      "order": [
+        "d56ef37bc669854a",
+        "f985ea3342c12173",
+        "7d52fc4549816b03",
+        "b6369615eb308779",
+        "c0797034b328b115",
+        "fbee2337546bce92",
+        "195bfe1ec6d18989",
+        "f475b96933f670ff",
+        "8dee9b09ce3f3bd2",
+        "eb5513ee2f0508eb",
+        "0c1848cb745ed1eb",
+        "6f91605387fb27a9"
+      ],
+      "id": "195bfe1ec6d18989",
+      "date": 1555476557093
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "2c11f854407309ba"
+      },
+      "id": "2c11f854407309ba",
+      "type": "add",
+      "after": "6f91605387fb27a9",
+      "date": 1555476564936
+    },
+    {
+      "type": "edit",
+      "id": "2c11f854407309ba",
+      "item": {
+        "type": "paragraph",
+        "id": "2c11f854407309ba",
+        "text": "One place it differs is when it executes code. The code is always displayed with its output below it."
+      },
+      "date": 1555476588993
+    },
+    {
+      "type": "move",
+      "order": [
+        "d56ef37bc669854a",
+        "f985ea3342c12173",
+        "7d52fc4549816b03",
+        "b6369615eb308779",
+        "c0797034b328b115",
+        "fbee2337546bce92",
+        "195bfe1ec6d18989",
+        "f475b96933f670ff",
+        "8dee9b09ce3f3bd2",
+        "eb5513ee2f0508eb",
+        "2c11f854407309ba",
+        "0c1848cb745ed1eb",
+        "6f91605387fb27a9"
+      ],
+      "id": "2c11f854407309ba",
+      "date": 1555476591905
+    },
+    {
+      "type": "move",
+      "order": [
+        "d56ef37bc669854a",
+        "f985ea3342c12173",
+        "7d52fc4549816b03",
+        "b6369615eb308779",
+        "c0797034b328b115",
+        "fbee2337546bce92",
+        "195bfe1ec6d18989",
+        "f475b96933f670ff",
+        "8dee9b09ce3f3bd2",
+        "2c11f854407309ba",
+        "0c1848cb745ed1eb",
+        "eb5513ee2f0508eb",
+        "6f91605387fb27a9"
+      ],
+      "id": "eb5513ee2f0508eb",
+      "date": 1555476593854
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "f750d6f30f43aa98"
+      },
+      "id": "f750d6f30f43aa98",
+      "type": "add",
+      "after": "6f91605387fb27a9",
+      "date": 1555476595193
+    },
+    {
+      "type": "edit",
+      "id": "f750d6f30f43aa98",
+      "item": {
+        "type": "paragraph",
+        "id": "f750d6f30f43aa98",
+        "text": "Keyboard navigation is a place I would dearly like to see fed wiki follow after jupyter notebook. Their editing flow is pretty polished (though even there, I will admit to wanting a bit more)."
+      },
+      "date": 1555476643266
+    },
+    {
+      "type": "move",
+      "order": [
+        "d56ef37bc669854a",
+        "f985ea3342c12173",
+        "7d52fc4549816b03",
+        "b6369615eb308779",
+        "c0797034b328b115",
+        "fbee2337546bce92",
+        "195bfe1ec6d18989",
+        "f475b96933f670ff",
+        "8dee9b09ce3f3bd2",
+        "2c11f854407309ba",
+        "0c1848cb745ed1eb",
+        "f750d6f30f43aa98",
+        "eb5513ee2f0508eb",
+        "6f91605387fb27a9"
+      ],
+      "id": "f750d6f30f43aa98",
+      "date": 1555476645415
+    },
+    {
+      "type": "remove",
+      "id": "6f91605387fb27a9",
+      "date": 1555476656137
+    },
+    {
+      "type": "add",
+      "id": "dd71e4298ff32077",
+      "item": {
+        "type": "paragraph",
+        "id": "dd71e4298ff32077",
+        "text": "Here are the keybindings the project recommends their users learn."
+      },
+      "after": "f750d6f30f43aa98",
+      "date": 1555476682569
+    },
+    {
+      "type": "edit",
+      "id": "dd71e4298ff32077",
+      "item": {
+        "type": "paragraph",
+        "id": "dd71e4298ff32077",
+        "text": "Here are the keybindings the project recommends their users learn. [https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Notebook%20Basics.html#Keyboard-Navigation web]"
+      },
+      "date": 1555476704344
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "71c485e7d7e42582"
+      },
+      "id": "71c485e7d7e42582",
+      "type": "add",
+      "after": "eb5513ee2f0508eb",
+      "date": 1555476902674
+    },
+    {
+      "type": "edit",
+      "id": "71c485e7d7e42582",
+      "item": {
+        "type": "calculator",
+        "id": "71c485e7d7e42582",
+        "text": "There are online instances of jupyter notebook for people to try. [https://mybinder.org/v2/gh/ipython/ipython-in-depth/master?filepath=binder/Index.ipynb example]"
+      },
+      "date": 1555476944777
+    },
+    {
+      "type": "edit",
+      "id": "71c485e7d7e42582",
+      "item": {
+        "type": "paragraph",
+        "id": "71c485e7d7e42582",
+        "text": "There are online instances of jupyter notebook for people to try. [https://mybinder.org/v2/gh/ipython/ipython-in-depth/master?filepath=binder/Index.ipynb example] ",
+        "data": []
+      },
+      "date": 1555476978480
+    },
+    {
+      "type": "add",
+      "id": "2a532bf0d1a717e8",
+      "item": {
+        "type": "paragraph",
+        "id": "2a532bf0d1a717e8",
+        "text": "As an aside: The above makes use of a service called binder which is designed to support sandboxed computing environments in the cloud."
+      },
+      "after": "71c485e7d7e42582",
+      "date": 1555477024235
+    }
+  ]
+}

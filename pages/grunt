@@ -1,0 +1,55 @@
+{
+  "title": "grunt",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "c37b0a6a9a8a1bde",
+      "text": "Grunt is a javascript task runner."
+    },
+    {
+      "type": "paragraph",
+      "id": "651280223f0c7005",
+      "text": "Don't install grunt globally. Instead, install grunt-cli globally which will use the correct version for the local project. [https://gruntjs.com/getting-started web]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "grunt",
+        "story": []
+      },
+      "date": 1555646201371
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "c37b0a6a9a8a1bde"
+      },
+      "id": "c37b0a6a9a8a1bde",
+      "type": "add",
+      "date": 1555646203078
+    },
+    {
+      "type": "edit",
+      "id": "c37b0a6a9a8a1bde",
+      "item": {
+        "type": "paragraph",
+        "id": "c37b0a6a9a8a1bde",
+        "text": "Grunt is a javascript task runner."
+      },
+      "date": 1555646213317
+    },
+    {
+      "type": "add",
+      "id": "651280223f0c7005",
+      "item": {
+        "type": "paragraph",
+        "id": "651280223f0c7005",
+        "text": "Don't install grunt globally. Instead, install grunt-cli globally which will use the correct version for the local project. [https://gruntjs.com/getting-started web]"
+      },
+      "after": "c37b0a6a9a8a1bde",
+      "date": 1555646244831
+    }
+  ]
+}

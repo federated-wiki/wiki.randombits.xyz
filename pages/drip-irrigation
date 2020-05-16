@@ -1,0 +1,55 @@
+{
+  "title": "Drip Irrigation",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "030cfa5e9e263624",
+      "text": "Details on a drip irrigation system setup for our home garden."
+    },
+    {
+      "type": "paragraph",
+      "id": "98550d248ae962ef",
+      "text": "A coworker recommended I look into OpenSprinkler."
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Drip Irrigation",
+        "story": []
+      },
+      "date": 1560196840514
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "030cfa5e9e263624"
+      },
+      "id": "030cfa5e9e263624",
+      "type": "add",
+      "date": 1560196842281
+    },
+    {
+      "type": "edit",
+      "id": "030cfa5e9e263624",
+      "item": {
+        "type": "paragraph",
+        "id": "030cfa5e9e263624",
+        "text": "Details on a drip irrigation system setup for our home garden."
+      },
+      "date": 1560196857936
+    },
+    {
+      "type": "add",
+      "id": "98550d248ae962ef",
+      "item": {
+        "type": "paragraph",
+        "id": "98550d248ae962ef",
+        "text": "A coworker recommended I look into OpenSprinkler."
+      },
+      "after": "030cfa5e9e263624",
+      "date": 1560196873358
+    }
+  ]
+}

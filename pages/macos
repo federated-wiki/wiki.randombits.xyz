@@ -1,0 +1,150 @@
+{
+  "title": "macOS",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "bba84d65885b4534",
+      "text": "Tips and Tricks for macOS"
+    },
+    {
+      "type": "paragraph",
+      "id": "ce9cdb4e2ca74682",
+      "text": "Hammer Spoon mic muting [https://www.hammerspoon.org/docs/hs.audiodevice.html#setInputMuted docs]"
+    },
+    {
+      "type": "paragraph",
+      "id": "6938cf8a00d74b76",
+      "text": "AppleScript version. [https://www.alfredforum.com/topic/2486-mute-mic/ alfred] [https://superuser.com/questions/172970/hotkey-to-mute-mic-on-mac-os-x/397770#397770 su]"
+    },
+    {
+      "type": "code",
+      "id": "71aa2538aa70430d",
+      "text": "-- technique from http://www.alfredforum.com/topic/2486-mute-mic/\n-- code from http://superuser.com/a/397770/40768\n\nset inputVolume to input volume of (get volume settings)\nif inputVolume = 0 then\n\tset inputVolume to 100\n\tdisplay notification \"Mic is UNMUTED 🎙\" with title \"Toggle mic input\"\n\tset micval to \"UNMUTED\"\nelse\n\tset inputVolume to 0\n\tdisplay notification \"Mic is MUTED 🚫\" with title \"Toggle mic input\"\n\tset micval to \"MUTED\"\nend if\nset volume input volume inputVolume\nreturn micval\n"
+    },
+    {
+      "type": "paragraph",
+      "id": "b380239a3e4647a3",
+      "text": "To copy portions of the screen: Command+Shift+5."
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "macOS",
+        "story": []
+      },
+      "date": 1557785928128
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "bba84d65885b4534"
+      },
+      "id": "bba84d65885b4534",
+      "type": "add",
+      "date": 1557785929508
+    },
+    {
+      "type": "edit",
+      "id": "bba84d65885b4534",
+      "item": {
+        "type": "paragraph",
+        "id": "bba84d65885b4534",
+        "text": "Tips and Tricks for macOS"
+      },
+      "date": 1557785937356
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "ce9cdb4e2ca74682"
+      },
+      "id": "ce9cdb4e2ca74682",
+      "type": "add",
+      "after": "bba84d65885b4534",
+      "date": 1557785942907
+    },
+    {
+      "type": "edit",
+      "id": "ce9cdb4e2ca74682",
+      "item": {
+        "type": "paragraph",
+        "id": "ce9cdb4e2ca74682",
+        "text": "Hammer Spoon mic muting [https://www.hammerspoon.org/docs/hs.audiodevice.html#setInputMuted docs]"
+      },
+      "date": 1557785963751
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "71aa2538aa70430d"
+      },
+      "id": "71aa2538aa70430d",
+      "type": "add",
+      "after": "ce9cdb4e2ca74682",
+      "date": 1557785982665
+    },
+    {
+      "type": "edit",
+      "id": "71aa2538aa70430d",
+      "item": {
+        "type": "code",
+        "id": "71aa2538aa70430d",
+        "text": "-- technique from http://www.alfredforum.com/topic/2486-mute-mic/\n-- code from http://superuser.com/a/397770/40768\n\nset inputVolume to input volume of (get volume settings)\nif inputVolume = 0 then\n\tset inputVolume to 100\n\tdisplay notification \"Mic is UNMUTED 🎙\" with title \"Toggle mic input\"\n\tset micval to \"UNMUTED\"\nelse\n\tset inputVolume to 0\n\tdisplay notification \"Mic is MUTED 🚫\" with title \"Toggle mic input\"\n\tset micval to \"MUTED\"\nend if\nset volume input volume inputVolume\nreturn micval\n"
+      },
+      "date": 1557785988190
+    },
+    {
+      "type": "add",
+      "id": "6938cf8a00d74b76",
+      "item": {
+        "type": "paragraph",
+        "id": "6938cf8a00d74b76",
+        "text": "AppleScript version"
+      },
+      "after": "ce9cdb4e2ca74682",
+      "date": 1557785998874
+    },
+    {
+      "type": "edit",
+      "id": "6938cf8a00d74b76",
+      "item": {
+        "type": "paragraph",
+        "id": "6938cf8a00d74b76",
+        "text": "AppleScript version. [https://www.alfredforum.com/topic/2486-mute-mic/ alfred]"
+      },
+      "date": 1557786017620
+    },
+    {
+      "type": "edit",
+      "id": "6938cf8a00d74b76",
+      "item": {
+        "type": "paragraph",
+        "id": "6938cf8a00d74b76",
+        "text": "AppleScript version. [https://www.alfredforum.com/topic/2486-mute-mic/ alfred] [https://superuser.com/questions/172970/hotkey-to-mute-mic-on-mac-os-x/397770#397770 su]"
+      },
+      "date": 1557786026429
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "b380239a3e4647a3"
+      },
+      "id": "b380239a3e4647a3",
+      "type": "add",
+      "after": "71aa2538aa70430d",
+      "date": 1560186180433
+    },
+    {
+      "type": "edit",
+      "id": "b380239a3e4647a3",
+      "item": {
+        "type": "paragraph",
+        "id": "b380239a3e4647a3",
+        "text": "To copy portions of the screen: Command+Shift+5."
+      },
+      "date": 1560186199090
+    }
+  ]
+}

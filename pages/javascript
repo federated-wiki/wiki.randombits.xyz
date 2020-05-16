@@ -1,0 +1,1818 @@
+{
+  "title": "JavaScript",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "b84e757df6c1be93",
+      "text": "The language of the web."
+    },
+    {
+      "type": "paragraph",
+      "id": "f8144a44b196a8f4",
+      "text": "See also [[css]] and [[js debugging]]."
+    },
+    {
+      "type": "paragraph",
+      "id": "c75f8880f05c304c",
+      "text": "I may regret attempting this. There are many MDN articles I find myself referencing. Here are a few."
+    },
+    {
+      "type": "pagefold",
+      "id": "f2b04c1f390b8e30",
+      "text": "elements"
+    },
+    {
+      "type": "paragraph",
+      "id": "1b1d21b1265e092e",
+      "text": "Dialog element. [https://developer.mozilla.org/en-US/docs/Web/API/HTMLDialogElement mdn]"
+    },
+    {
+      "type": "paragraph",
+      "id": "71b93aa35db589d2",
+      "text": "prompt - used by wiki friends plugin. [https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt mdn]"
+    },
+    {
+      "type": "paragraph",
+      "id": "bf194cfd17912d74",
+      "text": "MutationObserver - may be useful when injecting code into a BrowserView in an [[Electron]] app. [https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver mdn]"
+    },
+    {
+      "type": "paragraph",
+      "id": "7cdc575f99bcb990",
+      "text": "click() - trigger a click. [https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/click mdn]"
+    },
+    {
+      "type": "paragraph",
+      "id": "389784d799352a31",
+      "text": "Using Fetch article - XMLHTTPWha? The modern alternative to our beloved XMLHTTPRequest. It's about time someone undid the historical baggage of the awkwardly named function that spawned Web 2.0, AJAX, etc. [https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch mdn]"
+    },
+    {
+      "type": "paragraph",
+      "id": "a88a323dfbbbc1c3",
+      "text": "Get the top of an element:"
+    },
+    {
+      "type": "paragraph",
+      "id": "cb8d975093618426",
+      "text": "* Absolute within the document: element.getBoundingClientRect().top"
+    },
+    {
+      "type": "paragraph",
+      "id": "5754f2744b77acc5",
+      "text": "* Relative to the parent:"
+    },
+    {
+      "type": "paragraph",
+      "id": "193ebac27cfb9726",
+      "text": "element.offsetTop"
+    },
+    {
+      "type": "paragraph",
+      "id": "d96833fce20bd31c",
+      "text": "How to create a tooltip in html. [https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/title mdn]"
+    },
+    {
+      "type": "paragraph",
+      "id": "18a2caea377db71a",
+      "text": "Alternatives to built-in tooltips. [https://inclusive-components.design/tooltips-toggletips/ article]"
+    },
+    {
+      "type": "pagefold",
+      "id": "b45be0a56f6687a9",
+      "text": "language"
+    },
+    {
+      "type": "paragraph",
+      "id": "ce8b09fd13ef33f5",
+      "text": "Async and for loops or why does my for loop only capture the its last value? [https://dzone.com/articles/why-does-javascript-loop-only-use-last-value article]"
+    },
+    {
+      "type": "paragraph",
+      "id": "5420f9bbcb8df969",
+      "text": "num.toFixed(2) [https://stackoverflow.com/questions/610406/javascript-equivalent-to-printf-string-format so]"
+    },
+    {
+      "type": "paragraph",
+      "id": "e1dce37e8d52b59b",
+      "text": "splice() - useful if you want to remove an element from within an array. [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice mdn]"
+    },
+    {
+      "type": "paragraph",
+      "id": "6723d671cec426ed",
+      "text": "The spread syntax can be used to expand an array or object literal in place. It makes it easier to perform things like concating arrays or cloning objects. [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax mdn]"
+    },
+    {
+      "type": "code",
+      "id": "c5960ee2dbd4fa36",
+      "text": "let array1 = [1, 2, 3]\nlet array2 = [4, 5, 6]\nlet combined = [...array1, ...array2]\n// [1, 2, 3, 4, 5, 6]\n\nlet obj1 = {x: 1, y: 1}\nlet obj2 = {width: 10, height: 10}\nlet combinedobj = { ...obj1, ...obj2 }\n// { x: 1, y: 1, width: 10, height: 10 }"
+    },
+    {
+      "type": "paragraph",
+      "id": "fd15efe9c707f68e",
+      "text": "Does JavaScript have a range function? Use the spread syntax on an array. [https://stackoverflow.com/questions/3895478/does-javascript-have-a-method-like-range-to-generate-a-range-within-the-supp so]"
+    },
+    {
+      "type": "code",
+      "id": "84494507a07c0504",
+      "text": "[...Array(5).keys()]\n => [0, 1, 2, 3, 4]"
+    },
+    {
+      "type": "paragraph",
+      "id": "7a18bc883b3ee31d",
+      "text": "Merge properties from another object into the current object using Object.assign(target, ...sources). [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map mdn]"
+    },
+    {
+      "type": "paragraph",
+      "id": "d1ca539369592746",
+      "text": "URL object - no need to manually parse URLs anymore. [https://developer.mozilla.org/en-US/docs/Web/API/URL mdn]"
+    },
+    {
+      "type": "paragraph",
+      "id": "ed486e4292ddb172",
+      "text": "Parsing a relative date. [https://stackoverflow.com/questions/30683076/is-there-a-way-to-parse-a-relative-date-using-moment-js so]"
+    },
+    {
+      "type": "paragraph",
+      "id": "5a3b804012f1a825",
+      "text": "chrono-node is useful though I've seen cases where it inaccurately parses times after before noon."
+    },
+    {
+      "type": "paragraph",
+      "id": "d37090a6df59dfe6",
+      "text": "map((item, index, fullarray]) => ...) [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map mdn]"
+    },
+    {
+      "type": "paragraph",
+      "id": "033c8941c0dc47e7",
+      "text": "reduce - <array_var>.reduce( (accumulator, value) => {return new_accumulator}, starting_accumulator) [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce mdn]"
+    },
+    {
+      "type": "paragraph",
+      "id": "62b510150aa6ccac",
+      "text": "Array.sort [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort mdn]"
+    },
+    {
+      "type": "paragraph",
+      "id": "228a05b73155096b",
+      "text": "Get index of item when iterating with for ... of."
+    },
+    {
+      "type": "paragraph",
+      "id": "47d81a8f6aec5130",
+      "text": "Short version, you cannot. Use Array.forEach or Array.entries instead. [https://stackoverflow.com/questions/10179815/get-loop-counter-index-using-for-of-syntax-in-javascript so]"
+    },
+    {
+      "type": "paragraph",
+      "id": "1158c7cc71c8523e",
+      "text": "for (const [i, value] array.entries()) {}"
+    },
+    {
+      "type": "paragraph",
+      "id": "f897bb71c9e37696",
+      "text": "Escape strings for inclusion in regex's. [https://stackoverflow.com/questions/3561493/is-there-a-regexp-escape-function-in-javascript/3561711#3561711 so] [https://stackoverflow.com/questions/3446170/escape-string-for-use-in-javascript-regex so] [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions#Escaping mdn]"
+    },
+    {
+      "type": "code",
+      "id": "9b3209e841da28eb",
+      "text": "RegExp.escape= function(s) {\n    return s.replace(/[-\\/\\\\^$*+?.()|[\\]{}]/g, '\\\\$&');\n};\n\nfunction escapeRegExp(string) {\n  return string.replace(/[.*+?^${}()|[\\]\\\\]/g, '\\\\$&'); // $& means the whole matched string\n}"
+    },
+    {
+      "type": "pagefold",
+      "id": "76061d4b1f72bb3e",
+      "text": "es6 / es7"
+    },
+    {
+      "type": "paragraph",
+      "id": "04211de440cdd452",
+      "text": "General info about promises. [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise mdn]"
+    },
+    {
+      "type": "paragraph",
+      "id": "787809a4deaa1ecc",
+      "text": "Promises tutorial. [https://developers.google.com/web/fundamentals/primers/promises google]"
+    },
+    {
+      "type": "paragraph",
+      "id": "936e832504891eb1",
+      "text": "Terms used in promises. [https://github.com/domenic/promises-unwrapping/blob/master/docs/states-and-fates.md spec]"
+    },
+    {
+      "type": "paragraph",
+      "id": "1c47f41cba26251e",
+      "text": "Converting callbacks to promises. [https://benmccormick.org/2015/12/30/es6-patterns-converting-callbacks-to-promises blog]"
+    },
+    {
+      "type": "paragraph",
+      "id": "5971295b71fc081b",
+      "text": "When using promises, errors are exceptional cases which short circuit the logic later in the chain. For this reason, is is recommended to use an instance of error when rejecting a promise. [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/catch#Return_value mdn] [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/reject#Using_the_static_Promise.reject_method mdn]  [https://stackoverflow.com/questions/26020578/should-a-promise-reject-message-be-wrapped-in-error so]"
+    },
+    {
+      "type": "paragraph",
+      "id": "32c87524cf49245a",
+      "text": "To handle cases of errors, one can insert a call to catch in the promise chain. Since this, itself, returns a promise, one can recover from errors. [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/catch mdn]"
+    },
+    {
+      "type": "code",
+      "id": "d07c1f58d9ebd883",
+      "text": "let result = operation().then((v) => ...).catch((e) => return <recovery>).then((v) => ...) "
+    },
+    {
+      "type": "paragraph",
+      "id": "b788d55770b6999d",
+      "text": "Alternatively, one could provide a then which handles both success and failure condition, though this is considered an anti-pattern. [https://stackoverflow.com/questions/24662289/when-is-thensuccess-fail-considered-an-antipattern-for-promises/24663315#24663315 so] [https://github.com/petkaantonov/bluebird/wiki/Promise-anti-patterns github]"
+    },
+    {
+      "type": "paragraph",
+      "id": "625ee517728015e3",
+      "text": "Promisfy setTimeout: timeout = (ms) => new Promise(resolve => setTimeout(resolve, ms)). [https://stackoverflow.com/questions/33289726/combination-of-async-function-await-settimeout/33292942 so]"
+    },
+    {
+      "type": "paragraph",
+      "id": "a54f56f257688d5a",
+      "text": "Promise chaining [https://javascript.info/promise-chaining tutorial]"
+    },
+    {
+      "type": "code",
+      "id": "0b98302ed491740e",
+      "text": "let p = new Promise()."
+    },
+    {
+      "type": "pagefold",
+      "id": "4d20d97c00295f94",
+      "text": "apis"
+    },
+    {
+      "type": "paragraph",
+      "id": "76fad2350744b159",
+      "text": "Cookies [https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies mdn]"
+    },
+    {
+      "type": "paragraph",
+      "id": "c0ac0bcf84dc47b2",
+      "text": "sessionStorage [https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage mdn]"
+    },
+    {
+      "type": "paragraph",
+      "id": "23c10069d0576603",
+      "text": "streams [https://streams.spec.whatwg.org/ spec]"
+    },
+    {
+      "type": "paragraph",
+      "id": "dc32b10177e98d54",
+      "text": "Convert dashed entries to camel case using lodash:"
+    },
+    {
+      "type": "paragraph",
+      "id": "424355896a8fe713",
+      "text": "_.mapKeys(obj, (v, k) => _.camelCase(k)) [https://stackoverflow.com/questions/12931828/convert-returned-json-object-properties-to-lower-first-camelcase so]"
+    },
+    {
+      "type": "paragraph",
+      "id": "f705529dbc983312",
+      "text": "Save file contents from a fetch:"
+    },
+    {
+      "type": "code",
+      "id": "3bc3a6bb87b9a63a",
+      "text": "let contents = await fetch('<url>').then(r => r.arrayBuffer())\nfs.writeFileSync('<filename>', new Buffer(new Uint8Array(contents)))"
+    },
+    {
+      "type": "paragraph",
+      "id": "fd28ef03b7beb343",
+      "text": "Is new Buffer really needed if we are getting an array from fetch? [https://stackoverflow.com/questions/39395195/how-to-write-wav-file-from-blob-in-javascript-node so]"
+    },
+    {
+      "type": "paragraph",
+      "id": "04c1522665ea04f7",
+      "text": "An ArrayBuffer is just a byte array. [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer mdn]"
+    },
+    {
+      "type": "paragraph",
+      "id": "0723e8e6531afc01",
+      "text": "Fetch API example [https://developers.google.com/web/ilt/pwa/working-with-the-fetch-api#example_fetching_images google]"
+    },
+    {
+      "type": "paragraph",
+      "id": "da5593616bfa4b5e",
+      "text": "URLSearchParams [https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams mdn]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "JavaScript",
+        "story": []
+      },
+      "date": 1556593806339
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "b84e757df6c1be93"
+      },
+      "id": "b84e757df6c1be93",
+      "type": "add",
+      "date": 1556593807828
+    },
+    {
+      "type": "edit",
+      "id": "b84e757df6c1be93",
+      "item": {
+        "type": "paragraph",
+        "id": "b84e757df6c1be93",
+        "text": "The language of the web."
+      },
+      "date": 1556593813067
+    },
+    {
+      "type": "add",
+      "id": "c75f8880f05c304c",
+      "item": {
+        "type": "paragraph",
+        "id": "c75f8880f05c304c",
+        "text": "I may regret attempting this. There are many MDN articles I find myself referencing. Here are a few."
+      },
+      "after": "b84e757df6c1be93",
+      "date": 1556593842537
+    },
+    {
+      "type": "add",
+      "id": "1b1d21b1265e092e",
+      "item": {
+        "type": "paragraph",
+        "id": "1b1d21b1265e092e",
+        "text": "Dialog element. [https://developer.mozilla.org/en-US/docs/Web/API/HTMLDialogElement mdn]"
+      },
+      "after": "c75f8880f05c304c",
+      "date": 1556593880126
+    },
+    {
+      "type": "add",
+      "id": "71b93aa35db589d2",
+      "item": {
+        "type": "paragraph",
+        "id": "71b93aa35db589d2",
+        "text": "prompt - used by wiki friends plugin. [https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt mdn]"
+      },
+      "after": "1b1d21b1265e092e",
+      "date": 1556593906325
+    },
+    {
+      "type": "add",
+      "id": "bf194cfd17912d74",
+      "item": {
+        "type": "paragraph",
+        "id": "bf194cfd17912d74",
+        "text": "MutationObserver - may be useful when injecting code into a BrowserView in an [[Electron]] app. [https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver mdn]"
+      },
+      "after": "71b93aa35db589d2",
+      "date": 1556593957825
+    },
+    {
+      "type": "add",
+      "id": "7cdc575f99bcb990",
+      "item": {
+        "type": "paragraph",
+        "id": "7cdc575f99bcb990",
+        "text": "click() - trigger a click. [https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/click mdn]"
+      },
+      "after": "bf194cfd17912d74",
+      "date": 1556593991943
+    },
+    {
+      "type": "add",
+      "id": "ce8b09fd13ef33f5",
+      "item": {
+        "type": "paragraph",
+        "id": "ce8b09fd13ef33f5",
+        "text": "splic() - useful if you want to remove an element from within an array. [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice]"
+      },
+      "after": "7cdc575f99bcb990",
+      "date": 1556594026393
+    },
+    {
+      "type": "edit",
+      "id": "ce8b09fd13ef33f5",
+      "item": {
+        "type": "paragraph",
+        "id": "ce8b09fd13ef33f5",
+        "text": "splic() - useful if you want to remove an element from within an array. [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice mdn]"
+      },
+      "date": 1556594044263
+    },
+    {
+      "type": "add",
+      "id": "7a18bc883b3ee31d",
+      "item": {
+        "type": "paragraph",
+        "id": "7a18bc883b3ee31d",
+        "text": "URL object - no need to manually parse URLs anymore. [https://developer.mozilla.org/en-US/docs/Web/API/URL mdn]"
+      },
+      "after": "ce8b09fd13ef33f5",
+      "date": 1556594087787
+    },
+    {
+      "type": "edit",
+      "id": "ce8b09fd13ef33f5",
+      "item": {
+        "type": "paragraph",
+        "id": "ce8b09fd13ef33f5",
+        "text": "splice() - useful if you want to remove an element from within an array. [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice mdn]"
+      },
+      "date": 1556594092964
+    },
+    {
+      "type": "add",
+      "id": "389784d799352a31",
+      "item": {
+        "type": "paragraph",
+        "id": "389784d799352a31",
+        "text": "fetch() - XMLHTTPWha? The modern alternative to our beloved XMLHTTPRequest. It's about time someone undid the historical baggage of the awkwardly named function that spawned Web 2.0, AJAX, etc. [https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch mdn]"
+      },
+      "after": "7a18bc883b3ee31d",
+      "date": 1556594183615
+    },
+    {
+      "type": "edit",
+      "id": "389784d799352a31",
+      "item": {
+        "type": "paragraph",
+        "id": "389784d799352a31",
+        "text": "Using Fetch article - XMLHTTPWha? The modern alternative to our beloved XMLHTTPRequest. It's about time someone undid the historical baggage of the awkwardly named function that spawned Web 2.0, AJAX, etc. [https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch mdn]"
+      },
+      "date": 1556594215942
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "17ff992410fbc400"
+      },
+      "id": "17ff992410fbc400",
+      "type": "add",
+      "after": "389784d799352a31",
+      "date": 1556594227006
+    },
+    {
+      "type": "edit",
+      "id": "17ff992410fbc400",
+      "item": {
+        "type": "paragraph",
+        "id": "17ff992410fbc400",
+        "text": "cursor - Ever wonder what the valid CSS values for the cursor style are or what the cursors look like on your current operating system? Mouse over the rows in the embedded table to see them firsthand! [https://developer.mozilla.org/en-US/docs/Web/CSS/cursor mdn]"
+      },
+      "date": 1556594283566
+    },
+    {
+      "type": "add",
+      "id": "d37090a6df59dfe6",
+      "item": {
+        "type": "paragraph",
+        "id": "d37090a6df59dfe6",
+        "text": "reduce - <array_var>.reduce( (accumulator, value) => return new_accumulator) [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce mdn]"
+      },
+      "after": "17ff992410fbc400",
+      "date": 1557160851938
+    },
+    {
+      "type": "add",
+      "id": "f897bb71c9e37696",
+      "item": {
+        "type": "paragraph",
+        "id": "f897bb71c9e37696",
+        "text": "Escape strings for inclusion in regex's."
+      },
+      "after": "d37090a6df59dfe6",
+      "date": 1557161385763
+    },
+    {
+      "type": "edit",
+      "id": "f897bb71c9e37696",
+      "item": {
+        "type": "paragraph",
+        "id": "f897bb71c9e37696",
+        "text": "Escape strings for inclusion in regex's. [https://stackoverflow.com/questions/3561493/is-there-a-regexp-escape-function-in-javascript/3561711#3561711 so]"
+      },
+      "date": 1557161393976
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "ee88abeb5005ad08"
+      },
+      "id": "ee88abeb5005ad08",
+      "type": "add",
+      "after": "f897bb71c9e37696",
+      "date": 1557161417482
+    },
+    {
+      "type": "remove",
+      "id": "ee88abeb5005ad08",
+      "date": 1557161420981
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "9b3209e841da28eb"
+      },
+      "id": "9b3209e841da28eb",
+      "type": "add",
+      "after": "f897bb71c9e37696",
+      "date": 1557161421946
+    },
+    {
+      "type": "edit",
+      "id": "9b3209e841da28eb",
+      "item": {
+        "type": "code",
+        "id": "9b3209e841da28eb",
+        "text": "RegExp.escape= function(s) {\n    return s.replace(/[-\\/\\\\^$*+?.()|[\\]{}]/g, '\\\\$&');\n};"
+      },
+      "date": 1557161432110
+    },
+    {
+      "type": "edit",
+      "id": "f897bb71c9e37696",
+      "item": {
+        "type": "paragraph",
+        "id": "f897bb71c9e37696",
+        "text": "Escape strings for inclusion in regex's. [https://stackoverflow.com/questions/3561493/is-there-a-regexp-escape-function-in-javascript/3561711#3561711 so] [https://stackoverflow.com/questions/3446170/escape-string-for-use-in-javascript-regex so]"
+      },
+      "date": 1557161452728
+    },
+    {
+      "type": "edit",
+      "id": "9b3209e841da28eb",
+      "item": {
+        "type": "code",
+        "id": "9b3209e841da28eb",
+        "text": "RegExp.escape= function(s) {\n    return s.replace(/[-\\/\\\\^$*+?.()|[\\]{}]/g, '\\\\$&');\n};\n\nfunction escapeRegExp(string) {\n  return string.replace(/[.*+?^${}()|[\\]\\\\]/g, '\\\\$&'); // $& means the whole matched string\n}"
+      },
+      "date": 1557161473172
+    },
+    {
+      "type": "edit",
+      "id": "f897bb71c9e37696",
+      "item": {
+        "type": "paragraph",
+        "id": "f897bb71c9e37696",
+        "text": "Escape strings for inclusion in regex's. [https://stackoverflow.com/questions/3561493/is-there-a-regexp-escape-function-in-javascript/3561711#3561711 so] [https://stackoverflow.com/questions/3446170/escape-string-for-use-in-javascript-regex so] [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions mdn]"
+      },
+      "date": 1557162305007
+    },
+    {
+      "type": "edit",
+      "id": "f897bb71c9e37696",
+      "item": {
+        "type": "paragraph",
+        "id": "f897bb71c9e37696",
+        "text": "Escape strings for inclusion in regex's. [https://stackoverflow.com/questions/3561493/is-there-a-regexp-escape-function-in-javascript/3561711#3561711 so] [https://stackoverflow.com/questions/3446170/escape-string-for-use-in-javascript-regex so] [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions#Escaping mdn]"
+      },
+      "date": 1557162322649
+    },
+    {
+      "type": "edit",
+      "id": "d37090a6df59dfe6",
+      "item": {
+        "type": "paragraph",
+        "id": "d37090a6df59dfe6",
+        "text": "reduce - <array_var>.reduce( (accumulator, value) => {return new_accumulator}, starting_accumulator) [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce mdn]"
+      },
+      "date": 1557241371510
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "b45be0a56f6687a9"
+      },
+      "id": "b45be0a56f6687a9",
+      "type": "add",
+      "after": "9b3209e841da28eb",
+      "date": 1557241538117
+    },
+    {
+      "type": "edit",
+      "id": "b45be0a56f6687a9",
+      "item": {
+        "type": "pagefold",
+        "id": "b45be0a56f6687a9",
+        "text": "language"
+      },
+      "date": 1557241543044
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "02ec81748b5e2cf8"
+      },
+      "id": "02ec81748b5e2cf8",
+      "type": "add",
+      "after": "b45be0a56f6687a9",
+      "date": 1557241545472
+    },
+    {
+      "type": "remove",
+      "id": "02ec81748b5e2cf8",
+      "date": 1557241549204
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "f2b04c1f390b8e30"
+      },
+      "id": "f2b04c1f390b8e30",
+      "type": "add",
+      "after": "b45be0a56f6687a9",
+      "date": 1557241550265
+    },
+    {
+      "type": "edit",
+      "id": "f2b04c1f390b8e30",
+      "item": {
+        "type": "pagefold",
+        "id": "f2b04c1f390b8e30",
+        "text": "elements"
+      },
+      "date": 1557241558748
+    },
+    {
+      "type": "move",
+      "order": [
+        "b84e757df6c1be93",
+        "c75f8880f05c304c",
+        "f2b04c1f390b8e30",
+        "1b1d21b1265e092e",
+        "71b93aa35db589d2",
+        "bf194cfd17912d74",
+        "7cdc575f99bcb990",
+        "ce8b09fd13ef33f5",
+        "7a18bc883b3ee31d",
+        "389784d799352a31",
+        "17ff992410fbc400",
+        "d37090a6df59dfe6",
+        "f897bb71c9e37696",
+        "9b3209e841da28eb",
+        "b45be0a56f6687a9"
+      ],
+      "id": "f2b04c1f390b8e30",
+      "date": 1557241587321
+    },
+    {
+      "type": "move",
+      "order": [
+        "b84e757df6c1be93",
+        "c75f8880f05c304c",
+        "f2b04c1f390b8e30",
+        "1b1d21b1265e092e",
+        "71b93aa35db589d2",
+        "bf194cfd17912d74",
+        "7cdc575f99bcb990",
+        "ce8b09fd13ef33f5",
+        "7a18bc883b3ee31d",
+        "389784d799352a31",
+        "17ff992410fbc400",
+        "b45be0a56f6687a9",
+        "d37090a6df59dfe6",
+        "f897bb71c9e37696",
+        "9b3209e841da28eb"
+      ],
+      "id": "b45be0a56f6687a9",
+      "date": 1557241601754
+    },
+    {
+      "type": "move",
+      "order": [
+        "b84e757df6c1be93",
+        "c75f8880f05c304c",
+        "f2b04c1f390b8e30",
+        "1b1d21b1265e092e",
+        "71b93aa35db589d2",
+        "bf194cfd17912d74",
+        "7cdc575f99bcb990",
+        "ce8b09fd13ef33f5",
+        "389784d799352a31",
+        "17ff992410fbc400",
+        "b45be0a56f6687a9",
+        "7a18bc883b3ee31d",
+        "d37090a6df59dfe6",
+        "f897bb71c9e37696",
+        "9b3209e841da28eb"
+      ],
+      "id": "7a18bc883b3ee31d",
+      "date": 1557241615434
+    },
+    {
+      "type": "move",
+      "order": [
+        "b84e757df6c1be93",
+        "c75f8880f05c304c",
+        "f2b04c1f390b8e30",
+        "1b1d21b1265e092e",
+        "71b93aa35db589d2",
+        "bf194cfd17912d74",
+        "7cdc575f99bcb990",
+        "389784d799352a31",
+        "17ff992410fbc400",
+        "b45be0a56f6687a9",
+        "7a18bc883b3ee31d",
+        "ce8b09fd13ef33f5",
+        "d37090a6df59dfe6",
+        "f897bb71c9e37696",
+        "9b3209e841da28eb"
+      ],
+      "id": "ce8b09fd13ef33f5",
+      "date": 1557241623185
+    },
+    {
+      "type": "remove",
+      "id": "17ff992410fbc400",
+      "date": 1557241678365
+    },
+    {
+      "type": "move",
+      "order": [
+        "b84e757df6c1be93",
+        "c75f8880f05c304c",
+        "f2b04c1f390b8e30",
+        "1b1d21b1265e092e",
+        "71b93aa35db589d2",
+        "bf194cfd17912d74",
+        "7cdc575f99bcb990",
+        "389784d799352a31",
+        "b45be0a56f6687a9",
+        "ce8b09fd13ef33f5",
+        "7a18bc883b3ee31d",
+        "d37090a6df59dfe6",
+        "f897bb71c9e37696",
+        "9b3209e841da28eb"
+      ],
+      "id": "7a18bc883b3ee31d",
+      "date": 1557241689175
+    },
+    {
+      "type": "add",
+      "id": "f8144a44b196a8f4",
+      "item": {
+        "type": "paragraph",
+        "id": "f8144a44b196a8f4",
+        "text": "See also [[css]] and [[js debugging]]"
+      },
+      "after": "b84e757df6c1be93",
+      "date": 1557241919147
+    },
+    {
+      "type": "edit",
+      "id": "f8144a44b196a8f4",
+      "item": {
+        "type": "paragraph",
+        "id": "f8144a44b196a8f4",
+        "text": "See also [[css]] and [[js debugging]]."
+      },
+      "date": 1557241933198
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "76061d4b1f72bb3e"
+      },
+      "id": "76061d4b1f72bb3e",
+      "type": "add",
+      "after": "9b3209e841da28eb",
+      "date": 1557241949638
+    },
+    {
+      "type": "edit",
+      "id": "76061d4b1f72bb3e",
+      "item": {
+        "type": "pagefold",
+        "id": "76061d4b1f72bb3e",
+        "text": "es6 / es7"
+      },
+      "date": 1557241958768
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "5971295b71fc081b"
+      },
+      "id": "5971295b71fc081b",
+      "type": "add",
+      "after": "76061d4b1f72bb3e",
+      "date": 1557241960437
+    },
+    {
+      "type": "edit",
+      "id": "5971295b71fc081b",
+      "item": {
+        "type": "paragraph",
+        "id": "5971295b71fc081b",
+        "text": "[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise Promise]"
+      },
+      "date": 1557241968106
+    },
+    {
+      "type": "add",
+      "id": "a88a323dfbbbc1c3",
+      "item": {
+        "type": "paragraph",
+        "id": "a88a323dfbbbc1c3",
+        "text": "Get the top of an element:"
+      },
+      "after": "389784d799352a31",
+      "date": 1557279303923
+    },
+    {
+      "type": "add",
+      "id": "cb8d975093618426",
+      "item": {
+        "type": "paragraph",
+        "id": "cb8d975093618426",
+        "text": "Absolute within the document: element.getBoundingClientRect().top"
+      },
+      "after": "a88a323dfbbbc1c3",
+      "date": 1557279317218
+    },
+    {
+      "type": "add",
+      "id": "5754f2744b77acc5",
+      "item": {
+        "type": "paragraph",
+        "id": "5754f2744b77acc5",
+        "text": "A"
+      },
+      "after": "cb8d975093618426",
+      "date": 1557279325429
+    },
+    {
+      "type": "edit",
+      "id": "cb8d975093618426",
+      "item": {
+        "type": "paragraph",
+        "id": "cb8d975093618426",
+        "text": "* Absolute within the document: element.getBoundingClientRect().top"
+      },
+      "date": 1557279329172
+    },
+    {
+      "type": "edit",
+      "id": "5754f2744b77acc5",
+      "item": {
+        "type": "paragraph",
+        "id": "5754f2744b77acc5",
+        "text": "* Relative to the parent:"
+      },
+      "date": 1557279339531
+    },
+    {
+      "type": "add",
+      "id": "193ebac27cfb9726",
+      "item": {
+        "type": "paragraph",
+        "id": "193ebac27cfb9726",
+        "text": "element.offsetTop"
+      },
+      "after": "5754f2744b77acc5",
+      "date": 1557279345763
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "4d20d97c00295f94"
+      },
+      "id": "4d20d97c00295f94",
+      "type": "add",
+      "after": "5971295b71fc081b",
+      "date": 1557289725677
+    },
+    {
+      "type": "edit",
+      "id": "4d20d97c00295f94",
+      "item": {
+        "type": "pagefold",
+        "id": "4d20d97c00295f94",
+        "text": "apis"
+      },
+      "date": 1557289730660
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "76fad2350744b159"
+      },
+      "id": "76fad2350744b159",
+      "type": "add",
+      "after": "4d20d97c00295f94",
+      "date": 1557289732376
+    },
+    {
+      "type": "edit",
+      "id": "76fad2350744b159",
+      "item": {
+        "type": "paragraph",
+        "id": "76fad2350744b159",
+        "text": "..."
+      },
+      "date": 1557289744596
+    },
+    {
+      "type": "edit",
+      "id": "76fad2350744b159",
+      "item": {
+        "type": "paragraph",
+        "id": "76fad2350744b159",
+        "text": "Cookies [https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies mdn]"
+      },
+      "date": 1557289773568
+    },
+    {
+      "type": "add",
+      "id": "c0ac0bcf84dc47b2",
+      "item": {
+        "type": "paragraph",
+        "id": "c0ac0bcf84dc47b2",
+        "text": "sessionStorage [https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage mdn]"
+      },
+      "after": "76fad2350744b159",
+      "date": 1557289799156
+    },
+    {
+      "type": "edit",
+      "id": "5971295b71fc081b",
+      "item": {
+        "type": "paragraph",
+        "id": "5971295b71fc081b",
+        "text": "When using promises, errors are exceptional cases which short circuit the logic later in the chain. For this reason, is is recommended to use an instance of error when rejecting a promise."
+      },
+      "date": 1557409372650
+    },
+    {
+      "type": "add",
+      "id": "b788d55770b6999d",
+      "item": {
+        "type": "paragraph",
+        "id": "b788d55770b6999d",
+        "text": "General info about promises. [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise mdn]"
+      },
+      "after": "5971295b71fc081b",
+      "date": 1557409385294
+    },
+    {
+      "type": "edit",
+      "id": "5971295b71fc081b",
+      "item": {
+        "type": "paragraph",
+        "id": "5971295b71fc081b",
+        "text": "When using promises, errors are exceptional cases which short circuit the logic later in the chain. For this reason, is is recommended to use an instance of error when rejecting a promise. [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/reject#Using_the_static_Promise.reject_method mdn]"
+      },
+      "date": 1557409394655
+    },
+    {
+      "type": "edit",
+      "id": "5971295b71fc081b",
+      "item": {
+        "type": "paragraph",
+        "id": "5971295b71fc081b",
+        "text": "When using promises, errors are exceptional cases which short circuit the logic later in the chain. For this reason, is is recommended to use an instance of error when rejecting a promise. [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/reject#Using_the_static_Promise.reject_method mdn] [https://stackoverflow.com/questions/26020578/should-a-promise-reject-message-be-wrapped-in-error so]"
+      },
+      "date": 1557409408025
+    },
+    {
+      "type": "edit",
+      "id": "5971295b71fc081b",
+      "item": {
+        "type": "paragraph",
+        "id": "5971295b71fc081b",
+        "text": "When using promises, errors are exceptional cases which short circuit the logic later in the chain. For this reason, is is recommended to use an instance of error when rejecting a promise. [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/reject#Using_the_static_Promise.reject_method mdn(reject)] https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/catch#Return_value mdn(catch)]  [https://stackoverflow.com/questions/26020578/should-a-promise-reject-message-be-wrapped-in-error so]"
+      },
+      "date": 1557409577724
+    },
+    {
+      "type": "edit",
+      "id": "5971295b71fc081b",
+      "item": {
+        "type": "paragraph",
+        "id": "5971295b71fc081b",
+        "text": "When using promises, errors are exceptional cases which short circuit the logic later in the chain. For this reason, is is recommended to use an instance of error when rejecting a promise. [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/reject#Using_the_static_Promise.reject_method mdn(reject)] [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/catch#Return_value mdn(catch)]  [https://stackoverflow.com/questions/26020578/should-a-promise-reject-message-be-wrapped-in-error so]"
+      },
+      "date": 1557409583166
+    },
+    {
+      "type": "edit",
+      "id": "5971295b71fc081b",
+      "item": {
+        "type": "paragraph",
+        "id": "5971295b71fc081b",
+        "text": "When using promises, errors are exceptional cases which short circuit the logic later in the chain. For this reason, is is recommended to use an instance of error when rejecting a promise. [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/catch#Return_value mdn] [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/reject#Using_the_static_Promise.reject_method mdn]  [https://stackoverflow.com/questions/26020578/should-a-promise-reject-message-be-wrapped-in-error so]"
+      },
+      "date": 1557409647097
+    },
+    {
+      "type": "add",
+      "id": "32c87524cf49245a",
+      "item": {
+        "type": "paragraph",
+        "id": "32c87524cf49245a",
+        "text": "To handle cases of errors, one can insert a call to catch in the promise chain. Since this, itself, returns a promise, one can recover from errors."
+      },
+      "after": "5971295b71fc081b",
+      "date": 1557409718418
+    },
+    {
+      "type": "edit",
+      "id": "32c87524cf49245a",
+      "item": {
+        "type": "paragraph",
+        "id": "32c87524cf49245a",
+        "text": "To handle cases of errors, one can insert a call to catch in the promise chain. Since this, itself, returns a promise, one can recover from errors. [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/catch]"
+      },
+      "date": 1557409731475
+    },
+    {
+      "type": "edit",
+      "id": "32c87524cf49245a",
+      "item": {
+        "type": "paragraph",
+        "id": "32c87524cf49245a",
+        "text": "To handle cases of errors, one can insert a call to catch in the promise chain. Since this, itself, returns a promise, one can recover from errors. [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/catch mdn]"
+      },
+      "date": 1557409741638
+    },
+    {
+      "type": "add",
+      "id": "d07c1f58d9ebd883",
+      "item": {
+        "type": "factory",
+        "id": "d07c1f58d9ebd883",
+        "text": " "
+      },
+      "after": "32c87524cf49245a",
+      "date": 1557409743127
+    },
+    {
+      "type": "edit",
+      "id": "d07c1f58d9ebd883",
+      "item": {
+        "type": "code",
+        "id": "d07c1f58d9ebd883",
+        "text": "let result = operation().then((v) => ...).catch((e) => return <recovery>).then((v) => ...) "
+      },
+      "date": 1557409841470
+    },
+    {
+      "type": "edit",
+      "id": "b788d55770b6999d",
+      "item": {
+        "type": "paragraph",
+        "id": "b788d55770b6999d",
+        "text": "One could also provide a then which handles both success and failure condition."
+      },
+      "date": 1557409867764
+    },
+    {
+      "type": "add",
+      "id": "04211de440cdd452",
+      "item": {
+        "type": "paragraph",
+        "id": "04211de440cdd452",
+        "text": "General info about promises. [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise mdn]"
+      },
+      "after": "b788d55770b6999d",
+      "date": 1557409869000
+    },
+    {
+      "type": "edit",
+      "id": "b788d55770b6999d",
+      "item": {
+        "type": "paragraph",
+        "id": "b788d55770b6999d",
+        "text": "Alternatively, one could provide a then which handles both success and failure condition."
+      },
+      "date": 1557409883762
+    },
+    {
+      "type": "add",
+      "id": "936e832504891eb1",
+      "item": {
+        "type": "paragraph",
+        "id": "936e832504891eb1",
+        "text": "Converting a callback api to a promise should be done with Promise.promisify(). [https://github.com/petkaantonov/bluebird/wiki/Promise-anti-patterns faq]"
+      },
+      "after": "5971295b71fc081b",
+      "date": 1557410355616
+    },
+    {
+      "type": "move",
+      "order": [
+        "b84e757df6c1be93",
+        "f8144a44b196a8f4",
+        "c75f8880f05c304c",
+        "f2b04c1f390b8e30",
+        "1b1d21b1265e092e",
+        "71b93aa35db589d2",
+        "bf194cfd17912d74",
+        "7cdc575f99bcb990",
+        "389784d799352a31",
+        "a88a323dfbbbc1c3",
+        "cb8d975093618426",
+        "5754f2744b77acc5",
+        "193ebac27cfb9726",
+        "b45be0a56f6687a9",
+        "ce8b09fd13ef33f5",
+        "7a18bc883b3ee31d",
+        "d37090a6df59dfe6",
+        "f897bb71c9e37696",
+        "9b3209e841da28eb",
+        "76061d4b1f72bb3e",
+        "04211de440cdd452",
+        "5971295b71fc081b",
+        "936e832504891eb1",
+        "32c87524cf49245a",
+        "d07c1f58d9ebd883",
+        "b788d55770b6999d",
+        "4d20d97c00295f94",
+        "76fad2350744b159",
+        "c0ac0bcf84dc47b2"
+      ],
+      "id": "04211de440cdd452",
+      "date": 1557410411768
+    },
+    {
+      "type": "edit",
+      "id": "936e832504891eb1",
+      "item": {
+        "type": "paragraph",
+        "id": "936e832504891eb1",
+        "text": "Terms used in promises. [https://github.com/domenic/promises-unwrapping/blob/master/docs/states-and-fates.md spec]"
+      },
+      "date": 1557410569452
+    },
+    {
+      "type": "move",
+      "order": [
+        "b84e757df6c1be93",
+        "f8144a44b196a8f4",
+        "c75f8880f05c304c",
+        "f2b04c1f390b8e30",
+        "1b1d21b1265e092e",
+        "71b93aa35db589d2",
+        "bf194cfd17912d74",
+        "7cdc575f99bcb990",
+        "389784d799352a31",
+        "a88a323dfbbbc1c3",
+        "cb8d975093618426",
+        "5754f2744b77acc5",
+        "193ebac27cfb9726",
+        "b45be0a56f6687a9",
+        "ce8b09fd13ef33f5",
+        "7a18bc883b3ee31d",
+        "d37090a6df59dfe6",
+        "f897bb71c9e37696",
+        "9b3209e841da28eb",
+        "76061d4b1f72bb3e",
+        "04211de440cdd452",
+        "936e832504891eb1",
+        "5971295b71fc081b",
+        "32c87524cf49245a",
+        "d07c1f58d9ebd883",
+        "b788d55770b6999d",
+        "4d20d97c00295f94",
+        "76fad2350744b159",
+        "c0ac0bcf84dc47b2"
+      ],
+      "id": "936e832504891eb1",
+      "date": 1557410572227
+    },
+    {
+      "type": "edit",
+      "id": "b788d55770b6999d",
+      "item": {
+        "type": "paragraph",
+        "id": "b788d55770b6999d",
+        "text": "Alternatively, one could provide a then which handles both success and failure condition, though this is considered an anti-pattern. [https://github.com/petkaantonov/bluebird/wiki/Promise-anti-patterns github]"
+      },
+      "date": 1557410780106
+    },
+    {
+      "type": "edit",
+      "id": "b788d55770b6999d",
+      "item": {
+        "type": "paragraph",
+        "id": "b788d55770b6999d",
+        "text": "Alternatively, one could provide a then which handles both success and failure condition, though this is considered an anti-pattern. [https://stackoverflow.com/questions/24662289/when-is-thensuccess-fail-considered-an-antipattern-for-promises/24663315#24663315 so] [https://github.com/petkaantonov/bluebird/wiki/Promise-anti-patterns github]"
+      },
+      "date": 1557410802645
+    },
+    {
+      "type": "add",
+      "id": "0b98302ed491740e",
+      "item": {
+        "type": "factory",
+        "id": "0b98302ed491740e",
+        "text": "To handle the case of a promise chain which needs to wait for additional asynchronous"
+      },
+      "after": "b788d55770b6999d",
+      "date": 1557411231547
+    },
+    {
+      "type": "edit",
+      "id": "0b98302ed491740e",
+      "item": {
+        "type": "code",
+        "id": "0b98302ed491740e",
+        "text": "..."
+      },
+      "date": 1557411275569
+    },
+    {
+      "type": "add",
+      "id": "a54f56f257688d5a",
+      "item": {
+        "type": "paragraph",
+        "id": "a54f56f257688d5a",
+        "text": "Promise chaining [https://javascript.info/promise-chaining tutorial]"
+      },
+      "after": "b788d55770b6999d",
+      "date": 1557412527654
+    },
+    {
+      "type": "edit",
+      "id": "0b98302ed491740e",
+      "item": {
+        "type": "code",
+        "id": "0b98302ed491740e",
+        "text": "let p = new Promise()."
+      },
+      "date": 1557412563835
+    },
+    {
+      "type": "add",
+      "id": "787809a4deaa1ecc",
+      "item": {
+        "type": "paragraph",
+        "id": "787809a4deaa1ecc",
+        "text": "Promises tutorial. [https://developers.google.com/web/fundamentals/primers/promises google]"
+      },
+      "after": "04211de440cdd452",
+      "date": 1557756145680
+    },
+    {
+      "type": "add",
+      "id": "1c47f41cba26251e",
+      "item": {
+        "type": "paragraph",
+        "id": "1c47f41cba26251e",
+        "text": "Converting callbacks to promises. [https://benmccormick.org/2015/12/30/es6-patterns-converting-callbacks-to-promises blog]"
+      },
+      "after": "936e832504891eb1",
+      "date": 1557866995000
+    },
+    {
+      "type": "add",
+      "id": "23c10069d0576603",
+      "item": {
+        "type": "paragraph",
+        "id": "23c10069d0576603",
+        "text": "streams [https://streams.spec.whatwg.org/ spec]"
+      },
+      "after": "c0ac0bcf84dc47b2",
+      "date": 1557867077623
+    },
+    {
+      "type": "add",
+      "id": "dc32b10177e98d54",
+      "item": {
+        "type": "paragraph",
+        "id": "dc32b10177e98d54",
+        "text": "Convert dashed entries to camel case using lodash:"
+      },
+      "after": "23c10069d0576603",
+      "date": 1558992778149
+    },
+    {
+      "type": "add",
+      "id": "424355896a8fe713",
+      "item": {
+        "type": "paragraph",
+        "id": "424355896a8fe713",
+        "text": "_.mapKeys(obj, (v, k) => _.camelCase(k))"
+      },
+      "after": "dc32b10177e98d54",
+      "date": 1558992796375
+    },
+    {
+      "type": "edit",
+      "id": "424355896a8fe713",
+      "item": {
+        "type": "paragraph",
+        "id": "424355896a8fe713",
+        "text": "_.mapKeys(obj, (v, k) => _.camelCase(k)) [https://stackoverflow.com/questions/12931828/convert-returned-json-object-properties-to-lower-first-camelcase so]"
+      },
+      "date": 1558992807818
+    },
+    {
+      "type": "add",
+      "id": "625ee517728015e3",
+      "item": {
+        "type": "paragraph",
+        "id": "625ee517728015e3",
+        "text": "Promisfy setTimeout: timeout = (ms) => new Promise(resolve => setTimeout(resolve, ms)). [https://stackoverflow.com/questions/33289726/combination-of-async-function-await-settimeout/33292942 so]"
+      },
+      "after": "b788d55770b6999d",
+      "date": 1559052787174
+    },
+    {
+      "type": "edit",
+      "id": "625ee517728015e3",
+      "item": {
+        "type": "paragraph",
+        "id": "625ee517728015e3",
+        "text": "Promisfy setTimeout: timeout = (ms) => new Promise(resolve => setTimeout(resolve, ms)). [https://stackoverflow.com/questions/33289726/combination-of-async-function-await-settimeout/33292942 so]"
+      },
+      "date": 1559052823943
+    },
+    {
+      "type": "add",
+      "id": "f705529dbc983312",
+      "item": {
+        "type": "paragraph",
+        "id": "f705529dbc983312",
+        "text": "Save file contents from a fetch:"
+      },
+      "after": "424355896a8fe713",
+      "date": 1559052867532
+    },
+    {
+      "type": "add",
+      "id": "3bc3a6bb87b9a63a",
+      "item": {
+        "type": "code",
+        "id": "3bc3a6bb87b9a63a",
+        "text": "let contents = await fetch('<url>').then(r => r.arrayBuffer())\nfs.writeFileSync('<filename>', new Buffer(new Uint8Array(contents)))"
+      },
+      "after": "f705529dbc983312",
+      "date": 1559052930725
+    },
+    {
+      "type": "edit",
+      "id": "3bc3a6bb87b9a63a",
+      "item": {
+        "type": "code",
+        "id": "3bc3a6bb87b9a63a",
+        "text": "let contents = await fetch('<url>').then(r => r.arrayBuffer())\nfs.writeFileSync('<filename>', new Buffer(new Uint8Array(contents)))"
+      },
+      "date": 1559052973787
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "fd28ef03b7beb343",
+        "text": "Is new Buffer really needed if we are getting an array from fetch? [https://stackoverflow.com/questions/39395195/how-to-write-wav-file-from-blob-in-javascript-node so]"
+      },
+      "id": "fd28ef03b7beb343",
+      "type": "add",
+      "after": "3bc3a6bb87b9a63a",
+      "date": 1559052975658
+    },
+    {
+      "type": "edit",
+      "id": "fd28ef03b7beb343",
+      "item": {
+        "type": "paragraph",
+        "id": "fd28ef03b7beb343",
+        "text": "Is new Buffer really needed if we are getting an array from fetch? [https://stackoverflow.com/questions/39395195/how-to-write-wav-file-from-blob-in-javascript-node so]"
+      },
+      "date": 1559053006065
+    },
+    {
+      "type": "add",
+      "id": "0723e8e6531afc01",
+      "item": {
+        "type": "paragraph",
+        "id": "0723e8e6531afc01",
+        "text": "Fetch API example [https://developers.google.com/web/ilt/pwa/working-with-the-fetch-api#example_fetching_images google]"
+      },
+      "after": "fd28ef03b7beb343",
+      "date": 1559053038739
+    },
+    {
+      "type": "add",
+      "id": "04c1522665ea04f7",
+      "item": {
+        "type": "paragraph",
+        "id": "04c1522665ea04f7",
+        "text": "An ArrayBuffer is just a byte array. [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer mdn]"
+      },
+      "after": "fd28ef03b7beb343",
+      "date": 1559053080174
+    },
+    {
+      "type": "add",
+      "id": "da5593616bfa4b5e",
+      "item": {
+        "type": "paragraph",
+        "id": "da5593616bfa4b5e",
+        "text": "URLSearchParams [https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams mdn]"
+      },
+      "after": "0723e8e6531afc01",
+      "date": 1559053152682,
+      "error": {
+        "type": "error",
+        "msg": ""
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1559058967680
+    },
+    {
+      "type": "add",
+      "id": "fd15efe9c707f68e",
+      "item": {
+        "type": "paragraph",
+        "id": "fd15efe9c707f68e",
+        "text": "Does JavaScript have a range function? [https://stackoverflow.com/questions/3895478/does-javascript-have-a-method-like-range-to-generate-a-range-within-the-supp so]"
+      },
+      "after": "d37090a6df59dfe6",
+      "date": 1560792676561
+    },
+    {
+      "type": "add",
+      "id": "84494507a07c0504",
+      "item": {
+        "type": "factory",
+        "id": "84494507a07c0504",
+        "text": " "
+      },
+      "after": "fd15efe9c707f68e",
+      "date": 1560792691557
+    },
+    {
+      "type": "edit",
+      "id": "84494507a07c0504",
+      "item": {
+        "type": "code",
+        "id": "84494507a07c0504",
+        "text": "[...Array(5).keys()]\n => [0, 1, 2, 3, 4]"
+      },
+      "date": 1560792698038
+    },
+    {
+      "type": "add",
+      "id": "62b510150aa6ccac",
+      "item": {
+        "type": "paragraph",
+        "id": "62b510150aa6ccac",
+        "text": "Array.sort [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort mdn]"
+      },
+      "after": "d37090a6df59dfe6",
+      "date": 1560919734258
+    },
+    {
+      "type": "add",
+      "id": "18a2caea377db71a",
+      "item": {
+        "type": "paragraph",
+        "id": "18a2caea377db71a",
+        "text": "Alternatives to built-in tooltips. [https://inclusive-components.design/tooltips-toggletips/ article]"
+      },
+      "after": "193ebac27cfb9726",
+      "date": 1560919822368
+    },
+    {
+      "type": "add",
+      "id": "d96833fce20bd31c",
+      "item": {
+        "type": "paragraph",
+        "id": "d96833fce20bd31c",
+        "text": "How to create a tooltip in html. [https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/title mdn]"
+      },
+      "after": "193ebac27cfb9726",
+      "date": 1560919848639
+    },
+    {
+      "type": "add",
+      "id": "228a05b73155096b",
+      "item": {
+        "type": "paragraph",
+        "id": "228a05b73155096b",
+        "text": "Get index of item when iterating with for ... of."
+      },
+      "after": "62b510150aa6ccac",
+      "date": 1560919995843
+    },
+    {
+      "type": "add",
+      "id": "47d81a8f6aec5130",
+      "item": {
+        "type": "paragraph",
+        "id": "47d81a8f6aec5130",
+        "text": "Short version, you cannot. Use Array.forEach or Array.entries instead. [https://stackoverflow.com/questions/10179815/get-loop-counter-index-using-for-of-syntax-in-javascript so]"
+      },
+      "after": "228a05b73155096b",
+      "date": 1560920018040
+    },
+    {
+      "type": "add",
+      "id": "1158c7cc71c8523e",
+      "item": {
+        "type": "paragraph",
+        "id": "1158c7cc71c8523e",
+        "text": "for (const ["
+      },
+      "after": "47d81a8f6aec5130",
+      "date": 1560920023213
+    },
+    {
+      "type": "edit",
+      "id": "1158c7cc71c8523e",
+      "item": {
+        "type": "paragraph",
+        "id": "1158c7cc71c8523e",
+        "text": "for (const [i, value] array.entries()) {}"
+      },
+      "date": 1560920041862
+    },
+    {
+      "type": "add",
+      "id": "ed486e4292ddb172",
+      "item": {
+        "type": "paragraph",
+        "id": "ed486e4292ddb172",
+        "text": "Parsing a relative date. [https://stackoverflow.com/questions/30683076/is-there-a-way-to-parse-a-relative-date-using-moment-js so]"
+      },
+      "after": "7a18bc883b3ee31d",
+      "date": 1561038799058
+    },
+    {
+      "type": "add",
+      "id": "5a3b804012f1a825",
+      "item": {
+        "type": "paragraph",
+        "id": "5a3b804012f1a825",
+        "text": "chrono-node is useful though I've seen cases where it inaccurately parses times after before noon."
+      },
+      "after": "ed486e4292ddb172",
+      "date": 1561038824451
+    },
+    {
+      "type": "add",
+      "id": "6723d671cec426ed",
+      "item": {
+        "type": "paragraph",
+        "id": "6723d671cec426ed",
+        "text": "The spread syntax can be used to expand an array or object literal in place. It makes it easier to perform things like concating arrays or cloning objects. [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax mdn]"
+      },
+      "after": "ce8b09fd13ef33f5",
+      "date": 1561039400309
+    },
+    {
+      "type": "add",
+      "id": "c5960ee2dbd4fa36",
+      "item": {
+        "type": "code",
+        "id": "c5960ee2dbd4fa36",
+        "text": "let array1 = [1, 2, 3]\nlet array2 = [4, 5, 6]\nlet combined = [...array1, ...array2]\n// [1, 2, 3, 4, 5, 6]\n\nlet obj1 = {x: 1, y: 1}\nlet obj2 = {width: 10, height: 10}\nlet combinedobj = { ...obj1, ...obj2 }\n// { x: 1, y: 1, width: 10, height: 10 }"
+      },
+      "after": "6723d671cec426ed",
+      "date": 1561039419292
+    },
+    {
+      "type": "edit",
+      "id": "c5960ee2dbd4fa36",
+      "item": {
+        "type": "code",
+        "id": "c5960ee2dbd4fa36",
+        "text": "let array1 = [1, 2, 3]\nlet array2 = [4, 5, 6]\nlet combined = [...array1, ...array2]\n// [1, 2, 3, 4, 5, 6]\n\nlet obj1 = {x: 1, y: 1}\nlet obj2 = {width: 10, height: 10}\nlet combinedobj = { ...obj1, ...obj2 }\n// { x: 1, y: 1, width: 10, height: 10 }"
+      },
+      "date": 1561039509008
+    },
+    {
+      "type": "edit",
+      "id": "d37090a6df59dfe6",
+      "item": {
+        "type": "paragraph",
+        "id": "d37090a6df59dfe6",
+        "text": "map((item, index, fullarray]) => ...) [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map mdn]"
+      },
+      "date": 1561039665299,
+      "error": {
+        "type": "error",
+        "msg": ""
+      }
+    },
+    {
+      "type": "add",
+      "id": "033c8941c0dc47e7",
+      "item": {
+        "type": "paragraph",
+        "id": "033c8941c0dc47e7",
+        "text": "reduce - <array_var>.reduce( (accumulator, value) => {return new_accumulator}, starting_accumulator) [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce mdn]"
+      },
+      "after": "d37090a6df59dfe6",
+      "date": 1561039666058
+    },
+    {
+      "type": "fork",
+      "date": 1561039710165
+    },
+    {
+      "id": "fd15efe9c707f68e",
+      "type": "move",
+      "order": [
+        "b84e757df6c1be93",
+        "f8144a44b196a8f4",
+        "c75f8880f05c304c",
+        "f2b04c1f390b8e30",
+        "1b1d21b1265e092e",
+        "71b93aa35db589d2",
+        "bf194cfd17912d74",
+        "7cdc575f99bcb990",
+        "389784d799352a31",
+        "a88a323dfbbbc1c3",
+        "cb8d975093618426",
+        "5754f2744b77acc5",
+        "193ebac27cfb9726",
+        "d96833fce20bd31c",
+        "18a2caea377db71a",
+        "b45be0a56f6687a9",
+        "ce8b09fd13ef33f5",
+        "6723d671cec426ed",
+        "c5960ee2dbd4fa36",
+        "fd15efe9c707f68e",
+        "7a18bc883b3ee31d",
+        "ed486e4292ddb172",
+        "5a3b804012f1a825",
+        "d37090a6df59dfe6",
+        "033c8941c0dc47e7",
+        "62b510150aa6ccac",
+        "228a05b73155096b",
+        "47d81a8f6aec5130",
+        "1158c7cc71c8523e",
+        "84494507a07c0504",
+        "f897bb71c9e37696",
+        "9b3209e841da28eb",
+        "76061d4b1f72bb3e",
+        "04211de440cdd452",
+        "787809a4deaa1ecc",
+        "936e832504891eb1",
+        "1c47f41cba26251e",
+        "5971295b71fc081b",
+        "32c87524cf49245a",
+        "d07c1f58d9ebd883",
+        "b788d55770b6999d",
+        "625ee517728015e3",
+        "a54f56f257688d5a",
+        "0b98302ed491740e",
+        "4d20d97c00295f94",
+        "76fad2350744b159",
+        "c0ac0bcf84dc47b2",
+        "23c10069d0576603",
+        "dc32b10177e98d54",
+        "424355896a8fe713",
+        "f705529dbc983312",
+        "3bc3a6bb87b9a63a",
+        "fd28ef03b7beb343",
+        "04c1522665ea04f7",
+        "0723e8e6531afc01",
+        "da5593616bfa4b5e"
+      ],
+      "date": 1561039758923
+    },
+    {
+      "id": "84494507a07c0504",
+      "type": "move",
+      "order": [
+        "b84e757df6c1be93",
+        "f8144a44b196a8f4",
+        "c75f8880f05c304c",
+        "f2b04c1f390b8e30",
+        "1b1d21b1265e092e",
+        "71b93aa35db589d2",
+        "bf194cfd17912d74",
+        "7cdc575f99bcb990",
+        "389784d799352a31",
+        "a88a323dfbbbc1c3",
+        "cb8d975093618426",
+        "5754f2744b77acc5",
+        "193ebac27cfb9726",
+        "d96833fce20bd31c",
+        "18a2caea377db71a",
+        "b45be0a56f6687a9",
+        "ce8b09fd13ef33f5",
+        "6723d671cec426ed",
+        "c5960ee2dbd4fa36",
+        "fd15efe9c707f68e",
+        "84494507a07c0504",
+        "7a18bc883b3ee31d",
+        "ed486e4292ddb172",
+        "5a3b804012f1a825",
+        "d37090a6df59dfe6",
+        "033c8941c0dc47e7",
+        "62b510150aa6ccac",
+        "228a05b73155096b",
+        "47d81a8f6aec5130",
+        "1158c7cc71c8523e",
+        "f897bb71c9e37696",
+        "9b3209e841da28eb",
+        "76061d4b1f72bb3e",
+        "04211de440cdd452",
+        "787809a4deaa1ecc",
+        "936e832504891eb1",
+        "1c47f41cba26251e",
+        "5971295b71fc081b",
+        "32c87524cf49245a",
+        "d07c1f58d9ebd883",
+        "b788d55770b6999d",
+        "625ee517728015e3",
+        "a54f56f257688d5a",
+        "0b98302ed491740e",
+        "4d20d97c00295f94",
+        "76fad2350744b159",
+        "c0ac0bcf84dc47b2",
+        "23c10069d0576603",
+        "dc32b10177e98d54",
+        "424355896a8fe713",
+        "f705529dbc983312",
+        "3bc3a6bb87b9a63a",
+        "fd28ef03b7beb343",
+        "04c1522665ea04f7",
+        "0723e8e6531afc01",
+        "da5593616bfa4b5e"
+      ],
+      "date": 1561039765754
+    },
+    {
+      "type": "edit",
+      "id": "fd15efe9c707f68e",
+      "item": {
+        "type": "paragraph",
+        "id": "fd15efe9c707f68e",
+        "text": "Does JavaScript have a range function? Use the spread syntax on an array. [https://stackoverflow.com/questions/3895478/does-javascript-have-a-method-like-range-to-generate-a-range-within-the-supp so]"
+      },
+      "date": 1561039787368
+    },
+    {
+      "type": "edit",
+      "id": "7a18bc883b3ee31d",
+      "item": {
+        "type": "paragraph",
+        "id": "7a18bc883b3ee31d",
+        "text": "Merge properties from another object into the current object using Object.assign. [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map mdn]"
+      },
+      "date": 1561039837213
+    },
+    {
+      "type": "add",
+      "id": "d1ca539369592746",
+      "item": {
+        "type": "paragraph",
+        "id": "d1ca539369592746",
+        "text": "URL object - no need to manually parse URLs anymore. [https://developer.mozilla.org/en-US/docs/Web/API/URL mdn]"
+      },
+      "after": "7a18bc883b3ee31d",
+      "date": 1561039837897
+    },
+    {
+      "type": "edit",
+      "id": "7a18bc883b3ee31d",
+      "item": {
+        "type": "paragraph",
+        "id": "7a18bc883b3ee31d",
+        "text": "Merge properties from another object into the current object using Object.assign(target, ...sources). [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map mdn]"
+      },
+      "date": 1561039880064
+    },
+    {
+      "type": "edit",
+      "id": "ce8b09fd13ef33f5",
+      "item": {
+        "type": "paragraph",
+        "id": "ce8b09fd13ef33f5",
+        "text": "Async and for loops or why does my for loop only capture the its last value? [https://dzone.com/articles/why-does-javascript-loop-only-use-last-value article]"
+      },
+      "date": 1564179071262
+    },
+    {
+      "type": "add",
+      "id": "e1dce37e8d52b59b",
+      "item": {
+        "type": "paragraph",
+        "id": "e1dce37e8d52b59b",
+        "text": "splice() - useful if you want to remove an element from within an array. [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice mdn]"
+      },
+      "after": "ce8b09fd13ef33f5",
+      "date": 1564179072030
+    },
+    {
+      "type": "add",
+      "id": "5420f9bbcb8df969",
+      "item": {
+        "type": "paragraph",
+        "id": "5420f9bbcb8df969",
+        "text": "num.toFixed(2) [https://stackoverflow.com/questions/610406/javascript-equivalent-to-printf-string-format so]"
+      },
+      "after": "ce8b09fd13ef33f5",
+      "date": 1564179506917
+    }
+  ]
+}

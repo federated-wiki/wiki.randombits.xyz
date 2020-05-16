@@ -1,0 +1,429 @@
+{
+  "title": "Insights",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "f897827d9e733052",
+      "text": "Not technically a database. NRDB is the underlying database, but this is the interface to it. NRQL is the language used to query it."
+    },
+    {
+      "type": "paragraph",
+      "id": "dcc379a6c84c5021",
+      "text": "Insights API [https://docs.newrelic.com/docs/insights/insights-api/get-data/query-insights-event-data-api docs]"
+    },
+    {
+      "type": "code",
+      "id": "b63439cc643e9d35",
+      "text": "curl -H \"Accept: application/json\" -H \"X-Query-Key: YOUR_QUERY_KEY\" \"https://insights-api.newrelic.com/v1/accounts/YOUR_ACCOUNT_ID/query?nrql=YOUR_QUERY_STRING\" "
+    },
+    {
+      "type": "paragraph",
+      "id": "974cf7414817b066",
+      "text": "You must follow certain query rules or the query may fail:"
+    },
+    {
+      "type": "paragraph",
+      "id": "b5130f90d57a0f3d",
+      "text": "The NRQL query string must be URL-encoded  .\n"
+    },
+    {
+      "type": "paragraph",
+      "id": "39a7bc8dfabcc870",
+      "text": "The query string must be less than 4 KB.\n"
+    },
+    {
+      "type": "paragraph",
+      "id": "68c495e3d5ebfb6e",
+      "text": "The URL must contain a valid account ID.\n"
+    },
+    {
+      "type": "paragraph",
+      "id": "032e205551dde773",
+      "text": "The X-Query-Key must contain a valid query key.\n"
+    },
+    {
+      "type": "paragraph",
+      "id": "2b000287667cc3be",
+      "text": "The Content-Type must be application/json."
+    },
+    {
+      "type": "paragraph",
+      "id": "ac6db1767fbc9f15",
+      "text": "How to get a list of event types and their properties? [https://discuss.newrelic.com/t/schema-for-data-tables/53727/2 forum]"
+    },
+    {
+      "type": "paragraph",
+      "id": "1cd3ffde4423a37f",
+      "text": "Gets a list of event types."
+    },
+    {
+      "type": "code",
+      "id": "5e4a1fd22382dfea",
+      "text": "show event types since 1 week ago "
+    },
+    {
+      "type": "paragraph",
+      "id": "944d9a188584ea8e",
+      "text": "Gets a list of properties for the listed table."
+    },
+    {
+      "type": "code",
+      "id": "57dd7cf150ec00cc",
+      "text": "select keyset() from <table> "
+    },
+    {
+      "type": "paragraph",
+      "id": "1491bc3274ea4b57",
+      "text": "To get the list of completions for a where clause:"
+    },
+    {
+      "type": "code",
+      "id": "4ba9bf1657f21c0e",
+      "text": "select uniques('<column>') from <table> "
+    },
+    {
+      "type": "paragraph",
+      "id": "a6cae750fde7e499",
+      "text": "Insights default data from other New Relic products [https://docs.newrelic.com/docs/insights/insights-data-sources/default-data/insights-default-data-other-new-relic-products docs]"
+    },
+    {
+      "type": "paragraph",
+      "id": "967947add6626963",
+      "text": "If we watch the network panel while entering queries in the Insights query explorer, we notice that it makes graphql NRQL queries in the background that are largely made up of the above queries."
+    },
+    {
+      "type": "paragraph",
+      "id": "399ee456ff991fe4",
+      "text": "New Relic REST API Explorer (separate from Insights) [https://rpm.newrelic.com/api/explore/ explorer]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Insights",
+        "story": []
+      },
+      "date": 1570248228140
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "f897827d9e733052"
+      },
+      "id": "f897827d9e733052",
+      "type": "add",
+      "date": 1570248229160
+    },
+    {
+      "type": "edit",
+      "id": "f897827d9e733052",
+      "item": {
+        "type": "paragraph",
+        "id": "f897827d9e733052",
+        "text": "Not technically a database. NRDB is the underlying database, but this is the interface to it. NRQL is the language used to query it."
+      },
+      "date": 1570248262596
+    },
+    {
+      "type": "add",
+      "id": "57dd7cf150ec00cc",
+      "item": {
+        "type": "paragraph",
+        "id": "57dd7cf150ec00cc",
+        "text": "select keyset() from <table>"
+      },
+      "after": "f897827d9e733052",
+      "date": 1570248306978
+    },
+    {
+      "type": "add",
+      "id": "944d9a188584ea8e",
+      "item": {
+        "type": "paragraph",
+        "id": "944d9a188584ea8e",
+        "text": "Gets a list of properties for the listed table [https://discuss.newrelic.com/t/schema-for-data-tables/53727/2 forum]"
+      },
+      "after": "57dd7cf150ec00cc",
+      "date": 1570248331207
+    },
+    {
+      "type": "edit",
+      "id": "944d9a188584ea8e",
+      "item": {
+        "type": "paragraph",
+        "id": "944d9a188584ea8e",
+        "text": "Gets a list of properties for the listed table."
+      },
+      "date": 1570248484763
+    },
+    {
+      "type": "add",
+      "id": "ac6db1767fbc9f15",
+      "item": {
+        "type": "paragraph",
+        "id": "ac6db1767fbc9f15",
+        "text": "How to get a list of event types and their properties? [https://discuss.newrelic.com/t/schema-for-data-tables/53727/2 forum]"
+      },
+      "after": "944d9a188584ea8e",
+      "date": 1570248511613
+    },
+    {
+      "id": "ac6db1767fbc9f15",
+      "type": "move",
+      "order": [
+        "f897827d9e733052",
+        "ac6db1767fbc9f15",
+        "57dd7cf150ec00cc",
+        "944d9a188584ea8e"
+      ],
+      "date": 1570248513928
+    },
+    {
+      "id": "944d9a188584ea8e",
+      "type": "move",
+      "order": [
+        "f897827d9e733052",
+        "ac6db1767fbc9f15",
+        "944d9a188584ea8e",
+        "57dd7cf150ec00cc"
+      ],
+      "date": 1570248515830
+    },
+    {
+      "type": "add",
+      "id": "1cd3ffde4423a37f",
+      "item": {
+        "type": "paragraph",
+        "id": "1cd3ffde4423a37f",
+        "text": "Gets a list of event types."
+      },
+      "after": "ac6db1767fbc9f15",
+      "date": 1570248531822
+    },
+    {
+      "type": "add",
+      "id": "5e4a1fd22382dfea",
+      "item": {
+        "type": "paragraph",
+        "id": "5e4a1fd22382dfea",
+        "text": "show event types since 1 week ago"
+      },
+      "after": "1cd3ffde4423a37f",
+      "date": 1570248539264
+    },
+    {
+      "type": "add",
+      "id": "1491bc3274ea4b57",
+      "item": {
+        "type": "paragraph",
+        "id": "1491bc3274ea4b57",
+        "text": "Insights default data from other New Relic products [https://docs.newrelic.com/docs/insights/insights-data-sources/default-data/insights-default-data-other-new-relic-products docs]"
+      },
+      "after": "57dd7cf150ec00cc",
+      "date": 1570248604952
+    },
+    {
+      "type": "add",
+      "id": "399ee456ff991fe4",
+      "item": {
+        "type": "paragraph",
+        "id": "399ee456ff991fe4",
+        "text": "New Relic REST API Explorer (separate from Insights) [https://rpm.newrelic.com/api/explore/ explorer]"
+      },
+      "after": "1491bc3274ea4b57",
+      "date": 1570248714936
+    },
+    {
+      "type": "add",
+      "id": "dcc379a6c84c5021",
+      "item": {
+        "type": "paragraph",
+        "id": "dcc379a6c84c5021",
+        "text": "Insights API [https://docs.newrelic.com/docs/insights/insights-api/get-data/query-insights-event-data-api docs]"
+      },
+      "after": "f897827d9e733052",
+      "date": 1570248759511
+    },
+    {
+      "type": "add",
+      "id": "b63439cc643e9d35",
+      "item": {
+        "type": "paragraph",
+        "id": "b63439cc643e9d35",
+        "text": "curl -H \"Accept: application/json\" -H \"X-Query-Key: YOUR_QUERY_KEY\" \"https://insights-api.newrelic.com/v1/accounts/YOUR_ACCOUNT_ID/query?nrql=YOUR_QUERY_STRING\""
+      },
+      "after": "dcc379a6c84c5021",
+      "date": 1570248778349
+    },
+    {
+      "type": "add",
+      "id": "974cf7414817b066",
+      "item": {
+        "type": "paragraph",
+        "id": "974cf7414817b066",
+        "text": "You must follow certain query rules or the query may fail:\n\nThe NRQL query string must be URL-encoded  .\nThe query string must be less than 4 KB.\nThe URL must contain a valid account ID.\nThe X-Query-Key must contain a valid query key.\nThe Content-Type must be application/json."
+      },
+      "after": "b63439cc643e9d35",
+      "date": 1570248796030
+    },
+    {
+      "type": "edit",
+      "id": "974cf7414817b066",
+      "item": {
+        "type": "paragraph",
+        "id": "974cf7414817b066",
+        "text": "You must follow certain query rules or the query may fail:"
+      },
+      "date": 1570248801384
+    },
+    {
+      "type": "add",
+      "id": "b5130f90d57a0f3d",
+      "item": {
+        "type": "paragraph",
+        "id": "b5130f90d57a0f3d",
+        "text": "The NRQL query string must be URL-encoded  .\n"
+      },
+      "after": "974cf7414817b066",
+      "date": 1570248802516
+    },
+    {
+      "type": "add",
+      "id": "39a7bc8dfabcc870",
+      "item": {
+        "type": "paragraph",
+        "id": "39a7bc8dfabcc870",
+        "text": "The query string must be less than 4 KB.\n"
+      },
+      "after": "b5130f90d57a0f3d",
+      "date": 1570248803227
+    },
+    {
+      "type": "add",
+      "id": "68c495e3d5ebfb6e",
+      "item": {
+        "type": "paragraph",
+        "id": "68c495e3d5ebfb6e",
+        "text": "The URL must contain a valid account ID.\n"
+      },
+      "after": "39a7bc8dfabcc870",
+      "date": 1570248803777
+    },
+    {
+      "type": "add",
+      "id": "032e205551dde773",
+      "item": {
+        "type": "paragraph",
+        "id": "032e205551dde773",
+        "text": "The X-Query-Key must contain a valid query key.\n"
+      },
+      "after": "68c495e3d5ebfb6e",
+      "date": 1570248804210
+    },
+    {
+      "type": "add",
+      "id": "2b000287667cc3be",
+      "item": {
+        "type": "paragraph",
+        "id": "2b000287667cc3be",
+        "text": "The Content-Type must be application/json."
+      },
+      "after": "032e205551dde773",
+      "date": 1570248805263
+    },
+    {
+      "type": "edit",
+      "id": "b63439cc643e9d35",
+      "item": {
+        "type": "code",
+        "id": "b63439cc643e9d35",
+        "text": "curl -H \"Accept: application/json\" -H \"X-Query-Key: YOUR_QUERY_KEY\" \"https://insights-api.newrelic.com/v1/accounts/YOUR_ACCOUNT_ID/query?nrql=YOUR_QUERY_STRING\" "
+      },
+      "date": 1570248812838
+    },
+    {
+      "type": "edit",
+      "id": "5e4a1fd22382dfea",
+      "item": {
+        "type": "code",
+        "id": "5e4a1fd22382dfea",
+        "text": "show event types since 1 week ago "
+      },
+      "date": 1570248833091
+    },
+    {
+      "type": "edit",
+      "id": "57dd7cf150ec00cc",
+      "item": {
+        "type": "code",
+        "id": "57dd7cf150ec00cc",
+        "text": "select keyset() from <table> "
+      },
+      "date": 1570248838974
+    },
+    {
+      "type": "add",
+      "id": "967947add6626963",
+      "item": {
+        "type": "paragraph",
+        "id": "967947add6626963",
+        "text": "If we watch the network panel while entering queries in the Insights query explorer, we notice that it makes graphql NRQL queries in the background that are largely made up of the above two queries."
+      },
+      "after": "1491bc3274ea4b57",
+      "date": 1570248908179
+    },
+    {
+      "type": "edit",
+      "id": "967947add6626963",
+      "item": {
+        "type": "paragraph",
+        "id": "967947add6626963",
+        "text": "If we watch the network panel while entering queries in the Insights query explorer, we notice that it makes graphql NRQL queries in the background that are largely made up of the above queries."
+      },
+      "date": 1570248922043
+    },
+    {
+      "type": "edit",
+      "id": "1491bc3274ea4b57",
+      "item": {
+        "type": "paragraph",
+        "id": "1491bc3274ea4b57",
+        "text": "To get the list of completions for a where clause:"
+      },
+      "date": 1570249000588
+    },
+    {
+      "type": "add",
+      "id": "4ba9bf1657f21c0e",
+      "item": {
+        "type": "paragraph",
+        "id": "4ba9bf1657f21c0e",
+        "text": "select uniques('<column>') from <table>"
+      },
+      "after": "1491bc3274ea4b57",
+      "date": 1570249018463
+    },
+    {
+      "type": "add",
+      "id": "a6cae750fde7e499",
+      "item": {
+        "type": "paragraph",
+        "id": "a6cae750fde7e499",
+        "text": "Insights default data from other New Relic products [https://docs.newrelic.com/docs/insights/insights-data-sources/default-data/insights-default-data-other-new-relic-products docs]"
+      },
+      "after": "4ba9bf1657f21c0e",
+      "date": 1570249019554
+    },
+    {
+      "type": "edit",
+      "id": "4ba9bf1657f21c0e",
+      "item": {
+        "type": "code",
+        "id": "4ba9bf1657f21c0e",
+        "text": "select uniques('<column>') from <table> "
+      },
+      "date": 1570249029193
+    }
+  ]
+}

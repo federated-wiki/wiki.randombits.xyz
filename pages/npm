@@ -1,0 +1,55 @@
+{
+  "title": "npm",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "a80da3f33ecd2fb1",
+      "text": "The Node Package Manager"
+    },
+    {
+      "type": "paragraph",
+      "id": "400e5dbbc4693306",
+      "text": "Using local paths in package.json [https://docs.npmjs.com/files/package.json#local-paths doc]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "npm",
+        "story": []
+      },
+      "date": 1574476934656
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "a80da3f33ecd2fb1"
+      },
+      "id": "a80da3f33ecd2fb1",
+      "type": "add",
+      "date": 1574476936112
+    },
+    {
+      "type": "edit",
+      "id": "a80da3f33ecd2fb1",
+      "item": {
+        "type": "paragraph",
+        "id": "a80da3f33ecd2fb1",
+        "text": "The Node Package Manager"
+      },
+      "date": 1574476945212
+    },
+    {
+      "type": "add",
+      "id": "400e5dbbc4693306",
+      "item": {
+        "type": "paragraph",
+        "id": "400e5dbbc4693306",
+        "text": "Using local paths in package.json [https://docs.npmjs.com/files/package.json#local-paths doc]"
+      },
+      "after": "a80da3f33ecd2fb1",
+      "date": 1574476964604
+    }
+  ]
+}

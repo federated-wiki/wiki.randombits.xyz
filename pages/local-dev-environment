@@ -1,0 +1,338 @@
+{
+  "title": "Local Dev Environment",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "64f23adf8508df8d",
+      "text": "Items to try out or research for my local dev setup:"
+    },
+    {
+      "type": "paragraph",
+      "id": "5370c367668e738e",
+      "text": "Learn to use fzf to its potential. [https://medium.com/@sidneyliebrand/how-fzf-and-ripgrep-improved-my-workflow-61c7ca212861 web]."
+    },
+    {
+      "type": "paragraph",
+      "id": "18af07e221b65939",
+      "text": "Try out [https://blog.burntsushi.net/ripgrep/ ripgrep] as an alternative to the silver searcher. See if it handles globbing of files in subdirectories better than 'ag'. Test with searching fedwiki/wiki-client."
+    },
+    {
+      "type": "paragraph",
+      "id": "53fadbf1257fac60",
+      "text": "Add [https://github.com/robbyrussell/oh-my-zsh oh-my-zsh] to my dotfiles repo and use a [https://git-scm.com/book/en/v2/Git-Tools-Submodules git submodule] to use the same revision across systems."
+    },
+    {
+      "type": "paragraph",
+      "id": "c0e6f601b6add5cc",
+      "text": "Add a [https://stackoverflow.com/questions/7669963/how-can-i-get-a-side-by-side-diff-when-i-do-git-diff git external diff] env var to my zsh setup so 'git difftool' pulls up in nvim."
+    },
+    {
+      "type": "paragraph",
+      "id": "b2ca29478747ec53",
+      "text": "Improve my [https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/vi-mode zsh vi-mode] setup: Change my terminal cursor whenever in normal mode [https://dougblack.io/words/zsh-vi-mode.html within zsh]."
+    },
+    {
+      "type": "paragraph",
+      "id": "2349e39226ed5a1e",
+      "text": "Build and integrate the Scriptable Status Bar so my mute keybinding shows the current status. [https://github.com/0942v8653/ScriptableStatusBar github]"
+    },
+    {
+      "type": "paragraph",
+      "id": "054e1d8c3ab9d2d9",
+      "text": "Complete ramdisk investigation. [http://man7.org/linux/man-pages/man5/tmpfs.5.html manpage] [http://www.ltr-data.se/opencode.html/#ImDisk imdisk]"
+    },
+    {
+      "type": "paragraph",
+      "id": "e2258c39584e2ccc",
+      "text": "See if dispatch is worth adding to vim. [https://www.vim.org/scripts/script.php?script_id=4504 vim.org]"
+    },
+    {
+      "type": "paragraph",
+      "id": "6de3a1e5f4be88a1",
+      "text": "Look through these dotfiles for ideas to incorporate. [https://github.com/xaque208/dotfiles github]"
+    },
+    {
+      "type": "paragraph",
+      "id": "4d30e5a4bc195045",
+      "text": "Make use of the Inconsolata font. [https://levien.com/type/myfonts/inconsolata.html site] Alternatives include Microsoft's Consolas."
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Local Dev Environment",
+        "story": []
+      },
+      "date": 1554752730148
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "bc0afa896ebf992d"
+      },
+      "id": "bc0afa896ebf992d",
+      "type": "add",
+      "date": 1554752732027
+    },
+    {
+      "type": "remove",
+      "id": "bc0afa896ebf992d",
+      "date": 1554752737972
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "64f23adf8508df8d"
+      },
+      "id": "64f23adf8508df8d",
+      "type": "add",
+      "date": 1554752745938
+    },
+    {
+      "type": "edit",
+      "id": "64f23adf8508df8d",
+      "item": {
+        "type": "paragraph",
+        "id": "64f23adf8508df8d",
+        "text": "Try out [https://blog.burntsushi.net/ripgrep/ ripgrep] as an alternative to the silver searcher. See if it handles globbing of files in subdirectories better than 'ag'. Test with searching fedwiki/wiki-client."
+      },
+      "date": 1554752799550
+    },
+    {
+      "type": "add",
+      "id": "53fadbf1257fac60",
+      "item": {
+        "type": "paragraph",
+        "id": "53fadbf1257fac60",
+        "text": "Add zsh to my dotfiles repo use a [https://git-scm.com/book/en/v2/Git-Tools-Submodules git submodule]."
+      },
+      "after": "64f23adf8508df8d",
+      "date": 1554752853302
+    },
+    {
+      "type": "add",
+      "id": "c0e6f601b6add5cc",
+      "item": {
+        "type": "paragraph",
+        "id": "c0e6f601b6add5cc",
+        "text": "Add a [https://stackoverflow.com/questions/7669963/how-can-i-get-a-side-by-side-diff-when-i-do-git-diff git external diff] tool to my zsh setup so 'git difftool' pulls up in nvim."
+      },
+      "after": "53fadbf1257fac60",
+      "date": 1554752906471
+    },
+    {
+      "type": "edit",
+      "id": "c0e6f601b6add5cc",
+      "item": {
+        "type": "paragraph",
+        "id": "c0e6f601b6add5cc",
+        "text": "Add a [https://stackoverflow.com/questions/7669963/how-can-i-get-a-side-by-side-diff-when-i-do-git-diff git external diff] env var"
+      },
+      "date": 1554752918935
+    },
+    {
+      "type": "edit",
+      "id": "c0e6f601b6add5cc",
+      "item": {
+        "type": "paragraph",
+        "id": "c0e6f601b6add5cc",
+        "text": "Add a [https://stackoverflow.com/questions/7669963/how-can-i-get-a-side-by-side-diff-when-i-do-git-diff git external diff] env var to my zsh setup so 'git difftool' pulls up in nvim."
+      },
+      "date": 1554752922595
+    },
+    {
+      "type": "add",
+      "id": "b2ca29478747ec53",
+      "item": {
+        "type": "paragraph",
+        "id": "b2ca29478747ec53",
+        "text": "Change my terminal cursor whenever in command mode [https://dougblack.io/words/zsh-vi-mode.html within zsh]."
+      },
+      "after": "c0e6f601b6add5cc",
+      "date": 1554755695521
+    },
+    {
+      "type": "edit",
+      "id": "b2ca29478747ec53",
+      "item": {
+        "type": "paragraph",
+        "id": "b2ca29478747ec53",
+        "text": "Improve my [https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/vi-mode zsh vi-mode] setup: Change my terminal cursor whenever in normal mode [https://dougblack.io/words/zsh-vi-mode.html within zsh]."
+      },
+      "date": 1554755753913
+    },
+    {
+      "type": "add",
+      "id": "2349e39226ed5a1e",
+      "item": {
+        "type": "paragraph",
+        "id": "2349e39226ed5a1e",
+        "text": "Build and integrate the Scriptable Status Bar so my mute keybinding shows the current status. [https://github.com/0942v8653/ScriptableStatusBar github]"
+      },
+      "after": "b2ca29478747ec53",
+      "date": 1554757036892
+    },
+    {
+      "type": "add",
+      "id": "054e1d8c3ab9d2d9",
+      "item": {
+        "type": "paragraph",
+        "id": "054e1d8c3ab9d2d9",
+        "text": "Complete ramdisk investigation. ["
+      },
+      "after": "2349e39226ed5a1e",
+      "date": 1554757372276
+    },
+    {
+      "type": "edit",
+      "id": "054e1d8c3ab9d2d9",
+      "item": {
+        "type": "paragraph",
+        "id": "054e1d8c3ab9d2d9",
+        "text": "Complete ramdisk investigation. [http://man7.org/linux/man-pages/man5/tmpfs.5.html man] "
+      },
+      "date": 1554757391136
+    },
+    {
+      "type": "edit",
+      "id": "054e1d8c3ab9d2d9",
+      "item": {
+        "type": "paragraph",
+        "id": "054e1d8c3ab9d2d9",
+        "text": "Complete ramdisk investigation. [http://man7.org/linux/man-pages/man5/tmpfs.5.html man] [http://www.ltr-data.se/opencode.html/#ImDisk imdisk]"
+      },
+      "date": 1554757411177
+    },
+    {
+      "type": "edit",
+      "id": "53fadbf1257fac60",
+      "item": {
+        "type": "paragraph",
+        "id": "53fadbf1257fac60",
+        "text": "Add [https://github.com/robbyrussell/oh-my-zsh oh-my-zsh] to my dotfiles repo and use a [https://git-scm.com/book/en/v2/Git-Tools-Submodules git submodule] to use the same revision across systems."
+      },
+      "date": 1554758343647
+    },
+    {
+      "type": "edit",
+      "id": "054e1d8c3ab9d2d9",
+      "item": {
+        "type": "paragraph",
+        "id": "054e1d8c3ab9d2d9",
+        "text": "Complete ramdisk investigation. [http://man7.org/linux/man-pages/man5/tmpfs.5.html manpage] [http://www.ltr-data.se/opencode.html/#ImDisk imdisk]"
+      },
+      "date": 1554758452410
+    },
+    {
+      "type": "add",
+      "id": "e2258c39584e2ccc",
+      "item": {
+        "type": "paragraph",
+        "id": "e2258c39584e2ccc",
+        "text": "See if vimdispatch is worth adding. [https://www.vim.org/scripts/script.php?script_id=4504 vim.org]"
+      },
+      "after": "054e1d8c3ab9d2d9",
+      "date": 1554758664115
+    },
+    {
+      "type": "edit",
+      "id": "e2258c39584e2ccc",
+      "item": {
+        "type": "paragraph",
+        "id": "e2258c39584e2ccc",
+        "text": "See if dispatch is worth adding to vim. [https://www.vim.org/scripts/script.php?script_id=4504 vim.org]"
+      },
+      "date": 1554758679847
+    },
+    {
+      "type": "fork",
+      "site": "joshua.nrrd.wiki.org",
+      "date": 1555222645036
+    },
+    {
+      "type": "edit",
+      "id": "64f23adf8508df8d",
+      "item": {
+        "type": "paragraph",
+        "id": "64f23adf8508df8d",
+        "text": "Learn to use fzf to its potential. [https://medium.com/@sidneyliebrand/how-fzf-and-ripgrep-improved-my-workflow-61c7ca212861 web]."
+      },
+      "date": 1555382952957
+    },
+    {
+      "type": "add",
+      "id": "18af07e221b65939",
+      "item": {
+        "type": "paragraph",
+        "id": "18af07e221b65939",
+        "text": "Try out [https://blog.burntsushi.net/ripgrep/ ripgrep] as an alternative to the silver searcher. See if it handles globbing of files in subdirectories better than 'ag'. Test with searching fedwiki/wiki-client."
+      },
+      "after": "64f23adf8508df8d",
+      "date": 1555382953995
+    },
+    {
+      "type": "edit",
+      "id": "64f23adf8508df8d",
+      "item": {
+        "type": "paragraph",
+        "id": "64f23adf8508df8d",
+        "text": "Items to try out or research for my local dev setup:"
+      },
+      "date": 1556582637092
+    },
+    {
+      "type": "add",
+      "id": "5370c367668e738e",
+      "item": {
+        "type": "paragraph",
+        "id": "5370c367668e738e",
+        "text": "Learn to use fzf to its potential. [https://medium.com/@sidneyliebrand/how-fzf-and-ripgrep-improved-my-workflow-61c7ca212861 web]."
+      },
+      "after": "64f23adf8508df8d",
+      "date": 1556582639021
+    },
+    {
+      "type": "add",
+      "id": "6de3a1e5f4be88a1",
+      "item": {
+        "type": "paragraph",
+        "id": "6de3a1e5f4be88a1",
+        "text": "Look through Zach Leslie's dotfiles for ideas to incorporate. [https://github.com/xaque208/dotfiles github]"
+      },
+      "after": "e2258c39584e2ccc",
+      "date": 1556582671523
+    },
+    {
+      "type": "edit",
+      "id": "6de3a1e5f4be88a1",
+      "item": {
+        "type": "paragraph",
+        "id": "6de3a1e5f4be88a1",
+        "text": "Look through these dotfiles for ideas to incorporate. [https://github.com/xaque208/dotfiles github]"
+      },
+      "date": 1556582725005
+    },
+    {
+      "type": "add",
+      "id": "4d30e5a4bc195045",
+      "item": {
+        "type": "paragraph",
+        "id": "4d30e5a4bc195045",
+        "text": "Make use of the Inconsolata font. [https://levien.com/type/myfonts/inconsolata.html site]"
+      },
+      "after": "6de3a1e5f4be88a1",
+      "date": 1556584899373
+    },
+    {
+      "type": "edit",
+      "id": "4d30e5a4bc195045",
+      "item": {
+        "type": "paragraph",
+        "id": "4d30e5a4bc195045",
+        "text": "Make use of the Inconsolata font. [https://levien.com/type/myfonts/inconsolata.html site] Alternatives include Microsoft's Consolas."
+      },
+      "date": 1556584928364
+    }
+  ]
+}

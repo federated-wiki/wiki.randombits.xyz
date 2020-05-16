@@ -1,0 +1,65 @@
+{
+  "title": "RedMonk Language Rankings",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "e6b91b83dc20cb2c",
+      "text": "June 2019 [https://redmonk.com/sogrady/2019/07/18/language-rankings-6-19/?utm_source=rss&utm_medium=rss&utm_campaign=language-rankings-6-19 article]"
+    },
+    {
+      "type": "markdown",
+      "id": "30f1496f92369b22",
+      "text": "> Rust: One quarter after holding at #23, Rust inched up two spots to #21 this quarter. Placing one spot behind a high growth language like Kotlin and ahead of popular JVM-based languages such as Clojure (#25) or Groovy (#24) is a remarkable accomplishment given Rust’s low level, safety-oriented nature. It’s one thing to pick up JavaScript or even TypeScript quickly; fluency and competency in Rust is, by comparison, more difficult to achieve. For a systems language to continue its upward trajectory in this fashion suggests that some combination of the design, the language’s community and market demand is combining to have it outperform its natural expectations. "
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "RedMonk Language Rankings",
+        "story": []
+      },
+      "date": 1564028392116
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "e6b91b83dc20cb2c"
+      },
+      "id": "e6b91b83dc20cb2c",
+      "type": "add",
+      "date": 1564028393910
+    },
+    {
+      "type": "edit",
+      "id": "e6b91b83dc20cb2c",
+      "item": {
+        "type": "paragraph",
+        "id": "e6b91b83dc20cb2c",
+        "text": "June 2019 [https://redmonk.com/sogrady/2019/07/18/language-rankings-6-19/?utm_source=rss&utm_medium=rss&utm_campaign=language-rankings-6-19 article]"
+      },
+      "date": 1564028404837
+    },
+    {
+      "type": "add",
+      "id": "30f1496f92369b22",
+      "item": {
+        "type": "factory",
+        "id": "30f1496f92369b22",
+        "text": " "
+      },
+      "after": "e6b91b83dc20cb2c",
+      "date": 1564028428188
+    },
+    {
+      "type": "edit",
+      "id": "30f1496f92369b22",
+      "item": {
+        "type": "markdown",
+        "id": "30f1496f92369b22",
+        "text": "> Rust: One quarter after holding at #23, Rust inched up two spots to #21 this quarter. Placing one spot behind a high growth language like Kotlin and ahead of popular JVM-based languages such as Clojure (#25) or Groovy (#24) is a remarkable accomplishment given Rust’s low level, safety-oriented nature. It’s one thing to pick up JavaScript or even TypeScript quickly; fluency and competency in Rust is, by comparison, more difficult to achieve. For a systems language to continue its upward trajectory in this fashion suggests that some combination of the design, the language’s community and market demand is combining to have it outperform its natural expectations. "
+      },
+      "date": 1564028447300
+    }
+  ]
+}

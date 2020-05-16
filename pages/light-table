@@ -1,0 +1,114 @@
+{
+  "title": "Light Table",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "3ae773ee90b054d5",
+      "text": "Inspired by Bret Victor's [[Inventing on Principle]] talk, Light Table promised to be a new type of IDE focused on immediate feedback."
+    },
+    {
+      "type": "paragraph",
+      "id": "92ec59139a94b7e1",
+      "text": "What it eventually because was less revolutionary than the early prototypes showed."
+    },
+    {
+      "type": "paragraph",
+      "id": "b5ea815caf86ad45",
+      "text": "For that reason, I recommend looking at the write ups of the early prototypes instead of the current incarnation. [https://www.chris-granger.com/2012/02/26/connecting-to-your-creation/ blog] [https://www.chris-granger.com/2012/04/12/light-table-a-new-ide-concept/ blog]"
+    },
+    {
+      "type": "paragraph",
+      "id": "7326ca22e1cfb4f6",
+      "text": "Those demonstrate a liveness focused on small experiments which I feel fall right in line with the types of data visualizations present in other FedWiki plugins."
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Light Table",
+        "story": []
+      },
+      "date": 1555214666293
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "3ae773ee90b054d5"
+      },
+      "id": "3ae773ee90b054d5",
+      "type": "add",
+      "date": 1555214667577
+    },
+    {
+      "type": "edit",
+      "id": "3ae773ee90b054d5",
+      "item": {
+        "type": "paragraph",
+        "id": "3ae773ee90b054d5",
+        "text": "Inspired by Bret Victor's [[Inventing on Principle]] talk, Light Table promised to be a new type of IDE focused on immediate feedback."
+      },
+      "date": 1555214676233
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "92ec59139a94b7e1"
+      },
+      "id": "92ec59139a94b7e1",
+      "type": "add",
+      "after": "3ae773ee90b054d5",
+      "date": 1555214680438
+    },
+    {
+      "type": "edit",
+      "id": "92ec59139a94b7e1",
+      "item": {
+        "type": "paragraph",
+        "id": "92ec59139a94b7e1",
+        "text": "What it eventually because was less revolutionary than the early prototypes showed."
+      },
+      "date": 1555214682654
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "b5ea815caf86ad45"
+      },
+      "id": "b5ea815caf86ad45",
+      "type": "add",
+      "after": "92ec59139a94b7e1",
+      "date": 1555214688502
+    },
+    {
+      "type": "edit",
+      "id": "b5ea815caf86ad45",
+      "item": {
+        "type": "paragraph",
+        "id": "b5ea815caf86ad45",
+        "text": "For that reason, I recommend looking at the write ups of the early prototypes instead of the current incarnation. [https://www.chris-granger.com/2012/02/26/connecting-to-your-creation/ blog] [https://www.chris-granger.com/2012/04/12/light-table-a-new-ide-concept/ blog]"
+      },
+      "date": 1555214690617
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "7326ca22e1cfb4f6"
+      },
+      "id": "7326ca22e1cfb4f6",
+      "type": "add",
+      "after": "b5ea815caf86ad45",
+      "date": 1555214694671
+    },
+    {
+      "type": "edit",
+      "id": "7326ca22e1cfb4f6",
+      "item": {
+        "type": "paragraph",
+        "id": "7326ca22e1cfb4f6",
+        "text": "Those demonstrate a liveness focused on small experiments which I feel fall right in line with the types of data visualizations present in other FedWiki plugins."
+      },
+      "date": 1555214697218
+    }
+  ]
+}

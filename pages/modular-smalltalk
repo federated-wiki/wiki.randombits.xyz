@@ -1,0 +1,96 @@
+{
+  "title": "Modular Smalltalk",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "c79131cfdedc5002",
+      "text": "I learned about this dialect from my friend Ward Cunningham."
+    },
+    {
+      "type": "paragraph",
+      "id": "f0643658fc04e289",
+      "text": "Author's homepage. [http://www.wirfs-brock.com/allen/things/publications site]"
+    },
+    {
+      "type": "paragraph",
+      "id": "26e41f642e641736",
+      "text": "Research paper. [http://delivery.acm.org/10.1145/70000/62095/p123-wirfs-brock.pdf?ip=50.43.46.8&id=62095&acc=AUTHOR%2DIZED&key=4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35%2EFB8A27BB8824DCEE&__acm__=1560697850_f082444d7bd9d23ff5e591532cfc4ae7 pdf]"
+    },
+    {
+      "type": "paragraph",
+      "id": "656893c2f75daf97",
+      "text": "An implementation of the language. [https://era.library.ualberta.ca/items/175e5213-4add-4782-8e52-554ab9a005b1/view/97e9c1c6-9f9f-4aa7-a203-180af2649297/TR93-07.pdf pdf]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Modular Smalltalk",
+        "story": []
+      },
+      "date": 1560826200395
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "c79131cfdedc5002"
+      },
+      "id": "c79131cfdedc5002",
+      "type": "add",
+      "date": 1560826201777
+    },
+    {
+      "type": "edit",
+      "id": "c79131cfdedc5002",
+      "item": {
+        "type": "paragraph",
+        "id": "c79131cfdedc5002",
+        "text": "I learned about this dialect from my friend Ward Cunningham."
+      },
+      "date": 1560826217206
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "26e41f642e641736"
+      },
+      "id": "26e41f642e641736",
+      "type": "add",
+      "after": "c79131cfdedc5002",
+      "date": 1560826222036
+    },
+    {
+      "type": "edit",
+      "id": "26e41f642e641736",
+      "item": {
+        "type": "paragraph",
+        "id": "26e41f642e641736",
+        "text": "Research paper. [http://delivery.acm.org/10.1145/70000/62095/p123-wirfs-brock.pdf?ip=50.43.46.8&id=62095&acc=AUTHOR%2DIZED&key=4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35%2EFB8A27BB8824DCEE&__acm__=1560697850_f082444d7bd9d23ff5e591532cfc4ae7 pdf]"
+      },
+      "date": 1560826232308
+    },
+    {
+      "type": "add",
+      "id": "f0643658fc04e289",
+      "item": {
+        "type": "paragraph",
+        "id": "f0643658fc04e289",
+        "text": "Author's homepage. [http://www.wirfs-brock.com/allen/things/publications site]"
+      },
+      "after": "c79131cfdedc5002",
+      "date": 1560826250374
+    },
+    {
+      "type": "add",
+      "id": "656893c2f75daf97",
+      "item": {
+        "type": "paragraph",
+        "id": "656893c2f75daf97",
+        "text": "An implementation of the language. [https://era.library.ualberta.ca/items/175e5213-4add-4782-8e52-554ab9a005b1/view/97e9c1c6-9f9f-4aa7-a203-180af2649297/TR93-07.pdf pdf]"
+      },
+      "after": "26e41f642e641736",
+      "date": 1560826266080
+    }
+  ]
+}

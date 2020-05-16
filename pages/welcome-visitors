@@ -1,0 +1,708 @@
+{
+  "title": "Welcome Visitors",
+  "story": [
+    {
+      "text": "Welcome to this [[Federated Wiki]] site. From this page you can find who we are and what we do. New sites provide this information and then claim the site as their own. You will need your own site to participate.",
+      "id": "7b56f22a4b9ee974",
+      "type": "paragraph"
+    },
+    {
+      "type": "paragraph",
+      "id": "821827c99b90cfd1",
+      "text": "Pages about us."
+    },
+    {
+      "type": "paragraph",
+      "id": "63ad2e58eecdd9e5",
+      "prompt": "Link to a page about yourself here. Type your name enclosed in double square brackets. Then press Command/ALT-S to save.\n\nMake all pages here yours alone with the login below.",
+      "text": "[[Joshua Benuck]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "2bbd646ff3f44b51",
+      "text": "Pages where we do and share."
+    },
+    {
+      "type": "paragraph",
+      "id": "b811f6ac259a0135",
+      "text": "[[Reading List]] - Links to articles, books, tips, etc. that I've come across or want to spend more time reading."
+    },
+    {
+      "type": "paragraph",
+      "id": "2066600e64564d1a",
+      "text": "[[Local Dev Environment]] - Track changes I want to make to my setup."
+    },
+    {
+      "type": "paragraph",
+      "id": "d6ac1644b50dea7a",
+      "text": "[[Library]] - Articles, books, etc. that I have found to provide enough value to warrant further study and / or regular reference."
+    },
+    {
+      "type": "paragraph",
+      "id": "85a3df501e63a6b1",
+      "text": "[[Innovative Tools]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "f5f1db8c04456a1e",
+      "text": "[[Inspirational People]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "b7e075e57a71d2ac",
+      "text": "[[Cheatsheets]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "06d4a4e911fa5c8a",
+      "text": "[[Languages]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "bd720e7e0f076e3a",
+      "text": "[[Philosophy]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "3964358ba2fe8491",
+      "text": "[[Diagramming]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "cf89ad9c5d6ab8f1",
+      "text": "[[Hardware]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "7341dfeeac4bd283",
+      "text": "[[Patterns]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "e0ce8e0328d9febd",
+      "text": "[[Projects]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "13ce3a07b2ffd5a8",
+      "text": "[[Password Managers]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "7654d61bdd2b6899",
+      "text": "[[Ham Radio]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "bfbae13958035438",
+      "text": "[[Coding Katas]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "002ca0578657dda3",
+      "text": "[[Scratch]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "a22686357131da3c",
+      "text": "[[Our Game]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "78db61a4f3dbe69d",
+      "text": "[[Commute]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "db0850d1e81b2ec0",
+      "text": "[[Things to Write]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "ee416d431ebf4fb4",
+      "text": "You can edit your copy of these pages. Press [+] to add more writing spaces. Read [[How to Wiki]] for more ideas. Follow [[Recent Changes]] here and nearby."
+    },
+    {
+      "type": "roster",
+      "id": "d097c6ff68a05794",
+      "text": "server.wiki.randombits.xyz\nServer Administration\n\nfed.wiki.randombits.xyz\nFedWiki Development\n\ncode.wiki.randombits.xyz\nThoughts on the Creative Process\n\ncnc.wiki.randombits.xyz\nCNC Stuff\n\nwiki.dbbs.co\nPeople"
+    }
+  ],
+  "journal": [
+    {
+      "type": "add",
+      "id": "cf89ad9c5d6ab8f1",
+      "item": {
+        "type": "paragraph",
+        "id": "cf89ad9c5d6ab8f1",
+        "text": "[[Hardware]]"
+      },
+      "after": "3964358ba2fe8491",
+      "date": 1555435744334
+    },
+    {
+      "type": "edit",
+      "id": "d097c6ff68a05794",
+      "item": {
+        "type": "roster",
+        "id": "d097c6ff68a05794",
+        "text": "Server Administration:\n\nserver.wiki.randombits.xyz\n\nFedWiki Development:\n\nfed.wiki.randombits.xyz\n\nPeople:\n\nwiki.dbbs.co"
+      },
+      "date": 1555268103203
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "d097c6ff68a05794"
+      },
+      "id": "d097c6ff68a05794",
+      "type": "add",
+      "after": "ee416d431ebf4fb4",
+      "date": 1555254947782
+    },
+    {
+      "type": "move",
+      "order": [
+        "7b56f22a4b9ee974",
+        "821827c99b90cfd1",
+        "63ad2e58eecdd9e5",
+        "2bbd646ff3f44b51",
+        "b811f6ac259a0135",
+        "2066600e64564d1a",
+        "d6ac1644b50dea7a",
+        "85a3df501e63a6b1",
+        "f5f1db8c04456a1e",
+        "b7e075e57a71d2ac",
+        "bd720e7e0f076e3a",
+        "3964358ba2fe8491",
+        "ee416d431ebf4fb4"
+      ],
+      "id": "2066600e64564d1a",
+      "date": 1555223234819
+    },
+    {
+      "type": "move",
+      "order": [
+        "7b56f22a4b9ee974",
+        "821827c99b90cfd1",
+        "63ad2e58eecdd9e5",
+        "2bbd646ff3f44b51",
+        "b811f6ac259a0135",
+        "d6ac1644b50dea7a",
+        "85a3df501e63a6b1",
+        "f5f1db8c04456a1e",
+        "b7e075e57a71d2ac",
+        "2066600e64564d1a",
+        "bd720e7e0f076e3a",
+        "3964358ba2fe8491",
+        "ee416d431ebf4fb4"
+      ],
+      "id": "b811f6ac259a0135",
+      "date": 1555223228449
+    },
+    {
+      "type": "move",
+      "order": [
+        "7b56f22a4b9ee974",
+        "821827c99b90cfd1",
+        "63ad2e58eecdd9e5",
+        "2bbd646ff3f44b51",
+        "d6ac1644b50dea7a",
+        "85a3df501e63a6b1",
+        "f5f1db8c04456a1e",
+        "b7e075e57a71d2ac",
+        "2066600e64564d1a",
+        "bd720e7e0f076e3a",
+        "b811f6ac259a0135",
+        "3964358ba2fe8491",
+        "ee416d431ebf4fb4"
+      ],
+      "id": "3964358ba2fe8491",
+      "date": 1555223223227
+    },
+    {
+      "type": "move",
+      "order": [
+        "7b56f22a4b9ee974",
+        "821827c99b90cfd1",
+        "63ad2e58eecdd9e5",
+        "2bbd646ff3f44b51",
+        "d6ac1644b50dea7a",
+        "85a3df501e63a6b1",
+        "f5f1db8c04456a1e",
+        "3964358ba2fe8491",
+        "b7e075e57a71d2ac",
+        "2066600e64564d1a",
+        "bd720e7e0f076e3a",
+        "b811f6ac259a0135",
+        "ee416d431ebf4fb4"
+      ],
+      "id": "d6ac1644b50dea7a",
+      "date": 1555223217404
+    },
+    {
+      "type": "add",
+      "id": "b811f6ac259a0135",
+      "item": {
+        "type": "paragraph",
+        "id": "b811f6ac259a0135",
+        "text": "[[Reading List]] - Links to articles, books, tips, etc. that I've come across or want to spend more time reading."
+      },
+      "after": "d6ac1644b50dea7a",
+      "date": 1555222971731
+    },
+    {
+      "type": "edit",
+      "id": "2066600e64564d1a",
+      "item": {
+        "type": "paragraph",
+        "id": "2066600e64564d1a",
+        "text": "[[Local Dev Environment]] - Track changes I want to make to my setup."
+      },
+      "date": 1555222901322
+    },
+    {
+      "type": "edit",
+      "id": "d6ac1644b50dea7a",
+      "item": {
+        "type": "paragraph",
+        "id": "d6ac1644b50dea7a",
+        "text": "[[Library]] - Articles, books, etc. that I have found to provide enough value to warrant further study and / or regular reference."
+      },
+      "date": 1555222861714
+    },
+    {
+      "type": "add",
+      "id": "d6ac1644b50dea7a",
+      "item": {
+        "type": "paragraph",
+        "id": "d6ac1644b50dea7a",
+        "text": "[[Library]]"
+      },
+      "after": "bd720e7e0f076e3a",
+      "date": 1555222810975
+    },
+    {
+      "type": "add",
+      "id": "bd720e7e0f076e3a",
+      "item": {
+        "type": "paragraph",
+        "id": "bd720e7e0f076e3a",
+        "text": "[[Philosophy]]"
+      },
+      "after": "2066600e64564d1a",
+      "date": 1555222775857
+    },
+    {
+      "type": "add",
+      "id": "2066600e64564d1a",
+      "item": {
+        "type": "paragraph",
+        "id": "2066600e64564d1a",
+        "text": "[[Local Dev Environment]]"
+      },
+      "after": "b7e075e57a71d2ac",
+      "date": 1555222700900
+    },
+    {
+      "type": "fork",
+      "date": 1555222680965
+    },
+    {
+      "type": "remove",
+      "id": "05e2fa92643677ca",
+      "date": 1555219048853
+    },
+    {
+      "type": "add",
+      "id": "b7e075e57a71d2ac",
+      "item": {
+        "type": "paragraph",
+        "id": "b7e075e57a71d2ac",
+        "text": "[[Cheatsheets]]"
+      },
+      "after": "3964358ba2fe8491",
+      "date": 1555219031399
+    },
+    {
+      "type": "add",
+      "id": "3964358ba2fe8491",
+      "item": {
+        "type": "paragraph",
+        "id": "3964358ba2fe8491",
+        "text": "[[Diagramming]]"
+      },
+      "after": "f5f1db8c04456a1e",
+      "date": 1555213767299
+    },
+    {
+      "type": "add",
+      "id": "f5f1db8c04456a1e",
+      "item": {
+        "type": "paragraph",
+        "id": "f5f1db8c04456a1e",
+        "text": "[[Inspirational People]]"
+      },
+      "after": "85a3df501e63a6b1",
+      "date": 1555179811178
+    },
+    {
+      "type": "add",
+      "id": "85a3df501e63a6b1",
+      "item": {
+        "type": "paragraph",
+        "id": "85a3df501e63a6b1",
+        "text": "[[Innovative Tools]]"
+      },
+      "after": "2bbd646ff3f44b51",
+      "date": 1555179782467
+    },
+    {
+      "type": "fork",
+      "date": 1555175084567
+    },
+    {
+      "type": "fork",
+      "date": 1555174207475,
+      "error": {
+        "type": "error",
+        "msg": "Forbidden",
+        "response": "Forbidden"
+      }
+    },
+    {
+      "type": "edit",
+      "id": "05e2fa92643677ca",
+      "item": {
+        "type": "paragraph",
+        "id": "05e2fa92643677ca",
+        "prompt": "Create pages about things you do on this wiki. Type a descriptive name of something you will be writing about. Enclose it in square brackets. Then press Command/ALT-S to save.",
+        "text": "[[git]]"
+      },
+      "date": 1555173538434,
+      "error": {
+        "type": "error",
+        "msg": "Forbidden",
+        "response": "Forbidden"
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1555169348706,
+      "error": {
+        "type": "error",
+        "msg": "Forbidden",
+        "response": "Forbidden"
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1555169289180,
+      "error": {
+        "type": "error",
+        "msg": "Forbidden",
+        "response": "Forbidden"
+      }
+    },
+    {
+      "type": "edit",
+      "id": "63ad2e58eecdd9e5",
+      "item": {
+        "type": "paragraph",
+        "id": "63ad2e58eecdd9e5",
+        "prompt": "Link to a page about yourself here. Type your name enclosed in double square brackets. Then press Command/ALT-S to save.\n\nMake all pages here yours alone with the login below.",
+        "text": "[[Joshua Benuck]]"
+      },
+      "date": 1555169279764,
+      "error": {
+        "type": "error",
+        "msg": "Forbidden",
+        "response": "Forbidden"
+      }
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "ee416d431ebf4fb4",
+        "text": "You can edit your copy of these pages. Press [+] to add more writing spaces. Read [[How to Wiki]] for more ideas. Follow [[Recent Changes]] here and nearby."
+      },
+      "after": "05e2fa92643677ca",
+      "id": "ee416d431ebf4fb4",
+      "date": 1420938220851
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "factory",
+        "id": "05e2fa92643677ca",
+        "prompt": "Create pages about things you do on this wiki. Type a descriptive name of something you will be writing about. Enclose it in square brackets. Then press Command/ALT-S to save."
+      },
+      "after": "2bbd646ff3f44b51",
+      "id": "05e2fa92643677ca",
+      "date": 1420938216782
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "2bbd646ff3f44b51",
+        "text": "Pages where we do and share."
+      },
+      "after": "63ad2e58eecdd9e5",
+      "id": "2bbd646ff3f44b51",
+      "date": 1420938212624
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "factory",
+        "id": "63ad2e58eecdd9e5",
+        "prompt": "Link to a page about yourself here. Type your name enclosed in double square brackets. Then press Command/ALT-S to save.\n\nMake all pages here yours alone with the login below."
+      },
+      "after": "821827c99b90cfd1",
+      "id": "63ad2e58eecdd9e5",
+      "date": 1420938208737
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "821827c99b90cfd1",
+        "text": "Pages about us."
+      },
+      "after": "7b56f22a4b9ee974",
+      "id": "821827c99b90cfd1",
+      "date": 1420938202921
+    },
+    {
+      "type": "add",
+      "item": {
+        "text": "Welcome to this [[Federated Wiki]] site. From this page you can find who we are and what we do. New sites provide this information and then claim the site as their own. You will need your own site to participate.",
+        "id": "7b56f22a4b9ee974",
+        "type": "paragraph"
+      },
+      "id": "7b56f22a4b9ee974",
+      "date": 1420938199166
+    },
+    {
+      "type": "create",
+      "item": {
+        "title": "Welcome Visitors",
+        "story": []
+      },
+      "date": 1420938191608
+    },
+    {
+      "type": "add",
+      "id": "7341dfeeac4bd283",
+      "item": {
+        "type": "paragraph",
+        "id": "7341dfeeac4bd283",
+        "text": "[[Patterns]]"
+      },
+      "after": "cf89ad9c5d6ab8f1",
+      "date": 1556033619702,
+      "error": {
+        "type": "error",
+        "msg": "Forbidden",
+        "response": "Forbidden"
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1556033624130,
+      "error": {
+        "type": "error",
+        "msg": "Forbidden",
+        "response": "Forbidden"
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1556033653957
+    },
+    {
+      "type": "add",
+      "id": "002ca0578657dda3",
+      "item": {
+        "type": "paragraph",
+        "id": "002ca0578657dda3",
+        "text": "[[Scratch]]"
+      },
+      "after": "7341dfeeac4bd283",
+      "date": 1556374540106
+    },
+    {
+      "type": "add",
+      "id": "e0ce8e0328d9febd",
+      "item": {
+        "type": "paragraph",
+        "id": "e0ce8e0328d9febd",
+        "text": "[[Projects]]"
+      },
+      "after": "7341dfeeac4bd283",
+      "date": 1556545945777
+    },
+    {
+      "type": "add",
+      "id": "13ce3a07b2ffd5a8",
+      "item": {
+        "type": "paragraph",
+        "id": "13ce3a07b2ffd5a8",
+        "text": "[[Password Managers]]"
+      },
+      "after": "e0ce8e0328d9febd",
+      "date": 1556582749350
+    },
+    {
+      "type": "add",
+      "id": "7654d61bdd2b6899",
+      "item": {
+        "type": "paragraph",
+        "id": "7654d61bdd2b6899",
+        "text": "[[Ham Radio]]"
+      },
+      "after": "13ce3a07b2ffd5a8",
+      "date": 1556582912285
+    },
+    {
+      "type": "add",
+      "id": "bfbae13958035438",
+      "item": {
+        "type": "paragraph",
+        "id": "bfbae13958035438",
+        "text": "[[Coding Katas]]"
+      },
+      "after": "7654d61bdd2b6899",
+      "date": 1556662251518
+    },
+    {
+      "type": "add",
+      "id": "a22686357131da3c",
+      "item": {
+        "type": "paragraph",
+        "id": "a22686357131da3c",
+        "text": "[[Our Game]]"
+      },
+      "after": "002ca0578657dda3",
+      "date": 1557713485544
+    },
+    {
+      "type": "add",
+      "id": "78db61a4f3dbe69d",
+      "item": {
+        "type": "paragraph",
+        "id": "78db61a4f3dbe69d",
+        "text": "[[Commute]]"
+      },
+      "after": "a22686357131da3c",
+      "date": 1558126825460,
+      "error": {
+        "type": "error",
+        "msg": "Forbidden",
+        "response": "Forbidden"
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1558126829518,
+      "error": {
+        "type": "error",
+        "msg": "Forbidden",
+        "response": "Forbidden"
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1558126832239,
+      "error": {
+        "type": "error",
+        "msg": "Forbidden",
+        "response": "Forbidden"
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1558126865327
+    },
+    {
+      "type": "add",
+      "id": "06d4a4e911fa5c8a",
+      "item": {
+        "type": "paragraph",
+        "id": "06d4a4e911fa5c8a",
+        "text": "[[Languages]]"
+      },
+      "after": "b7e075e57a71d2ac",
+      "date": 1560825922852
+    },
+    {
+      "id": "0a6f4a7c844463e9",
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "0a6f4a7c844463e9",
+        "text": "testing"
+      },
+      "after": "78db61a4f3dbe69d",
+      "date": 1561257293846
+    },
+    {
+      "type": "add",
+      "id": "db0850d1e81b2ec0",
+      "item": {
+        "type": "paragraph",
+        "id": "db0850d1e81b2ec0",
+        "text": "[[Things to Write]]"
+      },
+      "after": "78db61a4f3dbe69d",
+      "date": 1564115498602
+    },
+    {
+      "type": "remove",
+      "id": "0a6f4a7c844463e9",
+      "date": 1566675201812
+    },
+    {
+      "type": "edit",
+      "id": "d097c6ff68a05794",
+      "item": {
+        "type": "roster",
+        "id": "d097c6ff68a05794",
+        "text": "Server Administration:\nserver.wiki.randombits.xyz\n\nFedWiki Development:\nfed.wiki.randombits.xyz\n\nThoughts on the Creative Process:\ncode.wiki.randombits.xyz\n\nCNC Stuff:\ncnc.wiki.randombits.xyz\n\nPeople:\nwiki.dbbs.co"
+      },
+      "date": 1580108138427
+    },
+    {
+      "type": "edit",
+      "id": "d097c6ff68a05794",
+      "item": {
+        "type": "roster",
+        "id": "d097c6ff68a05794",
+        "text": "server.wiki.randombits.xyz\nServer Administration:\n\nFedWiki Development:\nfed.wiki.randombits.xyz\n\nThoughts on the Creative Process:\ncode.wiki.randombits.xyz\n\nCNC Stuff:\ncnc.wiki.randombits.xyz\n\nPeople:\nwiki.dbbs.co"
+      },
+      "date": 1580108172083
+    },
+    {
+      "type": "edit",
+      "id": "d097c6ff68a05794",
+      "item": {
+        "type": "roster",
+        "id": "d097c6ff68a05794",
+        "text": "server.wiki.randombits.xyz\nServer Administration\n\nfed.wiki.randombits.xyz\nFedWiki Development\n\ncode.wiki.randombits.xyz\nThoughts on the Creative Process\n\ncnc.wiki.randombits.xyz\nCNC Stuff\n\nwiki.dbbs.co\nPeople\n"
+      },
+      "date": 1580108208792
+    },
+    {
+      "type": "edit",
+      "id": "d097c6ff68a05794",
+      "item": {
+        "type": "roster",
+        "id": "d097c6ff68a05794",
+        "text": "server.wiki.randombits.xyz\nServer Administration\n\nfed.wiki.randombits.xyz\nFedWiki Development\n\ncode.wiki.randombits.xyz\nThoughts on the Creative Process\n\ncnc.wiki.randombits.xyz\nCNC Stuff\n\nwiki.dbbs.co\nPeople"
+      },
+      "date": 1580108225459
+    }
+  ]
+}

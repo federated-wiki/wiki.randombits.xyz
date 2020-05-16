@@ -1,0 +1,478 @@
+{
+  "title": "A Thread About Learning Rust",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "0e78a824f0c7153f",
+      "text": "Excellent quote about rust. [https://twitter.com/AndreaPessino/status/1042120425415700480 twitter]"
+    },
+    {
+      "type": "paragraph",
+      "id": "b23f0e1d3f9d01c2",
+      "text": "A THREAD ABOUT LEARNING THE RUST PROGRAMMING LANGUAGE @rustlang\n"
+    },
+    {
+      "type": "pagefold",
+      "id": "f5f1cf685467781c",
+      "text": "quote"
+    },
+    {
+      "type": "paragraph",
+      "id": "7363af0e006729b0",
+      "text": "Rust is a practical solution to concrete problems that have hindered progress in software development for the last two decades. It is a leap forward in potential performance, scalability and productivity.\n"
+    },
+    {
+      "type": "paragraph",
+      "id": "0980f58fc5db5689",
+      "text": "When experienced coders try out a new language the process usually goes something like this: skim the docs as quickly as possible, go over some samples until one has “got the gist,” write some code; the expectation is that details and deep concepts will reveal themselves with use and that writing code is going to be the quickest way to familiarize oneself with the new tool."
+    },
+    {
+      "type": "paragraph",
+      "id": "2c44bcab3718f4e1",
+      "text": "If you are learning Python, Java, JS, C#, Go, etc. this approach works well, mostly because these languages are basically all the same. If, on the other hand, you approach Rust like\n this you will probably be frustrated."
+    },
+    {
+      "type": "paragraph",
+      "id": "f459014c73b264f4",
+      "text": "There is nothing especially difficult about Rust (no more than C/C++, at least), but Rust combines novel concepts and refined ideas from other languages into a surprisingly innovative whole. Its design is cohesive, purposeful, and visionary."
+    },
+    {
+      "type": "paragraph",
+      "id": "20b7d3b39d90e234",
+      "text": "It is different enough to require actual studying.\n"
+    },
+    {
+      "type": "paragraph",
+      "id": "768cf03fe0874e0a",
+      "text": "At a glance Rust looks like a C++ cousin, but it really is not, and the resemblance might actually prove misleading for newcomers. This has nothing to do with ability or experience – you just need to put in the time to acquire some new skills, otherwise before long you’ll end up on Twitter complaining about how you are “fighting the borrow checker.”"
+    },
+    {
+      "type": "paragraph",
+      "id": "57984e9c695abd55",
+      "text": "So, here are a few suggestion on how to approach the language to ensure you have a greatest grasp in minimal time:\n"
+    },
+    {
+      "type": "paragraph",
+      "id": "5620fa58454a2c6b",
+      "text": "Step 1) First one is obvious: read the official RUST PROGRAMMING LANGUAGE book. You can buy it printed on wood pulp or read it for free at https://doc.rust-lang.org/book/2018-edition/index.html … (the 2018 edition is the live updated version of the book, the one that will continue to reflect changes to the language)."
+    },
+    {
+      "type": "paragraph",
+      "id": "a6a71645c1dcdfe0",
+      "text": "This is the best introductory text you can get – very easy to read, perfectly paced. Read the whole thing beginning to end, run and study the code samples, even when they seem trivial. IMPORTANT: when you are done reading this book you might think “I get it now” but really, you don’t."
+    },
+    {
+      "type": "paragraph",
+      "id": "4f9235cb8189df82",
+      "text": "The official book does not go nearly deep enough – it’s a great intro but after this you will be smack in the middle of the “got the gist” phase. You’ve got some more work to do."
+    },
+    {
+      "type": "paragraph",
+      "id": "a65daa8c85f3e7f7",
+      "text": "Step 2) Read RUST BY EXAMPLE, available at https://doc.rust-lang.org/rust-by-example/ … This is a great series of code snippets illustrating most of the language components."
+    },
+    {
+      "type": "paragraph",
+      "id": "41267b49d24164f8",
+      "text": "All examples are short, can be run directly (and even modified) in the book’s pages and they each illustrate a specific aspect of Rust programming. This will not take long – study all of them, make sure you modify and play with each one, don’t move on until you fully understand each chapter."
+    },
+    {
+      "type": "paragraph",
+      "id": "a9bdbc58de30e1f3",
+      "text": "After going through this, you’ll be in a  good spot. Then it’ll be time to bring it all home."
+    },
+    {
+      "type": "paragraph",
+      "id": "191a4d6e58c97203",
+      "text": "Step 3) Read PROGRAMMING RUST, available printed or ebook at https://www.amazon.com/Programming-Rust-Fast-Systems-Development-ebook/dp/B077NSY211 … This is a fantastic book and the perfect finishing touch in your Rust education."
+    },
+    {
+      "type": "paragraph",
+      "id": "997df93a650921dd",
+      "text": "It goes deeper than the previous two, and having the others under your belt beforehand will make it more effective and much easier to go through. You don’t really need to finish the book before moving on, just go over the first 6 to 8 chapters and then start Step 4 while continuing to read the remaining chapters."
+    },
+    {
+      "type": "paragraph",
+      "id": "ad57c2213f6f36da",
+      "text": "Step 4) This is where you start writing your own code. A few more bits of advice: \n"
+    },
+    {
+      "type": "paragraph",
+      "id": "7cd869e38b103bb3",
+      "text": "- USE as basic a starting point as you can. The easiest way I’ve found is to use the crate “piston_window” the get a window setup, drawing, receiving events, etc. You can also reference https://github.com/PistonDevelopers/piston-examples … for more examples. Using these as a starting point you can get up and running with your own testbed app in a few minutes."
+    },
+    {
+      "type": "paragraph",
+      "id": "3517d47092a07f77",
+      "text": "- LEARN and use the Rust standard library. It is great and very comprehensive.  \n"
+    },
+    {
+      "type": "paragraph",
+      "id": "d43556c3ca20e776",
+      "text": "- AVOID binding to/integrating any existing non-Rust code, yours or otherwise. Your current code base will be useful eventually, but for now do everything from scratch and limit yourself to the Rust ecosystem. It’s probably better than anything else you’ve ever used anyhow.\n"
+    },
+    {
+      "type": "paragraph",
+      "id": "c1ca08cb8b677016",
+      "text": "- TRY to write Rust code as idiomatic as you can. This is important in any language, but it is IMPERATIVE in Rust, where the language itself goes to great lengths and provides sophisticated tools to make sharing and integrating code with others as effective and predictable as possible."
+    },
+    {
+      "type": "paragraph",
+      "id": "0192bf34f4a6f347",
+      "text": "Follow the recommended coding standard, use the formatting and linting tools Rust provides (rustfmt and clippy, for example). Correct the warnings, do not ignore them. Do things the Rust way – it’s the best way to start and you can always diverge later on when you have enough experience to adequately assess the implications."
+    },
+    {
+      "type": "paragraph",
+      "id": "90b656ac0483cadd",
+      "text": "- Try to STOP thinking in terms of the patterns you are used to – do not try to replicate object oriented idioms with Rust. None of these abstractions are necessary or especially beneficial, and while they have their place the early exploration of a language that does not specifically support them is not it. Start (or go back to) thinking in terms of data layout and interface design, instead of reducing problems to fixed patterns."
+    },
+    {
+      "type": "paragraph",
+      "id": "9648be8559d268fd",
+      "text": "- DON’T WORRY about debuggers or IDEs or integrating Rust in some other environment. Build and run from a command prompt,  do without a debugger – you will not need it for a good while."
+    },
+    {
+      "type": "paragraph",
+      "id": "a7d197c20a5cd252",
+      "text": "And finally: give it time. It will take a while, but you will find that Rust was well worth the investment.\n"
+    },
+    {
+      "type": "paragraph",
+      "id": "bcfa126ac7eba13c",
+      "text": "UPDATE: people continue to reference this thread, so maybe this is a good place to have a link to the Modulator crate/app since released. It is a quick way to get a ready to modify app to experiment with."
+    },
+    {
+      "type": "paragraph",
+      "id": "70763af3f5f5ed82",
+      "text": "@AndreaPessino\nNew crate (and play app) for @rustlang: MODULATOR! 🤙 Useful self-contained tech, I hope. Physics motion, cubic curves, fancy prims!  Get the app to quickly start your own Rust adventures.…"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "A Thread About Learning Rust",
+        "story": []
+      },
+      "date": 1564028139570
+    },
+    {
+      "id": "0e78a824f0c7153f",
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "0e78a824f0c7153f",
+        "text": "Excellent quote about rust. [https://twitter.com/AndreaPessino/status/1042120425415700480 twitter]"
+      },
+      "date": 1564028142790
+    },
+    {
+      "id": "b23f0e1d3f9d01c2",
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "b23f0e1d3f9d01c2",
+        "text": "A THREAD ABOUT LEARNING THE RUST PROGRAMMING LANGUAGE @rustlang\n"
+      },
+      "after": "0e78a824f0c7153f",
+      "date": 1564028145702
+    },
+    {
+      "id": "7363af0e006729b0",
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "7363af0e006729b0",
+        "text": "Rust is a practical solution to concrete problems that have hindered progress in software development for the last two decades. It is a leap forward in potential performance, scalability and productivity.\n"
+      },
+      "after": "b23f0e1d3f9d01c2",
+      "date": 1564028148365
+    },
+    {
+      "id": "0980f58fc5db5689",
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "0980f58fc5db5689",
+        "text": "When experienced coders try out a new language the process usually goes something like this: skim the docs as quickly as possible, go over some samples until one has “got the gist,” write some code; the expectation is that details and deep concepts will reveal themselves with use and that writing code is going to be the quickest way to familiarize oneself with the new tool."
+      },
+      "after": "7363af0e006729b0",
+      "date": 1564028151215
+    },
+    {
+      "id": "2c44bcab3718f4e1",
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "2c44bcab3718f4e1",
+        "text": "If you are learning Python, Java, JS, C#, Go, etc. this approach works well, mostly because these languages are basically all the same. If, on the other hand, you approach Rust like\n this you will probably be frustrated."
+      },
+      "after": "0980f58fc5db5689",
+      "date": 1564028153841
+    },
+    {
+      "id": "f459014c73b264f4",
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "f459014c73b264f4",
+        "text": "There is nothing especially difficult about Rust (no more than C/C++, at least), but Rust combines novel concepts and refined ideas from other languages into a surprisingly innovative whole. Its design is cohesive, purposeful, and visionary."
+      },
+      "after": "2c44bcab3718f4e1",
+      "date": 1564028156268
+    },
+    {
+      "id": "20b7d3b39d90e234",
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "20b7d3b39d90e234",
+        "text": "It is different enough to require actual studying.\n"
+      },
+      "after": "f459014c73b264f4",
+      "date": 1564028160562
+    },
+    {
+      "id": "768cf03fe0874e0a",
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "768cf03fe0874e0a",
+        "text": "At a glance Rust looks like a C++ cousin, but it really is not, and the resemblance might actually prove misleading for newcomers. This has nothing to do with ability or experience – you just need to put in the time to acquire some new skills, otherwise before long you’ll end up on Twitter complaining about how you are “fighting the borrow checker.”"
+      },
+      "after": "20b7d3b39d90e234",
+      "date": 1564028166837
+    },
+    {
+      "id": "57984e9c695abd55",
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "57984e9c695abd55",
+        "text": "So, here are a few suggestion on how to approach the language to ensure you have a greatest grasp in minimal time:\n"
+      },
+      "after": "768cf03fe0874e0a",
+      "date": 1564028172351
+    },
+    {
+      "id": "5620fa58454a2c6b",
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "5620fa58454a2c6b",
+        "text": "Step 1) First one is obvious: read the official RUST PROGRAMMING LANGUAGE book. You can buy it printed on wood pulp or read it for free at https://doc.rust-lang.org/book/2018-edition/index.html … (the 2018 edition is the live updated version of the book, the one that will continue to reflect changes to the language)."
+      },
+      "after": "57984e9c695abd55",
+      "date": 1564028177425
+    },
+    {
+      "id": "a6a71645c1dcdfe0",
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "a6a71645c1dcdfe0",
+        "text": "This is the best introductory text you can get – very easy to read, perfectly paced. Read the whole thing beginning to end, run and study the code samples, even when they seem trivial. IMPORTANT: when you are done reading this book you might think “I get it now” but really, you don’t."
+      },
+      "after": "5620fa58454a2c6b",
+      "date": 1564028179355
+    },
+    {
+      "id": "4f9235cb8189df82",
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "4f9235cb8189df82",
+        "text": "The official book does not go nearly deep enough – it’s a great intro but after this you will be smack in the middle of the “got the gist” phase. You’ve got some more work to do."
+      },
+      "after": "a6a71645c1dcdfe0",
+      "date": 1564028181554
+    },
+    {
+      "id": "a65daa8c85f3e7f7",
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "a65daa8c85f3e7f7",
+        "text": "Step 2) Read RUST BY EXAMPLE, available at https://doc.rust-lang.org/rust-by-example/ … This is a great series of code snippets illustrating most of the language components."
+      },
+      "after": "4f9235cb8189df82",
+      "date": 1564028186847
+    },
+    {
+      "id": "41267b49d24164f8",
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "41267b49d24164f8",
+        "text": "All examples are short, can be run directly (and even modified) in the book’s pages and they each illustrate a specific aspect of Rust programming. This will not take long – study all of them, make sure you modify and play with each one, don’t move on until you fully understand each chapter."
+      },
+      "after": "a65daa8c85f3e7f7",
+      "date": 1564028189260
+    },
+    {
+      "id": "a9bdbc58de30e1f3",
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "a9bdbc58de30e1f3",
+        "text": "After going through this, you’ll be in a  good spot. Then it’ll be time to bring it all home."
+      },
+      "after": "41267b49d24164f8",
+      "date": 1564028192942
+    },
+    {
+      "id": "191a4d6e58c97203",
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "191a4d6e58c97203",
+        "text": "Step 3) Read PROGRAMMING RUST, available printed or ebook at https://www.amazon.com/Programming-Rust-Fast-Systems-Development-ebook/dp/B077NSY211 … This is a fantastic book and the perfect finishing touch in your Rust education."
+      },
+      "after": "a9bdbc58de30e1f3",
+      "date": 1564028196510
+    },
+    {
+      "id": "997df93a650921dd",
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "997df93a650921dd",
+        "text": "It goes deeper than the previous two, and having the others under your belt beforehand will make it more effective and much easier to go through. You don’t really need to finish the book before moving on, just go over the first 6 to 8 chapters and then start Step 4 while continuing to read the remaining chapters."
+      },
+      "after": "191a4d6e58c97203",
+      "date": 1564028202433
+    },
+    {
+      "id": "ad57c2213f6f36da",
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "ad57c2213f6f36da",
+        "text": "Step 4) This is where you start writing your own code. A few more bits of advice: \n"
+      },
+      "after": "997df93a650921dd",
+      "date": 1564028206474
+    },
+    {
+      "id": "7cd869e38b103bb3",
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "7cd869e38b103bb3",
+        "text": "- USE as basic a starting point as you can. The easiest way I’ve found is to use the crate “piston_window” the get a window setup, drawing, receiving events, etc. You can also reference https://github.com/PistonDevelopers/piston-examples … for more examples. Using these as a starting point you can get up and running with your own testbed app in a few minutes."
+      },
+      "after": "ad57c2213f6f36da",
+      "date": 1564028211948
+    },
+    {
+      "id": "3517d47092a07f77",
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "3517d47092a07f77",
+        "text": "- LEARN and use the Rust standard library. It is great and very comprehensive.  \n"
+      },
+      "after": "7cd869e38b103bb3",
+      "date": 1564028215650
+    },
+    {
+      "id": "d43556c3ca20e776",
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "d43556c3ca20e776",
+        "text": "- AVOID binding to/integrating any existing non-Rust code, yours or otherwise. Your current code base will be useful eventually, but for now do everything from scratch and limit yourself to the Rust ecosystem. It’s probably better than anything else you’ve ever used anyhow.\n"
+      },
+      "after": "3517d47092a07f77",
+      "date": 1564028220533
+    },
+    {
+      "id": "c1ca08cb8b677016",
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "c1ca08cb8b677016",
+        "text": "- TRY to write Rust code as idiomatic as you can. This is important in any language, but it is IMPERATIVE in Rust, where the language itself goes to great lengths and provides sophisticated tools to make sharing and integrating code with others as effective and predictable as possible."
+      },
+      "after": "d43556c3ca20e776",
+      "date": 1564028224851
+    },
+    {
+      "id": "0192bf34f4a6f347",
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "0192bf34f4a6f347",
+        "text": "Follow the recommended coding standard, use the formatting and linting tools Rust provides (rustfmt and clippy, for example). Correct the warnings, do not ignore them. Do things the Rust way – it’s the best way to start and you can always diverge later on when you have enough experience to adequately assess the implications."
+      },
+      "after": "c1ca08cb8b677016",
+      "date": 1564028227379
+    },
+    {
+      "id": "90b656ac0483cadd",
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "90b656ac0483cadd",
+        "text": "- Try to STOP thinking in terms of the patterns you are used to – do not try to replicate object oriented idioms with Rust. None of these abstractions are necessary or especially beneficial, and while they have their place the early exploration of a language that does not specifically support them is not it. Start (or go back to) thinking in terms of data layout and interface design, instead of reducing problems to fixed patterns."
+      },
+      "after": "0192bf34f4a6f347",
+      "date": 1564028232626
+    },
+    {
+      "id": "9648be8559d268fd",
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "9648be8559d268fd",
+        "text": "- DON’T WORRY about debuggers or IDEs or integrating Rust in some other environment. Build and run from a command prompt,  do without a debugger – you will not need it for a good while."
+      },
+      "after": "90b656ac0483cadd",
+      "date": 1564028236060
+    },
+    {
+      "id": "a7d197c20a5cd252",
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "a7d197c20a5cd252",
+        "text": "And finally: give it time. It will take a while, but you will find that Rust was well worth the investment.\n"
+      },
+      "after": "9648be8559d268fd",
+      "date": 1564028239277
+    },
+    {
+      "id": "bcfa126ac7eba13c",
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "bcfa126ac7eba13c",
+        "text": "UPDATE: people continue to reference this thread, so maybe this is a good place to have a link to the Modulator crate/app since released. It is a quick way to get a ready to modify app to experiment with."
+      },
+      "after": "a7d197c20a5cd252",
+      "date": 1564028243377
+    },
+    {
+      "id": "70763af3f5f5ed82",
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "70763af3f5f5ed82",
+        "text": "@AndreaPessino\nNew crate (and play app) for @rustlang: MODULATOR! 🤙 Useful self-contained tech, I hope. Physics motion, cubic curves, fancy prims!  Get the app to quickly start your own Rust adventures.…"
+      },
+      "after": "bcfa126ac7eba13c",
+      "date": 1564028248138
+    },
+    {
+      "id": "f5f1cf685467781c",
+      "type": "add",
+      "item": {
+        "type": "pagefold",
+        "id": "f5f1cf685467781c",
+        "text": "quote"
+      },
+      "after": "b23f0e1d3f9d01c2",
+      "date": 1564028257278
+    }
+  ]
+}

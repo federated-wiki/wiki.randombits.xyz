@@ -1,0 +1,558 @@
+{
+  "title": "git",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "9cfb7f6c38600a8e",
+      "text": "Source control tool."
+    },
+    {
+      "type": "paragraph",
+      "id": "ff3ac8d5e6aa610a",
+      "text": "For comparison with fed wiki concepts, see [[git scm]]."
+    },
+    {
+      "type": "paragraph",
+      "id": "97e4b048ea2e6a23",
+      "text": "Squashing commits [https://blog.carbonfive.com/2017/08/28/always-squash-and-rebase-your-git-commits/ recommendation] [https://github.com/todotxt/todo.txt-android/wiki/Squash-All-Commits-Related-to-a-Single-Issue-into-a-Single-Commit example]"
+    },
+    {
+      "type": "pagefold",
+      "id": "c4a5eec933f18fc9",
+      "text": "github"
+    },
+    {
+      "type": "paragraph",
+      "id": "72ec3d641df3f7d3",
+      "text": "Syncing a fork [https://help.github.com/en/articles/syncing-a-fork github]"
+    },
+    {
+      "type": "paragraph",
+      "id": "0aa377c3966a4817",
+      "text": "Configuring a remote for a fork [https://help.github.com/en/articles/configuring-a-remote-for-a-fork github]"
+    },
+    {
+      "type": "paragraph",
+      "id": "4e2f5d34d6c7d0ea",
+      "text": "Closing issues using keywords [https://help.github.com/en/articles/closing-issues-using-keywords github]"
+    },
+    {
+      "type": "pagefold",
+      "id": "29c8c3f0dd14f9f7",
+      "text": "config"
+    },
+    {
+      "type": "paragraph",
+      "id": "cef303e13f2f8448",
+      "text": "[https://help.github.com/en/articles/setting-your-commit-email-address-in-git Setting email address]"
+    },
+    {
+      "type": "paragraph",
+      "id": "1b38b892057693c0",
+      "text": "Changing the email address associated with a commit [https://stackoverflow.com/questions/3042437/how-to-change-the-commit-author-for-one-specific-commit so]"
+    },
+    {
+      "type": "paragraph",
+      "id": "9e73ac1e295189af",
+      "text": "About commit email addresses [https://help.github.com/en/articles/about-commit-email-addresses github]"
+    },
+    {
+      "type": "paragraph",
+      "id": "2fd63a114b9581d4",
+      "text": "What happens when I change my username? [https://help.github.com/en/articles/what-happens-when-i-change-my-username#your-git-commits github]"
+    },
+    {
+      "type": "paragraph",
+      "id": "f9a92fe28fca685b",
+      "text": "Change the email address of a commit. [https://gist.github.com/trey/9588090 gist]"
+    },
+    {
+      "type": "paragraph",
+      "id": "35c15a121f9dfae1",
+      "text": "Rewrite git urls to use ssh instead of https. [https://stackoverflow.com/questions/32232655/go-get-results-in-terminal-prompts-disabled-error-for-github-private-repo so]"
+    },
+    {
+      "type": "paragraph",
+      "id": "f3c3a4af3c2a2abb",
+      "text": "git config --global --add url.\"git@github.com:\".insteadOf \"https://github.com/\""
+    },
+    {
+      "type": "paragraph",
+      "id": "c331591b4d2a3a71",
+      "text": "See a list of all git config settings. git config --global --list"
+    },
+    {
+      "type": "paragraph",
+      "id": "21178fb1550f2707",
+      "text": "url.git@github.com:.insteadof=https://github.com/\n"
+    },
+    {
+      "type": "pagefold",
+      "id": "879d9745bd1d6d35",
+      "text": "common commands"
+    },
+    {
+      "type": "paragraph",
+      "id": "92dbdf909dfda130",
+      "text": "Move HEAD to what is in the repo: git reset"
+    },
+    {
+      "type": "paragraph",
+      "id": "523db558352862b8",
+      "text": "Do the same, but also remove modified tracked files: git reset --hard"
+    },
+    {
+      "type": "paragraph",
+      "id": "a80cef2b93eee474",
+      "text": "Move HEAD to the previous revision: git reset @~1"
+    },
+    {
+      "type": "paragraph",
+      "id": "3970d7f064d87595",
+      "text": "Create an empty branch: git checkout --orphan <branch name> [https://stackoverflow.com/questions/34100048/github-create-empty-branch/34100189 so]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "git",
+        "story": []
+      },
+      "date": 1556591940080
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "9cfb7f6c38600a8e"
+      },
+      "id": "9cfb7f6c38600a8e",
+      "type": "add",
+      "date": 1556591941612
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "72ec3d641df3f7d3"
+      },
+      "id": "72ec3d641df3f7d3",
+      "type": "add",
+      "after": "9cfb7f6c38600a8e",
+      "date": 1556591962059
+    },
+    {
+      "type": "edit",
+      "id": "9cfb7f6c38600a8e",
+      "item": {
+        "type": "paragraph",
+        "id": "9cfb7f6c38600a8e",
+        "text": "Source control tool."
+      },
+      "date": 1556591972158
+    },
+    {
+      "type": "add",
+      "id": "ff3ac8d5e6aa610a",
+      "item": {
+        "type": "paragraph",
+        "id": "ff3ac8d5e6aa610a",
+        "text": "For comparison with fed wiki concepts, see [[git scm]]."
+      },
+      "after": "9cfb7f6c38600a8e",
+      "date": 1556591987722
+    },
+    {
+      "type": "edit",
+      "id": "72ec3d641df3f7d3",
+      "item": {
+        "type": "paragraph",
+        "id": "72ec3d641df3f7d3",
+        "text": "Syncing a fork [https://help.github.com/en/articles/syncing-a-fork github]"
+      },
+      "date": 1556592000325
+    },
+    {
+      "type": "add",
+      "id": "0aa377c3966a4817",
+      "item": {
+        "type": "paragraph",
+        "id": "0aa377c3966a4817",
+        "text": "Configuring a remote for a fork [https://help.github.com/en/articles/configuring-a-remote-for-a-fork github]"
+      },
+      "after": "72ec3d641df3f7d3",
+      "date": 1556592029340
+    },
+    {
+      "type": "add",
+      "id": "97e4b048ea2e6a23",
+      "item": {
+        "type": "paragraph",
+        "id": "97e4b048ea2e6a23",
+        "text": "Squashing commits [https://github.com/todotxt/todo.txt-android/wiki/Squash-All-Commits-Related-to-a-Single-Issue-into-a-Single-Commit example]"
+      },
+      "after": "0aa377c3966a4817",
+      "date": 1556592162756
+    },
+    {
+      "type": "edit",
+      "id": "97e4b048ea2e6a23",
+      "item": {
+        "type": "paragraph",
+        "id": "97e4b048ea2e6a23",
+        "text": "Squashing commits [https://blog.carbonfive.com/2017/08/28/always-squash-and-rebase-your-git-commits/ recommendation] [https://github.com/todotxt/todo.txt-android/wiki/Squash-All-Commits-Related-to-a-Single-Issue-into-a-Single-Commit example]"
+      },
+      "date": 1556592204440
+    },
+    {
+      "type": "add",
+      "id": "cef303e13f2f8448",
+      "item": {
+        "type": "paragraph",
+        "id": "cef303e13f2f8448",
+        "text": "[https://help.github.com/en/articles/setting-your-commit-email-address-in-git Setting email address]"
+      },
+      "after": "97e4b048ea2e6a23",
+      "date": 1556592491913
+    },
+    {
+      "type": "add",
+      "id": "9e73ac1e295189af",
+      "item": {
+        "type": "paragraph",
+        "id": "9e73ac1e295189af",
+        "text": "About commit email addresses [https://help.github.com/en/articles/about-commit-email-addresses github]"
+      },
+      "after": "cef303e13f2f8448",
+      "date": 1556592513751
+    },
+    {
+      "type": "add",
+      "id": "2fd63a114b9581d4",
+      "item": {
+        "type": "paragraph",
+        "id": "2fd63a114b9581d4",
+        "text": "What happens when I change my username? [https://help.github.com/en/articles/what-happens-when-i-change-my-username#your-git-commits github]"
+      },
+      "after": "9e73ac1e295189af",
+      "date": 1556592537459
+    },
+    {
+      "type": "add",
+      "id": "f9a92fe28fca685b",
+      "item": {
+        "type": "paragraph",
+        "id": "f9a92fe28fca685b",
+        "text": "Change the email address of a commit. [https://gist.github.com/trey/9588090 gist]"
+      },
+      "after": "2fd63a114b9581d4",
+      "date": 1556592562777
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "c4a5eec933f18fc9"
+      },
+      "id": "c4a5eec933f18fc9",
+      "type": "add",
+      "after": "f9a92fe28fca685b",
+      "date": 1556592568247
+    },
+    {
+      "type": "edit",
+      "id": "c4a5eec933f18fc9",
+      "item": {
+        "type": "pagefold",
+        "id": "c4a5eec933f18fc9",
+        "text": "github"
+      },
+      "date": 1556592572700
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "29c8c3f0dd14f9f7"
+      },
+      "id": "29c8c3f0dd14f9f7",
+      "type": "add",
+      "after": "c4a5eec933f18fc9",
+      "date": 1556592583887
+    },
+    {
+      "type": "edit",
+      "id": "29c8c3f0dd14f9f7",
+      "item": {
+        "type": "pagefold",
+        "id": "29c8c3f0dd14f9f7",
+        "text": "config"
+      },
+      "date": 1556592587865
+    },
+    {
+      "type": "move",
+      "order": [
+        "9cfb7f6c38600a8e",
+        "ff3ac8d5e6aa610a",
+        "72ec3d641df3f7d3",
+        "0aa377c3966a4817",
+        "97e4b048ea2e6a23",
+        "cef303e13f2f8448",
+        "9e73ac1e295189af",
+        "2fd63a114b9581d4",
+        "c4a5eec933f18fc9",
+        "29c8c3f0dd14f9f7",
+        "f9a92fe28fca685b"
+      ],
+      "id": "f9a92fe28fca685b",
+      "date": 1556592590639
+    },
+    {
+      "type": "move",
+      "order": [
+        "9cfb7f6c38600a8e",
+        "ff3ac8d5e6aa610a",
+        "72ec3d641df3f7d3",
+        "0aa377c3966a4817",
+        "97e4b048ea2e6a23",
+        "cef303e13f2f8448",
+        "9e73ac1e295189af",
+        "c4a5eec933f18fc9",
+        "29c8c3f0dd14f9f7",
+        "2fd63a114b9581d4",
+        "f9a92fe28fca685b"
+      ],
+      "id": "2fd63a114b9581d4",
+      "date": 1556592593572
+    },
+    {
+      "type": "move",
+      "order": [
+        "9cfb7f6c38600a8e",
+        "ff3ac8d5e6aa610a",
+        "72ec3d641df3f7d3",
+        "0aa377c3966a4817",
+        "97e4b048ea2e6a23",
+        "cef303e13f2f8448",
+        "c4a5eec933f18fc9",
+        "29c8c3f0dd14f9f7",
+        "9e73ac1e295189af",
+        "2fd63a114b9581d4",
+        "f9a92fe28fca685b"
+      ],
+      "id": "9e73ac1e295189af",
+      "date": 1556592596113
+    },
+    {
+      "type": "move",
+      "order": [
+        "9cfb7f6c38600a8e",
+        "ff3ac8d5e6aa610a",
+        "72ec3d641df3f7d3",
+        "0aa377c3966a4817",
+        "97e4b048ea2e6a23",
+        "c4a5eec933f18fc9",
+        "29c8c3f0dd14f9f7",
+        "cef303e13f2f8448",
+        "9e73ac1e295189af",
+        "2fd63a114b9581d4",
+        "f9a92fe28fca685b"
+      ],
+      "id": "cef303e13f2f8448",
+      "date": 1556592599097
+    },
+    {
+      "type": "move",
+      "order": [
+        "9cfb7f6c38600a8e",
+        "ff3ac8d5e6aa610a",
+        "72ec3d641df3f7d3",
+        "97e4b048ea2e6a23",
+        "c4a5eec933f18fc9",
+        "0aa377c3966a4817",
+        "29c8c3f0dd14f9f7",
+        "cef303e13f2f8448",
+        "9e73ac1e295189af",
+        "2fd63a114b9581d4",
+        "f9a92fe28fca685b"
+      ],
+      "id": "0aa377c3966a4817",
+      "date": 1556592605782
+    },
+    {
+      "type": "move",
+      "order": [
+        "9cfb7f6c38600a8e",
+        "ff3ac8d5e6aa610a",
+        "97e4b048ea2e6a23",
+        "c4a5eec933f18fc9",
+        "72ec3d641df3f7d3",
+        "0aa377c3966a4817",
+        "29c8c3f0dd14f9f7",
+        "cef303e13f2f8448",
+        "9e73ac1e295189af",
+        "2fd63a114b9581d4",
+        "f9a92fe28fca685b"
+      ],
+      "id": "72ec3d641df3f7d3",
+      "date": 1556592609071
+    },
+    {
+      "type": "add",
+      "id": "4e2f5d34d6c7d0ea",
+      "item": {
+        "type": "paragraph",
+        "id": "4e2f5d34d6c7d0ea",
+        "text": "Closing issues using keywords [https://help.github.com/en/articles/closing-issues-using-keywords github]"
+      },
+      "after": "0aa377c3966a4817",
+      "date": 1557409113488
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "879d9745bd1d6d35"
+      },
+      "id": "879d9745bd1d6d35",
+      "type": "add",
+      "after": "f9a92fe28fca685b",
+      "date": 1558536627296
+    },
+    {
+      "type": "edit",
+      "id": "879d9745bd1d6d35",
+      "item": {
+        "type": "pagefold",
+        "id": "879d9745bd1d6d35",
+        "text": "common commands"
+      },
+      "date": 1558536637156
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "92dbdf909dfda130"
+      },
+      "id": "92dbdf909dfda130",
+      "type": "add",
+      "after": "879d9745bd1d6d35",
+      "date": 1558536638817
+    },
+    {
+      "type": "edit",
+      "id": "92dbdf909dfda130",
+      "item": {
+        "type": "paragraph",
+        "id": "92dbdf909dfda130",
+        "text": "Move HEAD to what is in the repo: git reset"
+      },
+      "date": 1558536680399
+    },
+    {
+      "type": "add",
+      "id": "523db558352862b8",
+      "item": {
+        "type": "paragraph",
+        "id": "523db558352862b8",
+        "text": "Do the same, but also remove modified tracked files: git reset --hard"
+      },
+      "after": "92dbdf909dfda130",
+      "date": 1558536697649
+    },
+    {
+      "type": "add",
+      "id": "a80cef2b93eee474",
+      "item": {
+        "type": "paragraph",
+        "id": "a80cef2b93eee474",
+        "text": "Move HEAD to the previous revision: git reset @~1"
+      },
+      "after": "523db558352862b8",
+      "date": 1558536724940
+    },
+    {
+      "type": "add",
+      "id": "35c15a121f9dfae1",
+      "item": {
+        "type": "paragraph",
+        "id": "35c15a121f9dfae1",
+        "text": "Rewrite git urls to use ssh instead of https"
+      },
+      "after": "f9a92fe28fca685b",
+      "date": 1559140200316
+    },
+    {
+      "type": "add",
+      "id": "c331591b4d2a3a71",
+      "item": {
+        "type": "paragraph",
+        "id": "c331591b4d2a3a71",
+        "text": "See a list of all git config settings. git config --global --list"
+      },
+      "after": "35c15a121f9dfae1",
+      "date": 1559140226299
+    },
+    {
+      "type": "add",
+      "id": "21178fb1550f2707",
+      "item": {
+        "type": "paragraph",
+        "id": "21178fb1550f2707",
+        "text": "url.git@github.com:.insteadof=https://github.com/\n"
+      },
+      "after": "c331591b4d2a3a71",
+      "date": 1559140231361
+    },
+    {
+      "type": "edit",
+      "id": "35c15a121f9dfae1",
+      "item": {
+        "type": "paragraph",
+        "id": "35c15a121f9dfae1",
+        "text": "Rewrite git urls to use ssh instead of https."
+      },
+      "date": 1559140246967
+    },
+    {
+      "type": "add",
+      "id": "f3c3a4af3c2a2abb",
+      "item": {
+        "type": "paragraph",
+        "id": "f3c3a4af3c2a2abb",
+        "text": "git config --global --add url.\"git@github.com:\".insteadOf \"https://github.com/\""
+      },
+      "after": "35c15a121f9dfae1",
+      "date": 1559140248672
+    },
+    {
+      "type": "edit",
+      "id": "35c15a121f9dfae1",
+      "item": {
+        "type": "paragraph",
+        "id": "35c15a121f9dfae1",
+        "text": "Rewrite git urls to use ssh instead of https. [https://stackoverflow.com/questions/32232655/go-get-results-in-terminal-prompts-disabled-error-for-github-private-repo so]"
+      },
+      "date": 1559140259838
+    },
+    {
+      "type": "add",
+      "id": "3970d7f064d87595",
+      "item": {
+        "type": "paragraph",
+        "id": "3970d7f064d87595",
+        "text": "Create an empty branch: git checkout --orphan <branch name> [https://stackoverflow.com/questions/34100048/github-create-empty-branch/34100189 so]"
+      },
+      "after": "a80cef2b93eee474",
+      "date": 1575323638960
+    },
+    {
+      "type": "add",
+      "id": "1b38b892057693c0",
+      "item": {
+        "type": "paragraph",
+        "id": "1b38b892057693c0",
+        "text": "Changing the email address associated with a commit [https://stackoverflow.com/questions/3042437/how-to-change-the-commit-author-for-one-specific-commit so]"
+      },
+      "after": "cef303e13f2f8448",
+      "date": 1581173520478
+    }
+  ]
+}

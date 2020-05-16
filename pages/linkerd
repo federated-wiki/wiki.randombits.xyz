@@ -1,0 +1,90 @@
+{
+  "title": "linkerd",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "04fa28d0ea8d74d7",
+      "text": "linkerd is the original service mesh [https://servicemesh.io/ homepage]"
+    },
+    {
+      "type": "paragraph",
+      "id": "44a7a009b2d8c2a4",
+      "text": "linkerd 2.0 was rewritten from Scala to [[Go]] (for the control plane) and [[Rust]] (for the data plane). [https://www.infoq.com/articles/linkerd-v2-production-adoption/ infoq]"
+    },
+    {
+      "type": "paragraph",
+      "id": "8ca81836da2b3703",
+      "text": "linkerd-proxy (data plane) [https://github.com/linkerd/linkerd2-proxy github]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "linkerd",
+        "story": []
+      },
+      "date": 1574704370866
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "04fa28d0ea8d74d7"
+      },
+      "id": "04fa28d0ea8d74d7",
+      "type": "add",
+      "date": 1574704372243
+    },
+    {
+      "type": "edit",
+      "id": "04fa28d0ea8d74d7",
+      "item": {
+        "type": "paragraph",
+        "id": "04fa28d0ea8d74d7",
+        "text": "linkerd is the original service mesh"
+      },
+      "date": 1574704382198
+    },
+    {
+      "type": "add",
+      "id": "44a7a009b2d8c2a4",
+      "item": {
+        "type": "paragraph",
+        "id": "44a7a009b2d8c2a4",
+        "text": "linkerd 2.0 was rewritten from Scala to [[Go]] (for the control plane) and [[Rust]] (for the data plane). [https://www.infoq.com/articles/linkerd-v2-production-adoption/ infoq]"
+      },
+      "after": "04fa28d0ea8d74d7",
+      "date": 1574704423245
+    },
+    {
+      "type": "add",
+      "id": "8ca81836da2b3703",
+      "item": {
+        "type": "paragraph",
+        "id": "8ca81836da2b3703",
+        "text": "linkerd-proxy (data plane) [https://github.com/linkerd/linkerd2-proxy github]"
+      },
+      "after": "44a7a009b2d8c2a4",
+      "date": 1574704445198
+    },
+    {
+      "type": "edit",
+      "id": "04fa28d0ea8d74d7",
+      "item": {
+        "type": "paragraph",
+        "id": "04fa28d0ea8d74d7",
+        "text": "linkerd is the original service mesh [https://servicemesh.io/ homepage]"
+      },
+      "date": 1575414048369,
+      "error": {
+        "type": "error",
+        "msg": "Forbidden",
+        "response": "Forbidden"
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1575414067124
+    }
+  ]
+}

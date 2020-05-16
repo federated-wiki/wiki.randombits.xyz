@@ -1,0 +1,378 @@
+{
+  "title": "Hardware",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "6eb86835e15a3b3f",
+      "text": "DIY keyboard resources"
+    },
+    {
+      "type": "paragraph",
+      "id": "3cd193a733e3445a",
+      "text": "[https://novelkeys.xyz/ Novel Keys]"
+    },
+    {
+      "type": "paragraph",
+      "id": "1e3d773dd410ff27",
+      "text": "[https://github.com/qmk/qmk_firmware QMK Firmware]"
+    },
+    {
+      "type": "paragraph",
+      "id": "2766c76b16af3cae",
+      "text": "QMK Keycodes [https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md github]"
+    },
+    {
+      "type": "paragraph",
+      "id": "9c367d638c33f4ab",
+      "text": "Mech keyboard offsite materials. [https://github.com/musl/nr-offsite-mech-keys/blob/master/QMK_SETUP.md github]"
+    },
+    {
+      "type": "paragraph",
+      "id": "7e14bbd6a0fa4940",
+      "text": "Assembling your BDN9. [https://github.com/musl/nr-offsite-mech-keys/blob/master/ASSEMBLY.md github] "
+    },
+    {
+      "type": "paragraph",
+      "id": "5c53b63a204dc4a5",
+      "text": "Flashing your BDN9. [https://github.com/musl/nr-offsite-mech-keys/blob/master/QMK_SETUP.md github]"
+    },
+    {
+      "type": "paragraph",
+      "id": "b68f08397844a83a",
+      "text": "QMK serial link source. [https://github.com/qmk/qmk_firmware/blob/master/quantum/serial_link/system/serial_link.c github]"
+    },
+    {
+      "type": "paragraph",
+      "id": "00bf8e3431697025",
+      "text": "Installing avr-gcc on macOS. [https://github.com/osx-cross/homebrew-avr github]"
+    },
+    {
+      "type": "paragraph",
+      "id": "da07489e654ca8f7",
+      "text": "Command to make custom firmware: [https://beta.docs.qmk.fm/detailed-guides/getting_started_make_guide qmk]"
+    },
+    {
+      "type": "code",
+      "id": "8ea045b89e782841",
+      "text": "make keebio/bdn9:jbenuck "
+    },
+    {
+      "type": "code",
+      "id": "1a03893989181695",
+      "text": "when-changed -r -s keyboards/keebio/keymaps/jbenuck/ -c \"make keebio/bdn9:jbenuck && ./reflash.sh ...\""
+    },
+    {
+      "type": "paragraph",
+      "id": "a44fc496b7a0e0ab",
+      "text": "QMK rgb APIs [https://github.com/qmk/qmk_firmware/blob/16f367348a78f10b58fad0c6841c7529f4f73818/docs/feature_rgblight.md docs]"
+    },
+    {
+      "type": "paragraph",
+      "id": "365ee1e2d13a5ead",
+      "text": "Quicker QMK docker builds. [https://github.com/qmk/qmk_firmware/pull/6065 pr]"
+    },
+    {
+      "type": "paragraph",
+      "id": "9e371d6f7fca07b5",
+      "text": "Example of using Rust to define a keymap. [https://about.houqp.me/posts/rusty-c/ site]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Hardware",
+        "story": []
+      },
+      "date": 1555435749888
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "6eb86835e15a3b3f"
+      },
+      "id": "6eb86835e15a3b3f",
+      "type": "add",
+      "date": 1555435751147
+    },
+    {
+      "type": "edit",
+      "id": "6eb86835e15a3b3f",
+      "item": {
+        "type": "paragraph",
+        "id": "6eb86835e15a3b3f",
+        "text": "DIY keyboard resources"
+      },
+      "date": 1555435769614
+    },
+    {
+      "type": "add",
+      "id": "3cd193a733e3445a",
+      "item": {
+        "type": "paragraph",
+        "id": "3cd193a733e3445a",
+        "text": "Novel Keys"
+      },
+      "after": "6eb86835e15a3b3f",
+      "date": 1555435773230
+    },
+    {
+      "type": "edit",
+      "id": "3cd193a733e3445a",
+      "item": {
+        "type": "paragraph",
+        "id": "3cd193a733e3445a",
+        "text": "[https://novelkeys.xyz/ Novel Keys]"
+      },
+      "date": 1555435951189
+    },
+    {
+      "type": "add",
+      "id": "1e3d773dd410ff27",
+      "item": {
+        "type": "paragraph",
+        "id": "1e3d773dd410ff27",
+        "text": "[https://github.com/qmk/qmk_firmware QMK Firmware]"
+      },
+      "after": "3cd193a733e3445a",
+      "date": 1555435970807
+    },
+    {
+      "type": "add",
+      "id": "9c367d638c33f4ab",
+      "item": {
+        "type": "paragraph",
+        "id": "9c367d638c33f4ab",
+        "text": "Mech keyboard offsite materials. [https://github.com/musl/nr-offsite-mech-keys/blob/master/QMK_SETUP.md github]"
+      },
+      "after": "1e3d773dd410ff27",
+      "date": 1556642737041
+    },
+    {
+      "type": "add",
+      "id": "b68f08397844a83a",
+      "item": {
+        "type": "paragraph",
+        "id": "b68f08397844a83a",
+        "text": "QMK serial link source. [https://github.com/qmk/qmk_firmware/blob/master/quantum/serial_link/system/serial_link.c github]"
+      },
+      "after": "9c367d638c33f4ab",
+      "date": 1557755814881
+    },
+    {
+      "type": "add",
+      "id": "2766c76b16af3cae",
+      "item": {
+        "type": "paragraph",
+        "id": "2766c76b16af3cae",
+        "text": "QMK Keycodes [https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md github]"
+      },
+      "after": "1e3d773dd410ff27",
+      "date": 1557755876000
+    },
+    {
+      "type": "add",
+      "id": "7e14bbd6a0fa4940",
+      "item": {
+        "type": "paragraph",
+        "id": "7e14bbd6a0fa4940",
+        "text": "QMK setup. [https://github.com/musl/nr-offsite-mech-keys/blob/master/QMK_SETUP.md github]"
+      },
+      "after": "9c367d638c33f4ab",
+      "date": 1557755902780
+    },
+    {
+      "type": "edit",
+      "id": "7e14bbd6a0fa4940",
+      "item": {
+        "type": "paragraph",
+        "id": "7e14bbd6a0fa4940",
+        "text": "Assembling your BDN9. [https://github.com/musl/nr-offsite-mech-keys/blob/master/ASSEMBLY.md github] "
+      },
+      "date": 1557755935481
+    },
+    {
+      "type": "add",
+      "id": "7abe96665c742b3c",
+      "item": {
+        "type": "paragraph",
+        "id": "7abe96665c742b3c",
+        "text": "QMK setup. [https://github.com/musl/nr-offsite-mech-keys/blob/master/QMK_SETUP.md github]"
+      },
+      "after": "7e14bbd6a0fa4940",
+      "date": 1557755936112
+    },
+    {
+      "type": "add",
+      "id": "5c53b63a204dc4a5",
+      "item": {
+        "type": "paragraph",
+        "id": "5c53b63a204dc4a5",
+        "text": "Flashing your BDN9. [https://github.com/musl/nr-offsite-mech-keys/blob/master/QMK_SETUP.md github]"
+      },
+      "after": "7e14bbd6a0fa4940",
+      "date": 1557756005610
+    },
+    {
+      "type": "remove",
+      "id": "7abe96665c742b3c",
+      "date": 1557755997687
+    },
+    {
+      "type": "add",
+      "id": "da07489e654ca8f7",
+      "item": {
+        "type": "paragraph",
+        "id": "da07489e654ca8f7",
+        "text": "Command to make custom firmware: make keebio/bdn9:jbenuck"
+      },
+      "after": "b68f08397844a83a",
+      "date": 1557849669319
+    },
+    {
+      "type": "add",
+      "id": "1a03893989181695",
+      "item": {
+        "type": "factory",
+        "id": "1a03893989181695",
+        "text": "when-changed -r -s keyboards/keebio/keymaps/jbenuck/ -c \"make keebio/bdn9:jbenuck && ./reflash.sh ...\""
+      },
+      "after": "da07489e654ca8f7",
+      "date": 1557849727273
+    },
+    {
+      "type": "edit",
+      "id": "da07489e654ca8f7",
+      "item": {
+        "type": "paragraph",
+        "id": "da07489e654ca8f7",
+        "text": "Command to make custom firmware:"
+      },
+      "date": 1557849737045
+    },
+    {
+      "type": "add",
+      "id": "8ea045b89e782841",
+      "item": {
+        "type": "factory",
+        "id": "8ea045b89e782841",
+        "text": " make keebio/bdn9:jbenuck"
+      },
+      "after": "da07489e654ca8f7",
+      "date": 1557849738056
+    },
+    {
+      "type": "edit",
+      "id": "8ea045b89e782841",
+      "item": {
+        "type": "code",
+        "id": "8ea045b89e782841",
+        "text": "make keebio/bdn9:jbenuck"
+      },
+      "date": 1557849741640
+    },
+    {
+      "type": "edit",
+      "id": "8ea045b89e782841",
+      "item": {
+        "type": "code",
+        "id": "8ea045b89e782841",
+        "text": "make keebio/bdn9:jbenuck [https://beta.docs.qmk.fm/detailed-guides/getting_started_make_guide qmk]"
+      },
+      "date": 1557849775473
+    },
+    {
+      "type": "edit",
+      "id": "8ea045b89e782841",
+      "item": {
+        "type": "code",
+        "id": "8ea045b89e782841",
+        "text": "make keebio/bdn9:jbenuck "
+      },
+      "date": 1557849782764
+    },
+    {
+      "type": "edit",
+      "id": "da07489e654ca8f7",
+      "item": {
+        "type": "paragraph",
+        "id": "da07489e654ca8f7",
+        "text": "Command to make custom firmware: [https://beta.docs.qmk.fm/detailed-guides/getting_started_make_guide qmk]"
+      },
+      "date": 1557849787907
+    },
+    {
+      "type": "add",
+      "id": "00bf8e3431697025",
+      "item": {
+        "type": "paragraph",
+        "id": "00bf8e3431697025",
+        "text": "Installing avr-gcc on macOS. [https://github.com/osx-cross/homebrew-avr github]"
+      },
+      "after": "b68f08397844a83a",
+      "date": 1557849816061
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "a44fc496b7a0e0ab"
+      },
+      "id": "a44fc496b7a0e0ab",
+      "type": "add",
+      "after": "1a03893989181695",
+      "date": 1557867106114
+    },
+    {
+      "type": "edit",
+      "id": "a44fc496b7a0e0ab",
+      "item": {
+        "type": "paragraph",
+        "id": "a44fc496b7a0e0ab",
+        "text": "QMK rgb APIs [https://github.com/qmk/qmk_firmware/blob/16f367348a78f10b58fad0c6841c7529f4f73818/docs/feature_rgblight.md docs]"
+      },
+      "date": 1557867120115
+    },
+    {
+      "type": "edit",
+      "id": "1a03893989181695",
+      "item": {
+        "type": "paragraph",
+        "id": "1a03893989181695",
+        "text": "when-changed -r -s keyboards/keebio/keymaps/jbenuck/ -c \"make keebio/bdn9:jbenuck && ./reflash.sh ...\" "
+      },
+      "date": 1557867125006
+    },
+    {
+      "type": "edit",
+      "id": "1a03893989181695",
+      "item": {
+        "type": "code",
+        "id": "1a03893989181695",
+        "text": "when-changed -r -s keyboards/keebio/keymaps/jbenuck/ -c \"make keebio/bdn9:jbenuck && ./reflash.sh ...\""
+      },
+      "date": 1557867134821
+    },
+    {
+      "type": "add",
+      "id": "365ee1e2d13a5ead",
+      "item": {
+        "type": "paragraph",
+        "id": "365ee1e2d13a5ead",
+        "text": "Quicker QMK docker builds. [https://github.com/qmk/qmk_firmware/pull/6065 pr]"
+      },
+      "after": "a44fc496b7a0e0ab",
+      "date": 1560917584414
+    },
+    {
+      "type": "add",
+      "id": "9e371d6f7fca07b5",
+      "item": {
+        "type": "paragraph",
+        "id": "9e371d6f7fca07b5",
+        "text": "Example of using Rust to define a keymap. [https://about.houqp.me/posts/rusty-c/ site]"
+      },
+      "after": "365ee1e2d13a5ead",
+      "date": 1575654543516
+    }
+  ]
+}

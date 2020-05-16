@@ -1,0 +1,81 @@
+{
+  "title": "moment",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "3402c344d1c28b2f",
+      "text": "A handy time parsing library for javascript."
+    },
+    {
+      "type": "paragraph",
+      "id": "ef6015b23a8944dc",
+      "text": "Moment's manipulation functions are mutable. You must call .clone() if you want to leave the original untouched. [https://momentjs.com/docs/#/manipulating/ momentjs]"
+    },
+    {
+      "type": "paragraph",
+      "id": "e90b518a9407283e",
+      "text": "How do you get the current quarter? Call moment.quarter(). [https://stackoverflow.com/questions/14046679/in-moment-js-how-do-you-get-the-current-financial-quarter so]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "moment",
+        "story": []
+      },
+      "date": 1560919863576
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "3402c344d1c28b2f"
+      },
+      "id": "3402c344d1c28b2f",
+      "type": "add",
+      "date": 1560919864770
+    },
+    {
+      "type": "edit",
+      "id": "3402c344d1c28b2f",
+      "item": {
+        "type": "paragraph",
+        "id": "3402c344d1c28b2f",
+        "text": "A handy time parsing library for javascript."
+      },
+      "date": 1560919872949
+    },
+    {
+      "type": "add",
+      "id": "ef6015b23a8944dc",
+      "item": {
+        "type": "paragraph",
+        "id": "ef6015b23a8944dc",
+        "text": "Moment's manipulation functions are mutable. You must call .clone() if you want to leave the original untouched."
+      },
+      "after": "3402c344d1c28b2f",
+      "date": 1560919895466
+    },
+    {
+      "type": "edit",
+      "id": "ef6015b23a8944dc",
+      "item": {
+        "type": "paragraph",
+        "id": "ef6015b23a8944dc",
+        "text": "Moment's manipulation functions are mutable. You must call .clone() if you want to leave the original untouched. [https://momentjs.com/docs/#/manipulating/ momentjs]"
+      },
+      "date": 1560919903448
+    },
+    {
+      "type": "add",
+      "id": "e90b518a9407283e",
+      "item": {
+        "type": "paragraph",
+        "id": "e90b518a9407283e",
+        "text": "How do you get the current quarter? Call moment.quarter(). [https://stackoverflow.com/questions/14046679/in-moment-js-how-do-you-get-the-current-financial-quarter so]"
+      },
+      "after": "ef6015b23a8944dc",
+      "date": 1561039173221
+    }
+  ]
+}

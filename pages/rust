@@ -1,0 +1,2937 @@
+{
+  "title": "rust",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "80025036a125ce44",
+      "text": "A safe, concurrent, statically typed, compiled non-garbage collected language."
+    },
+    {
+      "type": "paragraph",
+      "id": "cca301f7debbdca7",
+      "text": "What do you call the act of using rust to replace an existing component? Oxidizing it! [https://hacks.mozilla.org/2018/01/oxidizing-source-maps-with-rust-and-webassembly/ post]"
+    },
+    {
+      "type": "paragraph",
+      "id": "e1c9df37c942ab8c",
+      "text": "Installing rust. [https://rust-lang.org/tools/install docs]"
+    },
+    {
+      "type": "code",
+      "id": "714e13d005bc962b",
+      "text": "curl https://sh.rustup.rs -sSf | sh"
+    },
+    {
+      "type": "paragraph",
+      "id": "69069bc8d1283710",
+      "text": "[[RedMonk Language Rankings]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "6af61baf1e330111",
+      "text": "Fuzz testing leading to a dramatic rise in CVEs and may be driving more companies to move to safer languages? [https://www.cloudatomiclab.com/fuzz/ blog]"
+    },
+    {
+      "type": "paragraph",
+      "id": "b3edb10d4e854bc2",
+      "text": "Pitfalls of C++ that you can avoid by using Rust [https://medium.com/dwelo-r-d/abusing-fire-for-light-a6e6774289fd post]"
+    },
+    {
+      "type": "pagefold",
+      "id": "ee526b0861c287c9",
+      "text": "talks"
+    },
+    {
+      "type": "paragraph",
+      "id": "0fb52bb9931606ab",
+      "text": "[[Zen and the Art of Convincing Your Company]] to Use Rust."
+    },
+    {
+      "type": "paragraph",
+      "id": "fdbc9b1421c299bf",
+      "text": "Is it time to rewrite the operating system in rust? (Spoiler alert: no). [https://www.youtube.com/watch?v=HgtRAbE1nBM youtube]"
+    },
+    {
+      "type": "pagefold",
+      "id": "e627215e20dba7b7",
+      "text": "learning "
+    },
+    {
+      "type": "paragraph",
+      "id": "a0e9f3b95d8291e9",
+      "text": "Bryan Cantrill's Journey [http://dtrace.org/blogs/bmc/2018/09/18/falling-in-love-with-rust/ blog]"
+    },
+    {
+      "type": "paragraph",
+      "id": "a8e2c22ca25a6915",
+      "text": "[[A Thread About Learning Rust]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "9e9ac92ade23d54e",
+      "text": "Practical Networked Applications in Rust [https://arveknudsen.com/posts/practical-networked-applications-in-rust/module-1/ blog] [https://github.com/pingcap/talent-plan/tree/master/rust github]"
+    },
+    {
+      "type": "pagefold",
+      "id": "4ba4562e657e26f0",
+      "text": "apis "
+    },
+    {
+      "type": "paragraph",
+      "id": "014741f7cb385092",
+      "text": "interpolate. [https://crates.io/crates/interpolate crate]"
+    },
+    {
+      "type": "paragraph",
+      "id": "54e010bf5a7f2a30",
+      "text": "Formatting macros. [https://doc.rust-lang.org/std/fmt/ std::fmt]"
+    },
+    {
+      "type": "paragraph",
+      "id": "f8c6d88d67067f03",
+      "text": "To use macros across crates, be aware that macros always get exported from the root crate, never a child. [https://stackoverflow.com/questions/26731243/how-do-i-use-a-macro-across-module-files so]"
+    },
+    {
+      "type": "paragraph",
+      "id": "6212c7d910daa682",
+      "text": "File move and copy operations [https://crates.io/crates/fs_extra fs_extra]"
+    },
+    {
+      "type": "paragraph",
+      "id": "d38f07a96adbc2ab",
+      "text": "Serialization and Deserialization (Serde) [https://serde.rs serde]"
+    },
+    {
+      "type": "paragraph",
+      "id": "916aea90af0ad0cc",
+      "text": "Parsing TOML. [https://rust-lang-nursery.github.io/rust-cookbook/encoding/complex.html cookbook]"
+    },
+    {
+      "type": "paragraph",
+      "id": "e0e767e36ce745c4",
+      "text": "Parallel processing. [https://docs.rs/pipeliner/1.0.0/pipeliner/ pipeliner]"
+    },
+    {
+      "type": "paragraph",
+      "id": "0cff351525f54311",
+      "text": "Run shell commands. [https://doc.rust-lang.org/std/process/struct.Command.html std::process::Comand]"
+    },
+    {
+      "type": "paragraph",
+      "id": "87dc0a9868460f53",
+      "text": "iter vs iter_mut vs into_iter = borrow vs mutable borrow vs move. [https://stackoverflow.com/questions/34733811/what-is-the-difference-between-iter-and-into-iter so]"
+    },
+    {
+      "type": "paragraph",
+      "id": "1415627414d00d15",
+      "text": "Web scraping with rust. [https://kadekillary.work/post/webscraping-rust/ post] [https://medium.com/@joydeepubuntu/rust-and-webscraping-ebecc9ae536c post] [https://www.gkbrk.com/wiki/rust_web_scraping/ post]"
+    },
+    {
+      "type": "paragraph",
+      "id": "0838589fbe15fae4",
+      "text": "Reading a file. [https://doc.rust-lang.org/book/ch12-02-reading-a-file.html example]"
+    },
+    {
+      "type": "paragraph",
+      "id": "d3a47f38e77e6fc8",
+      "text": "Slice of bytes to a slice of a string. [https://stackoverflow.com/questions/19076719/how-do-i-convert-a-vector-of-bytes-u8-to-a-string so]"
+    },
+    {
+      "type": "paragraph",
+      "id": "ed1f7be264023abd",
+      "text": "Rust crypto [http://siciarz.net/24-days-of-rust-rust-crypto/ post]"
+    },
+    {
+      "type": "paragraph",
+      "id": "8a5e12e35c2ca221",
+      "text": "This question is almost the same as String vs &str , if that helps. PathBuf is String, &Path is &str. [https://stackoverflow.com/questions/32730714/what-is-the-right-way-to-store-an-immutable-path-in-a-struct so]"
+    },
+    {
+      "type": "paragraph",
+      "id": "66d1f298cde4b39b",
+      "text": "Confusing errors when passing a Path by value. [https://github.com/rust-lang/rust/issues/23286 issue]"
+    },
+    {
+      "type": "paragraph",
+      "id": "43a5fe931426d320",
+      "text": "Parsing json [https://stackoverflow.com/questions/30292752/how-do-i-parse-a-json-file so]"
+    },
+    {
+      "type": "paragraph",
+      "id": "a4cabb06c553cf79",
+      "text": "rustup component add rustfmt"
+    },
+    {
+      "type": "paragraph",
+      "id": "e6ca1d25bed5fdc8",
+      "text": "Gotham: web server framework [https://gotham.rs/ site]"
+    },
+    {
+      "type": "paragraph",
+      "id": "1ba78e611e9116c4",
+      "text": "HashMap literals - there are none, but there are options. [https://stackoverflow.com/questions/27582739/how-do-i-create-a-hashmap-literal so]"
+    },
+    {
+      "type": "paragraph",
+      "id": "de5bd9fd202db2b9",
+      "text": "FromStr trait adds the from_str method to some types. [https://doc.rust-lang.org/std/str/trait.FromStr.html docs]"
+    },
+    {
+      "type": "paragraph",
+      "id": "bdcd41d96bbd6988",
+      "text": "When converting from &[u8] to &str, if done in a lossy way, all invalid utf-8 sequences get replaced with the Unicode U+fffd replacement character (hex: 0xEFBFBD)"
+    },
+    {
+      "type": "paragraph",
+      "id": "a8fb3b82e9ca7efa",
+      "text": "This is the proper way to download a file to disk [https://rust-lang-nursery.github.io/rust-cookbook/web/clients/download.html#download-a-file-to-a-temporary-directory example]"
+    },
+    {
+      "type": "paragraph",
+      "id": "d1b1af580c3b820d",
+      "text": "How to handle code that deals with crates that return different error types? Create your own error type that acts as a superset of the others. [https://stackoverflow.com/questions/48430836/rust-proper-error-handling-auto-convert-from-one-error-type-to-another-with-que so] [https://doc.rust-lang.org/std/char/constant.REPLACEMENT_CHARACTER.html docs]"
+    },
+    {
+      "type": "paragraph",
+      "id": "9fd335d0447ac385",
+      "text": "url [https://docs.rs/url/2.0.0/url/ docs.rs]"
+    },
+    {
+      "type": "paragraph",
+      "id": "6bc42611e92b31c2",
+      "text": "To convert a Path or a PathBuf to something that can be displayed, use .display() [https://doc.rust-lang.org/std/path/struct.PathBuf.html docs]"
+    },
+    {
+      "type": "paragraph",
+      "id": "d9e77b68e6dcca5e",
+      "text": "Option API [https://doc.rust-lang.org/std/option/enum.Option.html docs]"
+    },
+    {
+      "type": "paragraph",
+      "id": "d76bfcede636972b",
+      "text": "Trim characters from the beginning and end [http://wdv4758h.github.io/string.rs/strip-trim howto] [https://stackoverflow.com/questions/49856439/why-cant-i-use-a-str-in-trim-matches-like-in-trim-right-matches/49856663 so]"
+    },
+    {
+      "type": "paragraph",
+      "id": "83f9fc603fc76f77",
+      "text": "Open tracing API [https://github.com/tokio-rs/tracing github]"
+    },
+    {
+      "type": "paragraph",
+      "id": "f701626428fe5b4f",
+      "text": "Using the Builder pattern in rust [https://doc.rust-lang.org/1.0.0/style/ownership/builders.html docs]"
+    },
+    {
+      "type": "paragraph",
+      "id": "86d5de0aca96aca7",
+      "text": "Correct way to return an Iterator [https://stackoverflow.com/questions/27535289/what-is-the-correct-way-to-return-an-iterator-or-any-other-trait so]"
+    },
+    {
+      "type": "paragraph",
+      "id": "2d51bb7b6d24d837",
+      "text": "Stop a Linux process with Rust [https://gist.github.com/spwitt/2f8f116fffeb0f3135df963d4bdf0637 gist]"
+    },
+    {
+      "type": "paragraph",
+      "id": "f78686e61ed97a93",
+      "text": "Sort two vectors in the same order [https://stackoverflow.com/questions/32564455/how-can-i-co-sort-two-vecs-based-on-the-values-in-one-of-the-vecs so]"
+    },
+    {
+      "type": "paragraph",
+      "id": "c80916df46b6f07b",
+      "text": "Permutation crate [https://docs.rs/permutation/0.2.5/permutation/permutation/struct.Permutation.html docs.rs]"
+    },
+    {
+      "type": "paragraph",
+      "id": "c1ce7b823406a1ee",
+      "text": "Store a closure in a struct [https://stackoverflow.com/questions/27831944/how-do-i-store-a-closure-in-a-struct-in-rust so]"
+    },
+    {
+      "type": "paragraph",
+      "id": "eda5a77624774b4d",
+      "text": "The right way to concat a string [https://users.rust-lang.org/t/what-is-right-ways-to-concat-strings/3780/3 forum]"
+    },
+    {
+      "type": "pagefold",
+      "id": "385584305d3011c8",
+      "text": "cargo"
+    },
+    {
+      "type": "paragraph",
+      "id": "00d6cfdb229274c9",
+      "text": "cargo forward term signals [https://github.com/rust-lang/cargo/issues/4575 issue] [https://github.com/rust-lang/rust/issues/50679 issue]"
+    },
+    {
+      "type": "paragraph",
+      "id": "5b6e3c00393c451a",
+      "text": "cargo watch -x run. [https://stackoverflow.com/questions/29461693/how-can-i-get-cargo-to-recompile-changed-files-automatically so]"
+    },
+    {
+      "type": "paragraph",
+      "id": "af1426b3444c546e",
+      "text": "cargo run --example"
+    },
+    {
+      "type": "paragraph",
+      "id": "c175996f27c59030",
+      "text": "Cross compiling [https://timryan.org/2018/07/27/cross-compiling-linux-binaries-from-macos.html post]"
+    },
+    {
+      "type": "paragraph",
+      "id": "2b1e24d970c724ad",
+      "text": "Specifying dependencies [https://doc.rust-lang.org/cargo/reference/specifying-dependencies.html docs]"
+    },
+    {
+      "type": "paragraph",
+      "id": "c7e02ea369754976",
+      "text": "Manifest format [https://doc.rust-lang.org/cargo/reference/manifest.html docs]"
+    },
+    {
+      "type": "paragraph",
+      "id": "5a888e5f29f567a4",
+      "text": "Making a *-sys crate [https://kornel.ski/rust-sys-crate web]"
+    },
+    {
+      "type": "paragraph",
+      "id": "dfa796171facfd07",
+      "text": "Overriding build scripts [https://doc.rust-lang.org/nightly/cargo/reference/build-scripts.html?highlight=feature docs]"
+    },
+    {
+      "type": "pagefold",
+      "id": "143a8e83b4b7bd13",
+      "text": "writing command line apps in rust"
+    },
+    {
+      "type": "paragraph",
+      "id": "5260599745b16818",
+      "text": "Shell completions in rust [https://www.joshmcguigan.com/blog/shell-completions-pure-rust/ post]"
+    },
+    {
+      "type": "pagefold",
+      "id": "0c32d61ecf32a2ed",
+      "text": "language"
+    },
+    {
+      "type": "paragraph",
+      "id": "de170e864d362c10",
+      "text": "Keyword and default arguments [https://github.com/rust-lang/rfcs/issues/323 rfc]"
+    },
+    {
+      "type": "paragraph",
+      "id": "9daaedfa2a331860",
+      "text": "Calling a mutating method while iterating self. [https://stackoverflow.com/questions/27335252/how-can-i-call-a-mutating-method-while-holding-a-reference-to-self so]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "rust",
+        "story": []
+      },
+      "date": 1559917163724
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "80025036a125ce44"
+      },
+      "id": "80025036a125ce44",
+      "type": "add",
+      "date": 1559917164978
+    },
+    {
+      "type": "edit",
+      "id": "80025036a125ce44",
+      "item": {
+        "type": "paragraph",
+        "id": "80025036a125ce44",
+        "text": "A safe, concurrent, statically typed, "
+      },
+      "date": 1559917191726
+    },
+    {
+      "type": "edit",
+      "id": "80025036a125ce44",
+      "item": {
+        "type": "paragraph",
+        "id": "80025036a125ce44",
+        "text": "A safe, concurrent, statically typed, compiled non-garbage collected language."
+      },
+      "date": 1559917733142
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "54e010bf5a7f2a30"
+      },
+      "id": "54e010bf5a7f2a30",
+      "type": "add",
+      "after": "80025036a125ce44",
+      "date": 1559917740810
+    },
+    {
+      "type": "edit",
+      "id": "54e010bf5a7f2a30",
+      "item": {
+        "type": "paragraph",
+        "id": "54e010bf5a7f2a30",
+        "text": "Formatting macros [https://doc.rust-lang.org/std/fmt/ std::fmt]"
+      },
+      "date": 1559917759598
+    },
+    {
+      "type": "edit",
+      "id": "54e010bf5a7f2a30",
+      "item": {
+        "type": "paragraph",
+        "id": "54e010bf5a7f2a30",
+        "text": "Formatting macros. [https://doc.rust-lang.org/std/fmt/ std::fmt]"
+      },
+      "date": 1559917763924
+    },
+    {
+      "type": "add",
+      "id": "014741f7cb385092",
+      "item": {
+        "type": "paragraph",
+        "id": "014741f7cb385092",
+        "text": "interpolate. [https://crates.io/crates/interpolate crate]"
+      },
+      "after": "54e010bf5a7f2a30",
+      "date": 1559917782063
+    },
+    {
+      "type": "add",
+      "id": "e1c9df37c942ab8c",
+      "item": {
+        "type": "paragraph",
+        "id": "e1c9df37c942ab8c",
+        "text": "Installing rust. [https://rust-lang.org/tools/install docs]"
+      },
+      "after": "80025036a125ce44",
+      "date": 1559917912060
+    },
+    {
+      "type": "add",
+      "id": "714e13d005bc962b",
+      "item": {
+        "type": "factory",
+        "id": "714e13d005bc962b",
+        "text": " "
+      },
+      "after": "e1c9df37c942ab8c",
+      "date": 1559917918442
+    },
+    {
+      "type": "edit",
+      "id": "714e13d005bc962b",
+      "item": {
+        "type": "code",
+        "id": "714e13d005bc962b",
+        "text": "curl https://sh.rustup.rs -sSf | sh"
+      },
+      "date": 1559917924315
+    },
+    {
+      "type": "add",
+      "id": "0e78a824f0c7153f",
+      "item": {
+        "type": "paragraph",
+        "id": "0e78a824f0c7153f",
+        "text": "Excellent quote about rust."
+      },
+      "after": "014741f7cb385092",
+      "date": 1559966719168
+    },
+    {
+      "type": "edit",
+      "id": "0e78a824f0c7153f",
+      "item": {
+        "type": "paragraph",
+        "id": "0e78a824f0c7153f",
+        "text": "Excellent quote about rust. [https://twitter.com/AndreaPessino/status/1042120425415700480 twitter]"
+      },
+      "date": 1559966737475
+    },
+    {
+      "type": "add",
+      "id": "b23f0e1d3f9d01c2",
+      "item": {
+        "type": "paragraph",
+        "id": "b23f0e1d3f9d01c2",
+        "text": "A THREAD ABOUT LEARNING THE RUST PROGRAMMING LANGUAGE @rustlang\n"
+      },
+      "after": "0e78a824f0c7153f",
+      "date": 1559966843667
+    },
+    {
+      "type": "add",
+      "id": "7363af0e006729b0",
+      "item": {
+        "type": "paragraph",
+        "id": "7363af0e006729b0",
+        "text": "Rust is a practical solution to concrete problems that have hindered progress in software development for the last two decades. It is a leap forward in potential performance, scalability and productivity.\n"
+      },
+      "after": "b23f0e1d3f9d01c2",
+      "date": 1559966846621
+    },
+    {
+      "type": "add",
+      "id": "0980f58fc5db5689",
+      "item": {
+        "type": "paragraph",
+        "id": "0980f58fc5db5689",
+        "text": "When experienced coders try out a new language the process usually goes something like this: skim the docs as quickly as possible, go over some samples until one has “got the gist,” write some code; the expectation is that details and deep concepts will reveal themselves with use\n"
+      },
+      "after": "7363af0e006729b0",
+      "date": 1559966850867
+    },
+    {
+      "type": "add",
+      "id": "7ed4e7482fc255d6",
+      "item": {
+        "type": "paragraph",
+        "id": "7ed4e7482fc255d6",
+        "text": "and that writing code is going to be the quickest way to familiarize oneself with the new tool. If you are learning Python, Java, JS, C#, Go, etc. this approach works well, mostly because these languages are basically all the same. If, on the other hand, you approach Rust like\n"
+      },
+      "after": "0980f58fc5db5689",
+      "date": 1559966859325
+    },
+    {
+      "type": "add",
+      "id": "c99c6525b61c2787",
+      "item": {
+        "type": "paragraph",
+        "id": "c99c6525b61c2787",
+        "text": "this you will probably be frustrated. There is nothing especially difficult about Rust (no more than C/C++, at least), but Rust combines novel concepts and refined ideas from other languages into a surprisingly innovative whole. Its design is cohesive, purposeful and visionary.\n"
+      },
+      "after": "7ed4e7482fc255d6",
+      "date": 1559966866801
+    },
+    {
+      "type": "add",
+      "id": "20b7d3b39d90e234",
+      "item": {
+        "type": "paragraph",
+        "id": "20b7d3b39d90e234",
+        "text": "It is different enough to require actual studying.\n"
+      },
+      "after": "c99c6525b61c2787",
+      "date": 1559966878853
+    },
+    {
+      "type": "add",
+      "id": "768cf03fe0874e0a",
+      "item": {
+        "type": "paragraph",
+        "id": "768cf03fe0874e0a",
+        "text": "At a glance Rust looks like a C++ cousin, but it really is not, and the resemblance might actually prove misleading for newcomers. This has nothing to do with ability or experience – you just need to put in the time to acquire\n"
+      },
+      "after": "20b7d3b39d90e234",
+      "date": 1559966881128
+    },
+    {
+      "type": "add",
+      "id": "738c5c34621f434f",
+      "item": {
+        "type": "paragraph",
+        "id": "738c5c34621f434f",
+        "text": "some new skills, otherwise before long you’ll end up on Twitter complaining about how you are “fighting the borrow checker.” \n"
+      },
+      "after": "768cf03fe0874e0a",
+      "date": 1559966886689
+    },
+    {
+      "type": "add",
+      "id": "57984e9c695abd55",
+      "item": {
+        "type": "paragraph",
+        "id": "57984e9c695abd55",
+        "text": "So, here are a few suggestion on how to approach the language to ensure you have a greatest grasp in minimal time:\n"
+      },
+      "after": "738c5c34621f434f",
+      "date": 1559966889120
+    },
+    {
+      "type": "add",
+      "id": "5620fa58454a2c6b",
+      "item": {
+        "type": "paragraph",
+        "id": "5620fa58454a2c6b",
+        "text": "Step 1) First one is obvious: read\n"
+      },
+      "after": "57984e9c695abd55",
+      "date": 1559966891856
+    },
+    {
+      "type": "add",
+      "id": "22a2b9d1800ceeb7",
+      "item": {
+        "type": "paragraph",
+        "id": "22a2b9d1800ceeb7",
+        "text": "the official RUST PROGRAMMING LANGUAGE book. You can buy it printed on wood pulp or read it for free at https://doc.rust-lang.org/book/2018-edition/index.html … (the 2018 edition is the live updated version of the book, the one that will continue to reflect changes to the language). This is the best introductory\n"
+      },
+      "after": "5620fa58454a2c6b",
+      "date": 1559966899002
+    },
+    {
+      "type": "add",
+      "id": "2dc45f8ed6f88987",
+      "item": {
+        "type": "paragraph",
+        "id": "2dc45f8ed6f88987",
+        "text": "text you can get – very easy to read, perfectly paced. Read the whole thing beginning to end, run and study the code samples, even when they seem trivial. IMPORTANT: when you are done reading this book you might think “I get it now” but really, you don’t. The official book does\n"
+      },
+      "after": "22a2b9d1800ceeb7",
+      "date": 1559966905337
+    },
+    {
+      "type": "add",
+      "id": "4c4a41c13ea6335c",
+      "item": {
+        "type": "paragraph",
+        "id": "4c4a41c13ea6335c",
+        "text": "not go nearly deep enough – it’s a great intro but after this you will be smack in the middle of the “got the gist” phase. You’ve got some more work to do.\n"
+      },
+      "after": "2dc45f8ed6f88987",
+      "date": 1559966912825
+    },
+    {
+      "type": "add",
+      "id": "a65daa8c85f3e7f7",
+      "item": {
+        "type": "paragraph",
+        "id": "a65daa8c85f3e7f7",
+        "text": "Step 2) Read RUST BY EXAMPLE, available at https://doc.rust-lang.org/rust-by-example/ … This is a great series of code snippets illustrating\n"
+      },
+      "after": "4c4a41c13ea6335c",
+      "date": 1559966914447
+    },
+    {
+      "type": "add",
+      "id": "e800264b811e0995",
+      "item": {
+        "type": "paragraph",
+        "id": "e800264b811e0995",
+        "text": "most of the language components. All examples are short, can be run directly (and even modified) in the book’s pages and they each illustrate a specific aspect of Rust programming. This will not take long – study all of them, make sure you modify and play with each one, don’t\n"
+      },
+      "after": "a65daa8c85f3e7f7",
+      "date": 1559966922349
+    },
+    {
+      "type": "add",
+      "id": "0c6857965c4fff83",
+      "item": {
+        "type": "paragraph",
+        "id": "0c6857965c4fff83",
+        "text": "move on until you fully understand each chapter. After going through this, you’ll be in a  good spot. Then it’ll be time to bring it all home.\n"
+      },
+      "after": "e800264b811e0995",
+      "date": 1559966927320
+    },
+    {
+      "type": "add",
+      "id": "191a4d6e58c97203",
+      "item": {
+        "type": "paragraph",
+        "id": "191a4d6e58c97203",
+        "text": "Step 3) Read PROGRAMMING RUST, available printed or ebook at https://www.amazon.com/Programming-Rust-Fast-Systems-Development-ebook/dp/B077NSY211 … This is a fantastic book and the perfect finishing\n"
+      },
+      "after": "0c6857965c4fff83",
+      "date": 1559966938554
+    },
+    {
+      "type": "add",
+      "id": "560b74298026747e",
+      "item": {
+        "type": "paragraph",
+        "id": "560b74298026747e",
+        "text": "touch in your Rust education. It goes deeper than the previous two, and having the others under your belt beforehand will make it more effective and much easier to go through. You don’t really need to finish the book before moving on, just go over the first 6 to 8 chapters and\n"
+      },
+      "after": "191a4d6e58c97203",
+      "date": 1559966942885
+    },
+    {
+      "type": "add",
+      "id": "8f2df2dc6b3de5ff",
+      "item": {
+        "type": "paragraph",
+        "id": "8f2df2dc6b3de5ff",
+        "text": "then start Step 4 while continuing to read the remaining chapters.\n"
+      },
+      "after": "560b74298026747e",
+      "date": 1559966947855
+    },
+    {
+      "type": "add",
+      "id": "ad57c2213f6f36da",
+      "item": {
+        "type": "paragraph",
+        "id": "ad57c2213f6f36da",
+        "text": "Step 4) This is where you start writing your own code. A few more bits of advice: \n"
+      },
+      "after": "8f2df2dc6b3de5ff",
+      "date": 1559966949907
+    },
+    {
+      "type": "add",
+      "id": "7cd869e38b103bb3",
+      "item": {
+        "type": "paragraph",
+        "id": "7cd869e38b103bb3",
+        "text": "- USE as basic a starting point as you can. The easiest way I’ve found is to use the crate “piston_window” the get a window\n"
+      },
+      "after": "ad57c2213f6f36da",
+      "date": 1559966956043
+    },
+    {
+      "type": "add",
+      "id": "d75175a631e5a8c8",
+      "item": {
+        "type": "paragraph",
+        "id": "d75175a631e5a8c8",
+        "text": "setup, drawing, receiving events, etc. You can also reference https://github.com/PistonDevelopers/piston-examples … for more examples. Using these as a starting point you can get up and running with your own testbed app in a few minutes. \n"
+      },
+      "after": "7cd869e38b103bb3",
+      "date": 1559966959883
+    },
+    {
+      "type": "add",
+      "id": "3517d47092a07f77",
+      "item": {
+        "type": "paragraph",
+        "id": "3517d47092a07f77",
+        "text": "- LEARN and use the Rust standard library. It is great and very comprehensive.  \n"
+      },
+      "after": "d75175a631e5a8c8",
+      "date": 1559966969950
+    },
+    {
+      "type": "add",
+      "id": "d43556c3ca20e776",
+      "item": {
+        "type": "paragraph",
+        "id": "d43556c3ca20e776",
+        "text": "- AVOID binding to/integrating any existing non-Rust code, yours or otherwise. Your current code base will be useful eventually, but for now do everything from scratch and limit yourself to the Rust ecosystem. It’s probably better than anything else you’ve ever\n"
+      },
+      "after": "3517d47092a07f77",
+      "date": 1559966972070
+    },
+    {
+      "type": "edit",
+      "id": "d43556c3ca20e776",
+      "item": {
+        "type": "paragraph",
+        "id": "d43556c3ca20e776",
+        "text": "- AVOID binding to/integrating any existing non-Rust code, yours or otherwise. Your current code base will be useful eventually, but for now do everything from scratch and limit yourself to the Rust ecosystem. It’s probably better than anything else you’ve ever used anyhow.\n"
+      },
+      "date": 1559966978013
+    },
+    {
+      "type": "add",
+      "id": "c1ca08cb8b677016",
+      "item": {
+        "type": "paragraph",
+        "id": "c1ca08cb8b677016",
+        "text": "- TRY to write Rust code as idiomatic as you can. This is important in any language, but it is IMPERATIVE in Rust, where the language itself goes to great lengths and provides sophisticated tools to make sharing and integrating code with others as effective and\n"
+      },
+      "after": "d43556c3ca20e776",
+      "date": 1559966980084
+    },
+    {
+      "type": "add",
+      "id": "ddf6c218d20de65f",
+      "item": {
+        "type": "paragraph",
+        "id": "ddf6c218d20de65f",
+        "text": "predictable as possible. Follow the recommended coding standard, use the formatting and linting tools Rust provides (rustfmt and clippy, for example). Correct the warnings, do not ignore them. Do things the Rust way – it’s the best way to start and you can always diverge later\n"
+      },
+      "after": "c1ca08cb8b677016",
+      "date": 1559966986882
+    },
+    {
+      "type": "edit",
+      "id": "ddf6c218d20de65f",
+      "item": {
+        "type": "paragraph",
+        "id": "ddf6c218d20de65f",
+        "text": "predictable as possible. Follow the recommended coding standard, use the formatting and linting tools Rust provides (rustfmt and clippy, for example). Correct the warnings, do not ignore them. Do things the Rust way – it’s the best way to start and you can always diverge later on when you have enough experience to adequately assess the implications.\n"
+      },
+      "date": 1559966996450
+    },
+    {
+      "type": "add",
+      "id": "90b656ac0483cadd",
+      "item": {
+        "type": "paragraph",
+        "id": "90b656ac0483cadd",
+        "text": "- Try to STOP thinking in terms of the patterns you are used to – do not try to replicate object oriented idioms with Rust. None of these abstractions are necessary or especially beneficial, and while they\n"
+      },
+      "after": "ddf6c218d20de65f",
+      "date": 1559966998951
+    },
+    {
+      "type": "add",
+      "id": "882df6bf96e33392",
+      "item": {
+        "type": "paragraph",
+        "id": "882df6bf96e33392",
+        "text": "have their place the early exploration of a language that does not specifically support them is not it. Start (or go back to) thinking in terms of data layout and interface design, instead of reducing problems to fixed patterns. \n"
+      },
+      "after": "90b656ac0483cadd",
+      "date": 1559967006577
+    },
+    {
+      "type": "add",
+      "id": "9648be8559d268fd",
+      "item": {
+        "type": "paragraph",
+        "id": "9648be8559d268fd",
+        "text": "- DON’T WORRY about debuggers or IDEs or\n"
+      },
+      "after": "882df6bf96e33392",
+      "date": 1559967012985
+    },
+    {
+      "type": "add",
+      "id": "e87ba719caf0ec0f",
+      "item": {
+        "type": "paragraph",
+        "id": "e87ba719caf0ec0f",
+        "text": "integrating Rust in some other environment. Build and run from a command prompt,  do without a debugger – you will not need it for a good while.\n"
+      },
+      "after": "9648be8559d268fd",
+      "date": 1559967014995
+    },
+    {
+      "type": "add",
+      "id": "a7d197c20a5cd252",
+      "item": {
+        "type": "paragraph",
+        "id": "a7d197c20a5cd252",
+        "text": "And finally: give it time. It will take a while, but you will find that Rust was well worth the investment.\n"
+      },
+      "after": "e87ba719caf0ec0f",
+      "date": 1559967024993
+    },
+    {
+      "type": "add",
+      "id": "bcfa126ac7eba13c",
+      "item": {
+        "type": "paragraph",
+        "id": "bcfa126ac7eba13c",
+        "text": "More Andrea Pessino Retweeted Andrea Pessino\nUPDATE: people continue to reference this thread, so maybe this is a good place to have a link to the Modulator crate/app since released. It is a quick way to get a ready to modify app to experiment with.Andrea Pessino added,\nAndrea Pessino\n \n@AndreaPessino\nNew crate (and play app) for @rustlang: MODULATOR! 🤙 Useful self-contained tech, I hope. Physics motion, cubic curves, fancy prims!  Get the app to quickly start your own Rust adventures.…\n0 replies 0 retweets 8 likes\nReply   Retweet   Like 8   Direct message\nEnd of conversation\nTrends for you\n#HappinessBegins Dr. John #stanleycupfinal2019 #BruinsIn7 #MyDesignFlaw Overwatch 2 Nathan Drake #IdLikeToHonor #UnlikelyDisclaimers\n© 2019 Twitter About Help Center Terms Privacy policy Cookies Ads info\n"
+      },
+      "after": "a7d197c20a5cd252",
+      "date": 1559967025101
+    },
+    {
+      "type": "edit",
+      "id": "bcfa126ac7eba13c",
+      "item": {
+        "type": "paragraph",
+        "id": "bcfa126ac7eba13c",
+        "text": "UPDATE: people continue to reference this thread, so maybe this is a good place to have a link to the Modulator crate/app since released. It is a quick way to get a ready to modify app to experiment with."
+      },
+      "date": 1559967060870
+    },
+    {
+      "type": "add",
+      "id": "70763af3f5f5ed82",
+      "item": {
+        "type": "paragraph",
+        "id": "70763af3f5f5ed82",
+        "text": "@AndreaPessino\nNew crate (and play app) for @rustlang: MODULATOR! 🤙 Useful self-contained tech, I hope. Physics motion, cubic curves, fancy prims!  Get the app to quickly start your own Rust adventures.…"
+      },
+      "after": "bcfa126ac7eba13c",
+      "date": 1559967078143
+    },
+    {
+      "type": "remove",
+      "id": "7ed4e7482fc255d6",
+      "date": 1559969392161
+    },
+    {
+      "type": "edit",
+      "id": "0980f58fc5db5689",
+      "item": {
+        "type": "paragraph",
+        "id": "0980f58fc5db5689",
+        "text": "When experienced coders try out a new language the process usually goes something like this: skim the docs as quickly as possible, go over some samples until one has “got the gist,” write some code; the expectation is that details and deep concepts will reveal themselves with use and that writing code is going to be the quickest way to familiarize oneself with the new tool."
+      },
+      "date": 1559969402723
+    },
+    {
+      "type": "add",
+      "id": "2c44bcab3718f4e1",
+      "item": {
+        "type": "paragraph",
+        "id": "2c44bcab3718f4e1",
+        "text": "If you are learning Python, Java, JS, C#, Go, etc. this approach works well, mostly because these languages are basically all the same. If, on the other hand, you approach Rust like\n"
+      },
+      "after": "0980f58fc5db5689",
+      "date": 1559969413027
+    },
+    {
+      "type": "remove",
+      "id": "c99c6525b61c2787",
+      "date": 1559969415138
+    },
+    {
+      "type": "edit",
+      "id": "2c44bcab3718f4e1",
+      "item": {
+        "type": "paragraph",
+        "id": "2c44bcab3718f4e1",
+        "text": "If you are learning Python, Java, JS, C#, Go, etc. this approach works well, mostly because these languages are basically all the same. If, on the other hand, you approach Rust like\n this you will probably be frustrated"
+      },
+      "date": 1559969421023
+    },
+    {
+      "type": "edit",
+      "id": "2c44bcab3718f4e1",
+      "item": {
+        "type": "paragraph",
+        "id": "2c44bcab3718f4e1",
+        "text": "If you are learning Python, Java, JS, C#, Go, etc. this approach works well, mostly because these languages are basically all the same. If, on the other hand, you approach Rust like\n this you will probably be frustrated."
+      },
+      "date": 1559969424057
+    },
+    {
+      "type": "add",
+      "id": "f459014c73b264f4",
+      "item": {
+        "type": "paragraph",
+        "id": "f459014c73b264f4",
+        "text": "There is nothing especially difficult about Rust (no more than C/C++, at least), but Rust combines novel concepts and refined ideas from other languages into a surprisingly innovative whole. Its design is cohesive, purposeful, and visionary."
+      },
+      "after": "2c44bcab3718f4e1",
+      "date": 1559969441067
+    },
+    {
+      "type": "remove",
+      "id": "738c5c34621f434f",
+      "date": 1559969460620
+    },
+    {
+      "type": "edit",
+      "id": "768cf03fe0874e0a",
+      "item": {
+        "type": "paragraph",
+        "id": "768cf03fe0874e0a",
+        "text": "At a glance Rust looks like a C++ cousin, but it really is not, and the resemblance might actually prove misleading for newcomers. This has nothing to do with ability or experience – you just need to put in the time to acquire some new skills, otherwise before long you’ll end up on Twitter complaining about how you are “fighting the borrow checker.”"
+      },
+      "date": 1559969470007
+    },
+    {
+      "type": "remove",
+      "id": "22a2b9d1800ceeb7",
+      "date": 1559969479149
+    },
+    {
+      "type": "edit",
+      "id": "5620fa58454a2c6b",
+      "item": {
+        "type": "paragraph",
+        "id": "5620fa58454a2c6b",
+        "text": "Step 1) First one is obvious: read the official RUST PROGRAMMING LANGUAGE book. You can buy it printed on wood pulp or read it for free at https://doc.rust-lang.org/book/2018-edition/index.html … (the 2018 edition is the live updated version of the book, the one that will continue to reflect changes to the language)."
+      },
+      "date": 1559969488978
+    },
+    {
+      "type": "add",
+      "id": "a6a71645c1dcdfe0",
+      "item": {
+        "type": "paragraph",
+        "id": "a6a71645c1dcdfe0",
+        "text": "This is the best introductory"
+      },
+      "after": "5620fa58454a2c6b",
+      "date": 1559969491562
+    },
+    {
+      "type": "remove",
+      "id": "2dc45f8ed6f88987",
+      "date": 1559969493518
+    },
+    {
+      "type": "edit",
+      "id": "a6a71645c1dcdfe0",
+      "item": {
+        "type": "paragraph",
+        "id": "a6a71645c1dcdfe0",
+        "text": "This is the best introductory text you can get – very easy to read, perfectly paced. Read the whole thing beginning to end, run and study the code samples, even when they seem trivial. IMPORTANT: when you are done reading this book you might think “I get it now” but really, you don’t. The official book does\n"
+      },
+      "date": 1559969497955
+    },
+    {
+      "type": "remove",
+      "id": "4c4a41c13ea6335c",
+      "date": 1559969499548
+    },
+    {
+      "type": "edit",
+      "id": "a6a71645c1dcdfe0",
+      "item": {
+        "type": "paragraph",
+        "id": "a6a71645c1dcdfe0",
+        "text": "This is the best introductory text you can get – very easy to read, perfectly paced. Read the whole thing beginning to end, run and study the code samples, even when they seem trivial. IMPORTANT: when you are done reading this book you might think “I get it now” but really, you don’t."
+      },
+      "date": 1559969505718
+    },
+    {
+      "type": "add",
+      "id": "4f9235cb8189df82",
+      "item": {
+        "type": "paragraph",
+        "id": "4f9235cb8189df82",
+        "text": "The official book does not go nearly deep enough – it’s a great intro but after this you will be smack in the middle of the “got the gist” phase. You’ve got some more work to do."
+      },
+      "after": "a6a71645c1dcdfe0",
+      "date": 1559969510799
+    },
+    {
+      "type": "remove",
+      "id": "e800264b811e0995",
+      "date": 1559969520666
+    },
+    {
+      "type": "edit",
+      "id": "a65daa8c85f3e7f7",
+      "item": {
+        "type": "paragraph",
+        "id": "a65daa8c85f3e7f7",
+        "text": "Step 2) Read RUST BY EXAMPLE, available at https://doc.rust-lang.org/rust-by-example/ … This is a great series of code snippets illustrating most of the language components. All examples are short, can be run directly (and even modified) in the book’s pages and they each illustrate a specific aspect of Rust programming. This will not take long – study all of them, make sure you modify and play with each one, don’t"
+      },
+      "date": 1559969529150
+    },
+    {
+      "type": "remove",
+      "id": "0c6857965c4fff83",
+      "date": 1559969530563
+    },
+    {
+      "type": "edit",
+      "id": "a65daa8c85f3e7f7",
+      "item": {
+        "type": "paragraph",
+        "id": "a65daa8c85f3e7f7",
+        "text": "Step 2) Read RUST BY EXAMPLE, available at https://doc.rust-lang.org/rust-by-example/ … This is a great series of code snippets illustrating most of the language components."
+      },
+      "date": 1559969553415
+    },
+    {
+      "type": "add",
+      "id": "41267b49d24164f8",
+      "item": {
+        "type": "paragraph",
+        "id": "41267b49d24164f8",
+        "text": "All examples are short, can be run directly (and even modified) in the book’s pages and they each illustrate a specific aspect of Rust programming. This will not take long – study all of them, make sure you modify and play with each one, don’t move on until you fully understand each chapter."
+      },
+      "after": "a65daa8c85f3e7f7",
+      "date": 1559969567788
+    },
+    {
+      "type": "add",
+      "id": "a9bdbc58de30e1f3",
+      "item": {
+        "type": "paragraph",
+        "id": "a9bdbc58de30e1f3",
+        "text": "After going through this, you’ll be in a  good spot. Then it’ll be time to bring it all home."
+      },
+      "after": "41267b49d24164f8",
+      "date": 1559969569661
+    },
+    {
+      "type": "remove",
+      "id": "560b74298026747e",
+      "date": 1559969580915
+    },
+    {
+      "type": "edit",
+      "id": "191a4d6e58c97203",
+      "item": {
+        "type": "paragraph",
+        "id": "191a4d6e58c97203",
+        "text": "Step 3) Read PROGRAMMING RUST, available printed or ebook at https://www.amazon.com/Programming-Rust-Fast-Systems-Development-ebook/dp/B077NSY211 … This is a fantastic book and the perfect finishing touch in your Rust education. It goes deeper than the previous two, and having the others under your belt beforehand will make it more effective and much easier to go through. You don’t really need to finish the book before moving on, just go over the first 6 to 8 chapters and\n"
+      },
+      "date": 1559969588007
+    },
+    {
+      "type": "remove",
+      "id": "8f2df2dc6b3de5ff",
+      "date": 1559969589277
+    },
+    {
+      "type": "edit",
+      "id": "191a4d6e58c97203",
+      "item": {
+        "type": "paragraph",
+        "id": "191a4d6e58c97203",
+        "text": "Step 3) Read PROGRAMMING RUST, available printed or ebook at https://www.amazon.com/Programming-Rust-Fast-Systems-Development-ebook/dp/B077NSY211 … This is a fantastic book and the perfect finishing touch in your Rust education."
+      },
+      "date": 1559969597912
+    },
+    {
+      "type": "add",
+      "id": "997df93a650921dd",
+      "item": {
+        "type": "paragraph",
+        "id": "997df93a650921dd",
+        "text": "It goes deeper than the previous two, and having the others under your belt beforehand will make it more effective and much easier to go through. You don’t really need to finish the book before moving on, just go over the first 6 to 8 chapters and then start Step 4 while continuing to read the remaining chapters."
+      },
+      "after": "191a4d6e58c97203",
+      "date": 1559969614895
+    },
+    {
+      "type": "remove",
+      "id": "d75175a631e5a8c8",
+      "date": 1559969633667
+    },
+    {
+      "type": "edit",
+      "id": "7cd869e38b103bb3",
+      "item": {
+        "type": "paragraph",
+        "id": "7cd869e38b103bb3",
+        "text": "- USE as basic a starting point as you can. The easiest way I’ve found is to use the crate “piston_window” the get a window setup, drawing, receiving events, etc. You can also reference https://github.com/PistonDevelopers/piston-examples … for more examples. Using these as a starting point you can get up and running with your own testbed app in a few minutes."
+      },
+      "date": 1559969699094
+    },
+    {
+      "type": "remove",
+      "id": "ddf6c218d20de65f",
+      "date": 1559969701642
+    },
+    {
+      "type": "edit",
+      "id": "c1ca08cb8b677016",
+      "item": {
+        "type": "paragraph",
+        "id": "c1ca08cb8b677016",
+        "text": "- TRY to write Rust code as idiomatic as you can. This is important in any language, but it is IMPERATIVE in Rust, where the language itself goes to great lengths and provides sophisticated tools to make sharing and integrating code with others as effective and predictable as possible."
+      },
+      "date": 1559969706653
+    },
+    {
+      "type": "add",
+      "id": "0192bf34f4a6f347",
+      "item": {
+        "type": "paragraph",
+        "id": "0192bf34f4a6f347",
+        "text": "Follow the recommended coding standard, use the formatting and linting tools Rust provides (rustfmt and clippy, for example). Correct the warnings, do not ignore them. Do things the Rust way – it’s the best way to start and you can always diverge later on when you have enough experience to adequately assess the implications."
+      },
+      "after": "c1ca08cb8b677016",
+      "date": 1559969720520
+    },
+    {
+      "type": "remove",
+      "id": "882df6bf96e33392",
+      "date": 1559969730904
+    },
+    {
+      "type": "edit",
+      "id": "90b656ac0483cadd",
+      "item": {
+        "type": "paragraph",
+        "id": "90b656ac0483cadd",
+        "text": "- Try to STOP thinking in terms of the patterns you are used to – do not try to replicate object oriented idioms with Rust. None of these abstractions are necessary or especially beneficial, and while they have their place the early exploration of a language that does not specifically support them is not it. Start (or go back to) thinking in terms of data layout and interface design, instead of reducing problems to fixed patterns."
+      },
+      "date": 1559969757159
+    },
+    {
+      "type": "remove",
+      "id": "e87ba719caf0ec0f",
+      "date": 1559969762552
+    },
+    {
+      "type": "edit",
+      "id": "9648be8559d268fd",
+      "item": {
+        "type": "paragraph",
+        "id": "9648be8559d268fd",
+        "text": "- DON’T WORRY about debuggers or IDEs or integrating Rust in some other environment. Build and run from a command prompt,  do without a debugger – you will not need it for a good while."
+      },
+      "date": 1559969768200
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "f5f1cf685467781c"
+      },
+      "id": "f5f1cf685467781c",
+      "type": "add",
+      "after": "70763af3f5f5ed82",
+      "date": 1560202297317
+    },
+    {
+      "type": "edit",
+      "id": "f5f1cf685467781c",
+      "item": {
+        "type": "pagefold",
+        "id": "f5f1cf685467781c",
+        "text": "quote"
+      },
+      "date": 1560202306570
+    },
+    {
+      "id": "f5f1cf685467781c",
+      "type": "move",
+      "order": [
+        "80025036a125ce44",
+        "e1c9df37c942ab8c",
+        "714e13d005bc962b",
+        "54e010bf5a7f2a30",
+        "014741f7cb385092",
+        "f5f1cf685467781c",
+        "0e78a824f0c7153f",
+        "b23f0e1d3f9d01c2",
+        "7363af0e006729b0",
+        "0980f58fc5db5689",
+        "2c44bcab3718f4e1",
+        "f459014c73b264f4",
+        "20b7d3b39d90e234",
+        "768cf03fe0874e0a",
+        "57984e9c695abd55",
+        "5620fa58454a2c6b",
+        "a6a71645c1dcdfe0",
+        "4f9235cb8189df82",
+        "a65daa8c85f3e7f7",
+        "41267b49d24164f8",
+        "a9bdbc58de30e1f3",
+        "191a4d6e58c97203",
+        "997df93a650921dd",
+        "ad57c2213f6f36da",
+        "7cd869e38b103bb3",
+        "3517d47092a07f77",
+        "d43556c3ca20e776",
+        "c1ca08cb8b677016",
+        "0192bf34f4a6f347",
+        "90b656ac0483cadd",
+        "9648be8559d268fd",
+        "a7d197c20a5cd252",
+        "bcfa126ac7eba13c",
+        "70763af3f5f5ed82"
+      ],
+      "date": 1560202316194
+    },
+    {
+      "type": "add",
+      "id": "a0e9f3b95d8291e9",
+      "item": {
+        "type": "paragraph",
+        "id": "a0e9f3b95d8291e9",
+        "text": "Bryan Cantrill's Journey"
+      },
+      "after": "014741f7cb385092",
+      "date": 1560202337668
+    },
+    {
+      "type": "edit",
+      "id": "a0e9f3b95d8291e9",
+      "item": {
+        "type": "paragraph",
+        "id": "a0e9f3b95d8291e9",
+        "text": "Bryan Cantrill's Journey [http://dtrace.org/blogs/bmc/2018/09/18/falling-in-love-with-rust/ blog]"
+      },
+      "date": 1560202343092
+    },
+    {
+      "type": "add",
+      "id": "91b532502003a1e0",
+      "item": {
+        "type": "paragraph",
+        "id": "91b532502003a1e0",
+        "text": "Introducing rust"
+      },
+      "after": "a0e9f3b95d8291e9",
+      "date": 1564025806604
+    },
+    {
+      "type": "edit",
+      "id": "91b532502003a1e0",
+      "item": {
+        "type": "paragraph",
+        "id": "91b532502003a1e0",
+        "text": "Introducing rust into a company tips:"
+      },
+      "date": 1564025822994
+    },
+    {
+      "type": "add",
+      "id": "dd90bd74ffea47b9",
+      "item": {
+        "type": "paragraph",
+        "id": "dd90bd74ffea47b9",
+        "text": "1. Don't completely rewrite your project in rust"
+      },
+      "after": "91b532502003a1e0",
+      "date": 1564025831310
+    },
+    {
+      "type": "add",
+      "id": "c657293d882e282b",
+      "item": {
+        "type": "paragraph",
+        "id": "c657293d882e282b",
+        "text": "2. Show up with code"
+      },
+      "after": "dd90bd74ffea47b9",
+      "date": 1564025851696
+    },
+    {
+      "type": "edit",
+      "id": "91b532502003a1e0",
+      "item": {
+        "type": "paragraph",
+        "id": "91b532502003a1e0",
+        "text": "Introducing rust into a company tips. [https://www.youtube.com/watch?v=GCsxYAxw3JQ youtube]"
+      },
+      "date": 1564025868456
+    },
+    {
+      "type": "add",
+      "id": "50419e997d00749b",
+      "item": {
+        "type": "paragraph",
+        "id": "50419e997d00749b",
+        "text": "3. Don't sell (too hard)"
+      },
+      "after": "c657293d882e282b",
+      "date": 1564026021852
+    },
+    {
+      "type": "edit",
+      "id": "dd90bd74ffea47b9",
+      "item": {
+        "type": "paragraph",
+        "id": "dd90bd74ffea47b9",
+        "text": "1. Don't rewrite your project in rust (at least not completely)"
+      },
+      "date": 1564026054073
+    },
+    {
+      "type": "edit",
+      "id": "50419e997d00749b",
+      "item": {
+        "type": "paragraph",
+        "id": "50419e997d00749b",
+        "text": "3. Don't sell (too hard). Bashing other languages makes everyone look bad."
+      },
+      "date": 1564026124804
+    },
+    {
+      "type": "edit",
+      "id": "50419e997d00749b",
+      "item": {
+        "type": "paragraph",
+        "id": "50419e997d00749b",
+        "text": "3. Don't sell (too hard). Bashing other languages makes everyone look bad. You don't have to control other people's first experience of rust."
+      },
+      "date": 1564026162633
+    },
+    {
+      "type": "edit",
+      "id": "91b532502003a1e0",
+      "item": {
+        "type": "paragraph",
+        "id": "91b532502003a1e0",
+        "text": "Introducing rust into a company tips by Ashley Williams"
+      },
+      "date": 1564026177589
+    },
+    {
+      "type": "edit",
+      "id": "91b532502003a1e0",
+      "item": {
+        "type": "paragraph",
+        "id": "91b532502003a1e0",
+        "text": "Introducing rust into a company tips by Ashley Williams. [https://www.youtube.com/watch?v=GCsxYAxw3JQ youtube]"
+      },
+      "date": 1564026178939
+    },
+    {
+      "type": "edit",
+      "id": "50419e997d00749b",
+      "item": {
+        "type": "paragraph",
+        "id": "50419e997d00749b",
+        "text": "3. Don't sell (too hard). Bashing other languages makes everyone look bad. You don't have to control other people's first experience of rust. Not everyone will love ev"
+      },
+      "date": 1564026221618
+    },
+    {
+      "type": "edit",
+      "id": "50419e997d00749b",
+      "item": {
+        "type": "paragraph",
+        "id": "50419e997d00749b",
+        "text": "3. Don't sell (too hard). Bashing other languages makes everyone look bad. You don't have to control other people's first experience of rust. Not everyone will love everything about rust (right away)."
+      },
+      "date": 1564026246016
+    },
+    {
+      "type": "add",
+      "id": "1617e3e9c5c106e6",
+      "item": {
+        "type": "paragraph",
+        "id": "1617e3e9c5c106e6",
+        "text": "4. Sell sell sell."
+      },
+      "after": "50419e997d00749b",
+      "date": 1564026343134
+    },
+    {
+      "type": "edit",
+      "id": "1617e3e9c5c106e6",
+      "item": {
+        "type": "paragraph",
+        "id": "1617e3e9c5c106e6",
+        "text": "4. Sell sell sell. Ambiently share things."
+      },
+      "date": 1564026377446
+    },
+    {
+      "type": "edit",
+      "id": "1617e3e9c5c106e6",
+      "item": {
+        "type": "paragraph",
+        "id": "1617e3e9c5c106e6",
+        "text": "4. Sell sell sell. Ambiently share things. reacji-channeler in slack."
+      },
+      "date": 1564026413789
+    },
+    {
+      "type": "add",
+      "id": "321067c935bb04fe",
+      "item": {
+        "type": "paragraph",
+        "id": "321067c935bb04fe",
+        "text": "5. The hard part of programming isn't programming."
+      },
+      "after": "1617e3e9c5c106e6",
+      "date": 1564026502391
+    },
+    {
+      "type": "edit",
+      "id": "321067c935bb04fe",
+      "item": {
+        "type": "paragraph",
+        "id": "321067c935bb04fe",
+        "text": "5. The hard part of programming isn't programming. Nomicon, rust book"
+      },
+      "date": 1564026522838
+    },
+    {
+      "type": "edit",
+      "id": "321067c935bb04fe",
+      "item": {
+        "type": "paragraph",
+        "id": "321067c935bb04fe",
+        "text": "5. The hard part of programming isn't programming. Nomicon, rust book, rust reference."
+      },
+      "date": 1564026532709
+    },
+    {
+      "type": "edit",
+      "id": "321067c935bb04fe",
+      "item": {
+        "type": "paragraph",
+        "id": "321067c935bb04fe",
+        "text": "5. The hard part of programming isn't programming. Docs: Nomicon, rust book, rust reference. Tools: cargo, clippy, rustup"
+      },
+      "date": 1564026556700
+    },
+    {
+      "type": "edit",
+      "id": "321067c935bb04fe",
+      "item": {
+        "type": "paragraph",
+        "id": "321067c935bb04fe",
+        "text": "5. The hard part of programming isn't programming. Docs: Nomicon, rust book, rust reference. Tools: cargo, clippy, rustup, rustfmt."
+      },
+      "date": 1564026568123
+    },
+    {
+      "type": "edit",
+      "id": "321067c935bb04fe",
+      "item": {
+        "type": "paragraph",
+        "id": "321067c935bb04fe",
+        "text": "5. The hard part of programming isn't programming. Docs: Nomicon, rust book, rust reference. Tools: cargo, clippy, rustup, rustfmt. Community: ex"
+      },
+      "date": 1564026588761
+    },
+    {
+      "type": "edit",
+      "id": "321067c935bb04fe",
+      "item": {
+        "type": "paragraph",
+        "id": "321067c935bb04fe",
+        "text": "5. The hard part of programming isn't programming. Docs: Nomicon, rust book, rust reference. Tools: cargo, clippy, rustup, rustfmt. Community: exercism.io."
+      },
+      "date": 1564026597825
+    },
+    {
+      "type": "edit",
+      "id": "321067c935bb04fe",
+      "item": {
+        "type": "paragraph",
+        "id": "321067c935bb04fe",
+        "text": "5. The hard part of programming isn't programming. Docs: Nomicon, rust book, rust reference. Tools: cargo, clippy, rustup, rustfmt. Community: exercism.io, #rust-beginners on irc"
+      },
+      "date": 1564026616789
+    },
+    {
+      "type": "edit",
+      "id": "321067c935bb04fe",
+      "item": {
+        "type": "paragraph",
+        "id": "321067c935bb04fe",
+        "text": "5. The hard part of programming isn't programming. Docs: Nomicon, rust book, rust reference. Tools: cargo, clippy, rustup, rustfmt. Community: exercism.io, #rust-beginners on mozilla irc."
+      },
+      "date": 1564026625407
+    },
+    {
+      "type": "edit",
+      "id": "321067c935bb04fe",
+      "item": {
+        "type": "paragraph",
+        "id": "321067c935bb04fe",
+        "text": "5. The hard part of programming isn't programming. Docs: Nomicon, rust book, rust reference. Tools: cargo, clippy, rustup, rustfmt. Community: exercism.io, #rust-beginners on mozilla irc. Docs, community, and tooling may seem easy "
+      },
+      "date": 1564026660476
+    },
+    {
+      "type": "edit",
+      "id": "321067c935bb04fe",
+      "item": {
+        "type": "paragraph",
+        "id": "321067c935bb04fe",
+        "text": "5. The hard part of programming isn't programming. Docs: Nomicon, rust book, rust reference. Tools: cargo, clippy, rustup, rustfmt. Community: exercism.io, #rust-beginners on mozilla irc. Docs, community, and tooling may seem easy and common, but are neither."
+      },
+      "date": 1564026674400
+    },
+    {
+      "type": "add",
+      "id": "b3725970fbd7dece",
+      "item": {
+        "type": "paragraph",
+        "id": "b3725970fbd7dece",
+        "text": "6. The hard part of programming is programming."
+      },
+      "after": "321067c935bb04fe",
+      "date": 1564026683010
+    },
+    {
+      "type": "edit",
+      "id": "b3725970fbd7dece",
+      "item": {
+        "type": "paragraph",
+        "id": "b3725970fbd7dece",
+        "text": "6. The hard part of programming is programming. Selling something on technical merit is easy."
+      },
+      "date": 1564026728623
+    },
+    {
+      "type": "edit",
+      "id": "b3725970fbd7dece",
+      "item": {
+        "type": "paragraph",
+        "id": "b3725970fbd7dece",
+        "text": "6. The hard part of programming is programming. Selling something on technical merit is easy. Getting to the point where you get to sell it on technical merit is hard."
+      },
+      "date": 1564026754067
+    },
+    {
+      "type": "add",
+      "id": "4051c5f42e04cd28",
+      "item": {
+        "type": "paragraph",
+        "id": "4051c5f42e04cd28",
+        "text": "7. Be prepared for things to change."
+      },
+      "after": "b3725970fbd7dece",
+      "date": 1564026804364
+    },
+    {
+      "type": "edit",
+      "id": "4051c5f42e04cd28",
+      "item": {
+        "type": "paragraph",
+        "id": "4051c5f42e04cd28",
+        "text": "7. Be prepared for things to change. \"oh no, my rust parser is 2x slower than the"
+      },
+      "date": 1564026899705
+    },
+    {
+      "type": "edit",
+      "id": "4051c5f42e04cd28",
+      "item": {
+        "type": "paragraph",
+        "id": "4051c5f42e04cd28",
+        "text": "7. Be prepared for things to change. \"oh no, my rust parser is 2x slower than the js version\" "
+      },
+      "date": 1564027035686
+    },
+    {
+      "type": "edit",
+      "id": "4051c5f42e04cd28",
+      "item": {
+        "type": "paragraph",
+        "id": "4051c5f42e04cd28",
+        "text": "7. Be prepared for things to change. \"oh no, my rust parser is 2x slower than the js version\". Expected to sell rust for speed, instead selling it because of its safety. The slowdowns were due to handle"
+      },
+      "date": 1564027062040
+    },
+    {
+      "type": "edit",
+      "id": "4051c5f42e04cd28",
+      "item": {
+        "type": "paragraph",
+        "id": "4051c5f42e04cd28",
+        "text": "7. Be prepared for things to change. \"oh no, my rust parser is 2x slower than the js version\". Expected to sell rust for speed, instead selling it because of its safety. The slowdowns were due to not taking a lock on stdin"
+      },
+      "date": 1564027083907
+    },
+    {
+      "type": "edit",
+      "id": "4051c5f42e04cd28",
+      "item": {
+        "type": "paragraph",
+        "id": "4051c5f42e04cd28",
+        "text": "7. Be prepared for things to change. \"oh no, my rust parser is 2x slower than the js version\". Expected to sell rust for speed, instead selling it because of its safety. The slowdowns were due to not taking a lock on stdin and a small default stdio buffer. Making rust fast is hard, making rust correct is easy."
+      },
+      "date": 1564027113941
+    },
+    {
+      "type": "edit",
+      "id": "4051c5f42e04cd28",
+      "item": {
+        "type": "paragraph",
+        "id": "4051c5f42e04cd28",
+        "text": "7. Be prepared for things to change. \"oh no, my rust parser is 2x slower than the js version\". Expected to sell rust for speed, instead selling it because of its safety. The slowdowns were due to not taking a lock on stdin and a small default stdio buffer. Making rust fast is hard, making rust correct is pretty simple."
+      },
+      "date": 1564027122909
+    },
+    {
+      "type": "add",
+      "id": "6bfbd1c020852e2a",
+      "item": {
+        "type": "paragraph",
+        "id": "6bfbd1c020852e2a",
+        "text": "8. Be prepared for things to stay the same."
+      },
+      "after": "4051c5f42e04cd28",
+      "date": 1564027165338
+    },
+    {
+      "type": "edit",
+      "id": "6bfbd1c020852e2a",
+      "item": {
+        "type": "paragraph",
+        "id": "6bfbd1c020852e2a",
+        "text": "8. Be prepared for things to stay the same. Boring code is my favorite code."
+      },
+      "date": 1564027177552
+    },
+    {
+      "type": "edit",
+      "id": "6bfbd1c020852e2a",
+      "item": {
+        "type": "paragraph",
+        "id": "6bfbd1c020852e2a",
+        "text": "8. Be prepared for things to stay the same. Boring code is my favorite code. Only change one thing at a time is to measure the impact of rust."
+      },
+      "date": 1564027228541
+    },
+    {
+      "type": "edit",
+      "id": "6bfbd1c020852e2a",
+      "item": {
+        "type": "paragraph",
+        "id": "6bfbd1c020852e2a",
+        "text": "8. Be prepared for things to stay the same. Boring code is my favorite code. Only change one thing at a time is to measure the impact of rust. Changing one thing at a time also prevents burning people out."
+      },
+      "date": 1564027245188
+    },
+    {
+      "type": "add",
+      "id": "5cedac5dd202d341",
+      "item": {
+        "type": "paragraph",
+        "id": "5cedac5dd202d341",
+        "text": "9. Have a problem to solve."
+      },
+      "after": "6bfbd1c020852e2a",
+      "date": 1564027297818
+    },
+    {
+      "type": "edit",
+      "id": "5cedac5dd202d341",
+      "item": {
+        "type": "paragraph",
+        "id": "5cedac5dd202d341",
+        "text": "9. Have a problem to solve (this should be easy because all software is terrible)."
+      },
+      "date": 1564027330378
+    },
+    {
+      "type": "edit",
+      "id": "5cedac5dd202d341",
+      "item": {
+        "type": "paragraph",
+        "id": "5cedac5dd202d341",
+        "text": "9. Have a problem to solve (this should be easy because all software is terrible). npm is averaging 2 billion downloads a week."
+      },
+      "date": 1564027358234
+    },
+    {
+      "type": "edit",
+      "id": "5cedac5dd202d341",
+      "item": {
+        "type": "paragraph",
+        "id": "5cedac5dd202d341",
+        "text": "9. Have a problem to solve (this should be easy because all software is terrible). npm is averaging 2 billion downloads a week. They targeted transforming dynamic data into static. Find a "
+      },
+      "date": 1564027403732
+    },
+    {
+      "type": "edit",
+      "id": "5cedac5dd202d341",
+      "item": {
+        "type": "paragraph",
+        "id": "5cedac5dd202d341",
+        "text": "9. Have a problem to solve (this should be easy because all software is terrible). npm is averaging 2 billion downloads a week. They targeted transforming dynamic data into static. Find a problematic part of your project and try rewriting it in rust."
+      },
+      "date": 1564027421940
+    },
+    {
+      "type": "add",
+      "id": "2c45472760a31be0",
+      "item": {
+        "type": "paragraph",
+        "id": "2c45472760a31be0",
+        "text": "10. Learning curves are a blessing in disguise."
+      },
+      "after": "5cedac5dd202d341",
+      "date": 1564027454365
+    },
+    {
+      "type": "edit",
+      "id": "2c45472760a31be0",
+      "item": {
+        "type": "paragraph",
+        "id": "2c45472760a31be0",
+        "text": "10. Learning curves are a blessing in disguise. Learning something new can be energizing."
+      },
+      "date": 1564027529818
+    },
+    {
+      "type": "edit",
+      "id": "2c45472760a31be0",
+      "item": {
+        "type": "paragraph",
+        "id": "2c45472760a31be0",
+        "text": "10. Learning curves are a blessing in disguise. Learning something new can be energizing (even if or maybe even because it is hard)."
+      },
+      "date": 1564027547878
+    },
+    {
+      "type": "add",
+      "id": "0fb52bb9931606ab",
+      "item": {
+        "type": "paragraph",
+        "id": "0fb52bb9931606ab",
+        "text": "[[Zen and the Art of Convincing "
+      },
+      "after": "a0e9f3b95d8291e9",
+      "date": 1564027912572
+    },
+    {
+      "type": "edit",
+      "id": "0fb52bb9931606ab",
+      "item": {
+        "type": "paragraph",
+        "id": "0fb52bb9931606ab",
+        "text": "[[zen and the art of convincing your company]] to use rust."
+      },
+      "date": 1564027955722
+    },
+    {
+      "type": "edit",
+      "id": "0fb52bb9931606ab",
+      "item": {
+        "type": "paragraph",
+        "id": "0fb52bb9931606ab",
+        "text": "[[Zen and the Art of Convincing Your Company]] to use rust."
+      },
+      "date": 1564028003015
+    },
+    {
+      "type": "edit",
+      "id": "0fb52bb9931606ab",
+      "item": {
+        "type": "paragraph",
+        "id": "0fb52bb9931606ab",
+        "text": "[[Zen and the Art of Convincing Your Company]] to Use Rust."
+      },
+      "date": 1564028022419
+    },
+    {
+      "id": "91b532502003a1e0",
+      "type": "remove",
+      "date": 1564028047838
+    },
+    {
+      "id": "dd90bd74ffea47b9",
+      "type": "remove",
+      "date": 1564028050681
+    },
+    {
+      "id": "c657293d882e282b",
+      "type": "remove",
+      "date": 1564028054162
+    },
+    {
+      "id": "50419e997d00749b",
+      "type": "remove",
+      "date": 1564028056663
+    },
+    {
+      "id": "1617e3e9c5c106e6",
+      "type": "remove",
+      "date": 1564028060038
+    },
+    {
+      "id": "321067c935bb04fe",
+      "type": "remove",
+      "date": 1564028063441
+    },
+    {
+      "id": "b3725970fbd7dece",
+      "type": "remove",
+      "date": 1564028066934
+    },
+    {
+      "id": "4051c5f42e04cd28",
+      "type": "remove",
+      "date": 1564028069281
+    },
+    {
+      "id": "6bfbd1c020852e2a",
+      "type": "remove",
+      "date": 1564028076505
+    },
+    {
+      "id": "5cedac5dd202d341",
+      "type": "remove",
+      "date": 1564028087827
+    },
+    {
+      "id": "2c45472760a31be0",
+      "type": "remove",
+      "date": 1564028090636
+    },
+    {
+      "type": "add",
+      "id": "a8e2c22ca25a6915",
+      "item": {
+        "type": "paragraph",
+        "id": "a8e2c22ca25a6915",
+        "text": "[[A Thread About Learning Rust]]"
+      },
+      "after": "0fb52bb9931606ab",
+      "date": 1564028120922
+    },
+    {
+      "id": "0e78a824f0c7153f",
+      "type": "remove",
+      "date": 1564028142787
+    },
+    {
+      "id": "b23f0e1d3f9d01c2",
+      "type": "remove",
+      "date": 1564028145700
+    },
+    {
+      "id": "7363af0e006729b0",
+      "type": "remove",
+      "date": 1564028148360
+    },
+    {
+      "id": "0980f58fc5db5689",
+      "type": "remove",
+      "date": 1564028151210
+    },
+    {
+      "id": "2c44bcab3718f4e1",
+      "type": "remove",
+      "date": 1564028153834
+    },
+    {
+      "id": "f459014c73b264f4",
+      "type": "remove",
+      "date": 1564028156265
+    },
+    {
+      "id": "20b7d3b39d90e234",
+      "type": "remove",
+      "date": 1564028160558
+    },
+    {
+      "id": "768cf03fe0874e0a",
+      "type": "remove",
+      "date": 1564028166834
+    },
+    {
+      "id": "57984e9c695abd55",
+      "type": "remove",
+      "date": 1564028172347
+    },
+    {
+      "id": "5620fa58454a2c6b",
+      "type": "remove",
+      "date": 1564028177423
+    },
+    {
+      "id": "a6a71645c1dcdfe0",
+      "type": "remove",
+      "date": 1564028179349
+    },
+    {
+      "id": "4f9235cb8189df82",
+      "type": "remove",
+      "date": 1564028181551
+    },
+    {
+      "id": "a65daa8c85f3e7f7",
+      "type": "remove",
+      "date": 1564028186842
+    },
+    {
+      "id": "41267b49d24164f8",
+      "type": "remove",
+      "date": 1564028189258
+    },
+    {
+      "id": "a9bdbc58de30e1f3",
+      "type": "remove",
+      "date": 1564028192940
+    },
+    {
+      "id": "191a4d6e58c97203",
+      "type": "remove",
+      "date": 1564028196507
+    },
+    {
+      "id": "997df93a650921dd",
+      "type": "remove",
+      "date": 1564028202431
+    },
+    {
+      "id": "ad57c2213f6f36da",
+      "type": "remove",
+      "date": 1564028206471
+    },
+    {
+      "id": "7cd869e38b103bb3",
+      "type": "remove",
+      "date": 1564028211945
+    },
+    {
+      "id": "3517d47092a07f77",
+      "type": "remove",
+      "date": 1564028215646
+    },
+    {
+      "id": "d43556c3ca20e776",
+      "type": "remove",
+      "date": 1564028220530
+    },
+    {
+      "id": "c1ca08cb8b677016",
+      "type": "remove",
+      "date": 1564028224843
+    },
+    {
+      "id": "0192bf34f4a6f347",
+      "type": "remove",
+      "date": 1564028227377
+    },
+    {
+      "id": "90b656ac0483cadd",
+      "type": "remove",
+      "date": 1564028232623
+    },
+    {
+      "id": "9648be8559d268fd",
+      "type": "remove",
+      "date": 1564028236055
+    },
+    {
+      "id": "a7d197c20a5cd252",
+      "type": "remove",
+      "date": 1564028239268
+    },
+    {
+      "id": "bcfa126ac7eba13c",
+      "type": "remove",
+      "date": 1564028243373
+    },
+    {
+      "id": "70763af3f5f5ed82",
+      "type": "remove",
+      "date": 1564028248134
+    },
+    {
+      "id": "f5f1cf685467781c",
+      "type": "remove",
+      "date": 1564028257274
+    },
+    {
+      "type": "add",
+      "id": "e627215e20dba7b7",
+      "item": {
+        "type": "factory",
+        "id": "e627215e20dba7b7",
+        "text": " "
+      },
+      "after": "014741f7cb385092",
+      "date": 1564028287374
+    },
+    {
+      "type": "edit",
+      "id": "e627215e20dba7b7",
+      "item": {
+        "type": "pagefold",
+        "id": "e627215e20dba7b7",
+        "text": "learning "
+      },
+      "date": 1564028294350
+    },
+    {
+      "type": "add",
+      "id": "4ba4562e657e26f0",
+      "item": {
+        "type": "factory",
+        "id": "4ba4562e657e26f0",
+        "text": " "
+      },
+      "after": "a8e2c22ca25a6915",
+      "date": 1564028299342
+    },
+    {
+      "type": "edit",
+      "id": "4ba4562e657e26f0",
+      "item": {
+        "type": "pagefold",
+        "id": "4ba4562e657e26f0",
+        "text": "apis "
+      },
+      "date": 1564028304469
+    },
+    {
+      "id": "54e010bf5a7f2a30",
+      "type": "move",
+      "order": [
+        "80025036a125ce44",
+        "e1c9df37c942ab8c",
+        "714e13d005bc962b",
+        "014741f7cb385092",
+        "e627215e20dba7b7",
+        "a0e9f3b95d8291e9",
+        "0fb52bb9931606ab",
+        "a8e2c22ca25a6915",
+        "4ba4562e657e26f0",
+        "54e010bf5a7f2a30"
+      ],
+      "date": 1564028310031
+    },
+    {
+      "type": "add",
+      "id": "69069bc8d1283710",
+      "item": {
+        "type": "paragraph",
+        "id": "69069bc8d1283710",
+        "text": "[[RedMonk Language Rankings]]"
+      },
+      "after": "a8e2c22ca25a6915",
+      "date": 1564028377675
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "ee526b0861c287c9"
+      },
+      "id": "ee526b0861c287c9",
+      "type": "add",
+      "after": "54e010bf5a7f2a30",
+      "date": 1564028481971
+    },
+    {
+      "type": "edit",
+      "id": "ee526b0861c287c9",
+      "item": {
+        "type": "pagefold",
+        "id": "ee526b0861c287c9",
+        "text": "why rust?"
+      },
+      "date": 1564028490463
+    },
+    {
+      "id": "ee526b0861c287c9",
+      "type": "move",
+      "order": [
+        "80025036a125ce44",
+        "e1c9df37c942ab8c",
+        "714e13d005bc962b",
+        "014741f7cb385092",
+        "ee526b0861c287c9",
+        "e627215e20dba7b7",
+        "a0e9f3b95d8291e9",
+        "0fb52bb9931606ab",
+        "a8e2c22ca25a6915",
+        "69069bc8d1283710",
+        "4ba4562e657e26f0",
+        "54e010bf5a7f2a30"
+      ],
+      "date": 1564028494254
+    },
+    {
+      "id": "69069bc8d1283710",
+      "type": "move",
+      "order": [
+        "80025036a125ce44",
+        "e1c9df37c942ab8c",
+        "714e13d005bc962b",
+        "014741f7cb385092",
+        "ee526b0861c287c9",
+        "69069bc8d1283710",
+        "e627215e20dba7b7",
+        "a0e9f3b95d8291e9",
+        "0fb52bb9931606ab",
+        "a8e2c22ca25a6915",
+        "4ba4562e657e26f0",
+        "54e010bf5a7f2a30"
+      ],
+      "date": 1564028497752
+    },
+    {
+      "id": "0fb52bb9931606ab",
+      "type": "move",
+      "order": [
+        "80025036a125ce44",
+        "e1c9df37c942ab8c",
+        "714e13d005bc962b",
+        "014741f7cb385092",
+        "ee526b0861c287c9",
+        "69069bc8d1283710",
+        "0fb52bb9931606ab",
+        "e627215e20dba7b7",
+        "a0e9f3b95d8291e9",
+        "a8e2c22ca25a6915",
+        "4ba4562e657e26f0",
+        "54e010bf5a7f2a30"
+      ],
+      "date": 1564028513042
+    },
+    {
+      "type": "edit",
+      "id": "ee526b0861c287c9",
+      "item": {
+        "type": "pagefold",
+        "id": "ee526b0861c287c9",
+        "text": "talks"
+      },
+      "date": 1564028554668
+    },
+    {
+      "id": "ee526b0861c287c9",
+      "type": "move",
+      "order": [
+        "80025036a125ce44",
+        "e1c9df37c942ab8c",
+        "714e13d005bc962b",
+        "014741f7cb385092",
+        "69069bc8d1283710",
+        "ee526b0861c287c9",
+        "0fb52bb9931606ab",
+        "e627215e20dba7b7",
+        "a0e9f3b95d8291e9",
+        "a8e2c22ca25a6915",
+        "4ba4562e657e26f0",
+        "54e010bf5a7f2a30"
+      ],
+      "date": 1564028557520
+    },
+    {
+      "type": "add",
+      "id": "fdbc9b1421c299bf",
+      "item": {
+        "type": "paragraph",
+        "id": "fdbc9b1421c299bf",
+        "text": "Is it time to rewrite the operating system in rust? (Spoiler alert: no). [https://www.youtube.com/watch?v=HgtRAbE1nBM youtube]"
+      },
+      "after": "0fb52bb9931606ab",
+      "date": 1564028583155
+    },
+    {
+      "id": "014741f7cb385092",
+      "type": "move",
+      "order": [
+        "80025036a125ce44",
+        "e1c9df37c942ab8c",
+        "714e13d005bc962b",
+        "69069bc8d1283710",
+        "ee526b0861c287c9",
+        "0fb52bb9931606ab",
+        "fdbc9b1421c299bf",
+        "e627215e20dba7b7",
+        "a0e9f3b95d8291e9",
+        "a8e2c22ca25a6915",
+        "4ba4562e657e26f0",
+        "014741f7cb385092",
+        "54e010bf5a7f2a30"
+      ],
+      "date": 1564028597532
+    },
+    {
+      "type": "add",
+      "id": "6af61baf1e330111",
+      "item": {
+        "type": "paragraph",
+        "id": "6af61baf1e330111",
+        "text": "Fuzz testing leading to a dramatic rise in CVEs and may be driving more companies to move to safer languages? [https://www.cloudatomiclab.com/fuzz/ blog]"
+      },
+      "after": "69069bc8d1283710",
+      "date": 1564028654463
+    },
+    {
+      "type": "add",
+      "id": "6212c7d910daa682",
+      "item": {
+        "type": "paragraph",
+        "id": "6212c7d910daa682",
+        "text": "File move and copy operations [https://crates.io/crates/fs_extra fs_extra]"
+      },
+      "after": "54e010bf5a7f2a30",
+      "date": 1564029250527
+    },
+    {
+      "type": "add",
+      "id": "d38f07a96adbc2ab",
+      "item": {
+        "type": "paragraph",
+        "id": "d38f07a96adbc2ab",
+        "text": "Serialization and Deserialization (Serde) [https://serde.rs serde]"
+      },
+      "after": "6212c7d910daa682",
+      "date": 1564029313172
+    },
+    {
+      "type": "add",
+      "id": "916aea90af0ad0cc",
+      "item": {
+        "type": "paragraph",
+        "id": "916aea90af0ad0cc",
+        "text": "Parsing TOML. [https://rust-lang-nursery.github.io/rust-cookbook/encoding/complex.html cookbook]"
+      },
+      "after": "d38f07a96adbc2ab",
+      "date": 1564029416856
+    },
+    {
+      "type": "add",
+      "id": "e0e767e36ce745c4",
+      "item": {
+        "type": "paragraph",
+        "id": "e0e767e36ce745c4",
+        "text": "Parallel processing. [https://docs.rs/pipeliner/1.0.0/pipeliner/ pipeliner]"
+      },
+      "after": "916aea90af0ad0cc",
+      "date": 1564029464059
+    },
+    {
+      "type": "add",
+      "id": "0cff351525f54311",
+      "item": {
+        "type": "paragraph",
+        "id": "0cff351525f54311",
+        "text": "Run shell commands. [https://doc.rust-lang.org/std/process/struct.Command.html std::process::Comand]"
+      },
+      "after": "e0e767e36ce745c4",
+      "date": 1564029741757
+    },
+    {
+      "type": "add",
+      "id": "00d6cfdb229274c9",
+      "item": {
+        "type": "paragraph",
+        "id": "00d6cfdb229274c9",
+        "text": "cargo forward term signals [https://github.com/rust-lang/cargo/issues/4575 issue]"
+      },
+      "after": "0cff351525f54311",
+      "date": 1564080054133
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "385584305d3011c8"
+      },
+      "id": "385584305d3011c8",
+      "type": "add",
+      "after": "00d6cfdb229274c9",
+      "date": 1564080061496
+    },
+    {
+      "type": "edit",
+      "id": "385584305d3011c8",
+      "item": {
+        "type": "pagefold",
+        "id": "385584305d3011c8",
+        "text": "cargo"
+      },
+      "date": 1564080066199
+    },
+    {
+      "id": "385584305d3011c8",
+      "type": "move",
+      "order": [
+        "80025036a125ce44",
+        "e1c9df37c942ab8c",
+        "714e13d005bc962b",
+        "69069bc8d1283710",
+        "6af61baf1e330111",
+        "ee526b0861c287c9",
+        "0fb52bb9931606ab",
+        "fdbc9b1421c299bf",
+        "e627215e20dba7b7",
+        "a0e9f3b95d8291e9",
+        "a8e2c22ca25a6915",
+        "4ba4562e657e26f0",
+        "014741f7cb385092",
+        "54e010bf5a7f2a30",
+        "6212c7d910daa682",
+        "d38f07a96adbc2ab",
+        "916aea90af0ad0cc",
+        "e0e767e36ce745c4",
+        "0cff351525f54311",
+        "385584305d3011c8",
+        "00d6cfdb229274c9"
+      ],
+      "date": 1564080069829
+    },
+    {
+      "type": "edit",
+      "id": "00d6cfdb229274c9",
+      "item": {
+        "type": "paragraph",
+        "id": "00d6cfdb229274c9",
+        "text": "cargo forward term signals [https://github.com/rust-lang/cargo/issues/4575 issue] [https://github.com/rust-lang/rust/issues/50679 issue]"
+      },
+      "date": 1564080093866
+    },
+    {
+      "type": "add",
+      "id": "87dc0a9868460f53",
+      "item": {
+        "type": "paragraph",
+        "id": "87dc0a9868460f53",
+        "text": "iter vs iter_mut vs into_iter = m"
+      },
+      "after": "0cff351525f54311",
+      "date": 1564104113893
+    },
+    {
+      "type": "edit",
+      "id": "87dc0a9868460f53",
+      "item": {
+        "type": "paragraph",
+        "id": "87dc0a9868460f53",
+        "text": "iter vs iter_mut vs into_iter = borrow vs mutable borrow vs move. [https://stackoverflow.com/questions/34733811/what-is-the-difference-between-iter-and-into-iter so]"
+      },
+      "date": 1564104135705
+    },
+    {
+      "type": "add",
+      "id": "9e9ac92ade23d54e",
+      "item": {
+        "type": "paragraph",
+        "id": "9e9ac92ade23d54e",
+        "text": "Practical Network Applications in Rust [https://arveknudsen.com/posts/practical-networked-applications-in-rust/module-1/ blog]"
+      },
+      "after": "a8e2c22ca25a6915",
+      "date": 1564104349336
+    },
+    {
+      "type": "edit",
+      "id": "9e9ac92ade23d54e",
+      "item": {
+        "type": "paragraph",
+        "id": "9e9ac92ade23d54e",
+        "text": "Practical Networked Applications in Rust [https://arveknudsen.com/posts/practical-networked-applications-in-rust/module-1/ blog] [https://github.com/pingcap/talent-plan/tree/master/rust github]"
+      },
+      "date": 1564104384410
+    },
+    {
+      "type": "add",
+      "id": "cca301f7debbdca7",
+      "item": {
+        "type": "paragraph",
+        "id": "cca301f7debbdca7",
+        "text": "What do you call the act of using rust to replace an existing component? Oxidizing it! [https://hacks.mozilla.org/2018/01/oxidizing-source-maps-with-rust-and-webassembly/ post]"
+      },
+      "after": "80025036a125ce44",
+      "date": 1564115307116
+    },
+    {
+      "type": "add",
+      "id": "1415627414d00d15",
+      "item": {
+        "type": "paragraph",
+        "id": "1415627414d00d15",
+        "text": "Web scraping with rust. [https://kadekillary.work/post/webscraping-rust/ post]"
+      },
+      "after": "87dc0a9868460f53",
+      "date": 1564116048396
+    },
+    {
+      "type": "edit",
+      "id": "1415627414d00d15",
+      "item": {
+        "type": "paragraph",
+        "id": "1415627414d00d15",
+        "text": "Web scraping with rust. [https://kadekillary.work/post/webscraping-rust/ post] [https://medium.com/@joydeepubuntu/rust-and-webscraping-ebecc9ae536c post]"
+      },
+      "date": 1564116067436
+    },
+    {
+      "type": "edit",
+      "id": "1415627414d00d15",
+      "item": {
+        "type": "paragraph",
+        "id": "1415627414d00d15",
+        "text": "Web scraping with rust. [https://kadekillary.work/post/webscraping-rust/ post] [https://medium.com/@joydeepubuntu/rust-and-webscraping-ebecc9ae536c post] [https://www.gkbrk.com/wiki/rust_web_scraping/ post]"
+      },
+      "date": 1564116087983
+    },
+    {
+      "type": "add",
+      "id": "5b6e3c00393c451a",
+      "item": {
+        "type": "paragraph",
+        "id": "5b6e3c00393c451a",
+        "text": "cargo watch -x run. [https://stackoverflow.com/questions/29461693/how-can-i-get-cargo-to-recompile-changed-files-automatically so]"
+      },
+      "after": "00d6cfdb229274c9",
+      "date": 1564116113801
+    },
+    {
+      "type": "add",
+      "id": "0838589fbe15fae4",
+      "item": {
+        "type": "paragraph",
+        "id": "0838589fbe15fae4",
+        "text": "Reading a file. [https://doc.rust-lang.org/book/ch12-02-reading-a-file.html example]"
+      },
+      "after": "1415627414d00d15",
+      "date": 1564116580313
+    },
+    {
+      "type": "add",
+      "id": "d3a47f38e77e6fc8",
+      "item": {
+        "type": "paragraph",
+        "id": "d3a47f38e77e6fc8",
+        "text": "Slice of bytes to a slice of a string. [https://stackoverflow.com/questions/19076719/how-do-i-convert-a-vector-of-bytes-u8-to-a-string so]"
+      },
+      "after": "0838589fbe15fae4",
+      "date": 1564116746251
+    },
+    {
+      "type": "add",
+      "id": "ed1f7be264023abd",
+      "item": {
+        "type": "paragraph",
+        "id": "ed1f7be264023abd",
+        "text": "Rust crypto [http://siciarz.net/24-days-of-rust-rust-crypto/ post]"
+      },
+      "after": "d3a47f38e77e6fc8",
+      "date": 1564116810584
+    },
+    {
+      "type": "add",
+      "id": "8a5e12e35c2ca221",
+      "item": {
+        "type": "paragraph",
+        "id": "8a5e12e35c2ca221",
+        "text": "This question is almost the same as String vs &str , if that helps. PathBuf is String, &Path is &str"
+      },
+      "after": "ed1f7be264023abd",
+      "date": 1564116930136
+    },
+    {
+      "type": "edit",
+      "id": "8a5e12e35c2ca221",
+      "item": {
+        "type": "paragraph",
+        "id": "8a5e12e35c2ca221",
+        "text": "This question is almost the same as String vs &str , if that helps. PathBuf is String, &Path is &str. [https://stackoverflow.com/questions/32730714/what-is-the-right-way-to-store-an-immutable-path-in-a-struct so]"
+      },
+      "date": 1564116941397
+    },
+    {
+      "type": "add",
+      "id": "66d1f298cde4b39b",
+      "item": {
+        "type": "paragraph",
+        "id": "66d1f298cde4b39b",
+        "text": "Confusing errors when passing a Path by value. https://github.com/rust-lang/rust/issues/23286 issue]"
+      },
+      "after": "8a5e12e35c2ca221",
+      "date": 1564116999103
+    },
+    {
+      "type": "edit",
+      "id": "66d1f298cde4b39b",
+      "item": {
+        "type": "paragraph",
+        "id": "66d1f298cde4b39b",
+        "text": "Confusing errors when passing a Path by value. [https://github.com/rust-lang/rust/issues/23286 issue]"
+      },
+      "date": 1564117035272
+    },
+    {
+      "type": "add",
+      "id": "43a5fe931426d320",
+      "item": {
+        "type": "paragraph",
+        "id": "43a5fe931426d320",
+        "text": "Parsing json [https://stackoverflow.com/questions/30292752/how-do-i-parse-a-json-file so]"
+      },
+      "after": "66d1f298cde4b39b",
+      "date": 1564117040875
+    },
+    {
+      "type": "add",
+      "id": "e6ca1d25bed5fdc8",
+      "item": {
+        "type": "paragraph",
+        "id": "e6ca1d25bed5fdc8",
+        "text": "Gotham: web server framework [https://gotham.rs/ site]"
+      },
+      "after": "43a5fe931426d320",
+      "date": 1564179783941
+    },
+    {
+      "type": "add",
+      "id": "a4cabb06c553cf79",
+      "item": {
+        "type": "paragraph",
+        "id": "a4cabb06c553cf79",
+        "text": "rustup add component rustfmt"
+      },
+      "after": "43a5fe931426d320",
+      "date": 1564276246995
+    },
+    {
+      "type": "edit",
+      "id": "a4cabb06c553cf79",
+      "item": {
+        "type": "paragraph",
+        "id": "a4cabb06c553cf79",
+        "text": "rustup component add rustfmt"
+      },
+      "date": 1564276274838
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "143a8e83b4b7bd13"
+      },
+      "id": "143a8e83b4b7bd13",
+      "type": "add",
+      "after": "5b6e3c00393c451a",
+      "date": 1564278856392
+    },
+    {
+      "type": "edit",
+      "id": "143a8e83b4b7bd13",
+      "item": {
+        "type": "pagefold",
+        "id": "143a8e83b4b7bd13",
+        "text": "writing command line apps in rust"
+      },
+      "date": 1564278869764
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "5260599745b16818"
+      },
+      "id": "5260599745b16818",
+      "type": "add",
+      "after": "143a8e83b4b7bd13",
+      "date": 1564278872607
+    },
+    {
+      "type": "edit",
+      "id": "5260599745b16818",
+      "item": {
+        "type": "paragraph",
+        "id": "5260599745b16818",
+        "text": "Shell completions in rust [https://www.joshmcguigan.com/blog/shell-completions-pure-rust/ post]"
+      },
+      "date": 1564278887649
+    },
+    {
+      "type": "add",
+      "id": "1ba78e611e9116c4",
+      "item": {
+        "type": "paragraph",
+        "id": "1ba78e611e9116c4",
+        "text": "HashMap literals - there are none, but there are options. [https://stackoverflow.com/questions/27582739/how-do-i-create-a-hashmap-literal so]"
+      },
+      "after": "e6ca1d25bed5fdc8",
+      "date": 1564319415817
+    },
+    {
+      "type": "add",
+      "id": "af1426b3444c546e",
+      "item": {
+        "type": "paragraph",
+        "id": "af1426b3444c546e",
+        "text": "cargo run --example"
+      },
+      "after": "5b6e3c00393c451a",
+      "date": 1565035185023
+    },
+    {
+      "type": "add",
+      "id": "c175996f27c59030",
+      "item": {
+        "type": "paragraph",
+        "id": "c175996f27c59030",
+        "text": "Cross compiling [https://timryan.org/2018/07/27/cross-compiling-linux-binaries-from-macos.html post]"
+      },
+      "after": "af1426b3444c546e",
+      "date": 1565381340467
+    },
+    {
+      "type": "add",
+      "id": "de170e864d362c10",
+      "item": {
+        "type": "paragraph",
+        "id": "de170e864d362c10",
+        "text": "Keyword and default arguments [https://github.com/rust-lang/rfcs/issues/323 rfc]"
+      },
+      "after": "5260599745b16818",
+      "date": 1565412982742
+    },
+    {
+      "type": "add",
+      "id": "0c32d61ecf32a2ed",
+      "item": {
+        "type": "factory",
+        "id": "0c32d61ecf32a2ed",
+        "text": " "
+      },
+      "after": "5260599745b16818",
+      "date": 1565412986052
+    },
+    {
+      "type": "edit",
+      "id": "0c32d61ecf32a2ed",
+      "item": {
+        "type": "pagefold",
+        "id": "0c32d61ecf32a2ed",
+        "text": "language"
+      },
+      "date": 1565412993386
+    },
+    {
+      "type": "add",
+      "id": "bdcd41d96bbd6988",
+      "item": {
+        "type": "paragraph",
+        "id": "bdcd41d96bbd6988",
+        "text": "When converting from &[u8] to &str, if done in a lossy way, all invalid utf-8 sequences get replaced with the Unicode U+fffd replacement character ("
+      },
+      "after": "1ba78e611e9116c4",
+      "date": 1565413160225
+    },
+    {
+      "type": "edit",
+      "id": "bdcd41d96bbd6988",
+      "item": {
+        "type": "paragraph",
+        "id": "bdcd41d96bbd6988",
+        "text": "When converting from &[u8] to &str, if done in a lossy way, all invalid utf-8 sequences get replaced with the Unicode U+fffd replacement character (hex: 0xEFBFBD)"
+      },
+      "date": 1565413185435
+    },
+    {
+      "type": "add",
+      "id": "a8fb3b82e9ca7efa",
+      "item": {
+        "type": "paragraph",
+        "id": "a8fb3b82e9ca7efa",
+        "text": "This is the proper way to download a file to disk [https://rust-lang-nursery.github.io/rust-cookbook/web/clients/download.html#download-a-file-to-a-temporary-directory example]"
+      },
+      "after": "bdcd41d96bbd6988",
+      "date": 1565413222810
+    },
+    {
+      "type": "add",
+      "id": "d1b1af580c3b820d",
+      "item": {
+        "type": "paragraph",
+        "id": "d1b1af580c3b820d",
+        "text": "How to handle code that deals with crates that return different error types? Create your own error type that acts as a superset of the others. [https://stackoverflow.com/questions/48430836/rust-proper-error-handling-auto-convert-from-one-error-type-to-another-with-que so]"
+      },
+      "after": "a8fb3b82e9ca7efa",
+      "date": 1565413340437
+    },
+    {
+      "type": "add",
+      "id": "9fd335d0447ac385",
+      "item": {
+        "type": "paragraph",
+        "id": "9fd335d0447ac385",
+        "text": "url [https://docs.rs/url/2.0.0/url/ docs.rs]"
+      },
+      "after": "d1b1af580c3b820d",
+      "date": 1565413369186
+    },
+    {
+      "type": "add",
+      "id": "6bc42611e92b31c2",
+      "item": {
+        "type": "paragraph",
+        "id": "6bc42611e92b31c2",
+        "text": "To convert a Path or a PathBuf to something that can be displayed, use .display() [https://doc.rust-lang.org/std/path/struct.PathBuf.html docs]"
+      },
+      "after": "9fd335d0447ac385",
+      "date": 1565413408926
+    },
+    {
+      "type": "add",
+      "id": "d9e77b68e6dcca5e",
+      "item": {
+        "type": "paragraph",
+        "id": "d9e77b68e6dcca5e",
+        "text": "Option API [https://doc.rust-lang.org/std/option/enum.Option.html docs]"
+      },
+      "after": "6bc42611e92b31c2",
+      "date": 1565413484997
+    },
+    {
+      "type": "edit",
+      "id": "d1b1af580c3b820d",
+      "item": {
+        "type": "paragraph",
+        "id": "d1b1af580c3b820d",
+        "text": "How to handle code that deals with crates that return different error types? Create your own error type that acts as a superset of the others. [https://stackoverflow.com/questions/48430836/rust-proper-error-handling-auto-convert-from-one-error-type-to-another-with-que so] [https://doc.rust-lang.org/std/char/constant.REPLACEMENT_CHARACTER.html docs]"
+      },
+      "date": 1565413508861
+    },
+    {
+      "type": "add",
+      "id": "b3edb10d4e854bc2",
+      "item": {
+        "type": "paragraph",
+        "id": "b3edb10d4e854bc2",
+        "text": "Pitfalls of C++ that you can avoid by using Rust [https://medium.com/dwelo-r-d/abusing-fire-for-light-a6e6774289fd post]"
+      },
+      "after": "6af61baf1e330111",
+      "date": 1565413704017
+    },
+    {
+      "type": "add",
+      "id": "d76bfcede636972b",
+      "item": {
+        "type": "paragraph",
+        "id": "d76bfcede636972b",
+        "text": "Trim characters from the beginning and end [https://stackoverflow.com/questions/49856439/why-cant-i-use-a-str-in-trim-matches-like-in-trim-right-matches/49856663 so]"
+      },
+      "after": "d9e77b68e6dcca5e",
+      "date": 1570408571157
+    },
+    {
+      "type": "edit",
+      "id": "d76bfcede636972b",
+      "item": {
+        "type": "paragraph",
+        "id": "d76bfcede636972b",
+        "text": "Trim characters from the beginning and end [http://wdv4758h.github.io/string.rs/strip-trim howto] [https://stackoverflow.com/questions/49856439/why-cant-i-use-a-str-in-trim-matches-like-in-trim-right-matches/49856663 so]"
+      },
+      "date": 1570408600111
+    },
+    {
+      "type": "add",
+      "id": "83f9fc603fc76f77",
+      "item": {
+        "type": "paragraph",
+        "id": "83f9fc603fc76f77",
+        "text": "Open tracing API [https://github.com/tokio-rs/tracing github]"
+      },
+      "after": "d76bfcede636972b",
+      "date": 1571327981115
+    },
+    {
+      "type": "add",
+      "id": "f701626428fe5b4f",
+      "item": {
+        "type": "paragraph",
+        "id": "f701626428fe5b4f",
+        "text": "Using the Builder pattern in rust [https://doc.rust-lang.org/1.0.0/style/ownership/builders.html docs]"
+      },
+      "after": "83f9fc603fc76f77",
+      "date": 1571521393184
+    },
+    {
+      "type": "add",
+      "id": "2b1e24d970c724ad",
+      "item": {
+        "type": "paragraph",
+        "id": "2b1e24d970c724ad",
+        "text": "Specifying dependencies [https://doc.rust-lang.org/cargo/reference/specifying-dependencies.html docs]"
+      },
+      "after": "c175996f27c59030",
+      "date": 1573912527036
+    },
+    {
+      "type": "add",
+      "id": "c7e02ea369754976",
+      "item": {
+        "type": "paragraph",
+        "id": "c7e02ea369754976",
+        "text": "Manifest format [https://doc.rust-lang.org/cargo/reference/manifest.html docs]"
+      },
+      "after": "2b1e24d970c724ad",
+      "date": 1573912560733
+    },
+    {
+      "type": "add",
+      "id": "de5bd9fd202db2b9",
+      "item": {
+        "type": "paragraph",
+        "id": "de5bd9fd202db2b9",
+        "text": "FromStr trait adds the from_str method to some types. [https://doc.rust-lang.org/std/str/trait.FromStr.html docs]"
+      },
+      "after": "1ba78e611e9116c4",
+      "date": 1574519281219
+    },
+    {
+      "type": "add",
+      "id": "86d5de0aca96aca7",
+      "item": {
+        "type": "paragraph",
+        "id": "86d5de0aca96aca7",
+        "text": "Correct way to return an Iterator [https://stackoverflow.com/questions/27535289/what-is-the-correct-way-to-return-an-iterator-or-any-other-trait so]"
+      },
+      "after": "f701626428fe5b4f",
+      "date": 1574519444828
+    },
+    {
+      "type": "add",
+      "id": "2d51bb7b6d24d837",
+      "item": {
+        "type": "paragraph",
+        "id": "2d51bb7b6d24d837",
+        "text": "Stop a Linux process with Rust [https://gist.github.com/spwitt/2f8f116fffeb0f3135df963d4bdf0637 gist]"
+      },
+      "after": "86d5de0aca96aca7",
+      "date": 1574519550931
+    },
+    {
+      "type": "add",
+      "id": "f78686e61ed97a93",
+      "item": {
+        "type": "paragraph",
+        "id": "f78686e61ed97a93",
+        "text": "Sort two vectors in the same order [https://stackoverflow.com/questions/32564455/how-can-i-co-sort-two-vecs-based-on-the-values-in-one-of-the-vecs so]"
+      },
+      "after": "2d51bb7b6d24d837",
+      "date": 1574519840628
+    },
+    {
+      "type": "add",
+      "id": "c80916df46b6f07b",
+      "item": {
+        "type": "paragraph",
+        "id": "c80916df46b6f07b",
+        "text": "Permutation crate [https://docs.rs/permutation/0.2.5/permutation/permutation/struct.Permutation.html docs.rs]"
+      },
+      "after": "f78686e61ed97a93",
+      "date": 1574519872899
+    },
+    {
+      "type": "add",
+      "id": "c1ce7b823406a1ee",
+      "item": {
+        "type": "paragraph",
+        "id": "c1ce7b823406a1ee",
+        "text": "Store a closure in a struct [https://stackoverflow.com/questions/27831944/how-do-i-store-a-closure-in-a-struct-in-rust so]"
+      },
+      "after": "c80916df46b6f07b",
+      "date": 1574960246819
+    },
+    {
+      "type": "add",
+      "id": "eda5a77624774b4d",
+      "item": {
+        "type": "paragraph",
+        "id": "eda5a77624774b4d",
+        "text": "The right way to concat a string [https://users.rust-lang.org/t/what-is-right-ways-to-concat-strings/3780/3 forum]"
+      },
+      "after": "c1ce7b823406a1ee",
+      "date": 1575323192302
+    },
+    {
+      "type": "add",
+      "id": "5a888e5f29f567a4",
+      "item": {
+        "type": "paragraph",
+        "id": "5a888e5f29f567a4",
+        "text": "Making a *-sys crate [https://kornel.ski/rust-sys-crate web]"
+      },
+      "after": "c7e02ea369754976",
+      "date": 1575694828786
+    },
+    {
+      "type": "add",
+      "id": "dfa796171facfd07",
+      "item": {
+        "type": "paragraph",
+        "id": "dfa796171facfd07",
+        "text": "Overriding build scripts [https://doc.rust-lang.org/nightly/cargo/reference/build-scripts.html?highlight=feature docs]"
+      },
+      "after": "5a888e5f29f567a4",
+      "date": 1575694856488
+    },
+    {
+      "type": "add",
+      "id": "f8c6d88d67067f03",
+      "item": {
+        "type": "paragraph",
+        "id": "f8c6d88d67067f03",
+        "text": "To use macros across crates, be aware that macros always get exported from the root crate, never a child. [https://stackoverflow.com/questions/26731243/how-do-i-use-a-macro-across-module-files so]"
+      },
+      "after": "54e010bf5a7f2a30",
+      "date": 1576380508620
+    },
+    {
+      "type": "add",
+      "id": "9daaedfa2a331860",
+      "item": {
+        "type": "paragraph",
+        "id": "9daaedfa2a331860",
+        "text": "Calling a mutating method while iterating self. [https://stackoverflow.com/questions/27335252/how-can-i-call-a-mutating-method-while-holding-a-reference-to-self so]"
+      },
+      "after": "de170e864d362c10",
+      "date": 1577068581018
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "title": "Org mode",
+  "story": [
+    {
+      "type": "html",
+      "id": "a136bd67355e408b",
+      "text": "<img src=\"https://wiki.randombits.xyz/assets/https/main%5B1%5D.jpg\" width=\"400\"/>"
+    },
+    {
+      "type": "paragraph",
+      "id": "815566b96a3a95a7",
+      "text": "Some features I have found useful:"
+    },
+    {
+      "type": "paragraph",
+      "id": "83a3fa28d27cc34e",
+      "text": "* Ability to quickly insert today's date or an arbitrary date (such as 1 week from now or next friday)."
+    },
+    {
+      "type": "paragraph",
+      "id": "5b04b5b70b005b76",
+      "text": "* Outline mode which allows you to insert new bullet points at the same level or a deeper level. When changing a parent, all of the children automatically follow."
+    },
+    {
+      "type": "paragraph",
+      "id": "cc16297256f0cb45",
+      "text": "* Checklists - easy to make, easy to update"
+    },
+    {
+      "type": "paragraph",
+      "id": "ca2e34011eb82beb",
+      "text": "* Tags for nodes with the ability to filter the view based off of tags."
+    },
+    {
+      "type": "paragraph",
+      "id": "33c46fe4e17a70fe",
+      "text": "* Filtered view to just those nodes that match a query (or to just a single node at its children). Helpful if you want to focus or not show the surrounding context."
+    },
+    {
+      "type": "paragraph",
+      "id": "8c923ded3f963cf1",
+      "text": "[https://orgmode.org/ Org mode] is for keeping notes, maintaining TODO lists, planning projects, and authoring documents with a fast and effective plain-text system."
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Org mode",
+        "story": []
+      },
+      "date": 1555473854822
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "8c923ded3f963cf1"
+      },
+      "id": "8c923ded3f963cf1",
+      "type": "add",
+      "date": 1555473856133
+    },
+    {
+      "type": "edit",
+      "id": "8c923ded3f963cf1",
+      "item": {
+        "type": "paragraph",
+        "id": "8c923ded3f963cf1",
+        "text": "Org mode "
+      },
+      "date": 1555473877522
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "15394ee196610f2a"
+      },
+      "id": "15394ee196610f2a",
+      "type": "add",
+      "after": "64c0e6a2617644f4",
+      "date": 1555473910164
+    },
+    {
+      "type": "edit",
+      "id": "15394ee196610f2a",
+      "item": {
+        "type": "assets",
+        "id": "15394ee196610f2a",
+        "text": "https://orgmode.org/img/main.jpg"
+      },
+      "date": 1555473923977
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "a136bd67355e408b"
+      },
+      "id": "a136bd67355e408b",
+      "type": "add",
+      "after": "15394ee196610f2a",
+      "date": 1555473961312
+    },
+    {
+      "type": "edit",
+      "id": "a136bd67355e408b",
+      "item": {
+        "type": "html",
+        "id": "a136bd67355e408b",
+        "text": "<img src=\"https://wiki.randombits.xyz/assets/https/main%5B1%5D.jpg\"/>"
+      },
+      "date": 1555473997297
+    },
+    {
+      "type": "edit",
+      "id": "a136bd67355e408b",
+      "item": {
+        "type": "html",
+        "id": "a136bd67355e408b",
+        "text": "<img src=\"https://wiki.randombits.xyz/assets/https/main%5B1%5D.jpg\" width=\"300\"/>"
+      },
+      "date": 1555474013239
+    },
+    {
+      "type": "edit",
+      "id": "a136bd67355e408b",
+      "item": {
+        "type": "html",
+        "id": "a136bd67355e408b",
+        "text": "<img src=\"https://wiki.randombits.xyz/assets/https/main%5B1%5D.jpg\" width=\"350\"/>"
+      },
+      "date": 1555474019197
+    },
+    {
+      "type": "edit",
+      "id": "a136bd67355e408b",
+      "item": {
+        "type": "html",
+        "id": "a136bd67355e408b",
+        "text": "<img src=\"https://wiki.randombits.xyz/assets/https/main%5B1%5D.jpg\" width=\"400\"/>"
+      },
+      "date": 1555474026756
+    },
+    {
+      "type": "remove",
+      "id": "15394ee196610f2a",
+      "date": 1555474037334
+    },
+    {
+      "type": "edit",
+      "id": "8c923ded3f963cf1",
+      "item": {
+        "type": "paragraph",
+        "id": "8c923ded3f963cf1",
+        "text": "Org mode is for keeping notes, maintaining TODO lists, planning projects, and authoring documents with a fast and effective plain-text system."
+      },
+      "date": 1555474053230
+    },
+    {
+      "type": "edit",
+      "id": "8c923ded3f963cf1",
+      "item": {
+        "type": "paragraph",
+        "id": "8c923ded3f963cf1",
+        "text": "[https://orgmode.org/ Org mode] is for keeping notes, maintaining TODO lists, planning projects, and authoring documents with a fast and effective plain-text system."
+      },
+      "date": 1555474069435
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "815566b96a3a95a7"
+      },
+      "id": "815566b96a3a95a7",
+      "type": "add",
+      "after": "a136bd67355e408b",
+      "date": 1555474082975
+    },
+    {
+      "type": "edit",
+      "id": "815566b96a3a95a7",
+      "item": {
+        "type": "paragraph",
+        "id": "815566b96a3a95a7",
+        "text": "Some features I have found useful:"
+      },
+      "date": 1555474111551
+    },
+    {
+      "type": "add",
+      "id": "83a3fa28d27cc34e",
+      "item": {
+        "type": "paragraph",
+        "id": "83a3fa28d27cc34e",
+        "text": "* Ability to quickly insert today's date or an arbitrary date (such as 1 week from now or next friday)."
+      },
+      "after": "815566b96a3a95a7",
+      "date": 1555474144326
+    },
+    {
+      "type": "add",
+      "id": "5b04b5b70b005b76",
+      "item": {
+        "type": "paragraph",
+        "id": "5b04b5b70b005b76",
+        "text": "* Outline mode which allows you to insert new bullet points at the same level or a deeper level. When changing a parent, all of the children automatically follow."
+      },
+      "after": "83a3fa28d27cc34e",
+      "date": 1555474201616
+    },
+    {
+      "type": "add",
+      "id": "cc16297256f0cb45",
+      "item": {
+        "type": "paragraph",
+        "id": "cc16297256f0cb45",
+        "text": "* Checklists - easy to make, easy to update"
+      },
+      "after": "5b04b5b70b005b76",
+      "date": 1555474227099
+    },
+    {
+      "type": "add",
+      "id": "ca2e34011eb82beb",
+      "item": {
+        "type": "paragraph",
+        "id": "ca2e34011eb82beb",
+        "text": "* Tags for nodes with the ability to filter the view based off of tags."
+      },
+      "after": "cc16297256f0cb45",
+      "date": 1555474242004
+    },
+    {
+      "type": "add",
+      "id": "33c46fe4e17a70fe",
+      "item": {
+        "type": "paragraph",
+        "id": "33c46fe4e17a70fe",
+        "text": "* Filtered view to just those nodes that match a query (or to just a single node at its children). Helpful if you want to focus or not show the surrounding context."
+      },
+      "after": "ca2e34011eb82beb",
+      "date": 1555474298971
+    }
+  ]
+}

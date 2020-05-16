@@ -1,0 +1,116 @@
+{
+  "title": "String Diagrams",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "a85f63d746858de2",
+      "text": "These look to have a lot of potential."
+    },
+    {
+      "type": "paragraph",
+      "id": "47e5eace2292ec71",
+      "text": "A co-worker pointed this out to me."
+    },
+    {
+      "type": "paragraph",
+      "id": "0336f3e5e0a5e235",
+      "text": "[https://twitter.com/KenScambler/status/1108738366529400832 twitter]"
+    },
+    {
+      "type": "html",
+      "id": "600f4944385090d7",
+      "text": "<img style=\"width: 450px\" src=\"https://pbs.twimg.com/media/D2Lx21YU4AIUePG?format=png&name=small\"></img>"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "String Diagrams",
+        "story": []
+      },
+      "date": 1565324405429
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "a85f63d746858de2"
+      },
+      "id": "a85f63d746858de2",
+      "type": "add",
+      "date": 1565324406533
+    },
+    {
+      "type": "edit",
+      "id": "a85f63d746858de2",
+      "item": {
+        "type": "paragraph",
+        "id": "a85f63d746858de2",
+        "text": "These look to have a lot of potential."
+      },
+      "date": 1565324420380
+    },
+    {
+      "type": "add",
+      "id": "47e5eace2292ec71",
+      "item": {
+        "type": "paragraph",
+        "id": "47e5eace2292ec71",
+        "text": "A co-worker pointed this out to me."
+      },
+      "after": "a85f63d746858de2",
+      "date": 1565324432788
+    },
+    {
+      "type": "add",
+      "id": "0336f3e5e0a5e235",
+      "item": {
+        "type": "paragraph",
+        "id": "0336f3e5e0a5e235",
+        "text": "[https://twitter.com/KenScambler/status/1108738366529400832 twitter]"
+      },
+      "after": "47e5eace2292ec71",
+      "date": 1565324439997
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "600f4944385090d7"
+      },
+      "id": "600f4944385090d7",
+      "type": "add",
+      "after": "0336f3e5e0a5e235",
+      "date": 1565324455222
+    },
+    {
+      "type": "edit",
+      "id": "600f4944385090d7",
+      "item": {
+        "type": "html",
+        "id": "600f4944385090d7",
+        "text": "<img src=\"https://twitter.com/KenScambler/status/1108738369129857029/photo/1\"></img>"
+      },
+      "date": 1565324472800
+    },
+    {
+      "type": "edit",
+      "id": "600f4944385090d7",
+      "item": {
+        "type": "html",
+        "id": "600f4944385090d7",
+        "text": "<img src=\"https://pbs.twimg.com/media/D2Lx21YU4AIUePG?format=png&name=small\"></img>"
+      },
+      "date": 1565324501998
+    },
+    {
+      "type": "edit",
+      "id": "600f4944385090d7",
+      "item": {
+        "type": "html",
+        "id": "600f4944385090d7",
+        "text": "<img style=\"width: 450px\" src=\"https://pbs.twimg.com/media/D2Lx21YU4AIUePG?format=png&name=small\"></img>"
+      },
+      "date": 1565324527945
+    }
+  ]
+}

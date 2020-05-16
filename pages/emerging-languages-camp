@@ -1,0 +1,409 @@
+{
+  "title": "Emerging Languages Camp",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "ce670cc5fd8f81da",
+      "text": "The first ever Emerging Languages Camp was held during OSCON 2010. I was fortunate enough to be able to attend."
+    },
+    {
+      "type": "paragraph",
+      "id": "1f649abafda71c67",
+      "text": "I was ecstatic to be there, but I didn't realize who all was there at the time. This page is me geeking out about the experience and the connections (some of which I'm only now making)."
+    },
+    {
+      "type": "paragraph",
+      "id": "04162034a507c661",
+      "text": "First off, I was unsure this was the year that I attended until I saw a comment I posted on o'reilly's website. [https://conferences.oreilly.com/oscon/oscon2010/public/schedule/detail/15299 oscon]"
+    },
+    {
+      "type": "paragraph",
+      "id": "523a68e0328a4d13",
+      "text": " "
+    },
+    {
+      "type": "paragraph",
+      "id": "e51eef8aadd442d9",
+      "text": "Among the participants were:"
+    },
+    {
+      "type": "paragraph",
+      "id": "f5922225195d07b2",
+      "text": "* [[Gilad Bracha]]: Creator of Newspeak."
+    },
+    {
+      "type": "paragraph",
+      "id": "0dcd39f3c0cea198",
+      "text": "* Rich Hickey: Creator of Clojure. I sat next to him at one point."
+    },
+    {
+      "type": "paragraph",
+      "id": "e3518cb5df1f2a70",
+      "text": "* [[Bob Nystrom]]: He presented his language called Finch ([http://finch.stuffwithstuff.com/ website]). I don't recall how I first stumbled on his writings. This might have been it. Anyway, he blogged about the experience. [http://journal.stuffwithstuff.com/2010/07/23/what-i-learned-at-the-emerging-languages-camp/ post]"
+    },
+    {
+      "type": "paragraph",
+      "id": "c47e85dafdc628b8",
+      "text": "* Jeremy Ashkenas: Creator of Coffeescript"
+    },
+    {
+      "type": "paragraph",
+      "id": "534223be9be4220b",
+      "text": "* Rob Pike: Creator of Go. I sat at the same table for lunch one of the days with him and some other Go people. I didn't know what to talk about so I just listened."
+    },
+    {
+      "type": "paragraph",
+      "id": "c8ad212a2ff85a58",
+      "text": "* Ola Bini: He's made some attempts at trying to produce a homoiconic language that isn't a lisp. His write-up of the camp is the most complete I've found on the two days. [https://olabini.com/blog/2010/07/emerging-languages-camp-day-1/ day1] [https://olabini.se/blog/2010/07/emerging-languages-camp-day-2/ day2]"
+    },
+    {
+      "type": "paragraph",
+      "id": "fdae56f5b14107b6",
+      "text": "* Mark Miller: He presented on Caja. This may have been when I first learned about Object Capability Models though Gilad includes those concepts in his Newspeak programming language."
+    },
+    {
+      "type": "paragraph",
+      "id": "4f1531cab06c092e",
+      "text": "* Slava Pestov: Creator of Factor. This was my first run in with a concatenative language. His demo was pretty compelling. I've tried to use the language / environment a few times since then, but haven't found a compelling use case to keep me in it enough to be productive. [https://factorcode.org/ homepage]"
+    },
+    {
+      "type": "paragraph",
+      "id": "52faf69e44bb40aa",
+      "text": "* Kodu: A Microsoft Research project into creating a programming environment for kids. Unlike the majority of such efforts I have seen, this is a 3D environment. I downloaded it afterwards. When I later watched some tutorials, I found that it suffers the same malady as most visual languages. You eventually get to the point where you need some sort of global state and that needs to live somewhere. The only place it can live is attached to a physical object so you end up have to make up one to hold it (a rock in the case of the tutorial). That has always struck me an unintuitive , but I suspect it is inevitable when you try to map an abstract domain to a physical one."
+    },
+    {
+      "type": "paragraph",
+      "id": "13e4e5822192dac4",
+      "text": "* Alan Eliasen: Creator of Frink. This was by far the most entertaining talk of the entire camp. Frink is a language with a built in understanding of units. It allows you to ask crazy questions such as \"if all the people in China were to jump off a chair at once, how much force is generated and what magnitude of earthquake would that be equivalent to?\" I'm curious why more languages don't include things like this in their type system. [https://frinklang.org/ homepage]"
+    },
+    {
+      "type": "paragraph",
+      "id": "33390340db24aa8a",
+      "text": "* Charles Nutter: Famous for his work on JRuby. He presented Mirah."
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Emerging Languages Camp",
+        "story": []
+      },
+      "date": 1564109958920
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "ce670cc5fd8f81da"
+      },
+      "id": "ce670cc5fd8f81da",
+      "type": "add",
+      "date": 1564109960184
+    },
+    {
+      "type": "edit",
+      "id": "ce670cc5fd8f81da",
+      "item": {
+        "type": "paragraph",
+        "id": "ce670cc5fd8f81da",
+        "text": "The first ever Emerging Languages Camp was held during OSCON 2010. I was fortunate enough to be able to attend."
+      },
+      "date": 1564109987757
+    },
+    {
+      "type": "add",
+      "id": "e51eef8aadd442d9",
+      "item": {
+        "type": "paragraph",
+        "id": "e51eef8aadd442d9",
+        "text": "Among the participants were:"
+      },
+      "after": "ce670cc5fd8f81da",
+      "date": 1564109999838
+    },
+    {
+      "type": "add",
+      "id": "f5922225195d07b2",
+      "item": {
+        "type": "paragraph",
+        "id": "f5922225195d07b2",
+        "text": "* Gilad Bracha"
+      },
+      "after": "e51eef8aadd442d9",
+      "date": 1564110007779
+    },
+    {
+      "type": "add",
+      "id": "0dcd39f3c0cea198",
+      "item": {
+        "type": "paragraph",
+        "id": "0dcd39f3c0cea198",
+        "text": "* Rich "
+      },
+      "after": "f5922225195d07b2",
+      "date": 1564110013658
+    },
+    {
+      "type": "edit",
+      "id": "0dcd39f3c0cea198",
+      "item": {
+        "type": "paragraph",
+        "id": "0dcd39f3c0cea198",
+        "text": "* Rich Hickey: Creator of Clojure. I sat next to him at one point."
+      },
+      "date": 1564110047201
+    },
+    {
+      "type": "add",
+      "id": "1f649abafda71c67",
+      "item": {
+        "type": "paragraph",
+        "id": "1f649abafda71c67",
+        "text": "I was ecstatic to be there, but I didn't realize who all was there at the time. This page is me geeking out about the experience and the connections (some of which I'm only now making)."
+      },
+      "after": "ce670cc5fd8f81da",
+      "date": 1564110190575
+    },
+    {
+      "type": "add",
+      "id": "523a68e0328a4d13",
+      "item": {
+        "type": "paragraph",
+        "id": "523a68e0328a4d13",
+        "text": " "
+      },
+      "after": "1f649abafda71c67",
+      "date": 1564110192778
+    },
+    {
+      "type": "add",
+      "id": "04162034a507c661",
+      "item": {
+        "type": "paragraph",
+        "id": "04162034a507c661",
+        "text": "First off, I was unsure this was the year that I attended until I saw a comment I posted on o'reilly's website. [https://conferences.oreilly.com/oscon/oscon2010/public/schedule/detail/15299 oscon]"
+      },
+      "after": "1f649abafda71c67",
+      "date": 1564110278777
+    },
+    {
+      "type": "add",
+      "id": "e3518cb5df1f2a70",
+      "item": {
+        "type": "paragraph",
+        "id": "e3518cb5df1f2a70",
+        "text": "* [[Bob Nystrom]]: I didn't realize he was there, but "
+      },
+      "after": "0dcd39f3c0cea198",
+      "date": 1564110308225
+    },
+    {
+      "type": "edit",
+      "id": "e3518cb5df1f2a70",
+      "item": {
+        "type": "paragraph",
+        "id": "e3518cb5df1f2a70",
+        "text": "* [[Bob Nystrom]]: I didn't realize he was there, but he apparently was as he blogged about it. [http://journal.stuffwithstuff.com/2010/07/23/what-i-learned-at-the-emerging-languages-camp/ post]"
+      },
+      "date": 1564110329544
+    },
+    {
+      "type": "edit",
+      "id": "e3518cb5df1f2a70",
+      "item": {
+        "type": "paragraph",
+        "id": "e3518cb5df1f2a70",
+        "text": "* [[Bob Nystrom]]: I'm pretty sure he presented one of the languages he was working on. I don't recall how I first stumbled on his writings. This might have been it. Anyway, he blogged about the experience. [http://journal.stuffwithstuff.com/2010/07/23/what-i-learned-at-the-emerging-languages-camp/ post]"
+      },
+      "date": 1564110399569
+    },
+    {
+      "type": "add",
+      "id": "c47e85dafdc628b8",
+      "item": {
+        "type": "paragraph",
+        "id": "c47e85dafdc628b8",
+        "text": "* Creator of CoffeeScript"
+      },
+      "after": "e3518cb5df1f2a70",
+      "date": 1564110414623
+    },
+    {
+      "type": "add",
+      "id": "534223be9be4220b",
+      "item": {
+        "type": "paragraph",
+        "id": "534223be9be4220b",
+        "text": "* Rob Pike: Creator of Go"
+      },
+      "after": "c47e85dafdc628b8",
+      "date": 1564110445323
+    },
+    {
+      "type": "edit",
+      "id": "c47e85dafdc628b8",
+      "item": {
+        "type": "paragraph",
+        "id": "c47e85dafdc628b8",
+        "text": "* Jeremy Ashkenas: Creator of Coffeescript"
+      },
+      "date": 1564110469033
+    },
+    {
+      "type": "add",
+      "id": "c8ad212a2ff85a58",
+      "item": {
+        "type": "paragraph",
+        "id": "c8ad212a2ff85a58",
+        "text": "* Ola Bini: His write-up is the most complete I've found on the two days. [https://olabini.com/blog/2010/07/emerging-languages-camp-day-1/ day1]"
+      },
+      "after": "534223be9be4220b",
+      "date": 1564110694867
+    },
+    {
+      "type": "edit",
+      "id": "c8ad212a2ff85a58",
+      "item": {
+        "type": "paragraph",
+        "id": "c8ad212a2ff85a58",
+        "text": "* Ola Bini: His write-up is the most complete I've found on the two days. [https://olabini.com/blog/2010/07/emerging-languages-camp-day-1/ day1] [https://olabini.se/blog/2010/07/emerging-languages-camp-day-2/ day2]"
+      },
+      "date": 1564110716203
+    },
+    {
+      "type": "edit",
+      "id": "e3518cb5df1f2a70",
+      "item": {
+        "type": "paragraph",
+        "id": "e3518cb5df1f2a70",
+        "text": "* [[Bob Nystrom]]: He presented his language called Fancy. I don't recall how I first stumbled on his writings. This might have been it. Anyway, he blogged about the experience. [http://journal.stuffwithstuff.com/2010/07/23/what-i-learned-at-the-emerging-languages-camp/ post]"
+      },
+      "date": 1564110739266
+    },
+    {
+      "type": "edit",
+      "id": "e3518cb5df1f2a70",
+      "item": {
+        "type": "paragraph",
+        "id": "e3518cb5df1f2a70",
+        "text": "* [[Bob Nystrom]]: He presented his language called Finch ([http://finch.stuffwithstuff.com/ website]). I don't recall how I first stumbled on his writings. This might have been it. Anyway, he blogged about the experience. [http://journal.stuffwithstuff.com/2010/07/23/what-i-learned-at-the-emerging-languages-camp/ post]"
+      },
+      "date": 1564110845531
+    },
+    {
+      "type": "add",
+      "id": "fdae56f5b14107b6",
+      "item": {
+        "type": "paragraph",
+        "id": "fdae56f5b14107b6",
+        "text": "* Mark Miller: He presented on Caja. This may have been when I first learned about Object Capability Models though Gilad includes those concepts in his Newspeak programming language."
+      },
+      "after": "c8ad212a2ff85a58",
+      "date": 1564111541877
+    },
+    {
+      "type": "edit",
+      "id": "f5922225195d07b2",
+      "item": {
+        "type": "paragraph",
+        "id": "f5922225195d07b2",
+        "text": "* [[Gilad Bracha]]: Creator of Newspeak."
+      },
+      "date": 1564111554385
+    },
+    {
+      "type": "edit",
+      "id": "534223be9be4220b",
+      "item": {
+        "type": "paragraph",
+        "id": "534223be9be4220b",
+        "text": "* Rob Pike: Creator of Go. I sat at the same table for lunch one of the days with him and some other Go people. I didn't know what to talk about so I just listened."
+      },
+      "date": 1564111647478
+    },
+    {
+      "type": "edit",
+      "id": "c8ad212a2ff85a58",
+      "item": {
+        "type": "paragraph",
+        "id": "c8ad212a2ff85a58",
+        "text": "* Ola Bini: He's made some attempts at trying to produce a homoiconic language that isn't a lisp. His write-up of the camp is the most complete I've found on the two days. [https://olabini.com/blog/2010/07/emerging-languages-camp-day-1/ day1] [https://olabini.se/blog/2010/07/emerging-languages-camp-day-2/ day2]"
+      },
+      "date": 1564111700277
+    },
+    {
+      "type": "add",
+      "id": "4f1531cab06c092e",
+      "item": {
+        "type": "paragraph",
+        "id": "4f1531cab06c092e",
+        "text": "* Slava Pestov: Creator of Factor. This was my first run in with a "
+      },
+      "after": "fdae56f5b14107b6",
+      "date": 1564111744899
+    },
+    {
+      "type": "edit",
+      "id": "4f1531cab06c092e",
+      "item": {
+        "type": "paragraph",
+        "id": "4f1531cab06c092e",
+        "text": "* Slava Pestov: Creator of Factor. This was my first run in with a concatenative language. His demo was pretty compelling. I've tried to use the language / environment a few times since then, but haven't found a compelling use case to keep me in it enough to be productive."
+      },
+      "date": 1564111864044
+    },
+    {
+      "type": "add",
+      "id": "52faf69e44bb40aa",
+      "item": {
+        "type": "paragraph",
+        "id": "52faf69e44bb40aa",
+        "text": "* Kodu: A Microsoft Research project into creating a programming environment for kids. Unlike the majority of such efforts I have seen, this is a 3D environment. I downloaded it afterwards. When I later watched some tutorials, I found that it suffers the same malady as most visual languages. You eventually get to the point where you need some sort of global state and that needs to live somewhere. The only place it can live is attached to a physical object so you end up have to make up one to hold it (a rock in the case of the tutorial). That has always struck me an unintuitive , but I suspect it is inevitable when you try to map an abstract domain to a physical one."
+      },
+      "after": "4f1531cab06c092e",
+      "date": 1564112128122
+    },
+    {
+      "type": "edit",
+      "id": "4f1531cab06c092e",
+      "item": {
+        "type": "paragraph",
+        "id": "4f1531cab06c092e",
+        "text": "* Slava Pestov: Creator of Factor. This was my first run in with a concatenative language. His demo was pretty compelling. I've tried to use the language / environment a few times since then, but haven't found a compelling use case to keep me in it enough to be productive. [https://factorcode.org/ homepage]"
+      },
+      "date": 1564112163451
+    },
+    {
+      "type": "add",
+      "id": "13e4e5822192dac4",
+      "item": {
+        "type": "paragraph",
+        "id": "13e4e5822192dac4",
+        "text": "* Alan Eliasen: Creator of Frink. This was by far the most entertaining talk of the entire camp. Frink is a language with a built in understanding of units. It allows you to ask crazy questions such as \"if all the people in China were to jump off a chair at once, how much force is generated and what magnitude of earthquake would that be equivalent to?\" I'm curious why more languages don't include things like this in their type system."
+      },
+      "after": "52faf69e44bb40aa",
+      "date": 1564112455201
+    },
+    {
+      "type": "edit",
+      "id": "13e4e5822192dac4",
+      "item": {
+        "type": "paragraph",
+        "id": "13e4e5822192dac4",
+        "text": "* Alan Eliasen: Creator of Frink. This was by far the most entertaining talk of the entire camp. Frink is a language with a built in understanding of units. It allows you to ask crazy questions such as \"if all the people in China were to jump off a chair at once, how much force is generated and what magnitude of earthquake would that be equivalent to?\" I'm curious why more languages don't include things like this in their type system. [https://frinklang.org/ homepage]"
+      },
+      "date": 1564112525094
+    },
+    {
+      "type": "add",
+      "id": "33390340db24aa8a",
+      "item": {
+        "type": "paragraph",
+        "id": "33390340db24aa8a",
+        "text": "* Charles Nutter: Famous for his work on JRuby. He presented Mirah."
+      },
+      "after": "13e4e5822192dac4",
+      "date": 1564112585160
+    }
+  ]
+}

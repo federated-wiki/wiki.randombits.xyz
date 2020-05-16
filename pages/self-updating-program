@@ -1,0 +1,177 @@
+{
+  "title": "Self Updating Program",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "6588561d2ec7844c",
+      "text": "This likely isn't a pattern in the traditional sense, but it is a capability I like exploring."
+    },
+    {
+      "type": "paragraph",
+      "id": "2c70977fb6aa250f",
+      "text": "Thread announcing self_update [https://users.rust-lang.org/t/self-update-in-place-updates-for-rust-executables/12075 discourse]"
+    },
+    {
+      "type": "paragraph",
+      "id": "7439014a2f448278",
+      "text": "Example rust crate - may not have enough security [https://docs.rs/self_update/0.5.1/self_update/ self_update]"
+    },
+    {
+      "type": "paragraph",
+      "id": "ab3aa5fea0adfa29",
+      "text": "Google Omaha [https://omaha-consulting.com/google-omaha-tutorial tutorial] [https://github.com/google/omaha ghe]"
+    },
+    {
+      "type": "paragraph",
+      "id": "14fa3902ab646932",
+      "text": "Courgette (basis for Omaha) [http://www.chromium.org/developers/design-documents/software-updates-courgette site]"
+    },
+    {
+      "type": "paragraph",
+      "id": "cf82e34326032479",
+      "text": "The Update Framework [https://theupdateframework.github.io/overview.html site]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Self Updating Program",
+        "story": []
+      },
+      "date": 1564079648292
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "6588561d2ec7844c"
+      },
+      "id": "6588561d2ec7844c",
+      "type": "add",
+      "date": 1564079649442
+    },
+    {
+      "type": "edit",
+      "id": "6588561d2ec7844c",
+      "item": {
+        "type": "paragraph",
+        "id": "6588561d2ec7844c",
+        "text": "This likely isn't a pattern in the traditional sense, but it is a capability I like exploring."
+      },
+      "date": 1564079700664
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "ab3aa5fea0adfa29"
+      },
+      "id": "ab3aa5fea0adfa29",
+      "type": "add",
+      "after": "6588561d2ec7844c",
+      "date": 1564079706042
+    },
+    {
+      "type": "edit",
+      "id": "ab3aa5fea0adfa29",
+      "item": {
+        "type": "paragraph",
+        "id": "ab3aa5fea0adfa29",
+        "text": "Google Omaha [https://omaha-consulting.com/google-omaha-tutorial tutorial]"
+      },
+      "date": 1564079716395
+    },
+    {
+      "type": "edit",
+      "id": "ab3aa5fea0adfa29",
+      "item": {
+        "type": "paragraph",
+        "id": "ab3aa5fea0adfa29",
+        "text": "Google Omaha [https://omaha-consulting.com/google-omaha-tutorial tutorial] [https://github.com/google/omaha ghe]"
+      },
+      "date": 1564079725395
+    },
+    {
+      "type": "add",
+      "id": "cf82e34326032479",
+      "item": {
+        "type": "paragraph",
+        "id": "cf82e34326032479",
+        "text": "The Update Framework [https://theupdateframework.github.io/overview.html site]"
+      },
+      "after": "ab3aa5fea0adfa29",
+      "date": 1564079743036
+    },
+    {
+      "type": "add",
+      "id": "14fa3902ab646932",
+      "item": {
+        "type": "paragraph",
+        "id": "14fa3902ab646932",
+        "text": "Courgette (basis for Omaha) [http://www.chromium.org/developers/design-documents/software-updates-courgette site]"
+      },
+      "after": "ab3aa5fea0adfa29",
+      "date": 1564079777137
+    },
+    {
+      "type": "add",
+      "id": "7439014a2f448278",
+      "item": {
+        "type": "paragraph",
+        "id": "7439014a2f448278",
+        "text": "Example rust crate - may not have enough security [https://docs.rs/self_update/0.5.1/self_update/ self_update]"
+      },
+      "after": "cf82e34326032479",
+      "date": 1564079825182
+    },
+    {
+      "type": "add",
+      "id": "2c70977fb6aa250f",
+      "item": {
+        "type": "paragraph",
+        "id": "2c70977fb6aa250f",
+        "text": "Thread announcing self_update [https://users.rust-lang.org/t/self-update-in-place-updates-for-rust-executables/12075 discourse]"
+      },
+      "after": "7439014a2f448278",
+      "date": 1564079857442
+    },
+    {
+      "id": "2c70977fb6aa250f",
+      "type": "move",
+      "order": [
+        "6588561d2ec7844c",
+        "ab3aa5fea0adfa29",
+        "14fa3902ab646932",
+        "cf82e34326032479",
+        "2c70977fb6aa250f",
+        "7439014a2f448278"
+      ],
+      "date": 1564079861285
+    },
+    {
+      "id": "2c70977fb6aa250f",
+      "type": "move",
+      "order": [
+        "6588561d2ec7844c",
+        "2c70977fb6aa250f",
+        "ab3aa5fea0adfa29",
+        "14fa3902ab646932",
+        "cf82e34326032479",
+        "7439014a2f448278"
+      ],
+      "date": 1564079866174
+    },
+    {
+      "id": "7439014a2f448278",
+      "type": "move",
+      "order": [
+        "6588561d2ec7844c",
+        "2c70977fb6aa250f",
+        "7439014a2f448278",
+        "ab3aa5fea0adfa29",
+        "14fa3902ab646932",
+        "cf82e34326032479"
+      ],
+      "date": 1564079868175
+    }
+  ]
+}

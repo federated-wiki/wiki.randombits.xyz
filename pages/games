@@ -1,0 +1,337 @@
+{
+  "title": "Games",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "6501c32d95b983fa",
+      "text": "The graphics library used for each is listed to the right. Some were ported to use different libraries over time. Look in the commit history to see previous versions."
+    },
+    {
+      "type": "paragraph",
+      "id": "dbee00b7d4ac3da8",
+      "text": "[https://github.com/joshuabenuck/snake Snake] - sdl2"
+    },
+    {
+      "type": "paragraph",
+      "id": "7384c373ee596102",
+      "text": "Breakout - Contribute to this [https://github.com/JohnDoneth/coffee/blob/breakout-example/examples/breakout.rs example]"
+    },
+    {
+      "type": "paragraph",
+      "id": "be72c63af54dc07e",
+      "text": "Sokoban"
+    },
+    {
+      "type": "paragraph",
+      "id": "32932e9f88d68f48",
+      "text": "Inkspill"
+    },
+    {
+      "type": "paragraph",
+      "id": "46356d3c4b93d04c",
+      "text": "Space Shooter"
+    },
+    {
+      "type": "paragraph",
+      "id": "568f500d61281574",
+      "text": "[https://github.com/joshuabenuck/unblock Traffic] - piston, quicksilver, gate"
+    },
+    {
+      "type": "paragraph",
+      "id": "60c07d61bd83e354",
+      "text": "[https://github.com/joshuabenuck/tetris Tetris] - piston"
+    },
+    {
+      "type": "paragraph",
+      "id": "ffb2078a8519fa3d",
+      "text": "[https://github.com/joshuabenuck/sudoku Sudoku] - piston (incomplete)"
+    },
+    {
+      "type": "paragraph",
+      "id": "d69413369af208c2",
+      "text": "Qix"
+    }
+  ],
+  "journal": [
+    {
+      "type": "fork",
+      "date": 1577223439025
+    },
+    {
+      "type": "add",
+      "id": "568f500d61281574",
+      "item": {
+        "type": "paragraph",
+        "id": "568f500d61281574",
+        "text": "[https://github.com/joshuabenuck/unblock Traffic] - piston, quicksilver, gate"
+      },
+      "after": "18857496716cd4a6",
+      "date": 1577223447255
+    },
+    {
+      "type": "add",
+      "id": "60c07d61bd83e354",
+      "item": {
+        "type": "paragraph",
+        "id": "60c07d61bd83e354",
+        "text": "[https://github.com/joshuabenuck/tetris Tetris]"
+      },
+      "after": "568f500d61281574",
+      "date": 1577223455233
+    },
+    {
+      "type": "add",
+      "id": "d69413369af208c2",
+      "item": {
+        "type": "paragraph",
+        "id": "d69413369af208c2",
+        "text": "Qix"
+      },
+      "after": "60c07d61bd83e354",
+      "date": 1577223463227
+    },
+    {
+      "type": "add",
+      "id": "dbee00b7d4ac3da8",
+      "item": {
+        "type": "paragraph",
+        "id": "dbee00b7d4ac3da8",
+        "text": "[https://github.com/joshuabenuck/snake Snake] - sdl2"
+      },
+      "after": "d69413369af208c2",
+      "date": 1577223477882
+    },
+    {
+      "id": "dbee00b7d4ac3da8",
+      "type": "move",
+      "order": [
+        "18857496716cd4a6",
+        "dbee00b7d4ac3da8",
+        "568f500d61281574",
+        "60c07d61bd83e354",
+        "d69413369af208c2",
+        "7384c373ee596102"
+      ],
+      "date": 1577223519075,
+      "error": {
+        "type": "error",
+        "msg": "Internal Server Error",
+        "response": "Server Ignoring move. Try reload."
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1577223521022
+    },
+    {
+      "type": "add",
+      "id": "7384c373ee596102",
+      "item": {
+        "type": "paragraph",
+        "id": "7384c373ee596102",
+        "text": "Breakout"
+      },
+      "after": "dbee00b7d4ac3da8",
+      "date": 1577223534304
+    },
+    {
+      "type": "add",
+      "id": "be72c63af54dc07e",
+      "item": {
+        "type": "paragraph",
+        "id": "be72c63af54dc07e",
+        "text": "Sokoban"
+      },
+      "after": "7384c373ee596102",
+      "date": 1577223542092
+    },
+    {
+      "type": "add",
+      "id": "ffb2078a8519fa3d",
+      "item": {
+        "type": "paragraph",
+        "id": "ffb2078a8519fa3d",
+        "text": "[https://github.com/joshuabenuck/sudoku Sudoku] - incomplete"
+      },
+      "after": "be72c63af54dc07e",
+      "date": 1577223549363
+    },
+    {
+      "type": "add",
+      "id": "32932e9f88d68f48",
+      "item": {
+        "type": "paragraph",
+        "id": "32932e9f88d68f48",
+        "text": "Inkspill"
+      },
+      "after": "ffb2078a8519fa3d",
+      "date": 1577223558522
+    },
+    {
+      "type": "add",
+      "id": "46356d3c4b93d04c",
+      "item": {
+        "type": "paragraph",
+        "id": "46356d3c4b93d04c",
+        "text": "Space Shooter"
+      },
+      "after": "32932e9f88d68f48",
+      "date": 1577223569140
+    },
+    {
+      "type": "edit",
+      "id": "dbee00b7d4ac3da8",
+      "item": {
+        "type": "paragraph",
+        "id": "dbee00b7d4ac3da8",
+        "text": "[https://github.com/joshuabenuck/snake Snake] - sdl2"
+      },
+      "date": 1577223596559
+    },
+    {
+      "type": "edit",
+      "id": "568f500d61281574",
+      "item": {
+        "type": "paragraph",
+        "id": "568f500d61281574",
+        "text": "[https://github.com/joshuabenuck/unblock Traffic] - piston, quicksilver, gate"
+      },
+      "date": 1577223617003
+    },
+    {
+      "type": "edit",
+      "id": "60c07d61bd83e354",
+      "item": {
+        "type": "paragraph",
+        "id": "60c07d61bd83e354",
+        "text": "[https://github.com/joshuabenuck/tetris Tetris]"
+      },
+      "date": 1577223634407
+    },
+    {
+      "id": "ffb2078a8519fa3d",
+      "type": "move",
+      "order": [
+        "18857496716cd4a6",
+        "dbee00b7d4ac3da8",
+        "568f500d61281574",
+        "60c07d61bd83e354",
+        "ffb2078a8519fa3d",
+        "d69413369af208c2",
+        "7384c373ee596102",
+        "be72c63af54dc07e",
+        "32932e9f88d68f48",
+        "46356d3c4b93d04c"
+      ],
+      "date": 1577223647950,
+      "error": {
+        "type": "error",
+        "msg": "Internal Server Error",
+        "response": "Server Ignoring move. Try reload."
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1577223651335
+    },
+    {
+      "type": "edit",
+      "id": "ffb2078a8519fa3d",
+      "item": {
+        "type": "paragraph",
+        "id": "ffb2078a8519fa3d",
+        "text": "[https://github.com/joshuabenuck/sudoku Sudoku] - incomplete"
+      },
+      "date": 1577223750984
+    },
+    {
+      "type": "edit",
+      "id": "ffb2078a8519fa3d",
+      "item": {
+        "type": "paragraph",
+        "id": "ffb2078a8519fa3d",
+        "text": "[https://github.com/joshuabenuck/sudoku Sudoku] - incomplete"
+      },
+      "date": 1577223757422
+    },
+    {
+      "type": "edit",
+      "id": "568f500d61281574",
+      "item": {
+        "type": "paragraph",
+        "id": "568f500d61281574",
+        "text": "[https://github.com/joshuabenuck/unblock Traffic] - piston, quicksilver, gate"
+      },
+      "date": 1577224035123
+    },
+    {
+      "type": "edit",
+      "id": "dbee00b7d4ac3da8",
+      "item": {
+        "type": "paragraph",
+        "id": "dbee00b7d4ac3da8",
+        "text": "[https://github.com/joshuabenuck/snake Snake] - sdl2"
+      },
+      "date": 1577224004506,
+      "error": {
+        "type": "error",
+        "msg": ""
+      }
+    },
+    {
+      "type": "edit",
+      "id": "568f500d61281574",
+      "item": {
+        "type": "paragraph",
+        "id": "568f500d61281574",
+        "text": "[https://github.com/joshuabenuck/unblock Traffic] - piston, quicksilver, gate"
+      },
+      "date": 1577224467202
+    },
+    {
+      "type": "fork",
+      "date": 1577224469253
+    },
+    {
+      "type": "edit",
+      "id": "60c07d61bd83e354",
+      "item": {
+        "type": "paragraph",
+        "id": "60c07d61bd83e354",
+        "text": "[https://github.com/joshuabenuck/tetris Tetris] - piston"
+      },
+      "date": 1577224499499
+    },
+    {
+      "type": "edit",
+      "id": "ffb2078a8519fa3d",
+      "item": {
+        "type": "paragraph",
+        "id": "ffb2078a8519fa3d",
+        "text": "[https://github.com/joshuabenuck/sudoku Sudoku] - piston (incomplete)"
+      },
+      "date": 1577224514122
+    },
+    {
+      "type": "edit",
+      "id": "7384c373ee596102",
+      "item": {
+        "type": "paragraph",
+        "id": "7384c373ee596102",
+        "text": "Breakout - Contribute to this [https://github.com/JohnDoneth/coffee/blob/breakout-example/examples/breakout.rs example]"
+      },
+      "date": 1577224630185
+    },
+    {
+      "type": "add",
+      "id": "6501c32d95b983fa",
+      "item": {
+        "type": "paragraph",
+        "id": "6501c32d95b983fa",
+        "text": "The graphics library used for each is listed to the right. Some were ported to use different libraries over time. Look in the commit history to see previous versions."
+      },
+      "after": "18857496716cd4a6",
+      "date": 1577225533852
+    }
+  ]
+}

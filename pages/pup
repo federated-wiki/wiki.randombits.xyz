@@ -1,0 +1,107 @@
+{
+  "title": "pup",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "523f54b8d6c6d71f",
+      "text": "pup is to html what jq is to json"
+    },
+    {
+      "type": "paragraph",
+      "id": "fb6fb095b3b39f5a",
+      "text": "Homepage [https://github.com/ericchiang/pup github]"
+    },
+    {
+      "type": "paragraph",
+      "id": "3f2b3fafd7c2a858",
+      "text": "To install run: go get github.com/ericchiang/pup"
+    },
+    {
+      "type": "paragraph",
+      "id": "dd930fe81f5df434",
+      "text": "curl <url> | pup script attr{id}"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "pup",
+        "story": []
+      },
+      "date": 1558913708460
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "523f54b8d6c6d71f"
+      },
+      "id": "523f54b8d6c6d71f",
+      "type": "add",
+      "date": 1558913709741
+    },
+    {
+      "type": "edit",
+      "id": "523f54b8d6c6d71f",
+      "item": {
+        "type": "paragraph",
+        "id": "523f54b8d6c6d71f",
+        "text": "pup is to html what jq is to json"
+      },
+      "date": 1558913730545
+    },
+    {
+      "type": "add",
+      "id": "fb6fb095b3b39f5a",
+      "item": {
+        "type": "paragraph",
+        "id": "fb6fb095b3b39f5a",
+        "text": "curl <url> | pup script attr{id}"
+      },
+      "after": "523f54b8d6c6d71f",
+      "date": 1558913751916
+    },
+    {
+      "type": "edit",
+      "id": "fb6fb095b3b39f5a",
+      "item": {
+        "type": "paragraph",
+        "id": "fb6fb095b3b39f5a",
+        "text": "https://github.com/ericchiang/pup"
+      },
+      "date": 1558913759206
+    },
+    {
+      "type": "add",
+      "id": "dd930fe81f5df434",
+      "item": {
+        "type": "paragraph",
+        "id": "dd930fe81f5df434",
+        "text": "curl <url> | pup script attr{id}"
+      },
+      "after": "fb6fb095b3b39f5a",
+      "date": 1558913762043
+    },
+    {
+      "type": "edit",
+      "id": "fb6fb095b3b39f5a",
+      "item": {
+        "type": "paragraph",
+        "id": "fb6fb095b3b39f5a",
+        "text": "Homepage [https://github.com/ericchiang/pup github]"
+      },
+      "date": 1558913774367
+    },
+    {
+      "type": "add",
+      "id": "3f2b3fafd7c2a858",
+      "item": {
+        "type": "paragraph",
+        "id": "3f2b3fafd7c2a858",
+        "text": "To install run: go get github.com/ericchiang/pup"
+      },
+      "after": "fb6fb095b3b39f5a",
+      "date": 1558913814299
+    }
+  ]
+}

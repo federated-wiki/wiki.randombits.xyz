@@ -1,0 +1,453 @@
+{
+  "title": "Things to Write",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "ac78a30f1191722b",
+      "text": "I'm a curious person. I like understanding how things work. What better way to do that than to create my own version of them?"
+    },
+    {
+      "type": "paragraph",
+      "id": "ea6d9f34b022ea07",
+      "text": "This is a page to list the things that I'd love to implement (or at least understand in more detail) some day. It is separate from my [[projects]] page because I most likely will never do these things."
+    },
+    {
+      "type": "paragraph",
+      "id": "9b6817cca29cdd43",
+      "text": "Why record them then? Because it helps me stop fretting about forgetting them."
+    },
+    {
+      "type": "paragraph",
+      "id": "c1268e502ee0ca80",
+      "text": "Here's a list of articles about \"building your own X\". [https://github.com/danistefanovic/build-your-own-x github]"
+    },
+    {
+      "type": "paragraph",
+      "id": "34e66512102be358",
+      "text": "- Compression algorithms such as the classic PKZip and newer ones such as the ones Dropbox is developing. [https://blogs.dropbox.com/tech/2018/06/building-better-compression-together-with-divans/ post]"
+    },
+    {
+      "type": "paragraph",
+      "id": "02531ca2a0013776",
+      "text": "- A [[Compiler]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "dc3448cff713d90f",
+      "text": "- [[Games]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "adadebae2f460f91",
+      "text": "- A personalized, custom launcher: think alfred, quicksilver, etc."
+    },
+    {
+      "type": "paragraph",
+      "id": "3035882cdb0e39c9",
+      "text": "- A shell. See [[Custom Shell]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "791e201c614025e1",
+      "text": "- A command line utility I use regularly"
+    },
+    {
+      "type": "paragraph",
+      "id": "7f435e85d69cb091",
+      "text": "- An editor. TODO: Document previous attempt."
+    },
+    {
+      "type": "paragraph",
+      "id": "170163318e532416",
+      "text": "- A graphviz implementation"
+    },
+    {
+      "type": "paragraph",
+      "id": "30b1a0bb874d56ab",
+      "text": "- Mind map software"
+    },
+    {
+      "type": "paragraph",
+      "id": "f23a0965c02fb6bd",
+      "text": "- An org mode replacement"
+    },
+    {
+      "type": "paragraph",
+      "id": "c650a13f93bcd270",
+      "text": "- An agent. See [[Agent Features]] and [[tarnish]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "f82374a9ac056f21",
+      "text": "- A [[Bespoke Queries]] utility for running ad hoc queries and joins on json data returned by REST APIs."
+    },
+    {
+      "type": "paragraph",
+      "id": "685d4293cfa25f75",
+      "text": "- [[Bespoke]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "cf8bee429fd394e1",
+      "text": "- Open slack to a specific room and time"
+    },
+    {
+      "type": "paragraph",
+      "id": "80153bbb18121d9f",
+      "text": "- What time is it in a given timezone for a given date?"
+    },
+    {
+      "type": "paragraph",
+      "id": "4ec1c5fb0a23ef8d",
+      "text": "- A [[PDF Viewer]]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Things to Write",
+        "story": []
+      },
+      "date": 1564115503770
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "ac78a30f1191722b"
+      },
+      "id": "ac78a30f1191722b",
+      "type": "add",
+      "date": 1564115505402
+    },
+    {
+      "type": "edit",
+      "id": "ac78a30f1191722b",
+      "item": {
+        "type": "paragraph",
+        "id": "ac78a30f1191722b",
+        "text": "I'm a curious person. I like understanding how things work. What better way to do that than to create my own version of them?"
+      },
+      "date": 1564115557817
+    },
+    {
+      "type": "add",
+      "id": "ea6d9f34b022ea07",
+      "item": {
+        "type": "paragraph",
+        "id": "ea6d9f34b022ea07",
+        "text": "This is a page to list the things that I'd love to write some day. It is separate from my [[projects]] page because I most likely will never do these things."
+      },
+      "after": "ac78a30f1191722b",
+      "date": 1564115599877
+    },
+    {
+      "type": "add",
+      "id": "9b6817cca29cdd43",
+      "item": {
+        "type": "paragraph",
+        "id": "9b6817cca29cdd43",
+        "text": "Why record them then? Because it helps me stop fretting about forgetting them."
+      },
+      "after": "ea6d9f34b022ea07",
+      "date": 1564115621427
+    },
+    {
+      "type": "edit",
+      "id": "ea6d9f34b022ea07",
+      "item": {
+        "type": "paragraph",
+        "id": "ea6d9f34b022ea07",
+        "text": "This is a page to list the things that I'd love to write (or at least understand in more detail) some day. It is separate from my [[projects]] page because I most likely will never do these things."
+      },
+      "date": 1564115646279
+    },
+    {
+      "type": "add",
+      "id": "34e66512102be358",
+      "item": {
+        "type": "paragraph",
+        "id": "34e66512102be358",
+        "text": "Compression algorithms such as the classic PKZip and newer ones such as the ones Dropbox is developing. [https://blogs.dropbox.com/tech/2018/06/building-better-compression-together-with-divans/ post]"
+      },
+      "after": "9b6817cca29cdd43",
+      "date": 1564115684384
+    },
+    {
+      "type": "edit",
+      "id": "ea6d9f34b022ea07",
+      "item": {
+        "type": "paragraph",
+        "id": "ea6d9f34b022ea07",
+        "text": "This is a page to list the things that I'd love to implement (or at least understand in more detail) some day. It is separate from my [[projects]] page because I most likely will never do these things."
+      },
+      "date": 1564156502520
+    },
+    {
+      "type": "add",
+      "id": "02531ca2a0013776",
+      "item": {
+        "type": "paragraph",
+        "id": "02531ca2a0013776",
+        "text": "- A compiler"
+      },
+      "after": "34e66512102be358",
+      "date": 1564156518124
+    },
+    {
+      "type": "edit",
+      "id": "34e66512102be358",
+      "item": {
+        "type": "paragraph",
+        "id": "34e66512102be358",
+        "text": "- Compression algorithms such as the classic PKZip and newer ones such as the ones Dropbox is developing. [https://blogs.dropbox.com/tech/2018/06/building-better-compression-together-with-divans/ post]"
+      },
+      "date": 1564156521148
+    },
+    {
+      "type": "add",
+      "id": "dc3448cff713d90f",
+      "item": {
+        "type": "paragraph",
+        "id": "dc3448cff713d90f",
+        "text": "- [[Games]]"
+      },
+      "after": "02531ca2a0013776",
+      "date": 1564156534556
+    },
+    {
+      "type": "add",
+      "id": "adadebae2f460f91",
+      "item": {
+        "type": "paragraph",
+        "id": "adadebae2f460f91",
+        "text": "- A personalized, custom launcher: think alfred, quicksilver, etc."
+      },
+      "after": "dc3448cff713d90f",
+      "date": 1564156590608
+    },
+    {
+      "type": "add",
+      "id": "3035882cdb0e39c9",
+      "item": {
+        "type": "paragraph",
+        "id": "3035882cdb0e39c9",
+        "text": "- A shell"
+      },
+      "after": "adadebae2f460f91",
+      "date": 1564156606330
+    },
+    {
+      "type": "add",
+      "id": "791e201c614025e1",
+      "item": {
+        "type": "paragraph",
+        "id": "791e201c614025e1",
+        "text": "- A command line utility I use regularly"
+      },
+      "after": "3035882cdb0e39c9",
+      "date": 1564156627309
+    },
+    {
+      "type": "add",
+      "id": "7f435e85d69cb091",
+      "item": {
+        "type": "paragraph",
+        "id": "7f435e85d69cb091",
+        "text": "- An editor. TODO: Document previous attempt."
+      },
+      "after": "791e201c614025e1",
+      "date": 1564156662879
+    },
+    {
+      "type": "add",
+      "id": "170163318e532416",
+      "item": {
+        "type": "paragraph",
+        "id": "170163318e532416",
+        "text": "- graphviz"
+      },
+      "after": "7f435e85d69cb091",
+      "date": 1564156721544
+    },
+    {
+      "type": "add",
+      "id": "30b1a0bb874d56ab",
+      "item": {
+        "type": "paragraph",
+        "id": "30b1a0bb874d56ab",
+        "text": "- Mind map software"
+      },
+      "after": "170163318e532416",
+      "date": 1564156729351
+    },
+    {
+      "type": "add",
+      "id": "f23a0965c02fb6bd",
+      "item": {
+        "type": "paragraph",
+        "id": "f23a0965c02fb6bd",
+        "text": "- An org mode replacement"
+      },
+      "after": "30b1a0bb874d56ab",
+      "date": 1564156773075
+    },
+    {
+      "type": "add",
+      "id": "c650a13f93bcd270",
+      "item": {
+        "type": "paragraph",
+        "id": "c650a13f93bcd270",
+        "text": "- An agent. See [[tarnish]]"
+      },
+      "after": "f23a0965c02fb6bd",
+      "date": 1564156900386
+    },
+    {
+      "type": "edit",
+      "id": "c650a13f93bcd270",
+      "item": {
+        "type": "paragraph",
+        "id": "c650a13f93bcd270",
+        "text": "- An [[Agent Features]]. See [[tarnish]]"
+      },
+      "date": 1564156956838
+    },
+    {
+      "type": "edit",
+      "id": "c650a13f93bcd270",
+      "item": {
+        "type": "paragraph",
+        "id": "c650a13f93bcd270",
+        "text": "- An agent. See [[Agent Features]] and [[tarnish]]"
+      },
+      "date": 1564157350153
+    },
+    {
+      "type": "edit",
+      "id": "3035882cdb0e39c9",
+      "item": {
+        "type": "paragraph",
+        "id": "3035882cdb0e39c9",
+        "text": "- A shell. See [[Custom Shell]]"
+      },
+      "date": 1564157961919
+    },
+    {
+      "type": "edit",
+      "id": "02531ca2a0013776",
+      "item": {
+        "type": "paragraph",
+        "id": "02531ca2a0013776",
+        "text": "- A [[Compiler]]"
+      },
+      "date": 1564179541760
+    },
+    {
+      "type": "add",
+      "id": "c1268e502ee0ca80",
+      "item": {
+        "type": "paragraph",
+        "id": "c1268e502ee0ca80",
+        "text": "Here's a list of articles about \"building your own X\". [https://github.com/danistefanovic/build-your-own-x github]"
+      },
+      "after": "9b6817cca29cdd43",
+      "date": 1564279321845
+    },
+    {
+      "type": "add",
+      "id": "f82374a9ac056f21",
+      "item": {
+        "type": "paragraph",
+        "id": "f82374a9ac056f21",
+        "text": "- A [[Bespoke Manipulator]] for running ad hoc queries and joins on json data returned by REST APIs."
+      },
+      "after": "c650a13f93bcd270",
+      "date": 1570075541389
+    },
+    {
+      "type": "edit",
+      "id": "f82374a9ac056f21",
+      "item": {
+        "type": "paragraph",
+        "id": "f82374a9ac056f21",
+        "text": "- A [[Bespoke Queries]] for running ad hoc queries and joins on json data returned by REST APIs."
+      },
+      "date": 1570075572480
+    },
+    {
+      "type": "edit",
+      "id": "f82374a9ac056f21",
+      "item": {
+        "type": "paragraph",
+        "id": "f82374a9ac056f21",
+        "text": "- A [[Bespoke Queries]] utility for running ad hoc queries and joins on json data returned by REST APIs."
+      },
+      "date": 1570075579450
+    },
+    {
+      "type": "add",
+      "id": "685d4293cfa25f75",
+      "item": {
+        "type": "paragraph",
+        "id": "685d4293cfa25f75",
+        "text": "- [[Bespoke]]"
+      },
+      "after": "f82374a9ac056f21",
+      "date": 1570154077689
+    },
+    {
+      "type": "edit",
+      "id": "170163318e532416",
+      "item": {
+        "type": "paragraph",
+        "id": "170163318e532416",
+        "text": "- A graphviz implementation"
+      },
+      "date": 1571767704538
+    },
+    {
+      "type": "add",
+      "id": "cf8bee429fd394e1",
+      "item": {
+        "type": "paragraph",
+        "id": "cf8bee429fd394e1",
+        "text": "- Open slack to a specific room and time"
+      },
+      "after": "685d4293cfa25f75",
+      "date": 1571767732441
+    },
+    {
+      "type": "add",
+      "id": "80153bbb18121d9f",
+      "item": {
+        "type": "paragraph",
+        "id": "80153bbb18121d9f",
+        "text": "- Time zone comparisons"
+      },
+      "after": "cf8bee429fd394e1",
+      "date": 1571767774656
+    },
+    {
+      "type": "edit",
+      "id": "80153bbb18121d9f",
+      "item": {
+        "type": "paragraph",
+        "id": "80153bbb18121d9f",
+        "text": "- What time is it in a given timezone for a given date?"
+      },
+      "date": 1571767979069
+    },
+    {
+      "type": "add",
+      "id": "4ec1c5fb0a23ef8d",
+      "item": {
+        "type": "paragraph",
+        "id": "4ec1c5fb0a23ef8d",
+        "text": "- A [[PDF Viewer]]"
+      },
+      "after": "80153bbb18121d9f",
+      "date": 1583168326383
+    }
+  ]
+}

@@ -1,0 +1,337 @@
+{
+  "title": "Tarnish",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "5fae7cbf047a116f",
+      "text": "A catch all program to experiment with different ideas."
+    },
+    {
+      "type": "paragraph",
+      "id": "3df38d2f9abfe278",
+      "text": "What's with the name?"
+    },
+    {
+      "type": "paragraph",
+      "id": "83540570eb61bb09",
+      "text": "I'm writing tarnish in rust so I wanted to find a way to somehow relate the project to rust."
+    },
+    {
+      "type": "paragraph",
+      "id": "8b962c5bff5951df",
+      "text": "Here's the connection."
+    },
+    {
+      "type": "paragraph",
+      "id": "2625008180ad5f44",
+      "text": "Tarnish is a layer of corrosion on silver."
+    },
+    {
+      "type": "paragraph",
+      "id": "f2d6e756dc5116d4",
+      "text": "Rust is a layer of corrosion on iron."
+    },
+    {
+      "type": "paragraph",
+      "id": "906684aec467296d",
+      "text": "Both imply they are the result of a gradual process of destruction which seems apt as I have yet to fall in love with a type system."
+    },
+    {
+      "type": "paragraph",
+      "id": "748babdd870e5527",
+      "text": "If rust manages this, that sounds like the destruction of something. :)"
+    },
+    {
+      "type": "paragraph",
+      "id": "830470d518935b39",
+      "text": "So, what's it do?"
+    },
+    {
+      "type": "paragraph",
+      "id": "65604408931fce31",
+      "text": "Nothing at the moment."
+    },
+    {
+      "type": "paragraph",
+      "id": "918a521f09846b34",
+      "text": "What do you want it to do?"
+    },
+    {
+      "type": "paragraph",
+      "id": "ec557975d54d8d0f",
+      "text": "* Be an ever running agent on my desktop computers."
+    },
+    {
+      "type": "paragraph",
+      "id": "262547f329f28bf5",
+      "text": "* Allow me to perform operations across operating systems which are hard to do now such as copying files, restarting things, taking screenshots."
+    },
+    {
+      "type": "paragraph",
+      "id": "926397fbc8f7bdf9",
+      "text": "* Be self-editable and self-updating because I like such things."
+    },
+    {
+      "type": "paragraph",
+      "id": "216d2f9dc1cd4344",
+      "text": "* Above all, be a [[breakable toy]] for use in my exploration of rust."
+    },
+    {
+      "type": "paragraph",
+      "id": "a7e53c356e134313",
+      "text": "Where is it?"
+    },
+    {
+      "type": "paragraph",
+      "id": "bca25de0ed041435",
+      "text": "Where I store most of my code. [https://github.com/joshuabenuck/tarnish github]"
+    },
+    {
+      "type": "paragraph",
+      "id": "0bef53cc4bdc494f",
+      "text": "Resources:"
+    },
+    {
+      "type": "paragraph",
+      "id": "43642d3407ab6518",
+      "text": "Screengrab utility written in rust and targeting Windows. [https://github.com/nasso/screensnap github]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Tarnish",
+        "story": []
+      },
+      "date": 1564108837098
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "5fae7cbf047a116f"
+      },
+      "id": "5fae7cbf047a116f",
+      "type": "add",
+      "date": 1564108838410
+    },
+    {
+      "type": "edit",
+      "id": "5fae7cbf047a116f",
+      "item": {
+        "type": "paragraph",
+        "id": "5fae7cbf047a116f",
+        "text": "A catch all program to experiment with different ideas."
+      },
+      "date": 1564108902213
+    },
+    {
+      "type": "add",
+      "id": "3df38d2f9abfe278",
+      "item": {
+        "type": "paragraph",
+        "id": "3df38d2f9abfe278",
+        "text": "What's with the name?"
+      },
+      "after": "5fae7cbf047a116f",
+      "date": 1564108906499
+    },
+    {
+      "type": "add",
+      "id": "2625008180ad5f44",
+      "item": {
+        "type": "paragraph",
+        "id": "2625008180ad5f44",
+        "text": "Tarnish is a layer of corrosion on silver."
+      },
+      "after": "3df38d2f9abfe278",
+      "date": 1564108923321
+    },
+    {
+      "type": "add",
+      "id": "f2d6e756dc5116d4",
+      "item": {
+        "type": "paragraph",
+        "id": "f2d6e756dc5116d4",
+        "text": "Rust is a layer of corrosion on iron."
+      },
+      "after": "2625008180ad5f44",
+      "date": 1564108929666
+    },
+    {
+      "type": "add",
+      "id": "83540570eb61bb09",
+      "item": {
+        "type": "paragraph",
+        "id": "83540570eb61bb09",
+        "text": "I'm writing tarnish in rust so I wanted to find a way to somehow relate the project to rust."
+      },
+      "after": "3df38d2f9abfe278",
+      "date": 1564108971425
+    },
+    {
+      "type": "add",
+      "id": "8b962c5bff5951df",
+      "item": {
+        "type": "paragraph",
+        "id": "8b962c5bff5951df",
+        "text": "Here's the connection."
+      },
+      "after": "83540570eb61bb09",
+      "date": 1564108974885
+    },
+    {
+      "type": "add",
+      "id": "906684aec467296d",
+      "item": {
+        "type": "paragraph",
+        "id": "906684aec467296d",
+        "text": "Both imply they are the result of a gradual process of destruction which seems apt as I have yet to fall in love with a type system."
+      },
+      "after": "f2d6e756dc5116d4",
+      "date": 1564109103281
+    },
+    {
+      "type": "add",
+      "id": "748babdd870e5527",
+      "item": {
+        "type": "paragraph",
+        "id": "748babdd870e5527",
+        "text": "If rust manages this, that sounds like the destruction of something. :)"
+      },
+      "after": "906684aec467296d",
+      "date": 1564109132256
+    },
+    {
+      "type": "add",
+      "id": "830470d518935b39",
+      "item": {
+        "type": "paragraph",
+        "id": "830470d518935b39",
+        "text": "So, what's it do?"
+      },
+      "after": "748babdd870e5527",
+      "date": 1564109139560
+    },
+    {
+      "type": "add",
+      "id": "65604408931fce31",
+      "item": {
+        "type": "paragraph",
+        "id": "65604408931fce31",
+        "text": "Nothing at the moment."
+      },
+      "after": "830470d518935b39",
+      "date": 1564109144715
+    },
+    {
+      "type": "add",
+      "id": "918a521f09846b34",
+      "item": {
+        "type": "paragraph",
+        "id": "918a521f09846b34",
+        "text": "What do you want it to do?"
+      },
+      "after": "65604408931fce31",
+      "date": 1564109148681
+    },
+    {
+      "type": "add",
+      "id": "ec557975d54d8d0f",
+      "item": {
+        "type": "paragraph",
+        "id": "ec557975d54d8d0f",
+        "text": "* Be an ever running agent on my desktop computers."
+      },
+      "after": "918a521f09846b34",
+      "date": 1564109163177
+    },
+    {
+      "type": "add",
+      "id": "262547f329f28bf5",
+      "item": {
+        "type": "paragraph",
+        "id": "262547f329f28bf5",
+        "text": "* Allow me to perform operations across operating systems which are hard to do now such a"
+      },
+      "after": "ec557975d54d8d0f",
+      "date": 1564109179470
+    },
+    {
+      "type": "edit",
+      "id": "262547f329f28bf5",
+      "item": {
+        "type": "paragraph",
+        "id": "262547f329f28bf5",
+        "text": "* Allow me to perform operations across operating systems which are hard to do now such as copying files, restarting things, taking screenshots."
+      },
+      "date": 1564109201829
+    },
+    {
+      "type": "add",
+      "id": "926397fbc8f7bdf9",
+      "item": {
+        "type": "paragraph",
+        "id": "926397fbc8f7bdf9",
+        "text": "* Be self-editable and self-updating because I like such things."
+      },
+      "after": "262547f329f28bf5",
+      "date": 1564109234733
+    },
+    {
+      "type": "add",
+      "id": "216d2f9dc1cd4344",
+      "item": {
+        "type": "paragraph",
+        "id": "216d2f9dc1cd4344",
+        "text": "* Above all, be a [[breakable toy]] for use in my exploration of rust."
+      },
+      "after": "926397fbc8f7bdf9",
+      "date": 1564109320067
+    },
+    {
+      "type": "add",
+      "id": "a7e53c356e134313",
+      "item": {
+        "type": "paragraph",
+        "id": "a7e53c356e134313",
+        "text": "Where is it?"
+      },
+      "after": "216d2f9dc1cd4344",
+      "date": 1564109330567
+    },
+    {
+      "type": "add",
+      "id": "bca25de0ed041435",
+      "item": {
+        "type": "paragraph",
+        "id": "bca25de0ed041435",
+        "text": "Where I store most of my code. [https://github.com/joshuabenuck/tarnish github]"
+      },
+      "after": "a7e53c356e134313",
+      "date": 1564109358150
+    },
+    {
+      "type": "add",
+      "id": "0bef53cc4bdc494f",
+      "item": {
+        "type": "paragraph",
+        "id": "0bef53cc4bdc494f",
+        "text": "Resources:"
+      },
+      "after": "bca25de0ed041435",
+      "date": 1564109374276
+    },
+    {
+      "type": "add",
+      "id": "43642d3407ab6518",
+      "item": {
+        "type": "paragraph",
+        "id": "43642d3407ab6518",
+        "text": "Screengrab utility written in rust and targeting Windows. [https://github.com/nasso/screensnap github]"
+      },
+      "after": "0bef53cc4bdc494f",
+      "date": 1564109394961
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "title": "Bob Nystrom",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "205aab1073e5bab5",
+      "text": "Hobbyist language creator, self-published author, member of the Dart language team at Google. [http://journal.stuffwithstuff.com/ blog]"
+    },
+    {
+      "type": "paragraph",
+      "id": "eb3305f0b96ae4be",
+      "text": "I might have first learned about Bob's work at \nthe [[Emerging Languages Camp]] at OSCON 2010."
+    },
+    {
+      "type": "paragraph",
+      "id": "067cd47305aea031",
+      "text": "He is the creator of a couple of different programming languages:"
+    },
+    {
+      "type": "paragraph",
+      "id": "2b5dea0469e158bd",
+      "text": "* Finch"
+    },
+    {
+      "type": "paragraph",
+      "id": "0e02690fc8e9f409",
+      "text": "* Magpie"
+    },
+    {
+      "type": "paragraph",
+      "id": "fbbd7b32676ac260",
+      "text": "He has self-published two books:"
+    },
+    {
+      "type": "paragraph",
+      "id": "c91a595c0ac6b0d0",
+      "text": "* Game Programming Patterns [http://gameprogrammingpatterns.com/ site]"
+    },
+    {
+      "type": "paragraph",
+      "id": "03da5ee8ef242495",
+      "text": "* Crafting Interpreters [http://craftinginterpreters.com/ site]"
+    },
+    {
+      "type": "paragraph",
+      "id": "1054cbdb9cabf8ef",
+      "text": "He has a bunch of interesting blog entries:"
+    },
+    {
+      "type": "paragraph",
+      "id": "26f1999a845d2173",
+      "text": "* ... generating mazes for a [[roguelike]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "64d8ff16fa7ac54e",
+      "text": "* ... how to write your own language"
+    },
+    {
+      "type": "paragraph",
+      "id": "b2609d1d9b6f40b1",
+      "text": "He is known as munificent on github. [https://github.com/munificent profile]"
+    },
+    {
+      "type": "paragraph",
+      "id": "53f240b6adddf6b1",
+      "text": "He now works at Google on the Dart programming language. I find this inspiring as he has posted about his surprise that he was actually able to write a language himself and now he does it for a living."
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Bob Nystrom",
+        "story": []
+      },
+      "date": 1564109928536
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "205aab1073e5bab5"
+      },
+      "id": "205aab1073e5bab5",
+      "type": "add",
+      "date": 1564109929820
+    },
+    {
+      "type": "edit",
+      "id": "205aab1073e5bab5",
+      "item": {
+        "type": "paragraph",
+        "id": "205aab1073e5bab5",
+        "text": "Hobbyist language creator, self-published author, member of the Dart language team at Google. [http://journal.stuffwithstuff.com/ blog]"
+      },
+      "date": 1564109938123
+    },
+    {
+      "type": "add",
+      "id": "f8bd7d016c05363b",
+      "item": {
+        "type": "paragraph",
+        "id": "f8bd7d016c05363b",
+        "text": "[[Emerging Languages Camp]]"
+      },
+      "after": "205aab1073e5bab5",
+      "date": 1564109952151
+    },
+    {
+      "type": "add",
+      "id": "eb3305f0b96ae4be",
+      "item": {
+        "type": "paragraph",
+        "id": "eb3305f0b96ae4be",
+        "text": "I might have first learned about Bob's work at "
+      },
+      "after": "205aab1073e5bab5",
+      "date": 1564110867777
+    },
+    {
+      "type": "remove",
+      "id": "f8bd7d016c05363b",
+      "date": 1564110868956
+    },
+    {
+      "type": "edit",
+      "id": "eb3305f0b96ae4be",
+      "item": {
+        "type": "paragraph",
+        "id": "eb3305f0b96ae4be",
+        "text": "I might have first learned about Bob's work at \nthe [[Emerging Languages Camp]] at OSCON 2010."
+      },
+      "date": 1564110882186
+    },
+    {
+      "type": "add",
+      "id": "067cd47305aea031",
+      "item": {
+        "type": "paragraph",
+        "id": "067cd47305aea031",
+        "text": "He is the creator of a couple of different programming languages:"
+      },
+      "after": "eb3305f0b96ae4be",
+      "date": 1564110891850
+    },
+    {
+      "type": "add",
+      "id": "2b5dea0469e158bd",
+      "item": {
+        "type": "paragraph",
+        "id": "2b5dea0469e158bd",
+        "text": "* Finch"
+      },
+      "after": "067cd47305aea031",
+      "date": 1564110894157
+    },
+    {
+      "type": "add",
+      "id": "0e02690fc8e9f409",
+      "item": {
+        "type": "paragraph",
+        "id": "0e02690fc8e9f409",
+        "text": "* Magpie"
+      },
+      "after": "2b5dea0469e158bd",
+      "date": 1564110904906
+    },
+    {
+      "type": "add",
+      "id": "fbbd7b32676ac260",
+      "item": {
+        "type": "paragraph",
+        "id": "fbbd7b32676ac260",
+        "text": "He has self-published two books:"
+      },
+      "after": "0e02690fc8e9f409",
+      "date": 1564110912735
+    },
+    {
+      "type": "add",
+      "id": "c91a595c0ac6b0d0",
+      "item": {
+        "type": "paragraph",
+        "id": "c91a595c0ac6b0d0",
+        "text": "* Game Programming Patterns"
+      },
+      "after": "fbbd7b32676ac260",
+      "date": 1564110924116
+    },
+    {
+      "type": "add",
+      "id": "03da5ee8ef242495",
+      "item": {
+        "type": "paragraph",
+        "id": "03da5ee8ef242495",
+        "text": "* Crafting Interpreters [http://craftinginterpreters.com/ site]"
+      },
+      "after": "c91a595c0ac6b0d0",
+      "date": 1564110959881
+    },
+    {
+      "type": "add",
+      "id": "1054cbdb9cabf8ef",
+      "item": {
+        "type": "paragraph",
+        "id": "1054cbdb9cabf8ef",
+        "text": "He has a bunch of interesting blog entries:"
+      },
+      "after": "03da5ee8ef242495",
+      "date": 1564110984705
+    },
+    {
+      "type": "add",
+      "id": "26f1999a845d2173",
+      "item": {
+        "type": "paragraph",
+        "id": "26f1999a845d2173",
+        "text": "* ... generating mazes for a [[roguelike]]"
+      },
+      "after": "1054cbdb9cabf8ef",
+      "date": 1564111010397
+    },
+    {
+      "type": "add",
+      "id": "64d8ff16fa7ac54e",
+      "item": {
+        "type": "paragraph",
+        "id": "64d8ff16fa7ac54e",
+        "text": "* ... how to write your own language"
+      },
+      "after": "26f1999a845d2173",
+      "date": 1564111040091
+    },
+    {
+      "type": "edit",
+      "id": "c91a595c0ac6b0d0",
+      "item": {
+        "type": "paragraph",
+        "id": "c91a595c0ac6b0d0",
+        "text": "* Game Programming Patterns [http://gameprogrammingpatterns.com/ site]"
+      },
+      "date": 1564111058803
+    },
+    {
+      "type": "add",
+      "id": "b2609d1d9b6f40b1",
+      "item": {
+        "type": "paragraph",
+        "id": "b2609d1d9b6f40b1",
+        "text": "He is known as munificent on github. [https://github.com/munificent profile]"
+      },
+      "after": "64d8ff16fa7ac54e",
+      "date": 1564111202146
+    },
+    {
+      "type": "add",
+      "id": "53f240b6adddf6b1",
+      "item": {
+        "type": "paragraph",
+        "id": "53f240b6adddf6b1",
+        "text": "He now works at Google on the Dart programming language. I find this inspiring as he has posted about his surprise that he was actually able to write a language himself and now he does it for a living."
+      },
+      "after": "b2609d1d9b6f40b1",
+      "date": 1564111324663
+    }
+  ]
+}

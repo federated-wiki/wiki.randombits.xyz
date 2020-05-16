@@ -1,0 +1,71 @@
+{
+  "title": "dotfiles",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "f322f9c573c5d82f",
+      "text": "Collection of configuration files to customize shell environment commands."
+    },
+    {
+      "type": "paragraph",
+      "id": "53ccaa066835f1f4",
+      "text": "I host mine on [https://github.com/joshuabenuck/dotfiles github]."
+    },
+    {
+      "type": "paragraph",
+      "id": "a09c653b18b53790",
+      "text": "[https://github.com/dstokes Drew Stokes' dotfiles]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "dotfiles",
+        "story": []
+      },
+      "date": 1556585241542
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "f322f9c573c5d82f"
+      },
+      "id": "f322f9c573c5d82f",
+      "type": "add",
+      "date": 1556585243041
+    },
+    {
+      "type": "edit",
+      "id": "f322f9c573c5d82f",
+      "item": {
+        "type": "paragraph",
+        "id": "f322f9c573c5d82f",
+        "text": "Collection of configuration files to customize shell environment commands."
+      },
+      "date": 1556585259294
+    },
+    {
+      "type": "add",
+      "id": "53ccaa066835f1f4",
+      "item": {
+        "type": "paragraph",
+        "id": "53ccaa066835f1f4",
+        "text": "I host mine on [https://github.com/joshuabenuck/dotfiles github]."
+      },
+      "after": "f322f9c573c5d82f",
+      "date": 1556585289734
+    },
+    {
+      "type": "add",
+      "id": "a09c653b18b53790",
+      "item": {
+        "type": "paragraph",
+        "id": "a09c653b18b53790",
+        "text": "[https://github.com/dstokes Drew Stokes' dotfiles]"
+      },
+      "after": "53ccaa066835f1f4",
+      "date": 1556585322583
+    }
+  ]
+}

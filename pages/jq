@@ -1,0 +1,256 @@
+{
+  "title": "jq",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "74a8b9be427abfd5",
+      "text": "Shell utility for parsing json. [https://stedolan.github.io/jq/manual/ man]"
+    },
+    {
+      "type": "paragraph",
+      "id": "507b84912b72c1b8",
+      "text": "jq \".prop .otherprop | .[] | .name\" [https://stackoverflow.com/questions/39228500/extract-a-specific-field-from-json-output-using-jq stackoverflow]"
+    },
+    {
+      "type": "paragraph",
+      "id": "0f6a63da372b262f",
+      "text": "Given this structure."
+    },
+    {
+      "type": "code",
+      "id": "1dbbc91b1649084b",
+      "text": "{\n \"memberships\":\n  [\n    {\n      \"email\":\"admin@example.com\",\n      \"roles\": [\n        {\n          \"id\": 123,\n          \"name\": \"Someone\"\n        }\n       ]\n     }\n  ]\n}"
+    },
+    {
+      "type": "paragraph",
+      "id": "e494b8f534e3dd36",
+      "text": "Use this to extract out the object that has a role with the target id."
+    },
+    {
+      "type": "code",
+      "id": "810ce925d5306f59",
+      "text": "| jq \".memberships | .[] | select(.roles | .[] | .id = 123)"
+    },
+    {
+      "type": "paragraph",
+      "id": "3ed2dd4853042d4b",
+      "text": "Technique source [https://stackoverflow.com/questions/18592173/select-objects-based-on-value-of-variable-in-object-using-jq so]"
+    },
+    {
+      "type": "paragraph",
+      "id": "f184978c1f6fd828",
+      "text": "Handy trick to uri escape a string. [https://stackoverflow.com/questions/296536/how-to-urlencode-data-for-curl-command so]"
+    },
+    {
+      "type": "paragraph",
+      "id": "483a22b834cdae32",
+      "text": "Convert json to table [https://stackoverflow.com/questions/39139107/how-to-format-a-json-string-as-a-table-using-jq so]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "jq",
+        "story": []
+      },
+      "date": 1556570441087
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "74a8b9be427abfd5"
+      },
+      "id": "74a8b9be427abfd5",
+      "type": "add",
+      "date": 1556570442755
+    },
+    {
+      "type": "edit",
+      "id": "74a8b9be427abfd5",
+      "item": {
+        "type": "paragraph",
+        "id": "74a8b9be427abfd5",
+        "text": "Shell utility for parsing json."
+      },
+      "date": 1556570451880
+    },
+    {
+      "type": "add",
+      "id": "507b84912b72c1b8",
+      "item": {
+        "type": "paragraph",
+        "id": "507b84912b72c1b8",
+        "text": "jq \".prop .otherprop | .[] | .name\""
+      },
+      "after": "74a8b9be427abfd5",
+      "date": 1556570486884
+    },
+    {
+      "type": "edit",
+      "id": "507b84912b72c1b8",
+      "item": {
+        "type": "paragraph",
+        "id": "507b84912b72c1b8",
+        "text": "jq \".prop .otherprop | .[] | .name\" [https://stackoverflow.com/questions/39228500/extract-a-specific-field-from-json-output-using-jq stackoverflow]"
+      },
+      "date": 1556583137611
+    },
+    {
+      "type": "add",
+      "id": "0f6a63da372b262f",
+      "item": {
+        "type": "paragraph",
+        "id": "0f6a63da372b262f",
+        "text": "Given this structure..."
+      },
+      "after": "507b84912b72c1b8",
+      "date": 1556898881159
+    },
+    {
+      "type": "add",
+      "id": "1dbbc91b1649084b",
+      "item": {
+        "type": "paragraph",
+        "id": "1dbbc91b1649084b",
+        "text": ".."
+      },
+      "after": "0f6a63da372b262f",
+      "date": 1556898887525
+    },
+    {
+      "type": "add",
+      "id": "e494b8f534e3dd36",
+      "item": {
+        "type": "paragraph",
+        "id": "e494b8f534e3dd36",
+        "text": "Use this to extract out the object that has a role with the target id."
+      },
+      "after": "1dbbc91b1649084b",
+      "date": 1556898918341
+    },
+    {
+      "type": "add",
+      "id": "810ce925d5306f59",
+      "item": {
+        "type": "paragraph",
+        "id": "810ce925d5306f59",
+        "text": "..."
+      },
+      "after": "e494b8f534e3dd36",
+      "date": 1556898923860
+    },
+    {
+      "type": "edit",
+      "id": "810ce925d5306f59",
+      "item": {
+        "type": "code",
+        "id": "810ce925d5306f59",
+        "text": "| jq \".memberships | .[] | select(.roles | .[] | .id = 1)"
+      },
+      "date": 1556898980498
+    },
+    {
+      "type": "edit",
+      "id": "1dbbc91b1649084b",
+      "item": {
+        "type": "code",
+        "id": "1dbbc91b1649084b",
+        "text": "{\n \"memberships\": [\n    {\n      \"email\":\"admin@example.com\",\n      \"roles\": [\n        {\n          \"id\": 123,\n          \"name\": \"Someone\"\n        }\n       ]\n     }\n}"
+      },
+      "date": 1556899118241
+    },
+    {
+      "type": "edit",
+      "id": "1dbbc91b1649084b",
+      "item": {
+        "type": "code",
+        "id": "1dbbc91b1649084b",
+        "text": "{\n \"memberships\":\n  [\n    {\n      \"email\":\"admin@example.com\",\n      \"roles\": [\n        {\n          \"id\": 123,\n          \"name\": \"Someone\"\n        }\n       ]\n     }\n   ]\n}"
+      },
+      "date": 1556899137655
+    },
+    {
+      "type": "edit",
+      "id": "1dbbc91b1649084b",
+      "item": {
+        "type": "code",
+        "id": "1dbbc91b1649084b",
+        "text": "{\n \"memberships\":\n  [\n    {\n      \"email\":\"admin@example.com\",\n      \"roles\": [\n        {\n          \"id\": 123,\n          \"name\": \"Someone\"\n        }\n       ]\n     }\n  ]\n}"
+      },
+      "date": 1556899148985
+    },
+    {
+      "type": "edit",
+      "id": "810ce925d5306f59",
+      "item": {
+        "type": "code",
+        "id": "810ce925d5306f59",
+        "text": "| jq \".memberships | .[] | select(.roles | .[] | .id = 123)"
+      },
+      "date": 1556899173379
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "3ed2dd4853042d4b"
+      },
+      "id": "3ed2dd4853042d4b",
+      "type": "add",
+      "after": "810ce925d5306f59",
+      "date": 1556899182211
+    },
+    {
+      "type": "edit",
+      "id": "0f6a63da372b262f",
+      "item": {
+        "type": "paragraph",
+        "id": "0f6a63da372b262f",
+        "text": "Given this structure."
+      },
+      "date": 1556899183336
+    },
+    {
+      "type": "edit",
+      "id": "3ed2dd4853042d4b",
+      "item": {
+        "type": "paragraph",
+        "id": "3ed2dd4853042d4b",
+        "text": "Technique source [https://stackoverflow.com/questions/18592173/select-objects-based-on-value-of-variable-in-object-using-jq so]"
+      },
+      "date": 1556899195348
+    },
+    {
+      "type": "edit",
+      "id": "74a8b9be427abfd5",
+      "item": {
+        "type": "paragraph",
+        "id": "74a8b9be427abfd5",
+        "text": "Shell utility for parsing json. [https://stedolan.github.io/jq/manual/ man]"
+      },
+      "date": 1559141561299
+    },
+    {
+      "type": "add",
+      "id": "f184978c1f6fd828",
+      "item": {
+        "type": "paragraph",
+        "id": "f184978c1f6fd828",
+        "text": "Handy trick to uri escape a string. [https://stackoverflow.com/questions/296536/how-to-urlencode-data-for-curl-command so]"
+      },
+      "after": "3ed2dd4853042d4b",
+      "date": 1563573673140
+    },
+    {
+      "type": "add",
+      "id": "483a22b834cdae32",
+      "item": {
+        "type": "paragraph",
+        "id": "483a22b834cdae32",
+        "text": "Convert json to table [https://stackoverflow.com/questions/39139107/how-to-format-a-json-string-as-a-table-using-jq so]"
+      },
+      "after": "f184978c1f6fd828",
+      "date": 1567722598040
+    }
+  ]
+}

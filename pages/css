@@ -1,0 +1,286 @@
+{
+  "title": "CSS",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "8099bb8b836b739d",
+      "text": "CSS Tips and Tricks"
+    },
+    {
+      "type": "pagefold",
+      "id": "4ec553797a1895fe",
+      "text": "drop shadows"
+    },
+    {
+      "type": "paragraph",
+      "id": "9b97df43b415a99a",
+      "text": "Creating glow effects with CSS [https://codersblock.com/blog/creating-glow-effects-with-css/ blog]"
+    },
+    {
+      "type": "paragraph",
+      "id": "265cc7f060351fe0",
+      "text": "Box shadow generator [https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Background_and_Borders/Box-shadow_generator tool]"
+    },
+    {
+      "type": "paragraph",
+      "id": "f889d50ba9d26a25",
+      "text": "Examples [https://codepen.io/FelixRilling/pen/qzfoc codepen]"
+    },
+    {
+      "type": "pagefold",
+      "id": "f5d1e359635c915b",
+      "text": "css transitions"
+    },
+    {
+      "type": "paragraph",
+      "id": "dfe200376c50b2bf",
+      "text": "Animate when class is removed and not when it is added by putting transition in a base class. [https://stackoverflow.com/questions/9509002/css-transition-when-class-removed so] [http://next.plnkr.co/edit/xI8i9yilaJuoD3UpT9QL?p=preview&preview plnkr]"
+    },
+    {
+      "type": "paragraph",
+      "id": "499f42b59a0fa825",
+      "text": "Using CSS transitions [https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions mdn]"
+    },
+    {
+      "type": "pagefold",
+      "id": "bbb2163d90333a33",
+      "text": "other"
+    },
+    {
+      "type": "paragraph",
+      "id": "17ff992410fbc400",
+      "text": "cursor - Ever wonder what the valid CSS values for the cursor style are or what the cursors look like on your current operating system? Mouse over the rows in the embedded table to see them firsthand! [https://developer.mozilla.org/en-US/docs/Web/CSS/cursor mdn]"
+    },
+    {
+      "type": "paragraph",
+      "id": "c600c6c7110f66be",
+      "text": "A Complete Guide to Flexbox [https://css-tricks.com/snippets/css/a-guide-to-flexbox/#flexbox-background csstricks]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "CSS",
+        "story": []
+      },
+      "date": 1556977675994
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "8099bb8b836b739d"
+      },
+      "id": "8099bb8b836b739d",
+      "type": "add",
+      "date": 1556977677523
+    },
+    {
+      "type": "edit",
+      "id": "8099bb8b836b739d",
+      "item": {
+        "type": "paragraph",
+        "id": "8099bb8b836b739d",
+        "text": "CSS Tips and Tricks"
+      },
+      "date": 1556977683706
+    },
+    {
+      "type": "add",
+      "id": "9b97df43b415a99a",
+      "item": {
+        "type": "paragraph",
+        "id": "9b97df43b415a99a",
+        "text": "Creating glow effects with CSS [https://codersblock.com/blog/creating-glow-effects-with-css/ blog]"
+      },
+      "after": "8099bb8b836b739d",
+      "date": 1556977694145
+    },
+    {
+      "type": "add",
+      "id": "265cc7f060351fe0",
+      "item": {
+        "type": "paragraph",
+        "id": "265cc7f060351fe0",
+        "text": "Box shadow generator [https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Background_and_Borders/Box-shadow_generator tool]"
+      },
+      "after": "9b97df43b415a99a",
+      "date": 1556977721968
+    },
+    {
+      "type": "add",
+      "id": "f889d50ba9d26a25",
+      "item": {
+        "type": "paragraph",
+        "id": "f889d50ba9d26a25",
+        "text": "Examples [https://codepen.io/FelixRilling/pen/qzfoc codepen]"
+      },
+      "after": "265cc7f060351fe0",
+      "date": 1557062761316
+    },
+    {
+      "type": "add",
+      "id": "dfe200376c50b2bf",
+      "item": {
+        "type": "paragraph",
+        "id": "dfe200376c50b2bf",
+        "text": "Animate when class is removed and not when it is added. "
+      },
+      "after": "f889d50ba9d26a25",
+      "date": 1557062860812
+    },
+    {
+      "type": "edit",
+      "id": "dfe200376c50b2bf",
+      "item": {
+        "type": "paragraph",
+        "id": "dfe200376c50b2bf",
+        "text": "Animate when class is removed and not when it is added. [https://stackoverflow.com/questions/9509002/css-transition-when-class-removed so]"
+      },
+      "date": 1557062871788
+    },
+    {
+      "type": "edit",
+      "id": "dfe200376c50b2bf",
+      "item": {
+        "type": "paragraph",
+        "id": "dfe200376c50b2bf",
+        "text": "Animate when class is removed and not when it is added. [https://stackoverflow.com/questions/9509002/css-transition-when-class-removed so] [http://next.plnkr.co/edit/xI8i9yilaJuoD3UpT9QL?p=preview&preview plnkr]"
+      },
+      "date": 1557062902386
+    },
+    {
+      "type": "edit",
+      "id": "dfe200376c50b2bf",
+      "item": {
+        "type": "paragraph",
+        "id": "dfe200376c50b2bf",
+        "text": "Animate when class is removed and not when it is added by putting transition in a base class. [https://stackoverflow.com/questions/9509002/css-transition-when-class-removed so] [http://next.plnkr.co/edit/xI8i9yilaJuoD3UpT9QL?p=preview&preview plnkr]"
+      },
+      "date": 1557062951103
+    },
+    {
+      "type": "add",
+      "id": "499f42b59a0fa825",
+      "item": {
+        "type": "paragraph",
+        "id": "499f42b59a0fa825",
+        "text": "Using CSS transitions [https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions mdn]"
+      },
+      "after": "dfe200376c50b2bf",
+      "date": 1557062988931
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "4ec553797a1895fe"
+      },
+      "id": "4ec553797a1895fe",
+      "type": "add",
+      "after": "499f42b59a0fa825",
+      "date": 1557062995349
+    },
+    {
+      "type": "edit",
+      "id": "4ec553797a1895fe",
+      "item": {
+        "type": "pagefold",
+        "id": "4ec553797a1895fe",
+        "text": "drop shadows"
+      },
+      "date": 1557063000908
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "f5d1e359635c915b"
+      },
+      "id": "f5d1e359635c915b",
+      "type": "add",
+      "after": "4ec553797a1895fe",
+      "date": 1557063002731
+    },
+    {
+      "type": "edit",
+      "id": "f5d1e359635c915b",
+      "item": {
+        "type": "pagefold",
+        "id": "f5d1e359635c915b",
+        "text": "css transitions"
+      },
+      "date": 1557063017781
+    },
+    {
+      "type": "move",
+      "order": [
+        "8099bb8b836b739d",
+        "4ec553797a1895fe",
+        "9b97df43b415a99a",
+        "265cc7f060351fe0",
+        "f889d50ba9d26a25",
+        "dfe200376c50b2bf",
+        "499f42b59a0fa825",
+        "f5d1e359635c915b"
+      ],
+      "id": "4ec553797a1895fe",
+      "date": 1557063021225
+    },
+    {
+      "type": "move",
+      "order": [
+        "8099bb8b836b739d",
+        "4ec553797a1895fe",
+        "9b97df43b415a99a",
+        "265cc7f060351fe0",
+        "f889d50ba9d26a25",
+        "f5d1e359635c915b",
+        "dfe200376c50b2bf",
+        "499f42b59a0fa825"
+      ],
+      "id": "f5d1e359635c915b",
+      "date": 1557063044158
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "bbb2163d90333a33"
+      },
+      "id": "bbb2163d90333a33",
+      "type": "add",
+      "after": "499f42b59a0fa825",
+      "date": 1557241669762
+    },
+    {
+      "type": "edit",
+      "id": "bbb2163d90333a33",
+      "item": {
+        "type": "pagefold",
+        "id": "bbb2163d90333a33",
+        "text": "other"
+      },
+      "date": 1557241674814
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "17ff992410fbc400",
+        "text": "cursor - Ever wonder what the valid CSS values for the cursor style are or what the cursors look like on your current operating system? Mouse over the rows in the embedded table to see them firsthand! [https://developer.mozilla.org/en-US/docs/Web/CSS/cursor mdn]"
+      },
+      "after": "bbb2163d90333a33",
+      "id": "17ff992410fbc400",
+      "date": 1557241678366
+    },
+    {
+      "type": "add",
+      "id": "c600c6c7110f66be",
+      "item": {
+        "type": "paragraph",
+        "id": "c600c6c7110f66be",
+        "text": "A Complete Guide to Flexbox [https://css-tricks.com/snippets/css/a-guide-to-flexbox/#flexbox-background csstricks]"
+      },
+      "after": "17ff992410fbc400",
+      "date": 1559142081247
+    }
+  ]
+}

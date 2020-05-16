@@ -1,0 +1,187 @@
+{
+  "title": "pyenv",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "60b779ef5b6e81df",
+      "text": "Attempting to get the goodness of rbenv for python."
+    },
+    {
+      "type": "paragraph",
+      "id": "a16eb271b0d54d94",
+      "text": "[https://github.com/pyenv/pyenv/blob/master/COMMANDS.md commands]"
+    },
+    {
+      "type": "paragraph",
+      "id": "cd75cf1306cccafa",
+      "text": "Homepage. [https://github.com/pyenv/pyenv github]"
+    },
+    {
+      "type": "paragraph",
+      "id": "333091b17e523fb3",
+      "text": ".python-version in project directory."
+    },
+    {
+      "type": "paragraph",
+      "id": "8d2b5b05ba5b0ac5",
+      "text": "Installation / config log."
+    },
+    {
+      "type": "paragraph",
+      "id": "8ca0d98da556cc8e",
+      "text": "pyenv install 3.7.3"
+    },
+    {
+      "type": "paragraph",
+      "id": "88f8a9e5a6531933",
+      "text": "Issues on macOS"
+    },
+    {
+      "type": "paragraph",
+      "id": "77e0ccc634e21409",
+      "text": "brew install zlib"
+    },
+    {
+      "type": "paragraph",
+      "id": "bb0b01b3b5d906f3",
+      "text": "For compilers to find zlib you may need to set:\n  export LDFLAGS=\"-L/usr/local/opt/zlib/lib\"\n  export CPPFLAGS=\"-I/usr/local/opt/zlib/include\"\n\nFor pkg-config to find zlib you may need to set:\n  export PKG_CONFIG_PATH=\"/usr/local/opt/zlib/lib/pkgconfig\"\n"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "pyenv",
+        "story": []
+      },
+      "date": 1557860500024
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "60b779ef5b6e81df"
+      },
+      "id": "60b779ef5b6e81df",
+      "type": "add",
+      "date": 1557860501000
+    },
+    {
+      "type": "edit",
+      "id": "60b779ef5b6e81df",
+      "item": {
+        "type": "paragraph",
+        "id": "60b779ef5b6e81df",
+        "text": "pyenv install 3.7.3"
+      },
+      "date": 1557860507757
+    },
+    {
+      "type": "add",
+      "id": "88f8a9e5a6531933",
+      "item": {
+        "type": "paragraph",
+        "id": "88f8a9e5a6531933",
+        "text": "Issues on macOS"
+      },
+      "after": "60b779ef5b6e81df",
+      "date": 1557860512124
+    },
+    {
+      "type": "add",
+      "id": "77e0ccc634e21409",
+      "item": {
+        "type": "paragraph",
+        "id": "77e0ccc634e21409",
+        "text": "brew install zlib"
+      },
+      "after": "88f8a9e5a6531933",
+      "date": 1557860515389
+    },
+    {
+      "type": "add",
+      "id": "bb0b01b3b5d906f3",
+      "item": {
+        "type": "paragraph",
+        "id": "bb0b01b3b5d906f3",
+        "text": "For compilers to find zlib you may need to set:\n  export LDFLAGS=\"-L/usr/local/opt/zlib/lib\"\n  export CPPFLAGS=\"-I/usr/local/opt/zlib/include\"\n\nFor pkg-config to find zlib you may need to set:\n  export PKG_CONFIG_PATH=\"/usr/local/opt/zlib/lib/pkgconfig\"\n"
+      },
+      "after": "77e0ccc634e21409",
+      "date": 1557860518629
+    },
+    {
+      "type": "edit",
+      "id": "60b779ef5b6e81df",
+      "item": {
+        "type": "paragraph",
+        "id": "60b779ef5b6e81df",
+        "text": "Attempting to get the goodness of rbenv for python."
+      },
+      "date": 1557860671454
+    },
+    {
+      "type": "add",
+      "id": "a16eb271b0d54d94",
+      "item": {
+        "type": "paragraph",
+        "id": "a16eb271b0d54d94",
+        "text": "Installation / config log."
+      },
+      "after": "60b779ef5b6e81df",
+      "date": 1557860679918
+    },
+    {
+      "type": "add",
+      "id": "8ca0d98da556cc8e",
+      "item": {
+        "type": "paragraph",
+        "id": "8ca0d98da556cc8e",
+        "text": "pyenv install 3.7.3"
+      },
+      "after": "a16eb271b0d54d94",
+      "date": 1557860683848
+    },
+    {
+      "type": "edit",
+      "id": "a16eb271b0d54d94",
+      "item": {
+        "type": "paragraph",
+        "id": "a16eb271b0d54d94",
+        "text": "[https://github.com/pyenv/pyenv/blob/master/COMMANDS.md commands]"
+      },
+      "date": 1557860688784
+    },
+    {
+      "type": "add",
+      "id": "8d2b5b05ba5b0ac5",
+      "item": {
+        "type": "paragraph",
+        "id": "8d2b5b05ba5b0ac5",
+        "text": "Installation / config log."
+      },
+      "after": "a16eb271b0d54d94",
+      "date": 1557860689719
+    },
+    {
+      "type": "add",
+      "id": "cd75cf1306cccafa",
+      "item": {
+        "type": "paragraph",
+        "id": "cd75cf1306cccafa",
+        "text": "Homepage. [https://github.com/pyenv/pyenv github]"
+      },
+      "after": "a16eb271b0d54d94",
+      "date": 1557860726860
+    },
+    {
+      "type": "add",
+      "id": "333091b17e523fb3",
+      "item": {
+        "type": "paragraph",
+        "id": "333091b17e523fb3",
+        "text": ".python-version in project directory."
+      },
+      "after": "cd75cf1306cccafa",
+      "date": 1557860739243
+    }
+  ]
+}

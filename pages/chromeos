@@ -1,0 +1,119 @@
+{
+  "title": "ChromeOS",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "cd85965e159ceca0",
+      "text": "Our household has several chromebooks. They are great if all you want to do is surf the web, work on email, and use web based applications."
+    },
+    {
+      "type": "paragraph",
+      "id": "4fe0d2fa29bd75b1",
+      "text": "My in-laws use them almost exclusively which has greatly reduced the number of \"tech support\" calls that I get."
+    },
+    {
+      "type": "paragraph",
+      "id": "de250b3ac850b1b5",
+      "text": "Where I find them fall short is when it comes to development (even remote development)."
+    },
+    {
+      "type": "paragraph",
+      "id": "366aa5db9f7dc22d",
+      "text": "I have mixed feelings about the addition of android apps and crostini (their Linux VM)."
+    },
+    {
+      "type": "paragraph",
+      "id": "bff111da301e6ca1",
+      "text": "When I first got a chromebook, I used c9.io quite extensively. They are owned by Amazon and no longer have a completely free tier."
+    },
+    {
+      "type": "paragraph",
+      "id": "bbb38e1c96fddacb",
+      "text": "An alternative that looks to be free is an offering called Google Cloud Shell. [https://cloud.google.com/shell/docs/features site]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "ChromeOS",
+        "story": []
+      },
+      "date": 1564104993739
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "cd85965e159ceca0"
+      },
+      "id": "cd85965e159ceca0",
+      "type": "add",
+      "date": 1564104995601
+    },
+    {
+      "type": "edit",
+      "id": "cd85965e159ceca0",
+      "item": {
+        "type": "paragraph",
+        "id": "cd85965e159ceca0",
+        "text": "Our household has several chromebooks. They are great if all you want to do is surf the web, work on email, and use web based applications."
+      },
+      "date": 1564105061508
+    },
+    {
+      "type": "add",
+      "id": "4fe0d2fa29bd75b1",
+      "item": {
+        "type": "paragraph",
+        "id": "4fe0d2fa29bd75b1",
+        "text": "My in-laws use them almost exclusively which has greatly reduced the number of \"tech support\" calls that I get."
+      },
+      "after": "cd85965e159ceca0",
+      "date": 1564105078363
+    },
+    {
+      "type": "add",
+      "id": "de250b3ac850b1b5",
+      "item": {
+        "type": "paragraph",
+        "id": "de250b3ac850b1b5",
+        "text": "Where I find them fall short is when it comes to development (even remote development)."
+      },
+      "after": "4fe0d2fa29bd75b1",
+      "date": 1564105102785
+    },
+    {
+      "type": "add",
+      "id": "366aa5db9f7dc22d",
+      "item": {
+        "type": "paragraph",
+        "id": "366aa5db9f7dc22d",
+        "text": "I have mixed feelings about the addition of android apps and crostini (their Linux VM)."
+      },
+      "after": "de250b3ac850b1b5",
+      "date": 1564105156684
+    },
+    {
+      "type": "add",
+      "id": "bff111da301e6ca1",
+      "item": {
+        "type": "paragraph",
+        "id": "bff111da301e6ca1",
+        "text": "When I first got a chromebook, I used c9.io quite extensively. They are owned by Amazon and no longer have a completely free tier."
+      },
+      "after": "366aa5db9f7dc22d",
+      "date": 1564105196457
+    },
+    {
+      "type": "add",
+      "id": "bbb38e1c96fddacb",
+      "item": {
+        "type": "paragraph",
+        "id": "bbb38e1c96fddacb",
+        "text": "An alternative that looks to be free is an offering called Google Cloud Shell. [https://cloud.google.com/shell/docs/features site]"
+      },
+      "after": "bff111da301e6ca1",
+      "date": 1564105227052
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "title": "JS Debugging",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "9364d225d6e2ee8e",
+      "text": "Tips and tricks for debugging javascript."
+    },
+    {
+      "type": "paragraph",
+      "id": "b8ae7f533fe8577d",
+      "text": "Useful article [https://raygun.com/javascript-debugging-tips site]"
+    },
+    {
+      "type": "paragraph",
+      "id": "04dda2af544dbfcf",
+      "text": "Inspect ephemeral DOM states [https://stackoverflow.com/questions/22597815/chrome-inspect-elements-that-appear-only-when-dragging stackoverflow]"
+    },
+    {
+      "type": "paragraph",
+      "id": "a2ecd404b5da5d74",
+      "text": "console.dir(..., {depth: null}) [https://developer.mozilla.org/en-US/docs/Web/API/Console/dir mdn] [https://stackoverflow.com/questions/10729276/how-can-i-get-the-full-object-in-node-jss-console-log-rather-than-object so]"
+    },
+    {
+      "type": "paragraph",
+      "id": "c212693799418190",
+      "text": "Inspect items that only appear while dragging. [https://stackoverflow.com/questions/22597815/chrome-inspect-elements-that-appear-only-when-dragging so]"
+    },
+    {
+      "type": "paragraph",
+      "id": "864e69038ba72e10",
+      "text": "Mouse cursor not updating or only updating when the mouse is moved [https://stackoverflow.com/questions/37462132/update-mouse-cursor-without-moving-mouse-with-changed-css-cursor-property#answer-41921911 so]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "JS Debugging",
+        "story": []
+      },
+      "date": 1556592849519
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "9364d225d6e2ee8e"
+      },
+      "id": "9364d225d6e2ee8e",
+      "type": "add",
+      "date": 1556592850874
+    },
+    {
+      "type": "edit",
+      "id": "9364d225d6e2ee8e",
+      "item": {
+        "type": "paragraph",
+        "id": "9364d225d6e2ee8e",
+        "text": "Tips and tricks for debugging javascript."
+      },
+      "date": 1556592861256
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "b8ae7f533fe8577d"
+      },
+      "id": "b8ae7f533fe8577d",
+      "type": "add",
+      "after": "9364d225d6e2ee8e",
+      "date": 1556592883279
+    },
+    {
+      "type": "edit",
+      "id": "b8ae7f533fe8577d",
+      "item": {
+        "type": "paragraph",
+        "id": "b8ae7f533fe8577d",
+        "text": "Useful article [https://raygun.com/javascript-debugging-tips site]"
+      },
+      "date": 1556592893072
+    },
+    {
+      "type": "add",
+      "id": "04dda2af544dbfcf",
+      "item": {
+        "type": "paragraph",
+        "id": "04dda2af544dbfcf",
+        "text": "Inspect ephemeral DOM states [https://stackoverflow.com/questions/22597815/chrome-inspect-elements-that-appear-only-when-dragging stackoverflow]"
+      },
+      "after": "b8ae7f533fe8577d",
+      "date": 1556661680380
+    },
+    {
+      "type": "add",
+      "id": "a2ecd404b5da5d74",
+      "item": {
+        "type": "paragraph",
+        "id": "a2ecd404b5da5d74",
+        "text": "console.dir [https://developer.mozilla.org/en-US/docs/Web/API/Console/dir mdn]"
+      },
+      "after": "04dda2af544dbfcf",
+      "date": 1556811875446
+    },
+    {
+      "type": "edit",
+      "id": "a2ecd404b5da5d74",
+      "item": {
+        "type": "paragraph",
+        "id": "a2ecd404b5da5d74",
+        "text": "console.dir(..., {depth: null}) [https://developer.mozilla.org/en-US/docs/Web/API/Console/dir mdn]"
+      },
+      "date": 1556811988977
+    },
+    {
+      "type": "edit",
+      "id": "a2ecd404b5da5d74",
+      "item": {
+        "type": "paragraph",
+        "id": "a2ecd404b5da5d74",
+        "text": "console.dir(..., {depth: null}) [https://developer.mozilla.org/en-US/docs/Web/API/Console/dir mdn] [https://stackoverflow.com/questions/10729276/how-can-i-get-the-full-object-in-node-jss-console-log-rather-than-object so]"
+      },
+      "date": 1556812001130
+    },
+    {
+      "type": "add",
+      "id": "c212693799418190",
+      "item": {
+        "type": "paragraph",
+        "id": "c212693799418190",
+        "text": "Inspect items that only appear while dragging. ["
+      },
+      "after": "a2ecd404b5da5d74",
+      "date": 1556977339410
+    },
+    {
+      "type": "edit",
+      "id": "c212693799418190",
+      "item": {
+        "type": "paragraph",
+        "id": "c212693799418190",
+        "text": "Inspect items that only appear while dragging. [https://stackoverflow.com/questions/22597815/chrome-inspect-elements-that-appear-only-when-dragging so]"
+      },
+      "date": 1556977350597
+    },
+    {
+      "type": "add",
+      "id": "864e69038ba72e10",
+      "item": {
+        "type": "paragraph",
+        "id": "864e69038ba72e10",
+        "text": "Mouse cursor not updating or only updating when the mouse is moved [https://stackoverflow.com/questions/37462132/update-mouse-cursor-without-moving-mouse-with-changed-css-cursor-property#answer-41921911 so]"
+      },
+      "after": "c212693799418190",
+      "date": 1556977428797
+    }
+  ]
+}

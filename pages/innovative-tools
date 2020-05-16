@@ -1,0 +1,1067 @@
+{
+  "title": "Innovative Tools",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "2000c6ccd77b3bc1",
+      "text": "This page lists tools that fill particular needs or are intriguing in their own right."
+    },
+    {
+      "type": "paragraph",
+      "id": "629c74473b223878",
+      "text": "[[Org mode]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "d34e82cca78ff162",
+      "text": "[[git scm]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "255b082f31206d2c",
+      "text": "[[Category Theory]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "66e2861a9ec4aa04",
+      "text": "[[String Diagrams]]"
+    },
+    {
+      "type": "pagefold",
+      "id": "85fa7901ea5c6a0e",
+      "text": "living systems"
+    },
+    {
+      "type": "paragraph",
+      "id": "54eb1c7f665915d7",
+      "text": "Bret Victor's Inventing on Principle Talk. [https://vimeo.com/36579366 vimeo]"
+    },
+    {
+      "type": "paragraph",
+      "id": "51c30ae6b93889a1",
+      "text": "[[Up and Down the Ladder of Abstraction]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "5dc0fda2bf8e39b5",
+      "text": "glitch"
+    },
+    {
+      "type": "paragraph",
+      "id": "a73d63cd142afc4b",
+      "text": "Smalltalk"
+    },
+    {
+      "type": "paragraph",
+      "id": "80534e41d054de86",
+      "text": "Morphic"
+    },
+    {
+      "type": "paragraph",
+      "id": "c0d2e2e91910f368",
+      "text": "etoys"
+    },
+    {
+      "type": "paragraph",
+      "id": "95ba78eda3ae631f",
+      "text": "HyperCard"
+    },
+    {
+      "type": "paragraph",
+      "id": "f3584a17e0317729",
+      "text": "Scratch"
+    },
+    {
+      "type": "paragraph",
+      "id": "d4eeffbf5ece8543",
+      "text": "[[Light Table]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "38a029048d2699c1",
+      "text": "[[Newspeak]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "84016aaf2954e193",
+      "text": "[[Dark Lang]]"
+    },
+    {
+      "type": "pagefold",
+      "id": "b7969f02e23a910e",
+      "text": "literate programming"
+    },
+    {
+      "type": "paragraph",
+      "id": "2732209e530647cb",
+      "text": "[[Literate Programming]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "d4d5f7dcc68fa6f3",
+      "text": "[[Jupyter Notebook]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "818399d46fcab318",
+      "text": "[[Observable]]"
+    },
+    {
+      "type": "pagefold",
+      "id": "054cf0ba02d306a4",
+      "text": "visualization"
+    },
+    {
+      "type": "paragraph",
+      "id": "ca129fda2f85d4bd",
+      "text": "[[d3]]"
+    },
+    {
+      "type": "pagefold",
+      "id": "fdda84ffca6b17e2",
+      "text": "collaboration"
+    },
+    {
+      "type": "paragraph",
+      "id": "616056b008121feb",
+      "text": "whimsical [https://whimsical.com/mind-maps site]"
+    },
+    {
+      "type": "paragraph",
+      "id": "b5209498b96eb728",
+      "text": "xmind.net [https://www.xmind.net/ site]"
+    },
+    {
+      "type": "paragraph",
+      "id": "ad55d6effd8cefb0",
+      "text": "miro.com [https://miro.com/ site]"
+    },
+    {
+      "type": "pagefold",
+      "id": "948c55655cdb2ecd",
+      "text": "cheatsheets"
+    },
+    {
+      "type": "paragraph",
+      "id": "ecdd414068198c7f",
+      "text": "navi - an interactive cheatsheet [https://github.com/denisidoro/navi github]"
+    },
+    {
+      "type": "paragraph",
+      "id": "3f1c87c997bf4a45",
+      "text": "um - create your own man pages [https://github.com/sinclairtarget/um github]"
+    },
+    {
+      "type": "paragraph",
+      "id": "5060346cca7d513e",
+      "text": "tldr - community driven man pages [https://github.com/tldr-pages/tldr github]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Innovative Tools",
+        "story": []
+      },
+      "date": 1555179788593
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "928df1fd9fba5a78"
+      },
+      "id": "928df1fd9fba5a78",
+      "type": "add",
+      "date": 1555179789945
+    },
+    {
+      "type": "remove",
+      "id": "928df1fd9fba5a78",
+      "date": 1555179792822
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "2000c6ccd77b3bc1"
+      },
+      "id": "2000c6ccd77b3bc1",
+      "type": "add",
+      "date": 1555179844000
+    },
+    {
+      "type": "edit",
+      "id": "2000c6ccd77b3bc1",
+      "item": {
+        "type": "paragraph",
+        "id": "2000c6ccd77b3bc1",
+        "text": "Smalltalk"
+      },
+      "date": 1555179848744
+    },
+    {
+      "type": "add",
+      "id": "d4eeffbf5ece8543",
+      "item": {
+        "type": "paragraph",
+        "id": "d4eeffbf5ece8543",
+        "text": "LightTable IDE Concept"
+      },
+      "after": "2000c6ccd77b3bc1",
+      "date": 1555179859811
+    },
+    {
+      "type": "add",
+      "id": "95ba78eda3ae631f",
+      "item": {
+        "type": "paragraph",
+        "id": "95ba78eda3ae631f",
+        "text": "HyperCard"
+      },
+      "after": "d4eeffbf5ece8543",
+      "date": 1555179864197
+    },
+    {
+      "type": "edit",
+      "id": "d4eeffbf5ece8543",
+      "item": {
+        "type": "paragraph",
+        "id": "d4eeffbf5ece8543",
+        "text": "[[Light Table]]"
+      },
+      "date": 1555214661069
+    },
+    {
+      "type": "edit",
+      "id": "2000c6ccd77b3bc1",
+      "item": {
+        "type": "paragraph",
+        "id": "2000c6ccd77b3bc1",
+        "text": "* Bret Victor's Inventing on Principle Talk. [https://vimeo.com/36579366 vimeo]"
+      },
+      "date": 1555214731756
+    },
+    {
+      "type": "add",
+      "id": "a73d63cd142afc4b",
+      "item": {
+        "type": "paragraph",
+        "id": "a73d63cd142afc4b",
+        "text": "Smalltalk"
+      },
+      "after": "2000c6ccd77b3bc1",
+      "date": 1555214733523
+    },
+    {
+      "type": "edit",
+      "id": "2000c6ccd77b3bc1",
+      "item": {
+        "type": "paragraph",
+        "id": "2000c6ccd77b3bc1",
+        "text": "Bret Victor's Inventing on Principle Talk. [https://vimeo.com/36579366 vimeo]"
+      },
+      "date": 1555214744131
+    },
+    {
+      "type": "add",
+      "id": "d4d5f7dcc68fa6f3",
+      "item": {
+        "type": "paragraph",
+        "id": "d4d5f7dcc68fa6f3",
+        "text": "Jupyter Notebook"
+      },
+      "after": "2000c6ccd77b3bc1",
+      "date": 1555414783787
+    },
+    {
+      "type": "add",
+      "id": "d34e82cca78ff162",
+      "item": {
+        "type": "paragraph",
+        "id": "d34e82cca78ff162",
+        "text": "[[git scm]]"
+      },
+      "after": "d4d5f7dcc68fa6f3",
+      "date": 1555414794725
+    },
+    {
+      "type": "edit",
+      "id": "d4d5f7dcc68fa6f3",
+      "item": {
+        "type": "paragraph",
+        "id": "d4d5f7dcc68fa6f3",
+        "text": "ppJupyter Notebook]]"
+      },
+      "date": 1555415065441
+    },
+    {
+      "type": "edit",
+      "id": "d4d5f7dcc68fa6f3",
+      "item": {
+        "type": "paragraph",
+        "id": "d4d5f7dcc68fa6f3",
+        "text": "[[Jupyter Notebook]]"
+      },
+      "date": 1555415069965
+    },
+    {
+      "type": "edit",
+      "id": "2000c6ccd77b3bc1",
+      "item": {
+        "type": "paragraph",
+        "id": "2000c6ccd77b3bc1",
+        "text": "This page describes innovative tools or tool concepts. The primary target are ones that represent ideas which may be useful within Fed Wiki. The content may eventually move to my fed wiki site instead of here."
+      },
+      "date": 1555415375603
+    },
+    {
+      "type": "add",
+      "id": "54eb1c7f665915d7",
+      "item": {
+        "type": "paragraph",
+        "id": "54eb1c7f665915d7",
+        "text": "Bret Victor's Inventing on Principle Talk. [https://vimeo.com/36579366 vimeo]"
+      },
+      "after": "2000c6ccd77b3bc1",
+      "date": 1555415377651
+    },
+    {
+      "type": "add",
+      "id": "629c74473b223878",
+      "item": {
+        "type": "paragraph",
+        "id": "629c74473b223878",
+        "text": "[[Org mode]]"
+      },
+      "after": "d4d5f7dcc68fa6f3",
+      "date": 1555473847729
+    },
+    {
+      "type": "add",
+      "id": "38a029048d2699c1",
+      "item": {
+        "type": "paragraph",
+        "id": "38a029048d2699c1",
+        "text": "[[Newspeak]]"
+      },
+      "after": "a73d63cd142afc4b",
+      "date": 1555474311332
+    },
+    {
+      "type": "add",
+      "id": "f3584a17e0317729",
+      "item": {
+        "type": "paragraph",
+        "id": "f3584a17e0317729",
+        "text": "Scratch"
+      },
+      "after": "95ba78eda3ae631f",
+      "date": 1555477134184
+    },
+    {
+      "type": "add",
+      "id": "80534e41d054de86",
+      "item": {
+        "type": "paragraph",
+        "id": "80534e41d054de86",
+        "text": "Morphic"
+      },
+      "after": "a73d63cd142afc4b",
+      "date": 1555477147512
+    },
+    {
+      "type": "add",
+      "id": "c0d2e2e91910f368",
+      "item": {
+        "type": "paragraph",
+        "id": "c0d2e2e91910f368",
+        "text": "etoys"
+      },
+      "after": "80534e41d054de86",
+      "date": 1555477152220
+    },
+    {
+      "type": "add",
+      "id": "818399d46fcab318",
+      "item": {
+        "type": "paragraph",
+        "id": "818399d46fcab318",
+        "text": "[[Observable]]"
+      },
+      "after": "d4d5f7dcc68fa6f3",
+      "date": 1556589255243
+    },
+    {
+      "type": "add",
+      "id": "ca129fda2f85d4bd",
+      "item": {
+        "type": "paragraph",
+        "id": "ca129fda2f85d4bd",
+        "text": "[[d3]]"
+      },
+      "after": "f3584a17e0317729",
+      "date": 1556589882046
+    },
+    {
+      "type": "add",
+      "id": "5dc0fda2bf8e39b5",
+      "item": {
+        "type": "paragraph",
+        "id": "5dc0fda2bf8e39b5",
+        "text": "glitch"
+      },
+      "after": "818399d46fcab318",
+      "date": 1556592226590
+    },
+    {
+      "type": "add",
+      "id": "56d87339e7e1d743",
+      "item": {
+        "type": "paragraph",
+        "id": "56d87339e7e1d743",
+        "text": "[[CI]]"
+      },
+      "after": "ca129fda2f85d4bd",
+      "date": 1556660160720
+    },
+    {
+      "type": "remove",
+      "id": "56d87339e7e1d743",
+      "date": 1556660276321
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "b7969f02e23a910e"
+      },
+      "id": "b7969f02e23a910e",
+      "type": "add",
+      "after": "ca129fda2f85d4bd",
+      "date": 1556806154857
+    },
+    {
+      "type": "edit",
+      "id": "b7969f02e23a910e",
+      "item": {
+        "type": "pagefold",
+        "id": "b7969f02e23a910e",
+        "text": "literate programming"
+      },
+      "date": 1556806165822
+    },
+    {
+      "type": "move",
+      "order": [
+        "2000c6ccd77b3bc1",
+        "54eb1c7f665915d7",
+        "818399d46fcab318",
+        "5dc0fda2bf8e39b5",
+        "629c74473b223878",
+        "d34e82cca78ff162",
+        "a73d63cd142afc4b",
+        "80534e41d054de86",
+        "c0d2e2e91910f368",
+        "38a029048d2699c1",
+        "d4eeffbf5ece8543",
+        "95ba78eda3ae631f",
+        "f3584a17e0317729",
+        "ca129fda2f85d4bd",
+        "b7969f02e23a910e",
+        "d4d5f7dcc68fa6f3"
+      ],
+      "id": "d4d5f7dcc68fa6f3",
+      "date": 1556806171037
+    },
+    {
+      "type": "move",
+      "order": [
+        "2000c6ccd77b3bc1",
+        "54eb1c7f665915d7",
+        "5dc0fda2bf8e39b5",
+        "629c74473b223878",
+        "d34e82cca78ff162",
+        "a73d63cd142afc4b",
+        "80534e41d054de86",
+        "c0d2e2e91910f368",
+        "38a029048d2699c1",
+        "d4eeffbf5ece8543",
+        "95ba78eda3ae631f",
+        "f3584a17e0317729",
+        "ca129fda2f85d4bd",
+        "b7969f02e23a910e",
+        "d4d5f7dcc68fa6f3",
+        "818399d46fcab318"
+      ],
+      "id": "818399d46fcab318",
+      "date": 1556806175838
+    },
+    {
+      "type": "move",
+      "order": [
+        "2000c6ccd77b3bc1",
+        "5dc0fda2bf8e39b5",
+        "629c74473b223878",
+        "d34e82cca78ff162",
+        "a73d63cd142afc4b",
+        "80534e41d054de86",
+        "c0d2e2e91910f368",
+        "38a029048d2699c1",
+        "d4eeffbf5ece8543",
+        "95ba78eda3ae631f",
+        "f3584a17e0317729",
+        "ca129fda2f85d4bd",
+        "b7969f02e23a910e",
+        "d4d5f7dcc68fa6f3",
+        "818399d46fcab318",
+        "54eb1c7f665915d7"
+      ],
+      "id": "54eb1c7f665915d7",
+      "date": 1556806191590
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "85fa7901ea5c6a0e"
+      },
+      "id": "85fa7901ea5c6a0e",
+      "type": "add",
+      "after": "54eb1c7f665915d7",
+      "date": 1556806204319
+    },
+    {
+      "type": "edit",
+      "id": "85fa7901ea5c6a0e",
+      "item": {
+        "type": "pagefold",
+        "id": "85fa7901ea5c6a0e",
+        "text": "living systems"
+      },
+      "date": 1556806211447
+    },
+    {
+      "type": "move",
+      "order": [
+        "2000c6ccd77b3bc1",
+        "5dc0fda2bf8e39b5",
+        "629c74473b223878",
+        "d34e82cca78ff162",
+        "a73d63cd142afc4b",
+        "80534e41d054de86",
+        "c0d2e2e91910f368",
+        "38a029048d2699c1",
+        "d4eeffbf5ece8543",
+        "95ba78eda3ae631f",
+        "f3584a17e0317729",
+        "ca129fda2f85d4bd",
+        "85fa7901ea5c6a0e",
+        "b7969f02e23a910e",
+        "d4d5f7dcc68fa6f3",
+        "818399d46fcab318",
+        "54eb1c7f665915d7"
+      ],
+      "id": "85fa7901ea5c6a0e",
+      "date": 1556806214865
+    },
+    {
+      "type": "move",
+      "order": [
+        "2000c6ccd77b3bc1",
+        "5dc0fda2bf8e39b5",
+        "629c74473b223878",
+        "d34e82cca78ff162",
+        "a73d63cd142afc4b",
+        "80534e41d054de86",
+        "c0d2e2e91910f368",
+        "38a029048d2699c1",
+        "d4eeffbf5ece8543",
+        "95ba78eda3ae631f",
+        "f3584a17e0317729",
+        "ca129fda2f85d4bd",
+        "85fa7901ea5c6a0e",
+        "54eb1c7f665915d7",
+        "b7969f02e23a910e",
+        "d4d5f7dcc68fa6f3",
+        "818399d46fcab318"
+      ],
+      "id": "54eb1c7f665915d7",
+      "date": 1556806217350
+    },
+    {
+      "type": "move",
+      "order": [
+        "2000c6ccd77b3bc1",
+        "629c74473b223878",
+        "d34e82cca78ff162",
+        "a73d63cd142afc4b",
+        "80534e41d054de86",
+        "c0d2e2e91910f368",
+        "38a029048d2699c1",
+        "d4eeffbf5ece8543",
+        "95ba78eda3ae631f",
+        "f3584a17e0317729",
+        "ca129fda2f85d4bd",
+        "85fa7901ea5c6a0e",
+        "54eb1c7f665915d7",
+        "5dc0fda2bf8e39b5",
+        "b7969f02e23a910e",
+        "d4d5f7dcc68fa6f3",
+        "818399d46fcab318"
+      ],
+      "id": "5dc0fda2bf8e39b5",
+      "date": 1556806221914
+    },
+    {
+      "type": "move",
+      "order": [
+        "2000c6ccd77b3bc1",
+        "629c74473b223878",
+        "d34e82cca78ff162",
+        "80534e41d054de86",
+        "c0d2e2e91910f368",
+        "38a029048d2699c1",
+        "d4eeffbf5ece8543",
+        "95ba78eda3ae631f",
+        "f3584a17e0317729",
+        "ca129fda2f85d4bd",
+        "85fa7901ea5c6a0e",
+        "54eb1c7f665915d7",
+        "5dc0fda2bf8e39b5",
+        "a73d63cd142afc4b",
+        "b7969f02e23a910e",
+        "d4d5f7dcc68fa6f3",
+        "818399d46fcab318"
+      ],
+      "id": "a73d63cd142afc4b",
+      "date": 1556806225617
+    },
+    {
+      "type": "move",
+      "order": [
+        "2000c6ccd77b3bc1",
+        "629c74473b223878",
+        "d34e82cca78ff162",
+        "c0d2e2e91910f368",
+        "38a029048d2699c1",
+        "d4eeffbf5ece8543",
+        "95ba78eda3ae631f",
+        "f3584a17e0317729",
+        "ca129fda2f85d4bd",
+        "85fa7901ea5c6a0e",
+        "54eb1c7f665915d7",
+        "5dc0fda2bf8e39b5",
+        "a73d63cd142afc4b",
+        "80534e41d054de86",
+        "b7969f02e23a910e",
+        "d4d5f7dcc68fa6f3",
+        "818399d46fcab318"
+      ],
+      "id": "80534e41d054de86",
+      "date": 1556806230026
+    },
+    {
+      "type": "move",
+      "order": [
+        "2000c6ccd77b3bc1",
+        "629c74473b223878",
+        "d34e82cca78ff162",
+        "38a029048d2699c1",
+        "d4eeffbf5ece8543",
+        "95ba78eda3ae631f",
+        "f3584a17e0317729",
+        "ca129fda2f85d4bd",
+        "85fa7901ea5c6a0e",
+        "54eb1c7f665915d7",
+        "5dc0fda2bf8e39b5",
+        "a73d63cd142afc4b",
+        "80534e41d054de86",
+        "c0d2e2e91910f368",
+        "b7969f02e23a910e",
+        "d4d5f7dcc68fa6f3",
+        "818399d46fcab318"
+      ],
+      "id": "c0d2e2e91910f368",
+      "date": 1556806234693
+    },
+    {
+      "type": "move",
+      "order": [
+        "2000c6ccd77b3bc1",
+        "629c74473b223878",
+        "d34e82cca78ff162",
+        "38a029048d2699c1",
+        "d4eeffbf5ece8543",
+        "f3584a17e0317729",
+        "ca129fda2f85d4bd",
+        "85fa7901ea5c6a0e",
+        "54eb1c7f665915d7",
+        "5dc0fda2bf8e39b5",
+        "a73d63cd142afc4b",
+        "80534e41d054de86",
+        "c0d2e2e91910f368",
+        "95ba78eda3ae631f",
+        "b7969f02e23a910e",
+        "d4d5f7dcc68fa6f3",
+        "818399d46fcab318"
+      ],
+      "id": "95ba78eda3ae631f",
+      "date": 1556806242587
+    },
+    {
+      "type": "move",
+      "order": [
+        "2000c6ccd77b3bc1",
+        "629c74473b223878",
+        "d34e82cca78ff162",
+        "38a029048d2699c1",
+        "d4eeffbf5ece8543",
+        "ca129fda2f85d4bd",
+        "85fa7901ea5c6a0e",
+        "54eb1c7f665915d7",
+        "5dc0fda2bf8e39b5",
+        "a73d63cd142afc4b",
+        "80534e41d054de86",
+        "c0d2e2e91910f368",
+        "95ba78eda3ae631f",
+        "f3584a17e0317729",
+        "b7969f02e23a910e",
+        "d4d5f7dcc68fa6f3",
+        "818399d46fcab318"
+      ],
+      "id": "f3584a17e0317729",
+      "date": 1556806246512
+    },
+    {
+      "type": "move",
+      "order": [
+        "2000c6ccd77b3bc1",
+        "629c74473b223878",
+        "d34e82cca78ff162",
+        "38a029048d2699c1",
+        "ca129fda2f85d4bd",
+        "85fa7901ea5c6a0e",
+        "54eb1c7f665915d7",
+        "5dc0fda2bf8e39b5",
+        "a73d63cd142afc4b",
+        "80534e41d054de86",
+        "c0d2e2e91910f368",
+        "95ba78eda3ae631f",
+        "f3584a17e0317729",
+        "d4eeffbf5ece8543",
+        "b7969f02e23a910e",
+        "d4d5f7dcc68fa6f3",
+        "818399d46fcab318"
+      ],
+      "id": "d4eeffbf5ece8543",
+      "date": 1556806251144
+    },
+    {
+      "type": "move",
+      "order": [
+        "2000c6ccd77b3bc1",
+        "629c74473b223878",
+        "d34e82cca78ff162",
+        "ca129fda2f85d4bd",
+        "85fa7901ea5c6a0e",
+        "54eb1c7f665915d7",
+        "5dc0fda2bf8e39b5",
+        "a73d63cd142afc4b",
+        "80534e41d054de86",
+        "c0d2e2e91910f368",
+        "95ba78eda3ae631f",
+        "f3584a17e0317729",
+        "d4eeffbf5ece8543",
+        "38a029048d2699c1",
+        "b7969f02e23a910e",
+        "d4d5f7dcc68fa6f3",
+        "818399d46fcab318"
+      ],
+      "id": "38a029048d2699c1",
+      "date": 1556806255985
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "054cf0ba02d306a4"
+      },
+      "id": "054cf0ba02d306a4",
+      "type": "add",
+      "after": "818399d46fcab318",
+      "date": 1556806259138
+    },
+    {
+      "type": "edit",
+      "id": "054cf0ba02d306a4",
+      "item": {
+        "type": "pagefold",
+        "id": "054cf0ba02d306a4",
+        "text": "visualization"
+      },
+      "date": 1556806269440
+    },
+    {
+      "type": "move",
+      "order": [
+        "2000c6ccd77b3bc1",
+        "629c74473b223878",
+        "d34e82cca78ff162",
+        "85fa7901ea5c6a0e",
+        "54eb1c7f665915d7",
+        "5dc0fda2bf8e39b5",
+        "a73d63cd142afc4b",
+        "80534e41d054de86",
+        "c0d2e2e91910f368",
+        "95ba78eda3ae631f",
+        "f3584a17e0317729",
+        "d4eeffbf5ece8543",
+        "38a029048d2699c1",
+        "b7969f02e23a910e",
+        "d4d5f7dcc68fa6f3",
+        "818399d46fcab318",
+        "054cf0ba02d306a4",
+        "ca129fda2f85d4bd"
+      ],
+      "id": "ca129fda2f85d4bd",
+      "date": 1556806276235
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "2732209e530647cb"
+      },
+      "id": "2732209e530647cb",
+      "type": "add",
+      "after": "ca129fda2f85d4bd",
+      "date": 1556806284957
+    },
+    {
+      "type": "edit",
+      "id": "2732209e530647cb",
+      "item": {
+        "type": "paragraph",
+        "id": "2732209e530647cb",
+        "text": "[[Literate Programming]]"
+      },
+      "date": 1556806297078
+    },
+    {
+      "type": "move",
+      "order": [
+        "2000c6ccd77b3bc1",
+        "629c74473b223878",
+        "d34e82cca78ff162",
+        "85fa7901ea5c6a0e",
+        "54eb1c7f665915d7",
+        "5dc0fda2bf8e39b5",
+        "a73d63cd142afc4b",
+        "80534e41d054de86",
+        "c0d2e2e91910f368",
+        "95ba78eda3ae631f",
+        "f3584a17e0317729",
+        "d4eeffbf5ece8543",
+        "38a029048d2699c1",
+        "b7969f02e23a910e",
+        "2732209e530647cb",
+        "d4d5f7dcc68fa6f3",
+        "818399d46fcab318",
+        "054cf0ba02d306a4",
+        "ca129fda2f85d4bd"
+      ],
+      "id": "2732209e530647cb",
+      "date": 1556806326494
+    },
+    {
+      "type": "add",
+      "id": "66e2861a9ec4aa04",
+      "item": {
+        "type": "paragraph",
+        "id": "66e2861a9ec4aa04",
+        "text": "[[String Diagrams]]"
+      },
+      "after": "d34e82cca78ff162",
+      "date": 1565324376342
+    },
+    {
+      "type": "add",
+      "id": "0bddc51f76765a6c",
+      "item": {
+        "type": "paragraph",
+        "id": "0bddc51f76765a6c",
+        "text": "Bret Victor's Up and Down the Ladder of Abstraction. [http://worrydream.com/LadderOfAbstraction/ essay]"
+      },
+      "after": "54eb1c7f665915d7",
+      "date": 1565325690153
+    },
+    {
+      "type": "add",
+      "id": "255b082f31206d2c",
+      "item": {
+        "type": "paragraph",
+        "id": "255b082f31206d2c",
+        "text": "[[Category Theory]]"
+      },
+      "after": "d34e82cca78ff162",
+      "date": 1565325699497
+    },
+    {
+      "type": "add",
+      "id": "51c30ae6b93889a1",
+      "item": {
+        "type": "paragraph",
+        "id": "51c30ae6b93889a1",
+        "text": "[[Up and Down the Ladder of Abstraction]]"
+      },
+      "after": "0bddc51f76765a6c",
+      "date": 1565410135905
+    },
+    {
+      "type": "remove",
+      "id": "0bddc51f76765a6c",
+      "date": 1565410140491
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "fdda84ffca6b17e2"
+      },
+      "id": "fdda84ffca6b17e2",
+      "type": "add",
+      "after": "ca129fda2f85d4bd",
+      "date": 1584986196670
+    },
+    {
+      "type": "edit",
+      "id": "fdda84ffca6b17e2",
+      "item": {
+        "type": "pagefold",
+        "id": "fdda84ffca6b17e2",
+        "text": "collaboration"
+      },
+      "date": 1584986207425
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "616056b008121feb"
+      },
+      "id": "616056b008121feb",
+      "type": "add",
+      "after": "fdda84ffca6b17e2",
+      "date": 1584986215084
+    },
+    {
+      "type": "edit",
+      "id": "616056b008121feb",
+      "item": {
+        "type": "paragraph",
+        "id": "616056b008121feb",
+        "text": "whimsical [https://whimsical.com/mind-maps site]"
+      },
+      "date": 1584986225241
+    },
+    {
+      "type": "add",
+      "id": "b5209498b96eb728",
+      "item": {
+        "type": "paragraph",
+        "id": "b5209498b96eb728",
+        "text": "xmind.net [https://www.xmind.net/ site]"
+      },
+      "after": "616056b008121feb",
+      "date": 1584986245947
+    },
+    {
+      "type": "edit",
+      "id": "2000c6ccd77b3bc1",
+      "item": {
+        "type": "paragraph",
+        "id": "2000c6ccd77b3bc1",
+        "text": "This page lists tools that fill particular needs or are intriguing in their own right."
+      },
+      "date": 1584986716567
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "948c55655cdb2ecd"
+      },
+      "id": "948c55655cdb2ecd",
+      "type": "add",
+      "after": "b5209498b96eb728",
+      "date": 1584986732194
+    },
+    {
+      "type": "edit",
+      "id": "948c55655cdb2ecd",
+      "item": {
+        "type": "pagefold",
+        "id": "948c55655cdb2ecd",
+        "text": "cheatsheets"
+      },
+      "date": 1584986739534
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "ecdd414068198c7f"
+      },
+      "id": "ecdd414068198c7f",
+      "type": "add",
+      "after": "948c55655cdb2ecd",
+      "date": 1584986745375
+    },
+    {
+      "type": "edit",
+      "id": "ecdd414068198c7f",
+      "item": {
+        "type": "paragraph",
+        "id": "ecdd414068198c7f",
+        "text": "navi - an interactive cheatsheet [https://github.com/denisidoro/navi github]"
+      },
+      "date": 1584986758067
+    },
+    {
+      "type": "add",
+      "id": "3f1c87c997bf4a45",
+      "item": {
+        "type": "paragraph",
+        "id": "3f1c87c997bf4a45",
+        "text": "um - create your own man pages [https://github.com/sinclairtarget/um github]"
+      },
+      "after": "ecdd414068198c7f",
+      "date": 1584986782838
+    },
+    {
+      "type": "add",
+      "id": "5060346cca7d513e",
+      "item": {
+        "type": "paragraph",
+        "id": "5060346cca7d513e",
+        "text": "tldr - community driven man pages [https://github.com/tldr-pages/tldr github]"
+      },
+      "after": "3f1c87c997bf4a45",
+      "date": 1584986829089
+    },
+    {
+      "type": "add",
+      "id": "84016aaf2954e193",
+      "item": {
+        "type": "paragraph",
+        "id": "84016aaf2954e193",
+        "text": "[[Dark Lang]]"
+      },
+      "after": "38a029048d2699c1",
+      "date": 1585002793186
+    },
+    {
+      "type": "add",
+      "id": "ad55d6effd8cefb0",
+      "item": {
+        "type": "paragraph",
+        "id": "ad55d6effd8cefb0",
+        "text": "miro.com [https://miro.com/ site]"
+      },
+      "after": "b5209498b96eb728",
+      "date": 1585002924577
+    }
+  ]
+}

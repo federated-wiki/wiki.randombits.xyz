@@ -1,0 +1,135 @@
+{
+  "title": "Custom Shell",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "3d1a1a19ddf9ef2f",
+      "text": "If you could have a custom shell, what would it do?"
+    },
+    {
+      "type": "paragraph",
+      "id": "b10ec17b7ff944e9",
+      "text": "Early in my career, I used a network device of some sort that had what I thought to be a novel shell interface."
+    },
+    {
+      "type": "paragraph",
+      "id": "f0f68844974f371c",
+      "text": "It had commands that would put you into different modes. Each mode had a different set of commands available."
+    },
+    {
+      "type": "paragraph",
+      "id": "0c0ecfb087cd0cf5",
+      "text": "The device may have been a Cisco ios device, but what I see in quick web searches doesn't look quite like what I remember."
+    },
+    {
+      "type": "paragraph",
+      "id": "1904cee6f3867ecb",
+      "text": "Either way, I have long been enamored by the idea of a custom shell that was extensible and customized to my needs."
+    },
+    {
+      "type": "paragraph",
+      "id": "88b79ffa1dac0625",
+      "text": "What's unique about shells (or at least what used to be unique to them) is their ability to perform context sensitive command completion."
+    },
+    {
+      "type": "paragraph",
+      "id": "31827e2d032b390a",
+      "text": "Even tools that now have tab completion (like IDEs) are still often missing the ability to immediately display the results of your operation. This is why I was so excited to see the initial demos of [[Light Table]]. It filled that gap."
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Custom Shell",
+        "story": []
+      },
+      "date": 1564157966223
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "3d1a1a19ddf9ef2f"
+      },
+      "id": "3d1a1a19ddf9ef2f",
+      "type": "add",
+      "date": 1564157967279
+    },
+    {
+      "type": "edit",
+      "id": "3d1a1a19ddf9ef2f",
+      "item": {
+        "type": "paragraph",
+        "id": "3d1a1a19ddf9ef2f",
+        "text": "If you could have a custom shell, what would it do?"
+      },
+      "date": 1564158020060
+    },
+    {
+      "type": "add",
+      "id": "b10ec17b7ff944e9",
+      "item": {
+        "type": "paragraph",
+        "id": "b10ec17b7ff944e9",
+        "text": "Early in my career, I used a network device of some sort that had what I thought to be a novel shell interface."
+      },
+      "after": "3d1a1a19ddf9ef2f",
+      "date": 1564158057334
+    },
+    {
+      "type": "add",
+      "id": "f0f68844974f371c",
+      "item": {
+        "type": "paragraph",
+        "id": "f0f68844974f371c",
+        "text": "It had commands that would put you into different modes. Each mode had a different set of commands available."
+      },
+      "after": "b10ec17b7ff944e9",
+      "date": 1564158121582
+    },
+    {
+      "type": "add",
+      "id": "0c0ecfb087cd0cf5",
+      "item": {
+        "type": "paragraph",
+        "id": "0c0ecfb087cd0cf5",
+        "text": "The device may have been a Cisco ios device, but what I see in quick web searches doesn't look quite like what I remember."
+      },
+      "after": "f0f68844974f371c",
+      "date": 1564158165803
+    },
+    {
+      "type": "add",
+      "id": "1904cee6f3867ecb",
+      "item": {
+        "type": "paragraph",
+        "id": "1904cee6f3867ecb",
+        "text": "Either way, I have long been enamored by the idea of a custom shell that was extensible and customized to my needs."
+      },
+      "after": "0c0ecfb087cd0cf5",
+      "date": 1564158230067
+    },
+    {
+      "type": "add",
+      "id": "88b79ffa1dac0625",
+      "item": {
+        "type": "paragraph",
+        "id": "88b79ffa1dac0625",
+        "text": "What's unique about shells (or at least what used to be unique to them) is their ability to perform context sensitive command completion."
+      },
+      "after": "1904cee6f3867ecb",
+      "date": 1564158309043
+    },
+    {
+      "type": "add",
+      "id": "31827e2d032b390a",
+      "item": {
+        "type": "paragraph",
+        "id": "31827e2d032b390a",
+        "text": "Even tools that now have tab completion (like IDEs) are still often missing the ability to immediately display the results of your operation. This is why I was so excited to see the initial demos of [[Light Table]]. It filled that gap."
+      },
+      "after": "88b79ffa1dac0625",
+      "date": 1564158537521
+    }
+  ]
+}

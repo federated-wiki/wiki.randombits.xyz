@@ -1,0 +1,89 @@
+{
+  "title": "k8s",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "cde440a5549a4386",
+      "text": "kubernetes (often abbreviated k8s) - the cloud \"operating system\"."
+    },
+    {
+      "type": "paragraph",
+      "id": "dda2e7946f14a931",
+      "text": "Kubernetes workshop [https://github.com/sethp-nr/guestbook-workshop github]"
+    },
+    {
+      "type": "paragraph",
+      "id": "fb83c3b1efe7514b",
+      "text": "kubectl is the portal to all things k8s."
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "k8s",
+        "story": []
+      },
+      "date": 1565107868361
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "cde440a5549a4386"
+      },
+      "id": "cde440a5549a4386",
+      "type": "add",
+      "date": 1565107869841
+    },
+    {
+      "type": "edit",
+      "id": "cde440a5549a4386",
+      "item": {
+        "type": "paragraph",
+        "id": "cde440a5549a4386",
+        "text": "kubernetes (often abbreviated k8s) - the cloud \"operating system\"."
+      },
+      "date": 1565107894165
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "dda2e7946f14a931"
+      },
+      "id": "dda2e7946f14a931",
+      "type": "add",
+      "after": "cde440a5549a4386",
+      "date": 1565107908061
+    },
+    {
+      "type": "edit",
+      "id": "dda2e7946f14a931",
+      "item": {
+        "type": "paragraph",
+        "id": "dda2e7946f14a931",
+        "text": "Kubernetes workshop [https://github.com/sethp-nr/guestbook-workshop github]"
+      },
+      "date": 1565107934969
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "fb83c3b1efe7514b"
+      },
+      "id": "fb83c3b1efe7514b",
+      "type": "add",
+      "after": "dda2e7946f14a931",
+      "date": 1565108030732
+    },
+    {
+      "type": "edit",
+      "id": "fb83c3b1efe7514b",
+      "item": {
+        "type": "paragraph",
+        "id": "fb83c3b1efe7514b",
+        "text": "kubectl is the portal to all things k8s."
+      },
+      "date": 1565108041918
+    }
+  ]
+}

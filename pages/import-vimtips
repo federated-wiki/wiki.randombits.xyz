@@ -1,0 +1,39 @@
+{
+  "title": "Import VimTips",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "dd0967cf98500de3",
+      "text": "VimTips is a very useful collection of tips for using vim. Unfortunately, the advertising on the site is incredibly intrusive. This page documents how to get these tips imported into a wiki."
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Import VimTips",
+        "story": []
+      },
+      "date": 1556857144199
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "dd0967cf98500de3"
+      },
+      "id": "dd0967cf98500de3",
+      "type": "add",
+      "date": 1556857146104
+    },
+    {
+      "type": "edit",
+      "id": "dd0967cf98500de3",
+      "item": {
+        "type": "paragraph",
+        "id": "dd0967cf98500de3",
+        "text": "VimTips is a very useful collection of tips for using vim. Unfortunately, the advertising on the site is incredibly intrusive. This page documents how to get these tips imported into a wiki."
+      },
+      "date": 1556857203717
+    }
+  ]
+}

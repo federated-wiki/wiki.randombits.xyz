@@ -1,0 +1,81 @@
+{
+  "title": "Vulkan",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "0f12e1c888b47dba",
+      "text": "Vulkan is the next generation graphics API developed by the Khronos group."
+    },
+    {
+      "type": "paragraph",
+      "id": "157694f037fbe4b8",
+      "text": "The recommended started tutorial appears to be vulkan-tutorial.com [http://vulkan-tutorial.com web]"
+    },
+    {
+      "type": "paragraph",
+      "id": "ff778130dde2155c",
+      "text": "For suggestions of what to do after that, look at [https://www.reddit.com/r/vulkan/comments/efyzb4/what_should_one_read_after_vulkantutorialcom/ reddit]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Vulkan",
+        "story": []
+      },
+      "date": 1578413521427
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "0f12e1c888b47dba"
+      },
+      "id": "0f12e1c888b47dba",
+      "type": "add",
+      "date": 1578413522577
+    },
+    {
+      "type": "edit",
+      "id": "0f12e1c888b47dba",
+      "item": {
+        "type": "paragraph",
+        "id": "0f12e1c888b47dba",
+        "text": "Vulkan is the next generation graphics API developed by the Khronos "
+      },
+      "date": 1578413543037
+    },
+    {
+      "type": "edit",
+      "id": "0f12e1c888b47dba",
+      "item": {
+        "type": "paragraph",
+        "id": "0f12e1c888b47dba",
+        "text": "Vulkan is the next generation graphics API developed by the Khronos group."
+      },
+      "date": 1578413559967
+    },
+    {
+      "type": "add",
+      "id": "157694f037fbe4b8",
+      "item": {
+        "type": "paragraph",
+        "id": "157694f037fbe4b8",
+        "text": "The recommended started tutorial appears to be vulkan-tutorial.com [http://vulkan-tutorial.com web]"
+      },
+      "after": "0f12e1c888b47dba",
+      "date": 1578413610131
+    },
+    {
+      "type": "add",
+      "id": "ff778130dde2155c",
+      "item": {
+        "type": "paragraph",
+        "id": "ff778130dde2155c",
+        "text": "For suggestions of what to do after that, look at [https://www.reddit.com/r/vulkan/comments/efyzb4/what_should_one_read_after_vulkantutorialcom/ reddit]"
+      },
+      "after": "157694f037fbe4b8",
+      "date": 1578413636610
+    }
+  ]
+}

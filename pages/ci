@@ -1,0 +1,167 @@
+{
+  "title": "CI",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "dd9a4d5cc570aa24",
+      "text": "Collection of information about various Continuous Integration systems."
+    },
+    {
+      "type": "paragraph",
+      "id": "567ef1da9024debc",
+      "text": "Travis CI"
+    },
+    {
+      "type": "paragraph",
+      "id": "50b130e39305ab4b",
+      "text": "Circle CI"
+    },
+    {
+      "type": "paragraph",
+      "id": "b7e5441bc47411e8",
+      "text": "Concourse CI"
+    },
+    {
+      "type": "paragraph",
+      "id": "850ad47f93d96a46",
+      "text": "Team City"
+    },
+    {
+      "type": "paragraph",
+      "id": "ea598e74b284570e",
+      "text": "CruiseControl"
+    },
+    {
+      "type": "paragraph",
+      "id": "049b4f17423e3623",
+      "text": "gocd"
+    },
+    {
+      "type": "paragraph",
+      "id": "8692c21021652733",
+      "text": "Jenkins"
+    },
+    {
+      "type": "paragraph",
+      "id": "6c47eee386393de1",
+      "text": "GitLab CI"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "CI",
+        "story": []
+      },
+      "date": 1556660166617
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "dd9a4d5cc570aa24"
+      },
+      "id": "dd9a4d5cc570aa24",
+      "type": "add",
+      "date": 1556660167842
+    },
+    {
+      "type": "edit",
+      "id": "dd9a4d5cc570aa24",
+      "item": {
+        "type": "paragraph",
+        "id": "dd9a4d5cc570aa24",
+        "text": "Collection of information about various Continuous Integration systems."
+      },
+      "date": 1556660183946
+    },
+    {
+      "type": "add",
+      "id": "567ef1da9024debc",
+      "item": {
+        "type": "paragraph",
+        "id": "567ef1da9024debc",
+        "text": "Travis CI"
+      },
+      "after": "dd9a4d5cc570aa24",
+      "date": 1556660190771
+    },
+    {
+      "type": "add",
+      "id": "50b130e39305ab4b",
+      "item": {
+        "type": "paragraph",
+        "id": "50b130e39305ab4b",
+        "text": "Circle CI"
+      },
+      "after": "567ef1da9024debc",
+      "date": 1556660193274
+    },
+    {
+      "type": "add",
+      "id": "b7e5441bc47411e8",
+      "item": {
+        "type": "paragraph",
+        "id": "b7e5441bc47411e8",
+        "text": "Concourse CI"
+      },
+      "after": "50b130e39305ab4b",
+      "date": 1556660197843
+    },
+    {
+      "type": "add",
+      "id": "850ad47f93d96a46",
+      "item": {
+        "type": "paragraph",
+        "id": "850ad47f93d96a46",
+        "text": "Team City"
+      },
+      "after": "b7e5441bc47411e8",
+      "date": 1556660202289
+    },
+    {
+      "type": "add",
+      "id": "ea598e74b284570e",
+      "item": {
+        "type": "paragraph",
+        "id": "ea598e74b284570e",
+        "text": "CruiseControl"
+      },
+      "after": "850ad47f93d96a46",
+      "date": 1556660207788
+    },
+    {
+      "type": "add",
+      "id": "049b4f17423e3623",
+      "item": {
+        "type": "paragraph",
+        "id": "049b4f17423e3623",
+        "text": "gocd"
+      },
+      "after": "ea598e74b284570e",
+      "date": 1556660211668
+    },
+    {
+      "type": "add",
+      "id": "8692c21021652733",
+      "item": {
+        "type": "paragraph",
+        "id": "8692c21021652733",
+        "text": "Jenkins"
+      },
+      "after": "049b4f17423e3623",
+      "date": 1556660239463
+    },
+    {
+      "type": "add",
+      "id": "6c47eee386393de1",
+      "item": {
+        "type": "paragraph",
+        "id": "6c47eee386393de1",
+        "text": "GitLab CI"
+      },
+      "after": "8692c21021652733",
+      "date": 1556660245023
+    }
+  ]
+}

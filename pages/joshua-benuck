@@ -1,0 +1,97 @@
+{
+  "title": "Joshua Benuck",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "b69b21a9e6d98765",
+      "text": "I am an avid open source enthusiast who loves learning and sharing."
+    },
+    {
+      "type": "paragraph",
+      "id": "8cf17e565fe12422",
+      "text": "[https://github.com/joshuabenuck github]"
+    },
+    {
+      "type": "paragraph",
+      "id": "85e92b4d257504d9",
+      "text": "@joshua:matrix.randombits.xyz - Matrix id"
+    },
+    {
+      "type": "paragraph",
+      "id": "193160ecd482088e",
+      "text": "@joshuabenuck - twitter"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Joshua Benuck",
+        "story": []
+      },
+      "date": 1555218926440
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "b69b21a9e6d98765"
+      },
+      "id": "b69b21a9e6d98765",
+      "type": "add",
+      "date": 1555218928767
+    },
+    {
+      "type": "edit",
+      "id": "b69b21a9e6d98765",
+      "item": {
+        "type": "paragraph",
+        "id": "b69b21a9e6d98765",
+        "text": "I am an avid open source enthusiast who loves learning and sharing."
+      },
+      "date": 1555219018395
+    },
+    {
+      "type": "add",
+      "id": "8cf17e565fe12422",
+      "item": {
+        "type": "paragraph",
+        "id": "8cf17e565fe12422",
+        "text": "[https://github.com/joshuabenuck github]"
+      },
+      "after": "b69b21a9e6d98765",
+      "date": 1555223062753
+    },
+    {
+      "type": "add",
+      "id": "85e92b4d257504d9",
+      "item": {
+        "type": "paragraph",
+        "id": "85e92b4d257504d9",
+        "text": "@joshua:matrix.randombits.xyz - Matrix id"
+      },
+      "after": "8cf17e565fe12422",
+      "date": 1555223100346
+    },
+    {
+      "type": "add",
+      "id": "193160ecd482088e",
+      "item": {
+        "type": "paragraph",
+        "id": "193160ecd482088e",
+        "text": "@joshuabenuck -twitter"
+      },
+      "after": "85e92b4d257504d9",
+      "date": 1555223105796
+    },
+    {
+      "type": "edit",
+      "id": "193160ecd482088e",
+      "item": {
+        "type": "paragraph",
+        "id": "193160ecd482088e",
+        "text": "@joshuabenuck - twitter"
+      },
+      "date": 1555223129413
+    }
+  ]
+}

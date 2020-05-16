@@ -1,0 +1,181 @@
+{
+  "title": "psql",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "4ead98587e98413d",
+      "text": "Commands for psql"
+    },
+    {
+      "type": "paragraph",
+      "id": "b41784da228168b7",
+      "text": "psql DBNAME USERNAME -h HOST"
+    },
+    {
+      "type": "paragraph",
+      "id": "c7899f70a0db87d3",
+      "text": " select pid, now() - pg_stat_activity.query_start as duration, query, state from pg_stat_activity where (now() - pg_stat_activity.query_start) > interval '5 minutes'; [https://medium.com/little-programming-joys/finding-and-killing-long-running-queries-on-postgres-7c4f0449e86d blog]\n"
+    },
+    {
+      "type": "paragraph",
+      "id": "6a2e159bd3935322",
+      "text": "Viewing the full query in pg_stat_activity requires restarting psql! [https://dba.stackexchange.com/questions/90343/how-to-view-full-blocking-postgres-queries so]"
+    },
+    {
+      "type": "paragraph",
+      "id": "793b6498234b4c68",
+      "text": "Run a query from the command line [https://stackoverflow.com/questions/1517635/save-pl-pgsql-output-from-postgresql-to-a-csv-file so]"
+    },
+    {
+      "type": "factory",
+      "id": "52a4009530040cbd",
+      "text": "psql <connstring> -t -A [-F\",\"] -c<query>"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "psql",
+        "story": []
+      },
+      "date": 1558374554270
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "4ead98587e98413d"
+      },
+      "id": "4ead98587e98413d",
+      "type": "add",
+      "date": 1558374555558
+    },
+    {
+      "type": "edit",
+      "id": "4ead98587e98413d",
+      "item": {
+        "type": "paragraph",
+        "id": "4ead98587e98413d",
+        "text": "Commands for psql"
+      },
+      "date": 1558374564185
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "b41784da228168b7"
+      },
+      "id": "b41784da228168b7",
+      "type": "add",
+      "after": "4ead98587e98413d",
+      "date": 1558374572331
+    },
+    {
+      "type": "edit",
+      "id": "b41784da228168b7",
+      "item": {
+        "type": "paragraph",
+        "id": "b41784da228168b7",
+        "text": "psql DBNAME USERNAME"
+      },
+      "date": 1558374579355
+    },
+    {
+      "type": "add",
+      "id": "c7899f70a0db87d3",
+      "item": {
+        "type": "paragraph",
+        "id": "c7899f70a0db87d3",
+        "text": " select pid, now() - pg_stat_activity.query_start as duration, query, state from pg_stat_activity where (now() - pg_stat_activity.query_start) > interval '5 minutes';\n"
+      },
+      "after": "b41784da228168b7",
+      "date": 1558375029269
+    },
+    {
+      "type": "edit",
+      "id": "b41784da228168b7",
+      "item": {
+        "type": "paragraph",
+        "id": "b41784da228168b7",
+        "text": "psql DBNAME USERNAME -h HOST"
+      },
+      "date": 1558375034523
+    },
+    {
+      "type": "edit",
+      "id": "c7899f70a0db87d3",
+      "item": {
+        "type": "paragraph",
+        "id": "c7899f70a0db87d3",
+        "text": " select pid, now() - pg_stat_activity.query_start as duration, query, state from pg_stat_activity where (now() - pg_stat_activity.query_start) > interval '5 minutes'; [https://medium.com/little-programming-joys/finding-and-killing-long-running-queries-on-postgres-7c4f0449e86d blog]\n"
+      },
+      "date": 1558375066830
+    },
+    {
+      "type": "fork",
+      "date": 1558378261427
+    },
+    {
+      "type": "move",
+      "order": [
+        "4ead98587e98413d",
+        "b41784da228168b7",
+        "c7899f70a0db87d3"
+      ],
+      "id": "4ead98587e98413d",
+      "date": 1558378286655
+    },
+    {
+      "type": "move",
+      "order": [
+        "4ead98587e98413d",
+        "b41784da228168b7",
+        "c7899f70a0db87d3"
+      ],
+      "id": "4ead98587e98413d",
+      "date": 1558378545468
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "6a2e159bd3935322"
+      },
+      "id": "6a2e159bd3935322",
+      "type": "add",
+      "after": "c7899f70a0db87d3",
+      "date": 1558453473499
+    },
+    {
+      "type": "edit",
+      "id": "6a2e159bd3935322",
+      "item": {
+        "type": "paragraph",
+        "id": "6a2e159bd3935322",
+        "text": "Viewing the full query in pg_stat_activity requires restarting psql! [https://dba.stackexchange.com/questions/90343/how-to-view-full-blocking-postgres-queries so]"
+      },
+      "date": 1558453501671
+    },
+    {
+      "type": "add",
+      "id": "793b6498234b4c68",
+      "item": {
+        "type": "paragraph",
+        "id": "793b6498234b4c68",
+        "text": "Run a query from the command line [https://stackoverflow.com/questions/1517635/save-pl-pgsql-output-from-postgresql-to-a-csv-file so]"
+      },
+      "after": "6a2e159bd3935322",
+      "date": 1587658456120
+    },
+    {
+      "type": "add",
+      "id": "52a4009530040cbd",
+      "item": {
+        "type": "factory",
+        "id": "52a4009530040cbd",
+        "text": "psql <connstring> -t -A [-F\",\"] -c<query>"
+      },
+      "after": "793b6498234b4c68",
+      "date": 1587658489141
+    }
+  ]
+}

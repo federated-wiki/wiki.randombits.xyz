@@ -1,0 +1,284 @@
+{
+  "title": "ruby",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "317c132d0591ca08",
+      "text": "Random notes about how to do things in ruby."
+    },
+    {
+      "type": "paragraph",
+      "id": "1d3096ba85978012",
+      "text": "Convert string to ..."
+    },
+    {
+      "type": "paragraph",
+      "id": "1c1aa4d80e561e6d",
+      "text": ".to_i # integer"
+    },
+    {
+      "type": "paragraph",
+      "id": "fdc31814ea9fb689",
+      "text": ".to_f # float"
+    },
+    {
+      "type": "paragraph",
+      "id": "2c5ebc06295d58d1",
+      "text": ".to_r # rational"
+    },
+    {
+      "type": "paragraph",
+      "id": "82c446c7638d043e",
+      "text": ".to_c # complex"
+    },
+    {
+      "type": "paragraph",
+      "id": "9ecfc3814833a45b",
+      "text": "What was the time 10 seconds ago? [https://stackoverflow.com/questions/10056066/time-manipulation-in-ruby so]"
+    },
+    {
+      "type": "paragraph",
+      "id": "6b1b7c4c3e796d1f",
+      "text": "DateTime.now() - 10.seconds"
+    },
+    {
+      "type": "paragraph",
+      "id": "a909c3c42ba61596",
+      "text": "\"(some) string\".match(/^(some)/).captures[0] [https://www.rubyguides.com/2015/06/ruby-regex/ article]"
+    },
+    {
+      "type": "paragraph",
+      "id": "4310cc70d8955f08",
+      "text": "ruby's DateTime [https://ruby-doc.org/stdlib-2.6.1/libdoc/date/rdoc/DateTime.html docs]"
+    },
+    {
+      "type": "paragraph",
+      "id": "c77e642c8b53550f",
+      "text": "File.readlines { |line| ... }"
+    },
+    {
+      "type": "paragraph",
+      "id": "259c1a984abf9f2d",
+      "text": "ERB templates [https://ruby-doc.org/stdlib-2.6.3/libdoc/erb/rdoc/ERB.html docs]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "ruby",
+        "story": []
+      },
+      "date": 1561392139717
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "317c132d0591ca08"
+      },
+      "id": "317c132d0591ca08",
+      "type": "add",
+      "date": 1561392140637
+    },
+    {
+      "type": "edit",
+      "id": "317c132d0591ca08",
+      "item": {
+        "type": "paragraph",
+        "id": "317c132d0591ca08",
+        "text": "Random notes about how to do things in ruby."
+      },
+      "date": 1561392148494
+    },
+    {
+      "type": "add",
+      "id": "1d3096ba85978012",
+      "item": {
+        "type": "paragraph",
+        "id": "1d3096ba85978012",
+        "text": "Convert string to integer:"
+      },
+      "after": "317c132d0591ca08",
+      "date": 1561392159736
+    },
+    {
+      "type": "add",
+      "id": "1c1aa4d80e561e6d",
+      "item": {
+        "type": "paragraph",
+        "id": "1c1aa4d80e561e6d",
+        "text": "\"some string\".to_i()"
+      },
+      "after": "1d3096ba85978012",
+      "date": 1561392165944
+    },
+    {
+      "type": "add",
+      "id": "9ecfc3814833a45b",
+      "item": {
+        "type": "paragraph",
+        "id": "9ecfc3814833a45b",
+        "text": "What was the time 10 seconds ago? [https://stackoverflow.com/questions/10056066/time-manipulation-in-ruby so]"
+      },
+      "after": "1c1aa4d80e561e6d",
+      "date": 1561392184619
+    },
+    {
+      "type": "add",
+      "id": "6b1b7c4c3e796d1f",
+      "item": {
+        "type": "paragraph",
+        "id": "6b1b7c4c3e796d1f",
+        "text": "DateTime.now() - 10.seconds"
+      },
+      "after": "9ecfc3814833a45b",
+      "date": 1561392194996
+    },
+    {
+      "type": "add",
+      "id": "fdc31814ea9fb689",
+      "item": {
+        "type": "paragraph",
+        "id": "fdc31814ea9fb689",
+        "text": ".to_f"
+      },
+      "after": "1c1aa4d80e561e6d",
+      "date": 1561392214605
+    },
+    {
+      "type": "add",
+      "id": "2c5ebc06295d58d1",
+      "item": {
+        "type": "paragraph",
+        "id": "2c5ebc06295d58d1",
+        "text": ".to_r"
+      },
+      "after": "fdc31814ea9fb689",
+      "date": 1561392218190
+    },
+    {
+      "type": "add",
+      "id": "82c446c7638d043e",
+      "item": {
+        "type": "paragraph",
+        "id": "82c446c7638d043e",
+        "text": ".to_c # complex"
+      },
+      "after": "2c5ebc06295d58d1",
+      "date": 1561392224302
+    },
+    {
+      "type": "edit",
+      "id": "2c5ebc06295d58d1",
+      "item": {
+        "type": "paragraph",
+        "id": "2c5ebc06295d58d1",
+        "text": ".to_r # rational"
+      },
+      "date": 1561392229273
+    },
+    {
+      "type": "edit",
+      "id": "fdc31814ea9fb689",
+      "item": {
+        "type": "paragraph",
+        "id": "fdc31814ea9fb689",
+        "text": ".to_f # float"
+      },
+      "date": 1561392235194
+    },
+    {
+      "type": "edit",
+      "id": "1c1aa4d80e561e6d",
+      "item": {
+        "type": "paragraph",
+        "id": "1c1aa4d80e561e6d",
+        "text": "to_i # integer"
+      },
+      "date": 1561392244762
+    },
+    {
+      "type": "edit",
+      "id": "1d3096ba85978012",
+      "item": {
+        "type": "paragraph",
+        "id": "1d3096ba85978012",
+        "text": "Convert string to ..."
+      },
+      "date": 1561392249761
+    },
+    {
+      "type": "add",
+      "id": "a909c3c42ba61596",
+      "item": {
+        "type": "paragraph",
+        "id": "a909c3c42ba61596",
+        "text": "\"(some) string\".match(/^(some)/).captures[0]"
+      },
+      "after": "6b1b7c4c3e796d1f",
+      "date": 1561392284795
+    },
+    {
+      "type": "edit",
+      "id": "a909c3c42ba61596",
+      "item": {
+        "type": "paragraph",
+        "id": "a909c3c42ba61596",
+        "text": "\"(some) string\".match(/^(some)/).captures[0] [https://www.rubyguides.com/2015/06/ruby-regex/ article]"
+      },
+      "date": 1561392294796
+    },
+    {
+      "type": "edit",
+      "id": "1c1aa4d80e561e6d",
+      "item": {
+        "type": "paragraph",
+        "id": "1c1aa4d80e561e6d",
+        "text": ".to_i # integer"
+      },
+      "date": 1561397158715
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "4310cc70d8955f08"
+      },
+      "id": "4310cc70d8955f08",
+      "type": "add",
+      "after": "a909c3c42ba61596",
+      "date": 1561585713911
+    },
+    {
+      "type": "edit",
+      "id": "4310cc70d8955f08",
+      "item": {
+        "type": "paragraph",
+        "id": "4310cc70d8955f08",
+        "text": "ruby's DateTime [https://ruby-doc.org/stdlib-2.6.1/libdoc/date/rdoc/DateTime.html docs]"
+      },
+      "date": 1561585723070
+    },
+    {
+      "type": "add",
+      "id": "c77e642c8b53550f",
+      "item": {
+        "type": "paragraph",
+        "id": "c77e642c8b53550f",
+        "text": "File.readlines { |line| ... }"
+      },
+      "after": "4310cc70d8955f08",
+      "date": 1563568372039
+    },
+    {
+      "type": "add",
+      "id": "259c1a984abf9f2d",
+      "item": {
+        "type": "paragraph",
+        "id": "259c1a984abf9f2d",
+        "text": "ERB templates [https://ruby-doc.org/stdlib-2.6.3/libdoc/erb/rdoc/ERB.html docs]"
+      },
+      "after": "c77e642c8b53550f",
+      "date": 1563568405905
+    }
+  ]
+}

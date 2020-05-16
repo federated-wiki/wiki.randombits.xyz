@@ -1,0 +1,90 @@
+{
+  "title": "chrome",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "41316ad471bf1df0",
+      "text": "Notes about random chrome apis."
+    },
+    {
+      "type": "paragraph",
+      "id": "e493bca5b4a40949",
+      "text": "url_handlers - might be useful to allow wiki urls to be opened by electrified wiki or by chrome.  [https://developer.chrome.com/apps/manifest/url_handlers docs]"
+    },
+    {
+      "type": "paragraph",
+      "id": "d9e11599e98066a6",
+      "text": "Custom protocol handlers. [https://developers.google.com/web/updates/2011/06/Registering-a-custom-protocol-handler docs]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "chrome",
+        "story": []
+      },
+      "date": 1559920922350
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "41316ad471bf1df0"
+      },
+      "id": "41316ad471bf1df0",
+      "type": "add",
+      "date": 1559920923875
+    },
+    {
+      "type": "edit",
+      "id": "41316ad471bf1df0",
+      "item": {
+        "type": "paragraph",
+        "id": "41316ad471bf1df0",
+        "text": "Notes about random chrome apis."
+      },
+      "date": 1559920936453
+    },
+    {
+      "type": "add",
+      "id": "e493bca5b4a40949",
+      "item": {
+        "type": "paragraph",
+        "id": "e493bca5b4a40949",
+        "text": "url_handlers [https://developer.chrome.com/apps/manifest/url_handlers docs]"
+      },
+      "after": "41316ad471bf1df0",
+      "date": 1559920945659
+    },
+    {
+      "type": "edit",
+      "id": "e493bca5b4a40949",
+      "item": {
+        "type": "paragraph",
+        "id": "e493bca5b4a40949",
+        "text": "url_handlers - might be useful to allow wiki urls to be opened by electrified wiki or by chrome.  [https://developer.chrome.com/apps/manifest/url_handlers docs]"
+      },
+      "date": 1559920982366
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "d9e11599e98066a6"
+      },
+      "id": "d9e11599e98066a6",
+      "type": "add",
+      "after": "e493bca5b4a40949",
+      "date": 1559921026146
+    },
+    {
+      "type": "edit",
+      "id": "d9e11599e98066a6",
+      "item": {
+        "type": "paragraph",
+        "id": "d9e11599e98066a6",
+        "text": "Custom protocol handlers. [https://developers.google.com/web/updates/2011/06/Registering-a-custom-protocol-handler docs]"
+      },
+      "date": 1559921038469
+    }
+  ]
+}

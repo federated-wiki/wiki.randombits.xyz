@@ -1,0 +1,189 @@
+{
+  "title": "Bespoke",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "111709d28dcc55ba",
+      "text": "According to Google: \"Made for a particular customer or user\"."
+    },
+    {
+      "type": "paragraph",
+      "id": "3629b90f5c60a697",
+      "text": "None of these exist!  This is just a collection of ideas at the moment."
+    },
+    {
+      "type": "paragraph",
+      "id": "c0350f2add648810",
+      "text": "A set of utilities designed to ease the formation of custom / one-off creations."
+    },
+    {
+      "type": "paragraph",
+      "id": "78adc402bc9382c8",
+      "text": "bq - Bespoke Queries: Query json structures using an SQL like syntax."
+    },
+    {
+      "type": "paragraph",
+      "id": "0964552f5a9b7b08",
+      "text": "bc - Bespoke Charts: Creates bar charts, stacked bar charts, line charts, etc. The chart type created is based on the structure of the data passed in."
+    },
+    {
+      "type": "paragraph",
+      "id": "e53382a041379625",
+      "text": "bs - Bespoke Structure: Shows the top level structure of a json object to ease extractions / querying."
+    },
+    {
+      "type": "paragraph",
+      "id": "6a81c9448eb1f69f",
+      "text": "bt - Bespoke Trees: Creation of an interactive tree from json data."
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Bespoke",
+        "story": []
+      },
+      "date": 1570154080876
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "b440831af6a43d53"
+      },
+      "id": "b440831af6a43d53",
+      "type": "add",
+      "date": 1570154081953
+    },
+    {
+      "type": "remove",
+      "id": "b440831af6a43d53",
+      "date": 1570154084305
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "111709d28dcc55ba"
+      },
+      "id": "111709d28dcc55ba",
+      "type": "add",
+      "date": 1570154098399
+    },
+    {
+      "type": "edit",
+      "id": "111709d28dcc55ba",
+      "item": {
+        "type": "paragraph",
+        "id": "111709d28dcc55ba",
+        "text": "\"Made for a particular customer or user\""
+      },
+      "date": 1570154108585
+    },
+    {
+      "type": "edit",
+      "id": "111709d28dcc55ba",
+      "item": {
+        "type": "paragraph",
+        "id": "111709d28dcc55ba",
+        "text": "According to Google: \"Made for a particular customer or user\"."
+      },
+      "date": 1570154117498
+    },
+    {
+      "type": "add",
+      "id": "c0350f2add648810",
+      "item": {
+        "type": "paragraph",
+        "id": "c0350f2add648810",
+        "text": "A set of utilities designed to ease the formation of custom / one-off creations."
+      },
+      "after": "111709d28dcc55ba",
+      "date": 1570154173379
+    },
+    {
+      "type": "add",
+      "id": "78adc402bc9382c8",
+      "item": {
+        "type": "paragraph",
+        "id": "78adc402bc9382c8",
+        "text": "Bespoke Queries"
+      },
+      "after": "c0350f2add648810",
+      "date": 1570154181406
+    },
+    {
+      "type": "edit",
+      "id": "78adc402bc9382c8",
+      "item": {
+        "type": "paragraph",
+        "id": "78adc402bc9382c8",
+        "text": "bq - Bespoke Queries"
+      },
+      "date": 1570154193515
+    },
+    {
+      "type": "add",
+      "id": "0964552f5a9b7b08",
+      "item": {
+        "type": "paragraph",
+        "id": "0964552f5a9b7b08",
+        "text": "bc - Bespoke Charts"
+      },
+      "after": "78adc402bc9382c8",
+      "date": 1570154197552
+    },
+    {
+      "type": "add",
+      "id": "e53382a041379625",
+      "item": {
+        "type": "paragraph",
+        "id": "e53382a041379625",
+        "text": "bs - Bespoke Structure: Shows the top level structure of a json object to ease extractions / querying."
+      },
+      "after": "0964552f5a9b7b08",
+      "date": 1570154231554
+    },
+    {
+      "type": "edit",
+      "id": "0964552f5a9b7b08",
+      "item": {
+        "type": "paragraph",
+        "id": "0964552f5a9b7b08",
+        "text": "bc - Bespoke Charts: Creates bar charts, stacked bar charts, line charts, etc. The chart type created is based on the structure of the data passed in."
+      },
+      "date": 1570154265225
+    },
+    {
+      "type": "edit",
+      "id": "78adc402bc9382c8",
+      "item": {
+        "type": "paragraph",
+        "id": "78adc402bc9382c8",
+        "text": "bq - Bespoke Queries: Query json structures using an SQL like syntax."
+      },
+      "date": 1570154278374
+    },
+    {
+      "type": "add",
+      "id": "3629b90f5c60a697",
+      "item": {
+        "type": "paragraph",
+        "id": "3629b90f5c60a697",
+        "text": "None of these exist!  This is just a collection of ideas at the moment."
+      },
+      "after": "111709d28dcc55ba",
+      "date": 1570154306028
+    },
+    {
+      "type": "add",
+      "id": "6a81c9448eb1f69f",
+      "item": {
+        "type": "paragraph",
+        "id": "6a81c9448eb1f69f",
+        "text": "bt - Bespoke Trees: Creation of an interactive tree from json data."
+      },
+      "after": "e53382a041379625",
+      "date": 1570154359775
+    }
+  ]
+}

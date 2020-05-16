@@ -1,0 +1,229 @@
+{
+  "title": "Roguelike",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "866aa95e186feb7e",
+      "text": "An RPG of sorts that commonly takes place in randomly generated dungeons and displayed using ASCII art. Permanent death is considered a defining characteristic (much to my chagrin)."
+    },
+    {
+      "type": "paragraph",
+      "id": "ec614b7d78a87279",
+      "text": "Roguelike Toolkit [https://github.com/thebracket/rltk_rs github]"
+    },
+    {
+      "type": "paragraph",
+      "id": "476d54f9e8f0df5f",
+      "text": "Rusty Roguelike. Uses the toolkit. [https://github.com/thebracket/rustyroguelike github]"
+    },
+    {
+      "type": "paragraph",
+      "id": "9be91a06bf417d6e",
+      "text": "Hauberk: A roguelike written in Dart. [https://github.com/munificent/hauberk github]"
+    },
+    {
+      "type": "paragraph",
+      "id": "c28dbf0e1d676f4a",
+      "text": "Amaranth: A roguelike written in C#. [https://github.com/munificent/amaranth github] [http://journal.stuffwithstuff.com/2010/06/11/amaranth-an-open-source-roguelike-in-c blog]"
+    },
+    {
+      "type": "paragraph",
+      "id": "269388188e9118a6",
+      "text": "Rooms and Mazes: Visualization of various maze generation algorithms. This goes with one of [[Bob Nystrom]]'s blog posts. [https://github.com/munificent/rooms-and-mazes github] [http://journal.stuffwithstuff.com/2014/12/21/rooms-and-mazes post]"
+    },
+    {
+      "type": "paragraph",
+      "id": "276ea5d78219af39",
+      "text": "Field of View: What the Hero Sees. [http://journal.stuffwithstuff.com/2015/09/07/what-the-hero-sees post]"
+    },
+    {
+      "type": "paragraph",
+      "id": "c948345f4703dd6d",
+      "text": "Mazes for Programmers: A book on generating mazes. Code is written in ruby."
+    },
+    {
+      "type": "paragraph",
+      "id": "30361e810079c310",
+      "text": "Dropping Loot. [http://journal.stuffwithstuff.com/2014/07/05/dropping-loot post]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Roguelike",
+        "story": []
+      },
+      "date": 1564112822458
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "866aa95e186feb7e"
+      },
+      "id": "866aa95e186feb7e",
+      "type": "add",
+      "date": 1564112826571
+    },
+    {
+      "type": "edit",
+      "id": "866aa95e186feb7e",
+      "item": {
+        "type": "paragraph",
+        "id": "866aa95e186feb7e",
+        "text": "An RPG of sorts that commonly takes place in randomly generated dungeons and displayed using ASCII art. Permanent death is considered a defining characteristic (much to my chagrin)."
+      },
+      "date": 1564112964898
+    },
+    {
+      "type": "add",
+      "id": "73304419794f2151",
+      "item": {
+        "type": "paragraph",
+        "id": "73304419794f2151",
+        "text": "Rust related resources:"
+      },
+      "after": "866aa95e186feb7e",
+      "date": 1564112987215
+    },
+    {
+      "type": "add",
+      "id": "ec614b7d78a87279",
+      "item": {
+        "type": "paragraph",
+        "id": "ec614b7d78a87279",
+        "text": "Roguelike Toolkit [https://github.com/thebracket/rltk_rs github]"
+      },
+      "after": "73304419794f2151",
+      "date": 1564113008682
+    },
+    {
+      "type": "add",
+      "id": "476d54f9e8f0df5f",
+      "item": {
+        "type": "paragraph",
+        "id": "476d54f9e8f0df5f",
+        "text": "Rusty Roguelike. Uses the toolkit. [https://github.com/thebracket/rustyroguelike github]"
+      },
+      "after": "ec614b7d78a87279",
+      "date": 1564113039499
+    },
+    {
+      "type": "add",
+      "id": "cb8f1bce42e6bc41",
+      "item": {
+        "type": "paragraph",
+        "id": "cb8f1bce42e6bc41",
+        "text": "Dart related:"
+      },
+      "after": "476d54f9e8f0df5f",
+      "date": 1564113050629
+    },
+    {
+      "type": "remove",
+      "id": "73304419794f2151",
+      "date": 1564113053948
+    },
+    {
+      "type": "remove",
+      "id": "cb8f1bce42e6bc41",
+      "date": 1564113059585
+    },
+    {
+      "type": "add",
+      "id": "9be91a06bf417d6e",
+      "item": {
+        "type": "paragraph",
+        "id": "9be91a06bf417d6e",
+        "text": "Hauberk: A roguelike written in Dart. [https://github.com/munificent/hauberk github]"
+      },
+      "after": "476d54f9e8f0df5f",
+      "date": 1564113115903
+    },
+    {
+      "type": "add",
+      "id": "c28dbf0e1d676f4a",
+      "item": {
+        "type": "paragraph",
+        "id": "c28dbf0e1d676f4a",
+        "text": "Amaranth: A roguelike written in C# [https://github.com/munificent/amaranth github]"
+      },
+      "after": "9be91a06bf417d6e",
+      "date": 1564113156974
+    },
+    {
+      "type": "edit",
+      "id": "c28dbf0e1d676f4a",
+      "item": {
+        "type": "paragraph",
+        "id": "c28dbf0e1d676f4a",
+        "text": "Amaranth: A roguelike written in C#. [https://github.com/munificent/amaranth github]"
+      },
+      "date": 1564113193394
+    },
+    {
+      "type": "add",
+      "id": "269388188e9118a6",
+      "item": {
+        "type": "paragraph",
+        "id": "269388188e9118a6",
+        "text": "Rooms and Mazes: Visualization of various maze generation algorithms. This goes with one of [[Bob Nystrom]]'s blog posts. [https://github.com/munificent/rooms-and-mazes github]"
+      },
+      "after": "c28dbf0e1d676f4a",
+      "date": 1564113230095
+    },
+    {
+      "type": "add",
+      "id": "c948345f4703dd6d",
+      "item": {
+        "type": "paragraph",
+        "id": "c948345f4703dd6d",
+        "text": "Mazes for Programmers: A book on generating mazes. Code is written in ruby."
+      },
+      "after": "269388188e9118a6",
+      "date": 1564113253326
+    },
+    {
+      "type": "edit",
+      "id": "c28dbf0e1d676f4a",
+      "item": {
+        "type": "paragraph",
+        "id": "c28dbf0e1d676f4a",
+        "text": "Amaranth: A roguelike written in C#. [https://github.com/munificent/amaranth github] [http://journal.stuffwithstuff.com/2010/06/11/amaranth-an-open-source-roguelike-in-c blog]"
+      },
+      "date": 1564113298524
+    },
+    {
+      "type": "edit",
+      "id": "269388188e9118a6",
+      "item": {
+        "type": "paragraph",
+        "id": "269388188e9118a6",
+        "text": "Rooms and Mazes: Visualization of various maze generation algorithms. This goes with one of [[Bob Nystrom]]'s blog posts. [https://github.com/munificent/rooms-and-mazes github] [http://journal.stuffwithstuff.com/2014/12/21/rooms-and-mazes post]"
+      },
+      "date": 1564113341173
+    },
+    {
+      "type": "add",
+      "id": "276ea5d78219af39",
+      "item": {
+        "type": "paragraph",
+        "id": "276ea5d78219af39",
+        "text": "Field of View: What the Hero Sees. [http://journal.stuffwithstuff.com/2015/09/07/what-the-hero-sees post]"
+      },
+      "after": "269388188e9118a6",
+      "date": 1564113380041
+    },
+    {
+      "type": "add",
+      "id": "30361e810079c310",
+      "item": {
+        "type": "paragraph",
+        "id": "30361e810079c310",
+        "text": "Dropping Loot. [http://journal.stuffwithstuff.com/2014/07/05/dropping-loot post]"
+      },
+      "after": "c948345f4703dd6d",
+      "date": 1564113404265
+    }
+  ]
+}

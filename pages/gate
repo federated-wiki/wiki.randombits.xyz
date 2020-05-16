@@ -1,0 +1,523 @@
+{
+  "title": "gate",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "945deb70eb6e425c",
+      "text": "This is the library used in the creation of Pascal Penguin."
+    },
+    {
+      "type": "paragraph",
+      "id": "efea1ae35a3a3557",
+      "text": "It supports being run on the desktop and in a browser."
+    },
+    {
+      "type": "paragraph",
+      "id": "a9f32c2572a6d686",
+      "text": "Getting it to run on Windows is challenging, mainly because of issues with the SDL2 crate."
+    },
+    {
+      "type": "paragraph",
+      "id": "eee4c28bd02e9b25",
+      "text": "As of version 0.31 of the rust SDL crate, a featured called 'bundled' has been added."
+    },
+    {
+      "type": "paragraph",
+      "id": "20d85fb7afa3e86d",
+      "text": "This causes the crate build to download and compile the SDL native libraries."
+    },
+    {
+      "type": "paragraph",
+      "id": "e28292f26cbb6108",
+      "text": "Unfortunately, it currently bundles version 2.0.9 of SDL2."
+    },
+    {
+      "type": "paragraph",
+      "id": "670ac0e21c97dca2",
+      "text": "Version 2.0.9 of SDL2 does not compile on Windows without a modification of CMakeList.txt. [https://stackoverflow.com/questions/58288692/cant-build-solution-in-release-mode-for-sdl-library-on-vs-2019 so]"
+    },
+    {
+      "type": "paragraph",
+      "id": "25df083f6f8865f3",
+      "text": "Luckily, the bundled feature supports applying patches to the downloaded source."
+    },
+    {
+      "type": "paragraph",
+      "id": "72f6baf6b4e58ad9",
+      "text": "Leveraging this allows one to get the rust SDL2 crate to compile under Windows."
+    },
+    {
+      "type": "paragraph",
+      "id": "89b222bb961ec5a4",
+      "text": "The gate library depends on an older version of the SDL2 crate. Upgrading it causes the gate library to fail to build due to changes in the SDL crate's API."
+    },
+    {
+      "type": "paragraph",
+      "id": "c7d96166b1f52abe",
+      "text": "Falling back to precompiled binaries is possible. This allows one to avoid needing to depend on the bundled feature. [https://github.com/Rust-SDL2/rust-sdl2 github]"
+    },
+    {
+      "type": "paragraph",
+      "id": "7d4e743980d11ccb",
+      "text": "To do this requires that the SDL development libraries and dll's be downloaded and placed into a directory."
+    },
+    {
+      "type": "paragraph",
+      "id": "93c9c150ed12ab33",
+      "text": "https://www.libsdl.org/download-2.0.php"
+    },
+    {
+      "type": "paragraph",
+      "id": "c5667e1b68105233",
+      "text": "https://www.libsdl.org/projects/SDL_image/"
+    },
+    {
+      "type": "paragraph",
+      "id": "39dd33413d7ff732",
+      "text": "https://www.libsdl.org/projects/SDL_mixer/"
+    },
+    {
+      "type": "paragraph",
+      "id": "93ac804a41b40a1e",
+      "text": "set RUSTFLAGS=-L <path to sdl libs>"
+    },
+    {
+      "type": "paragraph",
+      "id": "75c1db0d142b79a1",
+      "text": "There are other options for passing a flag to the linker. [https://stackoverflow.com/questions/26246849/how-to-i-tell-rust-where-to-look-for-a-static-library so]"
+    },
+    {
+      "type": "paragraph",
+      "id": "25479e233b0c0d45",
+      "text": "Note that the value of the environment variable CANNOT be surrounded with quotes as that breaks the compilation!"
+    },
+    {
+      "type": "paragraph",
+      "id": "59f8a2e673a8b7c6",
+      "text": "Once it compiles, it still will not run because it will be unable to find the DLLs when it launches."
+    },
+    {
+      "type": "paragraph",
+      "id": "6e2526da3518b4bd",
+      "text": "To fix this there are several options:"
+    },
+    {
+      "type": "paragraph",
+      "id": "4d62ec3a72e5895e",
+      "text": "- Place the DLLs in the working directory of the executable."
+    },
+    {
+      "type": "paragraph",
+      "id": "a84c496279dd5a23",
+      "text": "- Add the folder with the DLLs to the path."
+    },
+    {
+      "type": "paragraph",
+      "id": "9b50b9d766bbe505",
+      "text": "Once that is resolved, the program will launch and fail due to \"OpenGL Texture Binding\" not being supported. This error apparently only happens on Windows. [https://github.com/SergiusIW/chirperjax/issues/2 github]"
+    },
+    {
+      "type": "paragraph",
+      "id": "f07fd5cb50a33c87",
+      "text": "This error occurs when loading the spritesheet. Shortly after that, OpenGL errors are checked."
+    },
+    {
+      "type": "paragraph",
+      "id": "fa44902365493794",
+      "text": "If the error checking is moved before the spritesheet loading, error 1282 is present."
+    },
+    {
+      "type": "paragraph",
+      "id": "5d1a74235a6c0af7",
+      "text": "Error 1282 is invalid operation or invalid value. [https://stackoverflow.com/questions/15722803/opengl-shader-error-1282 so]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "gate",
+        "story": []
+      },
+      "date": 1575693416185
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "945deb70eb6e425c",
+        "text": "This is the library used in the creation of Pascal Penguin."
+      },
+      "id": "945deb70eb6e425c",
+      "type": "add",
+      "date": 1575693417490
+    },
+    {
+      "type": "edit",
+      "id": "945deb70eb6e425c",
+      "item": {
+        "type": "paragraph",
+        "id": "945deb70eb6e425c",
+        "text": "This is the library used in the creation of Pascal Penguin."
+      },
+      "date": 1575693432831
+    },
+    {
+      "type": "add",
+      "id": "efea1ae35a3a3557",
+      "item": {
+        "type": "paragraph",
+        "id": "efea1ae35a3a3557",
+        "text": "It supports being run on the desktop and in a browser."
+      },
+      "after": "945deb70eb6e425c",
+      "date": 1575693459630
+    },
+    {
+      "type": "add",
+      "id": "a9f32c2572a6d686",
+      "item": {
+        "type": "paragraph",
+        "id": "a9f32c2572a6d686",
+        "text": "Getting it to run on Windows is challenging, mainly because of issues with the SDL2 crate."
+      },
+      "after": "efea1ae35a3a3557",
+      "date": 1575693471637
+    },
+    {
+      "type": "edit",
+      "id": "a9f32c2572a6d686",
+      "item": {
+        "type": "paragraph",
+        "id": "a9f32c2572a6d686",
+        "text": "Getting it to run on Windows is challenging, mainly because of issues with the SDL2 crate."
+      },
+      "date": 1575693490015
+    },
+    {
+      "type": "add",
+      "id": "670ac0e21c97dca2",
+      "item": {
+        "type": "paragraph",
+        "id": "670ac0e21c97dca2",
+        "text": "Version 2.0.9 of SDL2 does not compile on Windows without a modification of CMakeList.txt."
+      },
+      "after": "a9f32c2572a6d686",
+      "date": 1575693517003
+    },
+    {
+      "type": "add",
+      "id": "eee4c28bd02e9b25",
+      "item": {
+        "type": "paragraph",
+        "id": "eee4c28bd02e9b25",
+        "text": "As of version 0.31 of the rust SDL crate, a featured called 'bundled' has been added."
+      },
+      "after": "670ac0e21c97dca2",
+      "date": 1575693572408
+    },
+    {
+      "type": "add",
+      "id": "20d85fb7afa3e86d",
+      "item": {
+        "type": "paragraph",
+        "id": "20d85fb7afa3e86d",
+        "text": "This causes the crate build to download and compile the SDL native libraries."
+      },
+      "after": "eee4c28bd02e9b25",
+      "date": 1575693594335
+    },
+    {
+      "id": "670ac0e21c97dca2",
+      "type": "move",
+      "order": [
+        "945deb70eb6e425c",
+        "efea1ae35a3a3557",
+        "a9f32c2572a6d686",
+        "eee4c28bd02e9b25",
+        "20d85fb7afa3e86d",
+        "670ac0e21c97dca2",
+        "cf34a53b397c83fb"
+      ],
+      "date": 1575693611435,
+      "error": {
+        "type": "error",
+        "msg": "Internal Server Error",
+        "response": "Server Ignoring move. Try reload."
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1575693614904
+    },
+    {
+      "type": "add",
+      "id": "e28292f26cbb6108",
+      "item": {
+        "type": "paragraph",
+        "id": "e28292f26cbb6108",
+        "text": "Unfortunately, it currently bundles version 2.0.9 of SDL2."
+      },
+      "after": "20d85fb7afa3e86d",
+      "date": 1575693636289
+    },
+    {
+      "type": "add",
+      "id": "25df083f6f8865f3",
+      "item": {
+        "type": "paragraph",
+        "id": "25df083f6f8865f3",
+        "text": "Luckily, the bundled feature supports applying patches to the downloaded source."
+      },
+      "after": "670ac0e21c97dca2",
+      "date": 1575693665426
+    },
+    {
+      "type": "add",
+      "id": "72f6baf6b4e58ad9",
+      "item": {
+        "type": "paragraph",
+        "id": "72f6baf6b4e58ad9",
+        "text": "Leveraging this allows one to get the rust SDL2 crate to compile under Windows."
+      },
+      "after": "25df083f6f8865f3",
+      "date": 1575693686969
+    },
+    {
+      "type": "add",
+      "id": "89b222bb961ec5a4",
+      "item": {
+        "type": "paragraph",
+        "id": "89b222bb961ec5a4",
+        "text": "The gate library depends on an older version of the SDL2 crate. Upgrading it causes the gate library to fail to build due to changes in the SDL crate's API."
+      },
+      "after": "72f6baf6b4e58ad9",
+      "date": 1575693752583
+    },
+    {
+      "type": "add",
+      "id": "c7d96166b1f52abe",
+      "item": {
+        "type": "paragraph",
+        "id": "c7d96166b1f52abe",
+        "text": "Falling back to precompiled binaries is possible. This allows one to avoid needing to depend on the bundled feature."
+      },
+      "after": "89b222bb961ec5a4",
+      "date": 1575693785410
+    },
+    {
+      "type": "add",
+      "id": "7d4e743980d11ccb",
+      "item": {
+        "type": "paragraph",
+        "id": "7d4e743980d11ccb",
+        "text": "To do this requires that the SDL lib"
+      },
+      "after": "c7d96166b1f52abe",
+      "date": 1575693811814
+    },
+    {
+      "type": "edit",
+      "id": "7d4e743980d11ccb",
+      "item": {
+        "type": "paragraph",
+        "id": "7d4e743980d11ccb",
+        "text": "To do this requires that the SDL development libraries and dll's be downloaded and placed into a directory."
+      },
+      "date": 1575693840388
+    },
+    {
+      "type": "add",
+      "id": "93ac804a41b40a1e",
+      "item": {
+        "type": "paragraph",
+        "id": "93ac804a41b40a1e",
+        "text": "set RUSTFLAGS=-L <path to sdl libs>"
+      },
+      "after": "7d4e743980d11ccb",
+      "date": 1575693861773
+    },
+    {
+      "type": "add",
+      "id": "25479e233b0c0d45",
+      "item": {
+        "type": "paragraph",
+        "id": "25479e233b0c0d45",
+        "text": "Note that the value of the environment variable CANNOT be surrounded with quotes as that breaks the compilation!"
+      },
+      "after": "93ac804a41b40a1e",
+      "date": 1575693886289
+    },
+    {
+      "type": "add",
+      "id": "59f8a2e673a8b7c6",
+      "item": {
+        "type": "paragraph",
+        "id": "59f8a2e673a8b7c6",
+        "text": "Once it compiles, it still will not run because it will be unable to find the DLLs when it launches."
+      },
+      "after": "25479e233b0c0d45",
+      "date": 1575693912775
+    },
+    {
+      "type": "add",
+      "id": "6e2526da3518b4bd",
+      "item": {
+        "type": "paragraph",
+        "id": "6e2526da3518b4bd",
+        "text": "To fix this there are several options:"
+      },
+      "after": "59f8a2e673a8b7c6",
+      "date": 1575693929646
+    },
+    {
+      "type": "add",
+      "id": "4d62ec3a72e5895e",
+      "item": {
+        "type": "paragraph",
+        "id": "4d62ec3a72e5895e",
+        "text": "- Place the DLLs in the working directory of the executable."
+      },
+      "after": "6e2526da3518b4bd",
+      "date": 1575693951009
+    },
+    {
+      "type": "add",
+      "id": "a84c496279dd5a23",
+      "item": {
+        "type": "paragraph",
+        "id": "a84c496279dd5a23",
+        "text": "- Add the folder with the DLLs to the path."
+      },
+      "after": "4d62ec3a72e5895e",
+      "date": 1575693969750
+    },
+    {
+      "type": "add",
+      "id": "9b50b9d766bbe505",
+      "item": {
+        "type": "paragraph",
+        "id": "9b50b9d766bbe505",
+        "text": "Once that is resolved, the program will launch and fail due to \"OpenGL Texture Binding\" not being supported. This error apparently only happens on Windows."
+      },
+      "after": "a84c496279dd5a23",
+      "date": 1575694010640
+    },
+    {
+      "type": "add",
+      "id": "f07fd5cb50a33c87",
+      "item": {
+        "type": "paragraph",
+        "id": "f07fd5cb50a33c87",
+        "text": "This error occurs when loading the spritesheet. Shortly after that, OpenGL errors are checked."
+      },
+      "after": "9b50b9d766bbe505",
+      "date": 1575694445888
+    },
+    {
+      "type": "add",
+      "id": "fa44902365493794",
+      "item": {
+        "type": "paragraph",
+        "id": "fa44902365493794",
+        "text": "If the error checking is moved before the spritesheet loading, error 1282 is present."
+      },
+      "after": "f07fd5cb50a33c87",
+      "date": 1575694466437
+    },
+    {
+      "type": "add",
+      "id": "5d1a74235a6c0af7",
+      "item": {
+        "type": "paragraph",
+        "id": "5d1a74235a6c0af7",
+        "text": "Error 1282 is invalid operation or invalid value. "
+      },
+      "after": "fa44902365493794",
+      "date": 1575694481044
+    },
+    {
+      "type": "edit",
+      "id": "5d1a74235a6c0af7",
+      "item": {
+        "type": "paragraph",
+        "id": "5d1a74235a6c0af7",
+        "text": "Error 1282 is invalid operation or invalid value. [https://stackoverflow.com/questions/15722803/opengl-shader-error-1282 so]"
+      },
+      "date": 1575694491502
+    },
+    {
+      "type": "edit",
+      "id": "9b50b9d766bbe505",
+      "item": {
+        "type": "paragraph",
+        "id": "9b50b9d766bbe505",
+        "text": "Once that is resolved, the program will launch and fail due to \"OpenGL Texture Binding\" not being supported. This error apparently only happens on Windows. [https://github.com/SergiusIW/chirperjax/issues/2 github]"
+      },
+      "date": 1575694650515
+    },
+    {
+      "type": "add",
+      "id": "75c1db0d142b79a1",
+      "item": {
+        "type": "paragraph",
+        "id": "75c1db0d142b79a1",
+        "text": "There are other options for passing a flag to the linker. [https://stackoverflow.com/questions/26246849/how-to-i-tell-rust-where-to-look-for-a-static-library so]"
+      },
+      "after": "93ac804a41b40a1e",
+      "date": 1575694697477
+    },
+    {
+      "type": "add",
+      "id": "39dd33413d7ff732",
+      "item": {
+        "type": "paragraph",
+        "id": "39dd33413d7ff732",
+        "text": "https://www.libsdl.org/projects/SDL_mixer/"
+      },
+      "after": "7d4e743980d11ccb",
+      "date": 1575694721097
+    },
+    {
+      "type": "add",
+      "id": "c5667e1b68105233",
+      "item": {
+        "type": "paragraph",
+        "id": "c5667e1b68105233",
+        "text": "https://www.libsdl.org/projects/SDL_image/"
+      },
+      "after": "7d4e743980d11ccb",
+      "date": 1575694730017
+    },
+    {
+      "type": "add",
+      "id": "93c9c150ed12ab33",
+      "item": {
+        "type": "paragraph",
+        "id": "93c9c150ed12ab33",
+        "text": "https://www.libsdl.org/download-2.0.php"
+      },
+      "after": "7d4e743980d11ccb",
+      "date": 1575694740927
+    },
+    {
+      "type": "edit",
+      "id": "c7d96166b1f52abe",
+      "item": {
+        "type": "paragraph",
+        "id": "c7d96166b1f52abe",
+        "text": "Falling back to precompiled binaries is possible. This allows one to avoid needing to depend on the bundled feature. [https://github.com/Rust-SDL2/rust-sdl2 github]"
+      },
+      "date": 1575694773505
+    },
+    {
+      "type": "edit",
+      "id": "670ac0e21c97dca2",
+      "item": {
+        "type": "paragraph",
+        "id": "670ac0e21c97dca2",
+        "text": "Version 2.0.9 of SDL2 does not compile on Windows without a modification of CMakeList.txt. [https://stackoverflow.com/questions/58288692/cant-build-solution-in-release-mode-for-sdl-library-on-vs-2019 so]"
+      },
+      "date": 1575696530020
+    }
+  ]
+}

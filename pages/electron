@@ -1,0 +1,263 @@
+{
+  "title": "Electron",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "f87fd52cd252540e",
+      "text": "Chromium based application framework."
+    },
+    {
+      "type": "paragraph",
+      "id": "cb65b90e9e025b4a",
+      "text": "Commonly referenced doc pages:"
+    },
+    {
+      "type": "paragraph",
+      "id": "6453b6b4dcd1405d",
+      "text": "[https://electronjs.org/docs/api/browser-window BrowserWindow]"
+    },
+    {
+      "type": "paragraph",
+      "id": "127ea27249cf11f8",
+      "text": "[https://electronjs.org/docs/api/browser-view BrowserView]"
+    },
+    {
+      "type": "paragraph",
+      "id": "5e7c34ec8c677940",
+      "text": "[https://electronjs.org/docs/api/web-contents WebContents]"
+    },
+    {
+      "type": "paragraph",
+      "id": "bbb48c41fd99b14f",
+      "text": "[https://electronjs.org/docs/api/shell shell]"
+    },
+    {
+      "type": "paragraph",
+      "id": "497f06a859b08033",
+      "text": "Preventing a window from opening. [https://electronjs.org/docs/api/web-contents#event-new-window new-window docs]"
+    },
+    {
+      "type": "paragraph",
+      "id": "894632b66140bf4a",
+      "text": "You can only prevent a window from opening if the callback is registered in the main process. All callbacks created in a renderer using the remote module are executed asynchronously and you have be executed synchronously for e.preventDefault() to have any effect. [https://github.com/electron/electron/issues/9428 issue] [https://electronjs.org/docs/api/remote#passing-callbacks-to-the-main-process docs] [https://github.com/electron/electron/issues/4473 issue] [https://github.com/joshuabenuck/wiki-electrified/commit/330d1c82b70fe3212a7de8863ebf79bd55c6db7f commit]"
+    },
+    {
+      "type": "paragraph",
+      "id": "b7eed720206c0be5",
+      "text": "Use native window.open. Not sure of the benefit. [https://electronjs.org/docs/api/window-open window.open docs]"
+    },
+    {
+      "type": "paragraph",
+      "id": "75a775b81065f706",
+      "text": "Native modules require a rebuild with the version of node bundled with electron. The easiest way to do this is with electron-rebuild. [https://github.com/electron/electron/blob/master/docs/tutorial/using-native-node-modules.md docs]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Electron",
+        "story": []
+      },
+      "date": 1556592387803
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "f87fd52cd252540e"
+      },
+      "id": "f87fd52cd252540e",
+      "type": "add",
+      "date": 1556592393221
+    },
+    {
+      "type": "edit",
+      "id": "f87fd52cd252540e",
+      "item": {
+        "type": "paragraph",
+        "id": "f87fd52cd252540e",
+        "text": "Chromium based application framework."
+      },
+      "date": 1556592421950
+    },
+    {
+      "type": "add",
+      "id": "cb65b90e9e025b4a",
+      "item": {
+        "type": "paragraph",
+        "id": "cb65b90e9e025b4a",
+        "text": "Commonly referenced doc pages:"
+      },
+      "after": "f87fd52cd252540e",
+      "date": 1556592430177
+    },
+    {
+      "type": "add",
+      "id": "6453b6b4dcd1405d",
+      "item": {
+        "type": "paragraph",
+        "id": "6453b6b4dcd1405d",
+        "text": "[https://electronjs.org/docs/api/browser-window BrowserWindow]"
+      },
+      "after": "cb65b90e9e025b4a",
+      "date": 1556592438318
+    },
+    {
+      "type": "add",
+      "id": "bbb48c41fd99b14f",
+      "item": {
+        "type": "paragraph",
+        "id": "bbb48c41fd99b14f",
+        "text": "[https://electronjs.org/docs/api/shell shell]"
+      },
+      "after": "6453b6b4dcd1405d",
+      "date": 1556592462199
+    },
+    {
+      "type": "add",
+      "id": "497f06a859b08033",
+      "item": {
+        "type": "paragraph",
+        "id": "497f06a859b08033",
+        "text": "Preventing a window from opening."
+      },
+      "after": "bbb48c41fd99b14f",
+      "date": 1557156112563
+    },
+    {
+      "type": "add",
+      "id": "b7eed720206c0be5",
+      "item": {
+        "type": "paragraph",
+        "id": "b7eed720206c0be5",
+        "text": "Looks like it requires using nativeWindows. [https://electronjs.org/docs/api/window-open docs]"
+      },
+      "after": "497f06a859b08033",
+      "date": 1557156136300
+    },
+    {
+      "type": "edit",
+      "id": "497f06a859b08033",
+      "item": {
+        "type": "paragraph",
+        "id": "497f06a859b08033",
+        "text": "Preventing a window from opening. [https://electronjs.org/docs/api/web-contents#event-new-window new-window docs]"
+      },
+      "date": 1557156166214
+    },
+    {
+      "type": "edit",
+      "id": "b7eed720206c0be5",
+      "item": {
+        "type": "paragraph",
+        "id": "b7eed720206c0be5",
+        "text": "Looks like it requires using nativeWindows. [https://electronjs.org/docs/api/window-open window.open docs]"
+      },
+      "date": 1557156175048
+    },
+    {
+      "type": "add",
+      "id": "5e7c34ec8c677940",
+      "item": {
+        "type": "paragraph",
+        "id": "5e7c34ec8c677940",
+        "text": "[https://electronjs.org/docs/api/web-contents WebContents]"
+      },
+      "after": "6453b6b4dcd1405d",
+      "date": 1557156515898
+    },
+    {
+      "type": "add",
+      "id": "127ea27249cf11f8",
+      "item": {
+        "type": "paragraph",
+        "id": "127ea27249cf11f8",
+        "text": "[https://electronjs.org/docs/api/browser-view BrowserView]"
+      },
+      "after": "6453b6b4dcd1405d",
+      "date": 1557156527040
+    },
+    {
+      "type": "edit",
+      "id": "b7eed720206c0be5",
+      "item": {
+        "type": "paragraph",
+        "id": "b7eed720206c0be5",
+        "text": "Use native window.open. Not sure of the benefit. [https://electronjs.org/docs/api/window-open window.open docs]"
+      },
+      "date": 1557202679170
+    },
+    {
+      "type": "add",
+      "id": "894632b66140bf4a",
+      "item": {
+        "type": "paragraph",
+        "id": "894632b66140bf4a",
+        "text": "You can only prevent a window from opening if the callback is registered in the main process."
+      },
+      "after": "497f06a859b08033",
+      "date": 1557202705661
+    },
+    {
+      "type": "edit",
+      "id": "894632b66140bf4a",
+      "item": {
+        "type": "paragraph",
+        "id": "894632b66140bf4a",
+        "text": "You can only prevent a window from opening if the callback is registered in the main process. [https://github.com/electron/electron/issues/9428 issue]"
+      },
+      "date": 1557202722717
+    },
+    {
+      "type": "edit",
+      "id": "894632b66140bf4a",
+      "item": {
+        "type": "paragraph",
+        "id": "894632b66140bf4a",
+        "text": "You can only prevent a window from opening if the callback is registered in the main process. [https://github.com/electron/electron/issues/9428 issue] [https://electronjs.org/docs/api/remote#passing-callbacks-to-the-main-process docs]"
+      },
+      "date": 1557202750808
+    },
+    {
+      "type": "edit",
+      "id": "894632b66140bf4a",
+      "item": {
+        "type": "paragraph",
+        "id": "894632b66140bf4a",
+        "text": "You can only prevent a window from opening if the callback is registered in the main process. [https://github.com/electron/electron/issues/9428 issue] [https://electronjs.org/docs/api/remote#passing-callbacks-to-the-main-process docs] [https://github.com/electron/electron/issues/4473 issue]"
+      },
+      "date": 1557202779486
+    },
+    {
+      "type": "edit",
+      "id": "894632b66140bf4a",
+      "item": {
+        "type": "paragraph",
+        "id": "894632b66140bf4a",
+        "text": "You can only prevent a window from opening if the callback is registered in the main process. All callbacks created in a renderer using the remote module are executed asynchronously and you have be executed synchronously for e.preventDefault() to have any effect. [https://github.com/electron/electron/issues/9428 issue] [https://electronjs.org/docs/api/remote#passing-callbacks-to-the-main-process docs] [https://github.com/electron/electron/issues/4473 issue]"
+      },
+      "date": 1557202837510
+    },
+    {
+      "type": "edit",
+      "id": "894632b66140bf4a",
+      "item": {
+        "type": "paragraph",
+        "id": "894632b66140bf4a",
+        "text": "You can only prevent a window from opening if the callback is registered in the main process. All callbacks created in a renderer using the remote module are executed asynchronously and you have be executed synchronously for e.preventDefault() to have any effect. [https://github.com/electron/electron/issues/9428 issue] [https://electronjs.org/docs/api/remote#passing-callbacks-to-the-main-process docs] [https://github.com/electron/electron/issues/4473 issue] [https://github.com/joshuabenuck/wiki-electrified/commit/330d1c82b70fe3212a7de8863ebf79bd55c6db7f commit]"
+      },
+      "date": 1557202873771
+    },
+    {
+      "type": "add",
+      "id": "75a775b81065f706",
+      "item": {
+        "type": "paragraph",
+        "id": "75a775b81065f706",
+        "text": "Native modules require a rebuild with the version of node bundled with electron. The easiest way to do this is with electron-rebuild. [https://github.com/electron/electron/blob/master/docs/tutorial/using-native-node-modules.md docs]"
+      },
+      "after": "b7eed720206c0be5",
+      "date": 1558585399575
+    }
+  ]
+}

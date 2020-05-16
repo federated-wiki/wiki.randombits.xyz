@@ -1,0 +1,97 @@
+{
+  "title": "cypher",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "1f1897d580acdd8f",
+      "text": "Cypher is the query language used by neo4j."
+    },
+    {
+      "type": "paragraph",
+      "id": "500b5cdc6ee673ea",
+      "text": "Reference card. [https://neo4j.com/docs/cypher-refcard/current/ cheatsheet]"
+    },
+    {
+      "type": "paragraph",
+      "id": "647d05beb8c6ff45",
+      "text": "collect - gather results into a list"
+    },
+    {
+      "type": "paragraph",
+      "id": "d6d3806acee42d20",
+      "text": "unwind - convert a list back into results"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "cypher",
+        "story": []
+      },
+      "date": 1563301610946
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "1f1897d580acdd8f"
+      },
+      "id": "1f1897d580acdd8f",
+      "type": "add",
+      "date": 1563301611993
+    },
+    {
+      "type": "edit",
+      "id": "1f1897d580acdd8f",
+      "item": {
+        "type": "paragraph",
+        "id": "1f1897d580acdd8f",
+        "text": "Cypher is the query language used by neo4j."
+      },
+      "date": 1563301627541
+    },
+    {
+      "type": "add",
+      "id": "647d05beb8c6ff45",
+      "item": {
+        "type": "paragraph",
+        "id": "647d05beb8c6ff45",
+        "text": "collect"
+      },
+      "after": "1f1897d580acdd8f",
+      "date": 1563301635134
+    },
+    {
+      "type": "edit",
+      "id": "647d05beb8c6ff45",
+      "item": {
+        "type": "paragraph",
+        "id": "647d05beb8c6ff45",
+        "text": "collect - gather results into a list"
+      },
+      "date": 1563301856173
+    },
+    {
+      "type": "add",
+      "id": "d6d3806acee42d20",
+      "item": {
+        "type": "paragraph",
+        "id": "d6d3806acee42d20",
+        "text": "unwind - convert a list back into results"
+      },
+      "after": "647d05beb8c6ff45",
+      "date": 1563301870136
+    },
+    {
+      "type": "add",
+      "id": "500b5cdc6ee673ea",
+      "item": {
+        "type": "paragraph",
+        "id": "500b5cdc6ee673ea",
+        "text": "Reference card. [https://neo4j.com/docs/cypher-refcard/current/ cheatsheet]"
+      },
+      "after": "1f1897d580acdd8f",
+      "date": 1563302237590
+    }
+  ]
+}

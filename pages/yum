@@ -1,0 +1,342 @@
+{
+  "title": "yum",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "aaa1fdd7321f593e",
+      "text": "YellowDog Update Manager"
+    },
+    {
+      "type": "paragraph",
+      "id": "3121a9f54f85d145",
+      "text": "Article with list of commands. [https://www.cyberciti.biz/faq/rhel-centos-fedora-linux-yum-command-howto/ blog]"
+    },
+    {
+      "type": "paragraph",
+      "id": "aba39081e6384496",
+      "text": "yum list <package-name>"
+    },
+    {
+      "type": "paragraph",
+      "id": "b2c6e7a994b1c0ac",
+      "text": "yum list <regex>"
+    },
+    {
+      "type": "paragraph",
+      "id": "0360d1fdc6eb5a9c",
+      "text": "yum search <package-name>"
+    },
+    {
+      "type": "paragraph",
+      "id": "71d935667042f708",
+      "text": "yum search <pattern>*"
+    },
+    {
+      "type": "paragraph",
+      "id": "ffed561ba05c794d",
+      "text": "yum info <pkg>"
+    },
+    {
+      "type": "paragraph",
+      "id": "54f40242b3ad44c7",
+      "text": "yum list updates"
+    },
+    {
+      "type": "paragraph",
+      "id": "4f6847bd3e81471b",
+      "text": "yum list updates --security"
+    },
+    {
+      "type": "paragraph",
+      "id": "e01b502e722691e0",
+      "text": "Yum repositories. [https://www.cyberciti.biz/faq/centos-fedora-redhat-yum-repolist-command-tolist-package-repositories/ article]"
+    },
+    {
+      "type": "paragraph",
+      "id": "bfd69d76b390f6cd",
+      "text": "yum repolist"
+    },
+    {
+      "type": "paragraph",
+      "id": "f8618fb689696cef",
+      "text": "yum repolist enabled"
+    },
+    {
+      "type": "paragraph",
+      "id": "f69204fea078c268",
+      "text": "yum repolist disabled"
+    },
+    {
+      "type": "paragraph",
+      "id": "0dd066ec8ff582e9",
+      "text": "\"One of the configured repositories failed (Unknown)\" [https://unix.stackexchange.com/questions/345124/dont-work-yum-update-yum-doesnt-have-enough-cached-data-to-continue so]"
+    },
+    {
+      "type": "paragraph",
+      "id": "3b169f2188122775",
+      "text": "yum remove epel-release"
+    },
+    {
+      "type": "paragraph",
+      "id": "928677caeb604781",
+      "text": "What is epel? [https://www.liquidweb.com/kb/enable-epel-repository/ article]"
+    },
+    {
+      "type": "paragraph",
+      "id": "3e06927a11f1017b",
+      "text": "List of fedora packages. [https://dl.fedoraproject.org/pub/epel/7/x86_64/Packages/e/ listing]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "yum",
+        "story": []
+      },
+      "date": 1558462035235
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "aaa1fdd7321f593e"
+      },
+      "id": "aaa1fdd7321f593e",
+      "type": "add",
+      "date": 1558462036547
+    },
+    {
+      "type": "edit",
+      "id": "aaa1fdd7321f593e",
+      "item": {
+        "type": "paragraph",
+        "id": "aaa1fdd7321f593e",
+        "text": "YellowDog Update Manager"
+      },
+      "date": 1558462044023
+    },
+    {
+      "type": "add",
+      "id": "aba39081e6384496",
+      "item": {
+        "type": "paragraph",
+        "id": "aba39081e6384496",
+        "text": "yum list <package-name>"
+      },
+      "after": "aaa1fdd7321f593e",
+      "date": 1558462054368
+    },
+    {
+      "type": "add",
+      "id": "b2c6e7a994b1c0ac",
+      "item": {
+        "type": "paragraph",
+        "id": "b2c6e7a994b1c0ac",
+        "text": "yum list <regex>"
+      },
+      "after": "aba39081e6384496",
+      "date": 1558462060098
+    },
+    {
+      "type": "add",
+      "id": "0360d1fdc6eb5a9c",
+      "item": {
+        "type": "paragraph",
+        "id": "0360d1fdc6eb5a9c",
+        "text": "yum search <package-name>"
+      },
+      "after": "b2c6e7a994b1c0ac",
+      "date": 1558462070859
+    },
+    {
+      "type": "add",
+      "id": "71d935667042f708",
+      "item": {
+        "type": "paragraph",
+        "id": "71d935667042f708",
+        "text": "yum search <pattern>*"
+      },
+      "after": "0360d1fdc6eb5a9c",
+      "date": 1558462083565
+    },
+    {
+      "type": "add",
+      "id": "ffed561ba05c794d",
+      "item": {
+        "type": "paragraph",
+        "id": "ffed561ba05c794d",
+        "text": "yum info <pkg>"
+      },
+      "after": "71d935667042f708",
+      "date": 1558462098854
+    },
+    {
+      "type": "add",
+      "id": "54f40242b3ad44c7",
+      "item": {
+        "type": "paragraph",
+        "id": "54f40242b3ad44c7",
+        "text": "yum list updates"
+      },
+      "after": "ffed561ba05c794d",
+      "date": 1558462226679
+    },
+    {
+      "type": "add",
+      "id": "4f6847bd3e81471b",
+      "item": {
+        "type": "paragraph",
+        "id": "4f6847bd3e81471b",
+        "text": "yum list updates --security"
+      },
+      "after": "54f40242b3ad44c7",
+      "date": 1558462231618
+    },
+    {
+      "type": "add",
+      "id": "3121a9f54f85d145",
+      "item": {
+        "type": "paragraph",
+        "id": "3121a9f54f85d145",
+        "text": "Article with list of commands. [https://www.cyberciti.biz/faq/rhel-centos-fedora-linux-yum-command-howto/ blog]"
+      },
+      "after": "aaa1fdd7321f593e",
+      "date": 1558462295135
+    },
+    {
+      "type": "add",
+      "id": "e01b502e722691e0",
+      "item": {
+        "type": "paragraph",
+        "id": "e01b502e722691e0",
+        "text": "Yum repositories"
+      },
+      "after": "4f6847bd3e81471b",
+      "date": 1560379353445
+    },
+    {
+      "type": "edit",
+      "id": "e01b502e722691e0",
+      "item": {
+        "type": "paragraph",
+        "id": "e01b502e722691e0",
+        "text": "Yum repositories. [https://www.cyberciti.biz/faq/centos-fedora-redhat-yum-repolist-command-tolist-package-repositories/ article]"
+      },
+      "date": 1560379364129
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "bfd69d76b390f6cd"
+      },
+      "id": "bfd69d76b390f6cd",
+      "type": "add",
+      "after": "e01b502e722691e0",
+      "date": 1560379366786
+    },
+    {
+      "type": "edit",
+      "id": "bfd69d76b390f6cd",
+      "item": {
+        "type": "paragraph",
+        "id": "bfd69d76b390f6cd",
+        "text": "yum repolist"
+      },
+      "date": 1560379370736
+    },
+    {
+      "type": "add",
+      "id": "f8618fb689696cef",
+      "item": {
+        "type": "paragraph",
+        "id": "f8618fb689696cef",
+        "text": "yum repolist enabled"
+      },
+      "after": "bfd69d76b390f6cd",
+      "date": 1560379383561
+    },
+    {
+      "type": "add",
+      "id": "f69204fea078c268",
+      "item": {
+        "type": "paragraph",
+        "id": "f69204fea078c268",
+        "text": "yum repolist disabled"
+      },
+      "after": "f8618fb689696cef",
+      "date": 1560379388937
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "0dd066ec8ff582e9"
+      },
+      "id": "0dd066ec8ff582e9",
+      "type": "add",
+      "after": "f69204fea078c268",
+      "date": 1560379419483
+    },
+    {
+      "type": "edit",
+      "id": "0dd066ec8ff582e9",
+      "item": {
+        "type": "paragraph",
+        "id": "0dd066ec8ff582e9",
+        "text": "\"One of the configured repositories failed (Unknown)\""
+      },
+      "date": 1560379424050
+    },
+    {
+      "type": "edit",
+      "id": "0dd066ec8ff582e9",
+      "item": {
+        "type": "paragraph",
+        "id": "0dd066ec8ff582e9",
+        "text": "\"One of the configured repositories failed (Unknown)\" [https://unix.stackexchange.com/questions/345124/dont-work-yum-update-yum-doesnt-have-enough-cached-data-to-continue so]"
+      },
+      "date": 1560379431265
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "3b169f2188122775"
+      },
+      "id": "3b169f2188122775",
+      "type": "add",
+      "after": "0dd066ec8ff582e9",
+      "date": 1560379444165
+    },
+    {
+      "type": "edit",
+      "id": "3b169f2188122775",
+      "item": {
+        "type": "paragraph",
+        "id": "3b169f2188122775",
+        "text": "yum remove epel-release"
+      },
+      "date": 1560379446705
+    },
+    {
+      "type": "add",
+      "id": "928677caeb604781",
+      "item": {
+        "type": "paragraph",
+        "id": "928677caeb604781",
+        "text": "What is epel? [https://www.liquidweb.com/kb/enable-epel-repository/ article]"
+      },
+      "after": "3b169f2188122775",
+      "date": 1560379496389
+    },
+    {
+      "type": "add",
+      "id": "3e06927a11f1017b",
+      "item": {
+        "type": "paragraph",
+        "id": "3e06927a11f1017b",
+        "text": "List of fedora packages. [https://dl.fedoraproject.org/pub/epel/7/x86_64/Packages/e/ listing]"
+      },
+      "after": "928677caeb604781",
+      "date": 1560379519234
+    }
+  ]
+}

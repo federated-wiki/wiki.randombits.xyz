@@ -1,0 +1,331 @@
+{
+  "title": "Newspeak",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "96dc23ea088e6027",
+      "text": "A Smalltalk dialect that eschews traditional wisdom in pursuit of some unique language features. [http://newspeaklanguage.org/ homepage]"
+    },
+    {
+      "type": "paragraph",
+      "id": "38be17492930512d",
+      "text": "What follows is my (likely dated) recollection of its features."
+    },
+    {
+      "type": "paragraph",
+      "id": "3646a288ed322b06",
+      "text": "It is one of the only (the only?) languages to make use of a object capability model. The language lacks any ambient authority in its module system. You only get the dependencies you are given."
+    },
+    {
+      "type": "paragraph",
+      "id": "b7da8652d33efd58",
+      "text": "This allows for a given deployment to choose how much access to the file system, network, display, etc. the program is given."
+    },
+    {
+      "type": "paragraph",
+      "id": "f6fd49a876dd530e",
+      "text": "The syntax is uniquely suited for the creation of DSLs."
+    },
+    {
+      "type": "paragraph",
+      "id": "cde81c2a7f897051",
+      "text": "Newspeak is designed from the ground up to support  [https://bracha.org/pluggableTypesPosition.pdf Pluggable Types]. To my knowledge, this is a feature that has yet to be implemented. See [[Dart]] for commentary on some Dart language features which I feel are a result of Gilad's influence."
+    },
+    {
+      "type": "paragraph",
+      "id": "2c7caf2ff5b3534c",
+      "text": "A linear flow to the editing environment where each window was like a browser and one could follow links to pull up the source code to other classes within the system."
+    },
+    {
+      "type": "html",
+      "id": "afee22009616dfb1",
+      "text": "<img src=\"https://wiki.randombits.xyz/assets/http/home-3-18-2014%5B1%5D.png\" width=\"450\"/>"
+    },
+    {
+      "type": "paragraph",
+      "id": "cecf32b20aac6dfe",
+      "text": "The fed wiki editor reminds of Newspeak's in that it uses embedded text boxes and one can navigate within the environment using links. Newpseak makes heavy use of tree widgets which I have yet to see in fed wiki. [http://newspeaklanguage.org/samples/WebIDEApp/WebIDEApp.html example]"
+    },
+    {
+      "type": "paragraph",
+      "id": "0d6ae106d69f88de",
+      "text": "[https://gbracha.blogspot.com/ Room 101] is the blog where Gilad Bracha discussed various design aspects of the language. I avidly followed it for a while and even made a contribution once, but never found a way to incorporate Newspeak into a flow I used regularly."
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Newspeak",
+        "story": []
+      },
+      "date": 1555474316515
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "96dc23ea088e6027"
+      },
+      "id": "96dc23ea088e6027",
+      "type": "add",
+      "date": 1555474318082
+    },
+    {
+      "type": "edit",
+      "id": "96dc23ea088e6027",
+      "item": {
+        "type": "paragraph",
+        "id": "96dc23ea088e6027",
+        "text": "A Smalltalk dialect that eschews traditional wisdom in pursuit of some unique language features."
+      },
+      "date": 1555474356395
+    },
+    {
+      "type": "add",
+      "id": "3646a288ed322b06",
+      "item": {
+        "type": "paragraph",
+        "id": "3646a288ed322b06",
+        "text": "It is one of the only (the only?) languages to make use of a object capability model. The language lacks any ambient authority in its module system. You only get the dependencies you are given."
+      },
+      "after": "96dc23ea088e6027",
+      "date": 1555474407539
+    },
+    {
+      "type": "add",
+      "id": "b7da8652d33efd58",
+      "item": {
+        "type": "paragraph",
+        "id": "b7da8652d33efd58",
+        "text": "This allows for a given deployment to choose how much access to the file system, network, display, etc. the program is given."
+      },
+      "after": "3646a288ed322b06",
+      "date": 1555474454387
+    },
+    {
+      "type": "add",
+      "id": "f6fd49a876dd530e",
+      "item": {
+        "type": "paragraph",
+        "id": "f6fd49a876dd530e",
+        "text": "The syntax is uniquely suited for the creation of DSLs."
+      },
+      "after": "b7da8652d33efd58",
+      "date": 1555474489761
+    },
+    {
+      "type": "add",
+      "id": "38be17492930512d",
+      "item": {
+        "type": "paragraph",
+        "id": "38be17492930512d",
+        "text": "What follows is my (likely dated) recollection of its features."
+      },
+      "after": "96dc23ea088e6027",
+      "date": 1555474521367
+    },
+    {
+      "type": "add",
+      "id": "2c7caf2ff5b3534c",
+      "item": {
+        "type": "paragraph",
+        "id": "2c7caf2ff5b3534c",
+        "text": "A linear flow to the editing environment where each window was like a browser and one could follow links to pull up the source code to other classes within the system."
+      },
+      "after": "f6fd49a876dd530e",
+      "date": 1555474580309
+    },
+    {
+      "type": "edit",
+      "id": "96dc23ea088e6027",
+      "item": {
+        "type": "paragraph",
+        "id": "96dc23ea088e6027",
+        "text": "A Smalltalk dialect that eschews traditional wisdom in pursuit of some unique language features. [http://newspeaklanguage.org/ homepage]"
+      },
+      "date": 1555474824008
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "c802f6b0f7d3d55e"
+      },
+      "id": "c802f6b0f7d3d55e",
+      "type": "add",
+      "after": "d634c34594e17083",
+      "date": 1555474840298
+    },
+    {
+      "type": "remove",
+      "id": "c802f6b0f7d3d55e",
+      "date": 1555474845402
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "768ac95c2e82dbd4"
+      },
+      "id": "768ac95c2e82dbd4",
+      "type": "add",
+      "after": "2c7caf2ff5b3534c",
+      "date": 1555474847122
+    },
+    {
+      "type": "edit",
+      "id": "768ac95c2e82dbd4",
+      "item": {
+        "type": "assets",
+        "id": "768ac95c2e82dbd4",
+        "text": "http://newspeaklanguage.org/home-3-18-2014.png"
+      },
+      "date": 1555474853806
+    },
+    {
+      "type": "remove",
+      "id": "768ac95c2e82dbd4",
+      "date": 1555474878214
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "afee22009616dfb1"
+      },
+      "id": "afee22009616dfb1",
+      "type": "add",
+      "after": "2c7caf2ff5b3534c",
+      "date": 1555474880162
+    },
+    {
+      "type": "edit",
+      "id": "afee22009616dfb1",
+      "item": {
+        "type": "html",
+        "id": "afee22009616dfb1",
+        "text": "<img src=\"https://wiki.randombits.xyz/assets/http/home-3-18-2014%5B1%5D.png\"/>"
+      },
+      "date": 1555474889124
+    },
+    {
+      "type": "edit",
+      "id": "afee22009616dfb1",
+      "item": {
+        "type": "html",
+        "id": "afee22009616dfb1",
+        "text": "<img src=\"https://wiki.randombits.xyz/assets/http/home-3-18-2014%5B1%5D.png\" width=\"350\"/>"
+      },
+      "date": 1555474898831
+    },
+    {
+      "type": "edit",
+      "id": "afee22009616dfb1",
+      "item": {
+        "type": "html",
+        "id": "afee22009616dfb1",
+        "text": "<img src=\"https://wiki.randombits.xyz/assets/http/home-3-18-2014%5B1%5D.png\" width=\"400\"/>"
+      },
+      "date": 1555474904384
+    },
+    {
+      "type": "edit",
+      "id": "afee22009616dfb1",
+      "item": {
+        "type": "html",
+        "id": "afee22009616dfb1",
+        "text": "<img src=\"https://wiki.randombits.xyz/assets/http/home-3-18-2014%5B1%5D.png\" width=\"450\"/>"
+      },
+      "date": 1555474911424
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "cecf32b20aac6dfe"
+      },
+      "id": "cecf32b20aac6dfe",
+      "type": "add",
+      "after": "afee22009616dfb1",
+      "date": 1555475420811
+    },
+    {
+      "type": "edit",
+      "id": "cecf32b20aac6dfe",
+      "item": {
+        "type": "paragraph",
+        "id": "cecf32b20aac6dfe",
+        "text": "[Room 101 is the blog where Gilad Bracha discussed various design aspects of the language. I avidly followed it for a while and even made a contribution once, but never found a way to incorporate Newspeak into a flow I used regularly."
+      },
+      "date": 1555475493612
+    },
+    {
+      "type": "edit",
+      "id": "cecf32b20aac6dfe",
+      "item": {
+        "type": "paragraph",
+        "id": "cecf32b20aac6dfe",
+        "text": "[https://gbracha.blogspot.com/ Room 101] is the blog where Gilad Bracha discussed various design aspects of the language. I avidly followed it for a while and even made a contribution once, but never found a way to incorporate Newspeak into a flow I used regularly."
+      },
+      "date": 1555475504989
+    },
+    {
+      "type": "edit",
+      "id": "cecf32b20aac6dfe",
+      "item": {
+        "type": "paragraph",
+        "id": "cecf32b20aac6dfe",
+        "text": "The fed wiki editor reminds of Newspeak's in that it uses embedded text boxes and one can navigate within the environment using links. Newpseak makes heavy use of tree widgets which I have yet to see in fed wiki."
+      },
+      "date": 1555475593013
+    },
+    {
+      "type": "add",
+      "id": "0d6ae106d69f88de",
+      "item": {
+        "type": "paragraph",
+        "id": "0d6ae106d69f88de",
+        "text": "[https://gbracha.blogspot.com/ Room 101] is the blog where Gilad Bracha discussed various design aspects of the language. I avidly followed it for a while and even made a contribution once, but never found a way to incorporate Newspeak into a flow I used regularly."
+      },
+      "after": "cecf32b20aac6dfe",
+      "date": 1555475595062
+    },
+    {
+      "type": "edit",
+      "id": "cecf32b20aac6dfe",
+      "item": {
+        "type": "paragraph",
+        "id": "cecf32b20aac6dfe",
+        "text": "The fed wiki editor reminds of Newspeak's in that it uses embedded text boxes and one can navigate within the environment using links. Newpseak makes heavy use of tree widgets which I have yet to see in fed wiki. [http://newspeaklanguage.org/samples/WebIDEApp/WebIDEApp.html example]"
+      },
+      "date": 1555475634150
+    },
+    {
+      "type": "add",
+      "id": "cde81c2a7f897051",
+      "item": {
+        "type": "paragraph",
+        "id": "cde81c2a7f897051",
+        "text": "It is intended to be a language which implements his concept of Pluggable Types. Dart originally included this concept before it was pulled."
+      },
+      "after": "f6fd49a876dd530e",
+      "date": 1555511260745
+    },
+    {
+      "type": "edit",
+      "id": "cde81c2a7f897051",
+      "item": {
+        "type": "paragraph",
+        "id": "cde81c2a7f897051",
+        "text": "It is intended to be a language which implements his concept of [https://bracha.org/pluggableTypesPosition.pdf Pluggable Types]. Dart originally included this concept before it was pulled."
+      },
+      "date": 1555511367072
+    },
+    {
+      "type": "edit",
+      "id": "cde81c2a7f897051",
+      "item": {
+        "type": "paragraph",
+        "id": "cde81c2a7f897051",
+        "text": "Newspeak is designed from the ground up to support  [https://bracha.org/pluggableTypesPosition.pdf Pluggable Types]. To my knowledge, this is a feature that has yet to be implemented. See [[Dart]] for commentary on some Dart language features which I feel are a result of Gilad's influence."
+      },
+      "date": 1555511676642
+    }
+  ]
+}

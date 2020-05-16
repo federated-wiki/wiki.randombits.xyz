@@ -1,0 +1,64 @@
+{
+  "title": "robocopy",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "b2b60785a1c5bfbc",
+      "text": "Windows command line utility to efficiently copy files."
+    },
+    {
+      "type": "paragraph",
+      "id": "8e82843eeda43457",
+      "text": "Manual [https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/robocopy#remarks docs]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "robocopy",
+        "story": []
+      },
+      "date": 1575323093517
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "b2b60785a1c5bfbc"
+      },
+      "id": "b2b60785a1c5bfbc",
+      "type": "add",
+      "date": 1575323094969
+    },
+    {
+      "type": "edit",
+      "id": "b2b60785a1c5bfbc",
+      "item": {
+        "type": "paragraph",
+        "id": "b2b60785a1c5bfbc",
+        "text": "Windows command line utility to efficiently copy files."
+      },
+      "date": 1575323121114
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "8e82843eeda43457"
+      },
+      "id": "8e82843eeda43457",
+      "type": "add",
+      "after": "b2b60785a1c5bfbc",
+      "date": 1575323129008
+    },
+    {
+      "type": "edit",
+      "id": "8e82843eeda43457",
+      "item": {
+        "type": "paragraph",
+        "id": "8e82843eeda43457",
+        "text": "Manual [https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/robocopy#remarks docs]"
+      },
+      "date": 1575323139151
+    }
+  ]
+}

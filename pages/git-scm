@@ -1,0 +1,271 @@
+{
+  "title": "git scm",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "4952d5715c672c3c",
+      "text": "Describes similarities and differences between git and fed wiki."
+    },
+    {
+      "type": "pagefold",
+      "id": "a7f178185eabbacc",
+      "text": "common"
+    },
+    {
+      "type": "paragraph",
+      "id": "9ee8c250c5f68060",
+      "text": "Both support forking"
+    },
+    {
+      "type": "paragraph",
+      "id": "7a1793be9d22fa8f",
+      "text": "Change history via revisions"
+    },
+    {
+      "type": "pagefold",
+      "id": "d5f07b1b629c65b9",
+      "text": "fed wiki lacks"
+    },
+    {
+      "type": "paragraph",
+      "id": "6bd549eb96f53909",
+      "text": "No ability to pull changes from upstream?"
+    },
+    {
+      "type": "paragraph",
+      "id": "3d24f546ca5a067c",
+      "text": "Squash / rebase workflow"
+    },
+    {
+      "type": "paragraph",
+      "id": "ee344c9785070a62",
+      "text": "Unified diff view with other forks"
+    },
+    {
+      "type": "paragraph",
+      "id": "1a4f9f0380bb2a02",
+      "text": "Intentional and annotated revision histories. The ones in fed wiki are ad hoc, noisy, and tied to how the editor is implemented rather than the intention of the author."
+    },
+    {
+      "type": "paragraph",
+      "id": "b28c32a578073631",
+      "text": "An intentional publishing mechanism. In git one can create local changes which are never checked in and one can check in changes which are never published to a another site."
+    },
+    {
+      "type": "paragraph",
+      "id": "0df59a5ee849edd7",
+      "text": "Multi-user collaboration workflows. This is largely related a lack of an automated merge workflow, but also ties into the lack of multi-user authentication for a wiki."
+    },
+    {
+      "type": "pagefold",
+      "id": "72f9f6be57fedf72",
+      "text": "git lacks"
+    },
+    {
+      "type": "paragraph",
+      "id": "339d06b8dcd972cf",
+      "text": "Built-in, default server"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "git scm",
+        "story": []
+      },
+      "date": 1555414798598
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "4952d5715c672c3c"
+      },
+      "id": "4952d5715c672c3c",
+      "type": "add",
+      "date": 1555414800193
+    },
+    {
+      "type": "edit",
+      "id": "4952d5715c672c3c",
+      "item": {
+        "type": "paragraph",
+        "id": "4952d5715c672c3c",
+        "text": "Describes similarities and differences between git and fed wiki."
+      },
+      "date": 1555414837750
+    },
+    {
+      "type": "add",
+      "id": "a7f178185eabbacc",
+      "item": {
+        "type": "paragraph",
+        "id": "a7f178185eabbacc",
+        "text": "Common"
+      },
+      "after": "4952d5715c672c3c",
+      "date": 1555414854948
+    },
+    {
+      "type": "add",
+      "id": "9ee8c250c5f68060",
+      "item": {
+        "type": "paragraph",
+        "id": "9ee8c250c5f68060",
+        "text": "Both support forking"
+      },
+      "after": "a7f178185eabbacc",
+      "date": 1555414860644
+    },
+    {
+      "type": "add",
+      "id": "d5f07b1b629c65b9",
+      "item": {
+        "type": "paragraph",
+        "id": "d5f07b1b629c65b9",
+        "text": "Fed Wiki Lacks"
+      },
+      "after": "9ee8c250c5f68060",
+      "date": 1555414871223
+    },
+    {
+      "type": "add",
+      "id": "6bd549eb96f53909",
+      "item": {
+        "type": "paragraph",
+        "id": "6bd549eb96f53909",
+        "text": "No ability to pull changes from upstream?"
+      },
+      "after": "d5f07b1b629c65b9",
+      "date": 1555414889904
+    },
+    {
+      "type": "add",
+      "id": "ee344c9785070a62",
+      "item": {
+        "type": "paragraph",
+        "id": "ee344c9785070a62",
+        "text": "Unified diff view with other forks"
+      },
+      "after": "6bd549eb96f53909",
+      "date": 1555414905041
+    },
+    {
+      "type": "add",
+      "id": "72f9f6be57fedf72",
+      "item": {
+        "type": "paragraph",
+        "id": "72f9f6be57fedf72",
+        "text": "Git Lacks"
+      },
+      "after": "ee344c9785070a62",
+      "date": 1555414910823
+    },
+    {
+      "type": "add",
+      "id": "339d06b8dcd972cf",
+      "item": {
+        "type": "paragraph",
+        "id": "339d06b8dcd972cf",
+        "text": "Built-in, default server"
+      },
+      "after": "72f9f6be57fedf72",
+      "date": 1555414933853
+    },
+    {
+      "type": "add",
+      "id": "7a1793be9d22fa8f",
+      "item": {
+        "type": "paragraph",
+        "id": "7a1793be9d22fa8f",
+        "text": "Change history via revisions"
+      },
+      "after": "9ee8c250c5f68060",
+      "date": 1555414956072
+    },
+    {
+      "type": "add",
+      "id": "3d24f546ca5a067c",
+      "item": {
+        "type": "paragraph",
+        "id": "3d24f546ca5a067c",
+        "text": "Squash / rebase workflow"
+      },
+      "after": "6bd549eb96f53909",
+      "date": 1555415018097
+    },
+    {
+      "type": "edit",
+      "id": "a7f178185eabbacc",
+      "item": {
+        "type": "pagefold",
+        "id": "a7f178185eabbacc",
+        "text": "common"
+      },
+      "date": 1555415027140
+    },
+    {
+      "type": "edit",
+      "id": "d5f07b1b629c65b9",
+      "item": {
+        "type": "pagefold",
+        "id": "d5f07b1b629c65b9",
+        "text": "fed wiki lacks"
+      },
+      "date": 1555415040832
+    },
+    {
+      "type": "edit",
+      "id": "72f9f6be57fedf72",
+      "item": {
+        "type": "pagefold",
+        "id": "72f9f6be57fedf72",
+        "text": "git lacks"
+      },
+      "date": 1555415052439
+    },
+    {
+      "type": "add",
+      "id": "1a4f9f0380bb2a02",
+      "item": {
+        "type": "paragraph",
+        "id": "1a4f9f0380bb2a02",
+        "text": "Intentional and annotated revision histories. The ones in fed wiki are ad hoc, noisy, and tied to how the editor works rather than the intention of the author."
+      },
+      "after": "ee344c9785070a62",
+      "date": 1555415476021
+    },
+    {
+      "type": "edit",
+      "id": "1a4f9f0380bb2a02",
+      "item": {
+        "type": "paragraph",
+        "id": "1a4f9f0380bb2a02",
+        "text": "Intentional and annotated revision histories. The ones in fed wiki are ad hoc, noisy, and tied to how the editor is implemented rather than the intention of the author."
+      },
+      "date": 1555415490818
+    },
+    {
+      "type": "add",
+      "id": "b28c32a578073631",
+      "item": {
+        "type": "paragraph",
+        "id": "b28c32a578073631",
+        "text": "An intentional publishing mechanism. In git one can create local changes which are never checked in and one can check in changes which are never published to a another site."
+      },
+      "after": "1a4f9f0380bb2a02",
+      "date": 1555415575171
+    },
+    {
+      "type": "add",
+      "id": "0df59a5ee849edd7",
+      "item": {
+        "type": "paragraph",
+        "id": "0df59a5ee849edd7",
+        "text": "Multi-user collaboration workflows. This is largely related a lack of an automated merge workflow, but also ties into the lack of multi-user authentication for a wiki."
+      },
+      "after": "b28c32a578073631",
+      "date": 1555415669537
+    }
+  ]
+}

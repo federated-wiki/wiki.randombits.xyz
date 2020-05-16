@@ -1,0 +1,135 @@
+{
+  "title": "Diagramming",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "3eff50673810b3f8",
+      "text": "Information about tools used for diagramming of various sorts."
+    },
+    {
+      "type": "paragraph",
+      "id": "77eb3b336db44c52",
+      "text": "draw.io"
+    },
+    {
+      "type": "paragraph",
+      "id": "e8582962cc562145",
+      "text": "[https://www.yworks.com/ yWorks]"
+    },
+    {
+      "type": "paragraph",
+      "id": "8abd4242a735d48a",
+      "text": "[http://vue.tufts.edu/ Visual Understanding Environment] from tufts.edu."
+    },
+    {
+      "type": "paragraph",
+      "id": "2f314a904fe60d0a",
+      "text": "Concept Mapping [https://cmap.ihmc.us/ cmap]"
+    },
+    {
+      "type": "paragraph",
+      "id": "b7fa5eeece1aff94",
+      "text": "[https://www.freeplane.org/wiki/index.php/Home freeplane]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Diagramming",
+        "story": []
+      },
+      "date": 1555213772165
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "3eff50673810b3f8"
+      },
+      "id": "3eff50673810b3f8",
+      "type": "add",
+      "date": 1555213773353
+    },
+    {
+      "type": "edit",
+      "id": "3eff50673810b3f8",
+      "item": {
+        "type": "paragraph",
+        "id": "3eff50673810b3f8",
+        "text": "Information about tools used for diagramming of various sorts."
+      },
+      "date": 1555213791034
+    },
+    {
+      "type": "add",
+      "id": "77eb3b336db44c52",
+      "item": {
+        "type": "paragraph",
+        "id": "77eb3b336db44c52",
+        "text": "draw.io"
+      },
+      "after": "3eff50673810b3f8",
+      "date": 1555213796730
+    },
+    {
+      "type": "add",
+      "id": "e8582962cc562145",
+      "item": {
+        "type": "paragraph",
+        "id": "e8582962cc562145",
+        "text": "[https://www.yworks.com/ yWorks]"
+      },
+      "after": "77eb3b336db44c52",
+      "date": 1555213817836
+    },
+    {
+      "type": "add",
+      "id": "8abd4242a735d48a",
+      "item": {
+        "type": "paragraph",
+        "id": "8abd4242a735d48a",
+        "text": "[http://vue.tufts.edu/ Visual Understanding Environment] from tufts.edu."
+      },
+      "after": "e8582962cc562145",
+      "date": 1555213896215
+    },
+    {
+      "type": "add",
+      "id": "2f314a904fe60d0a",
+      "item": {
+        "type": "paragraph",
+        "id": "2f314a904fe60d0a",
+        "text": "Concept Mapping [https://cmap.ihmc.us/ cmap]"
+      },
+      "after": "8abd4242a735d48a",
+      "date": 1555213950435
+    },
+    {
+      "type": "add",
+      "id": "b7fa5eeece1aff94",
+      "item": {
+        "type": "paragraph",
+        "id": "b7fa5eeece1aff94",
+        "text": "[https://www.freeplane.org/wiki/index.php/Home freeplane]"
+      },
+      "after": "2f314a904fe60d0a",
+      "date": 1555213989089
+    },
+    {
+      "type": "add",
+      "id": "a3e06f75bbcfe347",
+      "item": {
+        "type": "paragraph",
+        "id": "a3e06f75bbcfe347",
+        "text": "testing"
+      },
+      "after": "77eb3b336db44c52",
+      "date": 1555354798957
+    },
+    {
+      "type": "remove",
+      "id": "a3e06f75bbcfe347",
+      "date": 1555354801659
+    }
+  ]
+}

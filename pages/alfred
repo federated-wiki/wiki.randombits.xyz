@@ -1,0 +1,95 @@
+{
+  "title": "Alfred",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "0c0c594639ee78c4",
+      "text": "Info about the app launcher Alfred."
+    },
+    {
+      "type": "paragraph",
+      "id": "117f937903393f74",
+      "text": "[https://www.alfredapp.com/ Homepage]"
+    },
+    {
+      "type": "paragraph",
+      "id": "ef0f1d6748ebeae4",
+      "text": "Article discussion Alfred. [https://thesweetsetup.com/apps/our-favorite-os-x-launcher/ site]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Alfred",
+        "story": []
+      },
+      "date": 1557850154293
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "0c0c594639ee78c4"
+      },
+      "id": "0c0c594639ee78c4",
+      "type": "add",
+      "date": 1557850155909
+    },
+    {
+      "type": "edit",
+      "id": "0c0c594639ee78c4",
+      "item": {
+        "type": "paragraph",
+        "id": "0c0c594639ee78c4",
+        "text": "Info about the app launcher Alfred."
+      },
+      "date": 1557850168105
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "232e4e7cf86b2be0"
+      },
+      "id": "232e4e7cf86b2be0",
+      "type": "add",
+      "after": "0c0c594639ee78c4",
+      "date": 1557850174359
+    },
+    {
+      "type": "remove",
+      "id": "232e4e7cf86b2be0",
+      "date": 1557850177330
+    },
+    {
+      "type": "add",
+      "id": "117f937903393f74",
+      "item": {
+        "type": "paragraph",
+        "id": "117f937903393f74",
+        "text": "[https://www.alfredapp.com/ Homepage]"
+      },
+      "after": "0c0c594639ee78c4",
+      "date": 1557850181971
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "ef0f1d6748ebeae4"
+      },
+      "id": "ef0f1d6748ebeae4",
+      "type": "add",
+      "after": "117f937903393f74",
+      "date": 1557850192235
+    },
+    {
+      "type": "edit",
+      "id": "ef0f1d6748ebeae4",
+      "item": {
+        "type": "paragraph",
+        "id": "ef0f1d6748ebeae4",
+        "text": "Article discussion Alfred. [https://thesweetsetup.com/apps/our-favorite-os-x-launcher/ site]"
+      },
+      "date": 1557850203765
+    }
+  ]
+}

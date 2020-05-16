@@ -1,0 +1,336 @@
+{
+  "title": "Inspirational People",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "74b7146aeb918310",
+      "text": "Bret Victor - Inventing on Principle"
+    },
+    {
+      "type": "paragraph",
+      "id": "869b02065f3ca545",
+      "text": "Chris Granger - Creator of Light Table and Eve"
+    },
+    {
+      "type": "paragraph",
+      "id": "e1a3dc67c04313ca",
+      "text": "Eric Dobbs - Fellow engineer with a wealth of documented insights. [http://wiki.dbbs.co/view/welcome-visitors wiki] [http://dobbse.net/thinair/2012/04/unsung-heros-sigsaly.html blog]"
+    },
+    {
+      "type": "paragraph",
+      "id": "3cead88071bef7a6",
+      "text": "Gilad Bracha - Creator of the [[Newspeak]] programming language. He was at one point responsible for the JVM spec, the Java spec, and the Dart spec. [https://bracha.org homepage]"
+    },
+    {
+      "type": "paragraph",
+      "id": "5e4a481fa9f32cae",
+      "text": "Ward Cunningham - Wiki, Extreme Programming, Patterns movement, Fed Wiki"
+    },
+    {
+      "type": "paragraph",
+      "id": "a9b99955a7db7a78",
+      "text": "Mark S Miller - Object Capabilities Model"
+    },
+    {
+      "type": "paragraph",
+      "id": "354741c1f4468b9e",
+      "text": "Joe Armstrong - Creator of Erlang"
+    },
+    {
+      "type": "paragraph",
+      "id": "92f5faeaafdfc576",
+      "text": "[[Bob Nystrom]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "bd0cdbb6d10d716c",
+      "text": "[[Steve Yegge]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "6283e9263e3644fe",
+      "text": "Ashley Williams - See [[Zen and the Art of Convincing Your Company]]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Inspirational People",
+        "story": []
+      },
+      "date": 1555179815474
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "74b7146aeb918310"
+      },
+      "id": "74b7146aeb918310",
+      "type": "add",
+      "date": 1555179816640
+    },
+    {
+      "type": "edit",
+      "id": "74b7146aeb918310",
+      "item": {
+        "type": "paragraph",
+        "id": "74b7146aeb918310",
+        "text": "Bret Victor"
+      },
+      "date": 1555179822050
+    },
+    {
+      "type": "add",
+      "id": "869b02065f3ca545",
+      "item": {
+        "type": "paragraph",
+        "id": "869b02065f3ca545",
+        "text": "Chris Granger"
+      },
+      "after": "74b7146aeb918310",
+      "date": 1555179825155
+    },
+    {
+      "type": "add",
+      "id": "e1a3dc67c04313ca",
+      "item": {
+        "type": "paragraph",
+        "id": "e1a3dc67c04313ca",
+        "text": "Eric Dobbs"
+      },
+      "after": "869b02065f3ca545",
+      "date": 1555179827360
+    },
+    {
+      "type": "add",
+      "id": "5e4a481fa9f32cae",
+      "item": {
+        "type": "paragraph",
+        "id": "5e4a481fa9f32cae",
+        "text": "Ward Cunningham"
+      },
+      "after": "e1a3dc67c04313ca",
+      "date": 1555179831553
+    },
+    {
+      "type": "edit",
+      "id": "869b02065f3ca545",
+      "item": {
+        "type": "paragraph",
+        "id": "869b02065f3ca545",
+        "text": "Chris Granger - Creator of Light Table and Eve"
+      },
+      "date": 1555215133406
+    },
+    {
+      "type": "add",
+      "id": "a9b99955a7db7a78",
+      "item": {
+        "type": "paragraph",
+        "id": "a9b99955a7db7a78",
+        "text": "Mark S Miller - Object Capabilities Model"
+      },
+      "after": "5e4a481fa9f32cae",
+      "date": 1555215145339
+    },
+    {
+      "type": "add",
+      "id": "3cead88071bef7a6",
+      "item": {
+        "type": "paragraph",
+        "id": "3cead88071bef7a6",
+        "text": "Gilad Bracha - Newspeak programming language"
+      },
+      "after": "a9b99955a7db7a78",
+      "date": 1555215162886
+    },
+    {
+      "type": "move",
+      "order": [
+        "74b7146aeb918310",
+        "869b02065f3ca545",
+        "e1a3dc67c04313ca",
+        "3cead88071bef7a6",
+        "5e4a481fa9f32cae",
+        "a9b99955a7db7a78",
+        "2662aed41c35734f"
+      ],
+      "id": "3cead88071bef7a6",
+      "date": 1555215175291,
+      "error": {
+        "type": "error",
+        "msg": "Internal Server Error",
+        "response": "Server Ignoring move. Try reload."
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1555215179838
+    },
+    {
+      "type": "edit",
+      "id": "5e4a481fa9f32cae",
+      "item": {
+        "type": "paragraph",
+        "id": "5e4a481fa9f32cae",
+        "text": "Ward Cunningham - Wiki, Extreme Programming, Patterns movement, Fed Wiki"
+      },
+      "date": 1555215207050
+    },
+    {
+      "type": "edit",
+      "id": "74b7146aeb918310",
+      "item": {
+        "type": "paragraph",
+        "id": "74b7146aeb918310",
+        "text": "Bret Victor - Inventing on Principle"
+      },
+      "date": 1555215225072
+    },
+    {
+      "type": "edit",
+      "id": "e1a3dc67c04313ca",
+      "item": {
+        "type": "paragraph",
+        "id": "e1a3dc67c04313ca",
+        "text": "Eric Dobbs - Fellow engineer with a wealth of documented insights"
+      },
+      "date": 1555215268222
+    },
+    {
+      "type": "edit",
+      "id": "e1a3dc67c04313ca",
+      "item": {
+        "type": "paragraph",
+        "id": "e1a3dc67c04313ca",
+        "text": "Eric Dobbs - Fellow engineer with a wealth of documented insights. [http://dobbse.net/thinair/2012/04/unsung-heros-sigsaly.html blog]"
+      },
+      "date": 1555510996582
+    },
+    {
+      "type": "edit",
+      "id": "e1a3dc67c04313ca",
+      "item": {
+        "type": "paragraph",
+        "id": "e1a3dc67c04313ca",
+        "text": "Eric Dobbs - Fellow engineer with a wealth of documented insights. [http://wiki.dbbs.co/view/welcome-visitors wiki] [http://dobbse.net/thinair/2012/04/unsung-heros-sigsaly.html blog]"
+      },
+      "date": 1555511030042
+    },
+    {
+      "type": "edit",
+      "id": "3cead88071bef7a6",
+      "item": {
+        "type": "paragraph",
+        "id": "3cead88071bef7a6",
+        "text": "Gilad Bracha - Creator of the [[Newspeak]] programming language. [https://bracha.org homepage]"
+      },
+      "date": 1555511087122
+    },
+    {
+      "type": "edit",
+      "id": "3cead88071bef7a6",
+      "item": {
+        "type": "paragraph",
+        "id": "3cead88071bef7a6",
+        "text": "Gilad Bracha - Creator of the [[Newspeak]] programming language. He was at one point responsible for the JVM spec, the Java spec, and the Dart spec. [https://bracha.org homepage]"
+      },
+      "date": 1555511173210
+    },
+    {
+      "type": "add",
+      "id": "354741c1f4468b9e",
+      "item": {
+        "type": "paragraph",
+        "id": "354741c1f4468b9e",
+        "text": "Joe Armstrong - Creator of Erlang"
+      },
+      "after": "a9b99955a7db7a78",
+      "date": 1556164314153
+    },
+    {
+      "type": "add",
+      "id": "92f5faeaafdfc576",
+      "item": {
+        "type": "paragraph",
+        "id": "92f5faeaafdfc576",
+        "text": "Bob Nystrom - Hobbyist language creator, self-published author, member of the Dart language team at Google"
+      },
+      "after": "354741c1f4468b9e",
+      "date": 1556164357811
+    },
+    {
+      "type": "edit",
+      "id": "92f5faeaafdfc576",
+      "item": {
+        "type": "paragraph",
+        "id": "92f5faeaafdfc576",
+        "text": "Bob Nystrom - Hobbyist language creator, self-published author, member of the Dart language team at Google. [http://journal.stuffwithstuff.com/ blog]"
+      },
+      "date": 1556164391356
+    },
+    {
+      "type": "add",
+      "id": "bd0cdbb6d10d716c",
+      "item": {
+        "type": "paragraph",
+        "id": "bd0cdbb6d10d716c",
+        "text": "Steve Yegge"
+      },
+      "after": "92f5faeaafdfc576",
+      "date": 1564102445535
+    },
+    {
+      "type": "add",
+      "id": "6283e9263e3644fe",
+      "item": {
+        "type": "paragraph",
+        "id": "6283e9263e3644fe",
+        "text": "Ashley Williams"
+      },
+      "after": "bd0cdbb6d10d716c",
+      "date": 1564102452296
+    },
+    {
+      "type": "edit",
+      "id": "bd0cdbb6d10d716c",
+      "item": {
+        "type": "paragraph",
+        "id": "bd0cdbb6d10d716c",
+        "text": "[[Steve Yegge]]"
+      },
+      "date": 1564103151846
+    },
+    {
+      "type": "edit",
+      "id": "6283e9263e3644fe",
+      "item": {
+        "type": "paragraph",
+        "id": "6283e9263e3644fe",
+        "text": "Ashley Williams - See [[Zen and the Art of Convincing Your Company]]"
+      },
+      "date": 1564103174629
+    },
+    {
+      "type": "edit",
+      "id": "92f5faeaafdfc576",
+      "item": {
+        "type": "paragraph",
+        "id": "92f5faeaafdfc576",
+        "text": "[[Bob Nystrom]] - Hobbyist language creator, self-published author, member of the Dart language team at Google. [http://journal.stuffwithstuff.com/ blog]"
+      },
+      "date": 1564109916178
+    },
+    {
+      "type": "edit",
+      "id": "92f5faeaafdfc576",
+      "item": {
+        "type": "paragraph",
+        "id": "92f5faeaafdfc576",
+        "text": "[[Bob Nystrom]]"
+      },
+      "date": 1564109926054
+    }
+  ]
+}

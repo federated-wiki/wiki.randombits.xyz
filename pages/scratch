@@ -1,0 +1,89 @@
+{
+  "title": "Scratch",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "2662aa93c4868f6e",
+      "text": "[https://fed.wiki.randombits.xyz/system/export.json fedwiki export]"
+    },
+    {
+      "type": "paragraph",
+      "id": "95847afc832c8e0c",
+      "text": "drag and drop"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Scratch",
+        "story": []
+      },
+      "date": 1556374544109
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "2662aa93c4868f6e"
+      },
+      "id": "2662aa93c4868f6e",
+      "type": "add",
+      "date": 1556374545703
+    },
+    {
+      "type": "edit",
+      "id": "2662aa93c4868f6e",
+      "item": {
+        "type": "paragraph",
+        "id": "2662aa93c4868f6e",
+        "text": "[https://fed.wiki.randombits.xyz/system/export.json fedwiki export]"
+      },
+      "date": 1556374570628
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "0a6f4a7c844463e9"
+      },
+      "id": "0a6f4a7c844463e9",
+      "type": "add",
+      "after": "2662aa93c4868f6e",
+      "date": 1561257254725
+    },
+    {
+      "type": "edit",
+      "id": "0a6f4a7c844463e9",
+      "item": {
+        "type": "paragraph",
+        "id": "0a6f4a7c844463e9",
+        "text": "testing"
+      },
+      "date": 1561257258031
+    },
+    {
+      "type": "remove",
+      "id": "0a6f4a7c844463e9",
+      "date": 1561257505900
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "95847afc832c8e0c"
+      },
+      "id": "95847afc832c8e0c",
+      "type": "add",
+      "after": "2662aa93c4868f6e",
+      "date": 1561257508318
+    },
+    {
+      "type": "edit",
+      "id": "95847afc832c8e0c",
+      "item": {
+        "type": "paragraph",
+        "id": "95847afc832c8e0c",
+        "text": "drag and drop"
+      },
+      "date": 1561257513507
+    }
+  ]
+}

@@ -1,0 +1,383 @@
+{
+  "title": "Philosophy",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "a1098285344b2abb",
+      "text": "This is a page where I discuss various philosophical views I have developed over the years."
+    },
+    {
+      "type": "pagefold",
+      "id": "fbc5f9ce2744c8a5",
+      "text": "tools"
+    },
+    {
+      "type": "paragraph",
+      "id": "40b0bc0f7f47a273",
+      "text": "* Self-hosting tools are desirable, where possible."
+    },
+    {
+      "type": "paragraph",
+      "id": "30b438d88ffe2be6",
+      "text": "* Tools should provide immediate feedback on the input they are given. Liveness is a good thing."
+    },
+    {
+      "type": "paragraph",
+      "id": "8877558d741611a2",
+      "text": "* discoverability is a highly desired property of any system and should be sought after or implemented where ever possible."
+    },
+    {
+      "type": "paragraph",
+      "id": "d9ff5b54d578ea1f",
+      "text": "* custom tools which eliminate manual effort can and should be invested in."
+    },
+    {
+      "type": "paragraph",
+      "id": "90b8b411a8dc4916",
+      "text": "* tools should be written with automation and keyboard driven workflows in mind."
+    },
+    {
+      "type": "pagefold",
+      "id": "84ee1d15bb335dd2",
+      "text": "development"
+    },
+    {
+      "type": "paragraph",
+      "id": "b76cfe25f6f157e9",
+      "text": "* keyboard driven workflows improve productivity and increase our ability to automate repetitive work."
+    },
+    {
+      "type": "paragraph",
+      "id": "0518d69ac7e3655b",
+      "text": "* manual work should be automated."
+    },
+    {
+      "type": "paragraph",
+      "id": "8dcff83b1b5e1aba",
+      "text": "* cognitive load in code can and should be reduced by minimizing nesting, minimizing branches, keeping function sizes small, doing one thing and doing it well, etc."
+    },
+    {
+      "type": "paragraph",
+      "id": "c1a39a72a400ae44",
+      "text": "* minimizing cognitive load as a way to aid human understanding is more important than performance until there is a demonstrable need to sacrifice understandability for performance."
+    },
+    {
+      "type": "paragraph",
+      "id": "d565b048e12ed1e6",
+      "text": "* best practices should only be followed when you understand why they exist and have a reasonable expectation that you will experience the why in your immediate foreseeable future."
+    },
+    {
+      "type": "paragraph",
+      "id": "b0e94b4c414b71c5",
+      "text": "* code lives long after it is written and will be refactored far more than rewritten which means we should structure our systems to make refactoring of existing code something we can do with confidence."
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Philosophy",
+        "story": []
+      },
+      "date": 1554960516233
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "a1098285344b2abb",
+        "text": "This is a page where I discuss various philosophical views I have developed over the years."
+      },
+      "id": "a1098285344b2abb",
+      "type": "add",
+      "date": 1554960517841
+    },
+    {
+      "type": "edit",
+      "id": "a1098285344b2abb",
+      "item": {
+        "type": "paragraph",
+        "id": "a1098285344b2abb",
+        "text": "This is a page where I discuss various philosophical views I have developed over the years."
+      },
+      "date": 1554960550643
+    },
+    {
+      "type": "add",
+      "id": "fbc5f9ce2744c8a5",
+      "item": {
+        "type": "pagefold",
+        "id": "fbc5f9ce2744c8a5",
+        "text": "tools"
+      },
+      "after": "a1098285344b2abb",
+      "date": 1554960556805
+    },
+    {
+      "type": "edit",
+      "id": "fbc5f9ce2744c8a5",
+      "item": {
+        "type": "pagefold",
+        "id": "fbc5f9ce2744c8a5",
+        "text": "tools"
+      },
+      "date": 1554960562923
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "40b0bc0f7f47a273",
+        "text": "* Self-hosting tools are desirable, where possible."
+      },
+      "id": "40b0bc0f7f47a273",
+      "type": "add",
+      "after": "fbc5f9ce2744c8a5",
+      "date": 1554960565475
+    },
+    {
+      "type": "edit",
+      "id": "40b0bc0f7f47a273",
+      "item": {
+        "type": "paragraph",
+        "id": "40b0bc0f7f47a273",
+        "text": "* Self-hosting tools are desirable, where possible."
+      },
+      "date": 1554960601676
+    },
+    {
+      "type": "add",
+      "id": "30b438d88ffe2be6",
+      "item": {
+        "type": "paragraph",
+        "id": "30b438d88ffe2be6",
+        "text": "* Tools should provide immediate feedback on the input they are given. Liveness is a good thing."
+      },
+      "after": "40b0bc0f7f47a273",
+      "date": 1554960613744
+    },
+    {
+      "type": "add",
+      "id": "84ee1d15bb335dd2",
+      "item": {
+        "type": "pagefold",
+        "id": "84ee1d15bb335dd2",
+        "text": "development"
+      },
+      "after": "30b438d88ffe2be6",
+      "date": 1554960618433
+    },
+    {
+      "type": "edit",
+      "id": "30b438d88ffe2be6",
+      "item": {
+        "type": "paragraph",
+        "id": "30b438d88ffe2be6",
+        "text": "* Tools should provide immediate feedback on the input they are given. Liveness is a good thing."
+      },
+      "date": 1554960626370
+    },
+    {
+      "type": "edit",
+      "id": "84ee1d15bb335dd2",
+      "item": {
+        "type": "pagefold",
+        "id": "84ee1d15bb335dd2",
+        "text": "development"
+      },
+      "date": 1554960665127
+    },
+    {
+      "type": "edit",
+      "id": "84ee1d15bb335dd2",
+      "item": {
+        "type": "pagefold",
+        "id": "84ee1d15bb335dd2",
+        "text": "development"
+      },
+      "date": 1554960672406
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "b76cfe25f6f157e9",
+        "text": "* keyboard driven workflows improve productivity and increase our ability to automate repetitive work."
+      },
+      "id": "b76cfe25f6f157e9",
+      "type": "add",
+      "after": "84ee1d15bb335dd2",
+      "date": 1554960674103
+    },
+    {
+      "type": "edit",
+      "id": "b76cfe25f6f157e9",
+      "item": {
+        "type": "paragraph",
+        "id": "b76cfe25f6f157e9",
+        "text": "* keyboard driven workflows improve productivity and increase our ability to automate repetitive work."
+      },
+      "date": 1554960699023
+    },
+    {
+      "type": "add",
+      "id": "0518d69ac7e3655b",
+      "item": {
+        "type": "paragraph",
+        "id": "0518d69ac7e3655b",
+        "text": "* manual work should be automated."
+      },
+      "after": "b76cfe25f6f157e9",
+      "date": 1554960727356
+    },
+    {
+      "type": "add",
+      "id": "8dcff83b1b5e1aba",
+      "item": {
+        "type": "paragraph",
+        "id": "8dcff83b1b5e1aba",
+        "text": "* cognitive load in code can and should be reduced by minimizing nesting, minimizing branches, keeping function sizes small, doing one thing and doing it well, etc."
+      },
+      "after": "0518d69ac7e3655b",
+      "date": 1554960831326
+    },
+    {
+      "type": "add",
+      "id": "c1a39a72a400ae44",
+      "item": {
+        "type": "paragraph",
+        "id": "c1a39a72a400ae44",
+        "text": "* minimizing cognitive load as a way to aid human understanding is more important than performance until there is a demonstrable need to sacrifice understandability for performance."
+      },
+      "after": "8dcff83b1b5e1aba",
+      "date": 1554960911418
+    },
+    {
+      "type": "add",
+      "id": "d565b048e12ed1e6",
+      "item": {
+        "type": "paragraph",
+        "id": "d565b048e12ed1e6",
+        "text": "* best practices should only be followed when you understand why they exist and have a reasonable expectation that you will experience the why in your immediate foreseeable future."
+      },
+      "after": "c1a39a72a400ae44",
+      "date": 1554960978857
+    },
+    {
+      "type": "add",
+      "id": "b0e94b4c414b71c5",
+      "item": {
+        "type": "paragraph",
+        "id": "b0e94b4c414b71c5",
+        "text": "* code lives long after it is written and will be refactored far more than rewritten which means we should structure our systems to make refactoring of existing code something we can do with confidence."
+      },
+      "after": "d565b048e12ed1e6",
+      "date": 1554961046838
+    },
+    {
+      "type": "edit",
+      "id": "b0e94b4c414b71c5",
+      "item": {
+        "type": "paragraph",
+        "id": "b0e94b4c414b71c5",
+        "text": "* code lives long after it is written and will be refactored far more than rewritten which means we should structure our systems to make refactoring of existing code something we can do with confidence."
+      },
+      "date": 1554961066912
+    },
+    {
+      "type": "add",
+      "id": "d9ff5b54d578ea1f",
+      "item": {
+        "type": "paragraph",
+        "id": "d9ff5b54d578ea1f",
+        "text": "* custom tools which eliminate manual effort can and should be invested in."
+      },
+      "after": "b0e94b4c414b71c5",
+      "date": 1554961091727
+    },
+    {
+      "type": "add",
+      "id": "8877558d741611a2",
+      "item": {
+        "type": "paragraph",
+        "id": "8877558d741611a2",
+        "text": "* discoverability is a highly desired property of any system and should be sought after or implemented where ever possible."
+      },
+      "after": "d9ff5b54d578ea1f",
+      "date": 1554961131273
+    },
+    {
+      "type": "move",
+      "order": [
+        "a1098285344b2abb",
+        "fbc5f9ce2744c8a5",
+        "40b0bc0f7f47a273",
+        "30b438d88ffe2be6",
+        "8877558d741611a2",
+        "84ee1d15bb335dd2",
+        "b76cfe25f6f157e9",
+        "0518d69ac7e3655b",
+        "8dcff83b1b5e1aba",
+        "c1a39a72a400ae44",
+        "d565b048e12ed1e6",
+        "b0e94b4c414b71c5",
+        "d9ff5b54d578ea1f",
+        "d0b4bacd4da2df63"
+      ],
+      "id": "8877558d741611a2",
+      "date": 1554961143426,
+      "error": {
+        "type": "error",
+        "msg": "",
+        "response": "Server Ignoring move. Try reload."
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1554961155688
+    },
+    {
+      "type": "move",
+      "order": [
+        "a1098285344b2abb",
+        "fbc5f9ce2744c8a5",
+        "40b0bc0f7f47a273",
+        "30b438d88ffe2be6",
+        "8877558d741611a2",
+        "d9ff5b54d578ea1f",
+        "84ee1d15bb335dd2",
+        "b76cfe25f6f157e9",
+        "0518d69ac7e3655b",
+        "8dcff83b1b5e1aba",
+        "c1a39a72a400ae44",
+        "d565b048e12ed1e6",
+        "b0e94b4c414b71c5",
+        "d0b4bacd4da2df63"
+      ],
+      "id": "d9ff5b54d578ea1f",
+      "date": 1554961173228,
+      "error": {
+        "type": "error",
+        "msg": "",
+        "response": "Server Ignoring move. Try reload."
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1554961178857
+    },
+    {
+      "type": "add",
+      "id": "90b8b411a8dc4916",
+      "item": {
+        "type": "paragraph",
+        "id": "90b8b411a8dc4916",
+        "text": "* tools should be written with automation and keyboard driven workflows in mind."
+      },
+      "after": "d9ff5b54d578ea1f",
+      "date": 1554961217428
+    },
+    {
+      "type": "fork",
+      "site": "joshua.nrrd.wiki.org",
+      "date": 1555222764039
+    }
+  ]
+}

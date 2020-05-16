@@ -1,0 +1,539 @@
+{
+  "title": "d3",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "fd72f27a4f4ce410",
+      "text": "An extremely powerful data visualization library. [https://d3js.org/ homepage]"
+    },
+    {
+      "type": "paragraph",
+      "id": "09f5cf684b78c52a",
+      "text": "See [[Observable]] for a great way to try it out."
+    },
+    {
+      "type": "paragraph",
+      "id": "b62b475ccf80509c",
+      "text": "Visualization collection [https://observablehq.com/collection/@observablehq/visualization observable]"
+    },
+    {
+      "type": "paragraph",
+      "id": "a7c2e5b76ad51014",
+      "text": "d3 gallery [https://github.com/d3/d3/wiki/Gallery ghe]"
+    },
+    {
+      "type": "paragraph",
+      "id": "0ce6822661572507",
+      "text": "d3 example layouts [https://observablehq.com/collection/@d3/d3-hierarchy observable]"
+    },
+    {
+      "type": "paragraph",
+      "id": "bb6e6b2b06e37602",
+      "text": "Spray Dots [http://dots.ward.asia.wiki.org/view/welcome-visitors/view/spray-dots/view/github-repo wiki]"
+    },
+    {
+      "type": "paragraph",
+      "id": "6dcd9c22cd943a0e",
+      "text": "d3-shape [https://github.com/d3/d3-shape/blob/v1.3.4/README.md#pies docs]"
+    },
+    {
+      "type": "paragraph",
+      "id": "83f37e2e334dde6d",
+      "text": "Pie charts [https://www.d3-graph-gallery.com/graph/pie_basic.html article]"
+    },
+    {
+      "type": "paragraph",
+      "id": "7a7eabd513e18dc4",
+      "text": "Towards Reusable Charts [https://bost.ocks.org/mike/chart/ post]"
+    },
+    {
+      "type": "paragraph",
+      "id": "df31f2fe8cf5b026",
+      "text": "Zoomable sunburst [https://observablehq.com/@d3/zoomable-sunburst observable]"
+    },
+    {
+      "type": "paragraph",
+      "id": "d0babad8f054f2ea",
+      "text": "Sunburst layout [https://observablehq.com/@d3/sunburst observable]"
+    },
+    {
+      "type": "paragraph",
+      "id": "a5ac24a527bcfa00",
+      "text": "Radial tidy-tree layout algorithm [https://observablehq.com/@d3/radial-tidy-tree observable] [https://github.com/d3/d3-hierarchy/blob/master/README.md#tree d3]"
+    },
+    {
+      "type": "paragraph",
+      "id": "1c4aacdc62a4e4fb",
+      "text": "Stacked bar chart [https://observablehq.com/@d3/stacked-bar-chart observable]"
+    },
+    {
+      "type": "paragraph",
+      "id": "c2d195c3653e7c38",
+      "text": "Stacked area chart [https://observablehq.com/@d3/stacked-area-chart?collection=@d3/d3-shape observable]"
+    },
+    {
+      "type": "paragraph",
+      "id": "50cbe58b57066de2",
+      "text": "Sortable and responsive table [http://bl.ocks.org/AMDS/4a61497182b8fcb05906 blocks]"
+    },
+    {
+      "type": "paragraph",
+      "id": "935cf5d0b4c90555",
+      "text": "Bar chart [http://bl.ocks.org/Jverma/887877fc5c2c2d99be10 blocks]"
+    },
+    {
+      "type": "paragraph",
+      "id": "7f4e5e989da236bd",
+      "text": "Stacked bar chart with tooltips [http://bl.ocks.org/mstanaland/6100713 blocks]"
+    },
+    {
+      "type": "paragraph",
+      "id": "4daab23f39c3b149",
+      "text": "Line chart with tooltip [https://observablehq.com/@d3/line-chart-with-tooltip observable]"
+    },
+    {
+      "type": "paragraph",
+      "id": "5b0b34679df01ff1",
+      "text": "Timeline chart [https://github.com/Genscape/d3-timeline ghe]"
+    },
+    {
+      "type": "paragraph",
+      "id": "b202eb94de1a6a0d",
+      "text": "Why are pie charts bad by design? [https://www.data-to-viz.com/caveat/pie.html post]"
+    },
+    {
+      "type": "paragraph",
+      "id": "4bc6bdda4033aa36",
+      "text": "Get access to parent node when traversing nested data elements. [https://stackoverflow.com/questions/15417340/how-to-get-data-of-parent-node-in-d3-js so]"
+    },
+    {
+      "type": "paragraph",
+      "id": "eb3786fbce4f0ce5",
+      "text": "d3.select(this.parentNode).datum()"
+    },
+    {
+      "type": "paragraph",
+      "id": "914709fe246d7552",
+      "text": "To change the width and color of the border around a rect."
+    },
+    {
+      "type": "code",
+      "id": "121f239ab0edc85b",
+      "text": ".style(\"stroke\", \"black\")\n.style(\"stroke-width\", 2)"
+    },
+    {
+      "type": "paragraph",
+      "id": "c70f0a185172e54a",
+      "text": "These can also be set via CSS. [https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Fills_and_Strokes mdn]"
+    },
+    {
+      "type": "paragraph",
+      "id": "7fdae3844a5232e9",
+      "text": ".classed is used to manipulate assigned CSS classes. [https://jaketrent.com/post/d3-class-operations/ blog]"
+    },
+    {
+      "type": "paragraph",
+      "id": "224ea3cadef7da24",
+      "text": "To have a smooth range of colors."
+    },
+    {
+      "type": "code",
+      "id": "2214e512b5b348d5",
+      "text": "let color = d3.scaleSequential(d3.interpolateRainbow)\n  .domain([<lower bound>, <upper bound>])\ncolor(<some value in domain>)"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "d3",
+        "story": []
+      },
+      "date": 1556589887493
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "fd72f27a4f4ce410"
+      },
+      "id": "fd72f27a4f4ce410",
+      "type": "add",
+      "date": 1556589888952
+    },
+    {
+      "type": "edit",
+      "id": "fd72f27a4f4ce410",
+      "item": {
+        "type": "paragraph",
+        "id": "fd72f27a4f4ce410",
+        "text": "An extremely powerful data visualization library."
+      },
+      "date": 1556589951128
+    },
+    {
+      "type": "add",
+      "id": "09f5cf684b78c52a",
+      "item": {
+        "type": "paragraph",
+        "id": "09f5cf684b78c52a",
+        "text": "See [[Observable]] for a great way to try it out."
+      },
+      "after": "fd72f27a4f4ce410",
+      "date": 1556589988220
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "df31f2fe8cf5b026",
+        "text": "Zoomable sunburst [https://observablehq.com/@d3/zoomable-sunburst observable]"
+      },
+      "after": "09f5cf684b78c52a",
+      "id": "df31f2fe8cf5b026",
+      "date": 1556590011932
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "d0babad8f054f2ea",
+        "text": "Sunburst layout [https://observablehq.com/@d3/sunburst observable]"
+      },
+      "after": "df31f2fe8cf5b026",
+      "id": "d0babad8f054f2ea",
+      "date": 1556590015243
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "0ce6822661572507",
+        "text": "d3 example layouts [https://observablehq.com/collection/@d3/d3-hierarchy observable]"
+      },
+      "after": "09f5cf684b78c52a",
+      "id": "0ce6822661572507",
+      "date": 1556590018888
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "a5ac24a527bcfa00",
+        "text": "Radial tidy-tree layout algorithm [https://observablehq.com/@d3/radial-tidy-tree observable] [https://github.com/d3/d3-hierarchy/blob/master/README.md#tree d3]"
+      },
+      "after": "d0babad8f054f2ea",
+      "id": "a5ac24a527bcfa00",
+      "date": 1556590022759
+    },
+    {
+      "type": "edit",
+      "id": "fd72f27a4f4ce410",
+      "item": {
+        "type": "paragraph",
+        "id": "fd72f27a4f4ce410",
+        "text": "An extremely powerful data visualization library. [https://d3js.org/ homepage]"
+      },
+      "date": 1556590061312
+    },
+    {
+      "type": "add",
+      "id": "1c4aacdc62a4e4fb",
+      "item": {
+        "type": "paragraph",
+        "id": "1c4aacdc62a4e4fb",
+        "text": "Stacked bar chart [https://observablehq.com/@d3/stacked-bar-chart observable]"
+      },
+      "after": "a5ac24a527bcfa00",
+      "date": 1560792756466
+    },
+    {
+      "type": "add",
+      "id": "4bc6bdda4033aa36",
+      "item": {
+        "type": "paragraph",
+        "id": "4bc6bdda4033aa36",
+        "text": "Get access to parent node when traversing nested data elements. [https://stackoverflow.com/questions/15417340/how-to-get-data-of-parent-node-in-d3-js so]"
+      },
+      "after": "1c4aacdc62a4e4fb",
+      "date": 1560919775703
+    },
+    {
+      "type": "add",
+      "id": "eb3786fbce4f0ce5",
+      "item": {
+        "type": "paragraph",
+        "id": "eb3786fbce4f0ce5",
+        "text": "d3.select(this.parentNode).datum()"
+      },
+      "after": "4bc6bdda4033aa36",
+      "date": 1560919785838
+    },
+    {
+      "type": "add",
+      "id": "914709fe246d7552",
+      "item": {
+        "type": "paragraph",
+        "id": "914709fe246d7552",
+        "text": "To change the width and color of the border around a rect."
+      },
+      "after": "eb3786fbce4f0ce5",
+      "date": 1561042860480
+    },
+    {
+      "type": "add",
+      "id": "121f239ab0edc85b",
+      "item": {
+        "type": "factory",
+        "id": "121f239ab0edc85b",
+        "text": ".style(\"stroke"
+      },
+      "after": "914709fe246d7552",
+      "date": 1561042870102
+    },
+    {
+      "type": "edit",
+      "id": "121f239ab0edc85b",
+      "item": {
+        "type": "code",
+        "id": "121f239ab0edc85b",
+        "text": ".style(\"stroke\", \"black\")\n.style(\"stroke-width\", 2)"
+      },
+      "date": 1561042885546
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "224ea3cadef7da24"
+      },
+      "id": "224ea3cadef7da24",
+      "type": "add",
+      "after": "121f239ab0edc85b",
+      "date": 1561042901282
+    },
+    {
+      "type": "edit",
+      "id": "224ea3cadef7da24",
+      "item": {
+        "type": "paragraph",
+        "id": "224ea3cadef7da24",
+        "text": "To have a smooth range of colors."
+      },
+      "date": 1561042925760
+    },
+    {
+      "type": "add",
+      "id": "2214e512b5b348d5",
+      "item": {
+        "type": "paragraph",
+        "id": "2214e512b5b348d5",
+        "text": "let color = d3.scaleSequential(d3.interpolateRainbow).domain([<lower bound>, <upper bound>])"
+      },
+      "after": "224ea3cadef7da24",
+      "date": 1561042952842
+    },
+    {
+      "type": "edit",
+      "id": "2214e512b5b348d5",
+      "item": {
+        "type": "code",
+        "id": "2214e512b5b348d5",
+        "text": "let color = d3.scaleSequential(d3.interpolateRainbow).domain([<lower bound>, <upper bound>])\ncolor(<some value in domain>)"
+      },
+      "date": 1561042968467
+    },
+    {
+      "type": "edit",
+      "id": "2214e512b5b348d5",
+      "item": {
+        "type": "code",
+        "id": "2214e512b5b348d5",
+        "text": "let color = d3.scaleSequential(d3.interpolateRainbow)\n.domain([<lower bound>, <upper bound>])\ncolor(<some value in domain>)"
+      },
+      "date": 1561042977401
+    },
+    {
+      "type": "edit",
+      "id": "2214e512b5b348d5",
+      "item": {
+        "type": "code",
+        "id": "2214e512b5b348d5",
+        "text": "let color = d3.scaleSequential(d3.interpolateRainbow)\n  .domain([<lower bound>, <upper bound>])\ncolor(<some value in domain>)"
+      },
+      "date": 1561042982504
+    },
+    {
+      "type": "add",
+      "id": "c70f0a185172e54a",
+      "item": {
+        "type": "paragraph",
+        "id": "c70f0a185172e54a",
+        "text": "These can also be set via CSS. [https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Fills_and_Strokes mdn]"
+      },
+      "after": "121f239ab0edc85b",
+      "date": 1561061687679
+    },
+    {
+      "type": "add",
+      "id": "7fdae3844a5232e9",
+      "item": {
+        "type": "paragraph",
+        "id": "7fdae3844a5232e9",
+        "text": ".classed is used to manipulate assigned CSS classes. [https://jaketrent.com/post/d3-class-operations/ blog]"
+      },
+      "after": "c70f0a185172e54a",
+      "date": 1561061714836
+    },
+    {
+      "type": "add",
+      "id": "b202eb94de1a6a0d",
+      "item": {
+        "type": "paragraph",
+        "id": "b202eb94de1a6a0d",
+        "text": "Why are pie charts bad by design? [https://www.data-to-viz.com/caveat/pie.html post]"
+      },
+      "after": "1c4aacdc62a4e4fb",
+      "date": 1561065203291
+    },
+    {
+      "type": "add",
+      "id": "50cbe58b57066de2",
+      "item": {
+        "type": "paragraph",
+        "id": "50cbe58b57066de2",
+        "text": "Sortable and responsive table [http://bl.ocks.org/AMDS/4a61497182b8fcb05906 blocks]"
+      },
+      "after": "1c4aacdc62a4e4fb",
+      "date": 1562605627800,
+      "error": {
+        "type": "error",
+        "msg": "Forbidden",
+        "response": "Forbidden"
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1562605643933
+    },
+    {
+      "type": "add",
+      "id": "b62b475ccf80509c",
+      "item": {
+        "type": "paragraph",
+        "id": "b62b475ccf80509c",
+        "text": "Visualization collection [https://observablehq.com/collection/@observablehq/visualization observable]"
+      },
+      "after": "09f5cf684b78c52a",
+      "date": 1562605683972
+    },
+    {
+      "type": "add",
+      "id": "5b0b34679df01ff1",
+      "item": {
+        "type": "paragraph",
+        "id": "5b0b34679df01ff1",
+        "text": "Timeline chart [https://github.com/Genscape/d3-timeline ghe]"
+      },
+      "after": "50cbe58b57066de2",
+      "date": 1562605716928
+    },
+    {
+      "type": "add",
+      "id": "a7c2e5b76ad51014",
+      "item": {
+        "type": "paragraph",
+        "id": "a7c2e5b76ad51014",
+        "text": "d3 gallery [https://github.com/d3/d3/wiki/Gallery ghe]"
+      },
+      "after": "b62b475ccf80509c",
+      "date": 1562605745940
+    },
+    {
+      "type": "add",
+      "id": "935cf5d0b4c90555",
+      "item": {
+        "type": "paragraph",
+        "id": "935cf5d0b4c90555",
+        "text": "Bar chart [http://bl.ocks.org/Jverma/887877fc5c2c2d99be10 blocks]"
+      },
+      "after": "50cbe58b57066de2",
+      "date": 1563574557025
+    },
+    {
+      "type": "add",
+      "id": "c2d195c3653e7c38",
+      "item": {
+        "type": "paragraph",
+        "id": "c2d195c3653e7c38",
+        "text": "Stacked area chart [https://observablehq.com/@d3/stacked-area-chart?collection=@d3/d3-shape observable]"
+      },
+      "after": "1c4aacdc62a4e4fb",
+      "date": 1563574585132
+    },
+    {
+      "type": "add",
+      "id": "bb6e6b2b06e37602",
+      "item": {
+        "type": "paragraph",
+        "id": "bb6e6b2b06e37602",
+        "text": "Spray Dots [http://dots.ward.asia.wiki.org/view/welcome-visitors/view/spray-dots/view/github-repo wiki]"
+      },
+      "after": "0ce6822661572507",
+      "date": 1563574620622
+    },
+    {
+      "type": "add",
+      "id": "7a7eabd513e18dc4",
+      "item": {
+        "type": "paragraph",
+        "id": "7a7eabd513e18dc4",
+        "text": "Towards Reusable Charts [https://bost.ocks.org/mike/chart/ post]"
+      },
+      "after": "bb6e6b2b06e37602",
+      "date": 1563574656467
+    },
+    {
+      "type": "add",
+      "id": "6dcd9c22cd943a0e",
+      "item": {
+        "type": "paragraph",
+        "id": "6dcd9c22cd943a0e",
+        "text": "d3-shape [https://github.com/d3/d3-shape/blob/v1.3.4/README.md#pies docs]"
+      },
+      "after": "bb6e6b2b06e37602",
+      "date": 1563574677125
+    },
+    {
+      "type": "add",
+      "id": "7f4e5e989da236bd",
+      "item": {
+        "type": "paragraph",
+        "id": "7f4e5e989da236bd",
+        "text": "Stacked bar chart with tooltips [http://bl.ocks.org/mstanaland/6100713 blocks]"
+      },
+      "after": "935cf5d0b4c90555",
+      "date": 1563574714321
+    },
+    {
+      "type": "add",
+      "id": "4daab23f39c3b149",
+      "item": {
+        "type": "paragraph",
+        "id": "4daab23f39c3b149",
+        "text": "Line chart with tooltip [https://observablehq.com/@d3/line-chart-with-tooltip observable]"
+      },
+      "after": "7f4e5e989da236bd",
+      "date": 1563574743963
+    },
+    {
+      "type": "add",
+      "id": "83f37e2e334dde6d",
+      "item": {
+        "type": "paragraph",
+        "id": "83f37e2e334dde6d",
+        "text": "Pie charts [https://www.d3-graph-gallery.com/graph/pie_basic.html article]"
+      },
+      "after": "6dcd9c22cd943a0e",
+      "date": 1563574960193
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "title": "Literate Programming",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "d8e77ac8554413b8",
+      "text": "A subset of [[Living Systems]] that focus on intermixing text with code and the code's results."
+    },
+    {
+      "type": "paragraph",
+      "id": "0f010e794c3e1d58",
+      "text": "Expanding the Role of Toools in a Literate Programming Environment [http://c2.com/doc/case87.html site]"
+    },
+    {
+      "type": "paragraph",
+      "id": "ed34686cb8fc2d66",
+      "text": "[http://ward.fed.wiki.org/view/welcome-visitors/view/literate-wiki Literate Wiki]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Literate Programming",
+        "story": []
+      },
+      "date": 1556806329223
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "d8e77ac8554413b8",
+        "text": "A subset of [[Living Systems]] that focus on intermixing text with code and the code's results."
+      },
+      "id": "d8e77ac8554413b8",
+      "type": "add",
+      "date": 1556806330708
+    },
+    {
+      "type": "edit",
+      "id": "d8e77ac8554413b8",
+      "item": {
+        "type": "paragraph",
+        "id": "d8e77ac8554413b8",
+        "text": "A subset of [[Living Systems]] that focus on intermixing text with code and the code's results."
+      },
+      "date": 1556806374335
+    },
+    {
+      "type": "add",
+      "id": "0f010e794c3e1d58",
+      "item": {
+        "type": "paragraph",
+        "id": "0f010e794c3e1d58",
+        "text": "Expanding the Role of Toools in a Literate Programming Environment [http://c2.com/doc/case87.html]"
+      },
+      "after": "d8e77ac8554413b8",
+      "date": 1556806392196
+    },
+    {
+      "type": "edit",
+      "id": "0f010e794c3e1d58",
+      "item": {
+        "type": "paragraph",
+        "id": "0f010e794c3e1d58",
+        "text": "Expanding the Role of Toools in a Literate Programming Environment [http://c2.com/doc/case87.html]"
+      },
+      "date": 1556806732187,
+      "error": {
+        "type": "error",
+        "msg": ""
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1556811485579
+    },
+    {
+      "type": "edit",
+      "id": "0f010e794c3e1d58",
+      "item": {
+        "type": "paragraph",
+        "id": "0f010e794c3e1d58",
+        "text": "Expanding the Role of Toools in a Literate Programming Environment [http://c2.com/doc/case87.html site]"
+      },
+      "date": 1556811499511
+    },
+    {
+      "type": "add",
+      "id": "ed34686cb8fc2d66",
+      "item": {
+        "type": "paragraph",
+        "id": "ed34686cb8fc2d66",
+        "text": "[http://ward.fed.wiki.org/view/welcome-visitors/view/literate-wiki Literate Wiki]"
+      },
+      "after": "0f010e794c3e1d58",
+      "date": 1556855247875
+    }
+  ]
+}

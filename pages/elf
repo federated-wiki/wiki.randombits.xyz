@@ -1,0 +1,55 @@
+{
+  "title": "ELF",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "0f3e1b024afda697",
+      "text": "Executable and Linkable Format"
+    },
+    {
+      "type": "paragraph",
+      "id": "98f3fd0b8ba32e05",
+      "text": "The 101 of ELF files on Linux. [https://linux-audit.com/elf-binaries-on-linux-understanding-and-analysis/ article]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "ELF",
+        "story": []
+      },
+      "date": 1560379177726
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "0f3e1b024afda697"
+      },
+      "id": "0f3e1b024afda697",
+      "type": "add",
+      "date": 1560379185393
+    },
+    {
+      "type": "edit",
+      "id": "0f3e1b024afda697",
+      "item": {
+        "type": "paragraph",
+        "id": "0f3e1b024afda697",
+        "text": "Executable and Linkable Format"
+      },
+      "date": 1560379193721
+    },
+    {
+      "type": "add",
+      "id": "98f3fd0b8ba32e05",
+      "item": {
+        "type": "paragraph",
+        "id": "98f3fd0b8ba32e05",
+        "text": "The 101 of ELF files on Linux. [https://linux-audit.com/elf-binaries-on-linux-understanding-and-analysis/ article]"
+      },
+      "after": "0f3e1b024afda697",
+      "date": 1560379214793
+    }
+  ]
+}

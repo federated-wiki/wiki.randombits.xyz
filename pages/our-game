@@ -1,0 +1,543 @@
+{
+  "title": "Our Game",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "30c0e1dda0bad110",
+      "text": "Details of a game I'm working on with one of my children."
+    },
+    {
+      "type": "paragraph",
+      "id": "9aa23c840c3ca02c",
+      "text": "We are using GameMaker Studio 2."
+    },
+    {
+      "type": "paragraph",
+      "id": "c3b5c01e0cdb3aef",
+      "text": "FriendlyCosmonaut has a great video series on programming a farming simulator. [https://www.youtube.com/channel/UCKCKHxkH8zqV9ltWZw0JFig youtube] [https://www.youtube.com/watch?v=cdJoJdtFbwc&list=PLSFMekK0JFgzbFfj1vAsyluKTymnBiriY playlist]"
+    },
+    {
+      "type": "paragraph",
+      "id": "037cd47ee2cced0b",
+      "text": "Movement and Collisions [https://www.youtube.com/watch?v=Tc4ijzjplZs&list=PLSFMekK0JFgzbFfj1vAsyluKTymnBiriY&index=3&t=0s youtube]"
+    },
+    {
+      "type": "code",
+      "id": "50ed6968f91902cc",
+      "text": "// In create\nw_spd = 1; // walk speed\nn_spd = 2; // normal speed\nr_spd = 3; // run speed\nspd = n_spd;"
+    },
+    {
+      "type": "paragraph",
+      "id": "cff92053cb571273",
+      "text": "Biased moving code. Left always wins."
+    },
+    {
+      "type": "code",
+      "id": "4142cc5042ec1dea",
+      "text": "input_left = keyboard_check(vk_left);\ninput_right = keyboard_check(vk_right);\ninput_up = keyboard_check(vk_up);\ninput_down = keyboard_check(vk_down);\n\nmoveX = 0;\nmoveY = 0;\n\nif(input_left) {\n  moveX -= spd;\n}\nelse if (input_right) {\n  moveX += spd;\n}\nelse if (input_up) {\n  moveY += spd;\n}\nelse if (input_down) {\n  moveY -= spd;\n}\n\nif (COLLISION) {\n  moveX = 0;\n  moveY = 0;\n}\n\nx += moveX;\ny += moveY;\n"
+    },
+    {
+      "type": "paragraph",
+      "id": "7b92c654e69f4564",
+      "text": "Less-biased moving code. up / down cancel each other out. left / right cancel each other out. To avoid diagonal movement, moveX wins over moveY."
+    },
+    {
+      "type": "code",
+      "id": "bb88fed2fb89fd9b",
+      "text": "input_left = keyboard_check(vk_left);\ninput_right = keyboard_check(vk_right);\ninput_up = keyboard_check(vk_up);\ninput_down = keyboard_check(vk_down);\ninput_walk = keyboard_check(vk_control);\ninput_run = keyboard_check(vk_shift);\n\nmoveX = 0;\nmoveY = 0;\n\nmoveX = (input_right - input_left) * spd;\nif (moveX == 0) { moveY = (input_down - input_up) * spd; }\n\nif (COLLISION) {\n  moveX = 0;\n  moveY = 0;\n}\n\nx += moveX;\ny += moveY;\n"
+    },
+    {
+      "type": "code",
+      "id": "6c88b6ab3b51fa21",
+      "text": "// Simple speed w/ bias for walk.\nif (input_walk)     { spd = w_spd; }\nelse if (input_run) { spd = r_spd; }\nelse                { spd = n_spd; }\n\n// More advanced approach.\nif (input_walk or input_run) {\n  spd = abs((input_walk*w_spd) - (input_run*r_spd));\n} else {\n  spd = n_spd;\n}\n"
+    },
+    {
+      "type": "paragraph",
+      "id": "bd520e5390249491",
+      "text": "Suggestion to change FPS from 30 to 60 FPS. Option found in right hand pane -> Options -> Main -> General."
+    },
+    {
+      "type": "code",
+      "id": "fad6793efe871347",
+      "text": "// This approach would leave a gap\nif (place_meeting(x+moveX, y, obj_collision)) {\n  moveX = 0;\n}\n\n// This approach removes gaps\nif (place_meeting(x+moveX, y, obj_collision)) {\n  // repeat up to number of pixels we would be moving\n  repeat(abs(moveX)) {\n    // if still a gap, move closer\n    if (!place_meeting(x+sign(moveX), y, obj_collision)) {\n      x += sign(moveX);\n    }\n    // otherwise, we've hit and should stop\n    else {\n      break;\n    }\n  }\n}\n"
+    },
+    {
+      "type": "paragraph",
+      "id": "3e79efd38462fb40",
+      "text": "Create copy for Y movement. Surround both with a guard clause like if (moveX != 0) {} in order to improve efficiency."
+    },
+    {
+      "type": "paragraph",
+      "id": "46b3b6b43fe7b0b7",
+      "text": "Note: Can only drag objects into an instance layer in a room, not a background layer!"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Our Game",
+        "story": []
+      },
+      "date": 1557713488758
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "30c0e1dda0bad110"
+      },
+      "id": "30c0e1dda0bad110",
+      "type": "add",
+      "date": 1557713490388
+    },
+    {
+      "type": "edit",
+      "id": "30c0e1dda0bad110",
+      "item": {
+        "type": "paragraph",
+        "id": "30c0e1dda0bad110",
+        "text": "Details of a game I'm working on with one of my children."
+      },
+      "date": 1557713503577
+    },
+    {
+      "type": "add",
+      "id": "c3b5c01e0cdb3aef",
+      "item": {
+        "type": "paragraph",
+        "id": "c3b5c01e0cdb3aef",
+        "text": "Friendly Cosmonaut has a great video series on programming a farming simulator."
+      },
+      "after": "30c0e1dda0bad110",
+      "date": 1557713535122
+    },
+    {
+      "type": "add",
+      "id": "4142cc5042ec1dea",
+      "item": {
+        "type": "factory",
+        "id": "4142cc5042ec1dea",
+        "text": "input_le"
+      },
+      "after": "c3b5c01e0cdb3aef",
+      "date": 1557713546617
+    },
+    {
+      "type": "edit",
+      "id": "4142cc5042ec1dea",
+      "item": {
+        "type": "code",
+        "id": "4142cc5042ec1dea",
+        "text": "input_left = keyboard_check(vk_left);\ninput_right = keyboard_check(vk_right);\ninput_up = keyboard_check(vk_up);\ninput_down = keyboard_check(vk_down);\n\nmoveX = 0;\nmoveY = 0;\n\nif(input_left) {\n  moveX -= spd;\n}\nelse if (input_right) {\n  moveX += spd;\n}\nelse if (input_up) {\n  moveY += spd;\n}\nelse if (input_down) {\n  moveY -= spd;\n}\n\nif (COLLISION) {\n"
+      },
+      "date": 1557713668469
+    },
+    {
+      "type": "edit",
+      "id": "4142cc5042ec1dea",
+      "item": {
+        "type": "code",
+        "id": "4142cc5042ec1dea",
+        "text": "input_left = keyboard_check(vk_left);\ninput_right = keyboard_check(vk_right);\ninput_up = keyboard_check(vk_up);\ninput_down = keyboard_check(vk_down);\n\nmoveX = 0;\nmoveY = 0;\n\nif(input_left) {\n  moveX -= spd;\n}\nelse if (input_right) {\n  moveX += spd;\n}\nelse if (input_up) {\n  moveY += spd;\n}\nelse if (input_down) {\n  moveY -= spd;\n}\n\nif (COLLISION) {\n  moveX = 0;\n  moveY = 0;\n}\n\nx += moveX;\ny += moveY;\n"
+      },
+      "date": 1557713699142
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "915ae31cfbfb5e67"
+      },
+      "id": "915ae31cfbfb5e67",
+      "type": "add",
+      "after": "4142cc5042ec1dea",
+      "date": 1557713710100
+    },
+    {
+      "type": "remove",
+      "id": "915ae31cfbfb5e67",
+      "date": 1557713718854
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "bb88fed2fb89fd9b"
+      },
+      "id": "bb88fed2fb89fd9b",
+      "type": "add",
+      "after": "4142cc5042ec1dea",
+      "date": 1557713724076
+    },
+    {
+      "type": "edit",
+      "id": "bb88fed2fb89fd9b",
+      "item": {
+        "type": "code",
+        "id": "bb88fed2fb89fd9b",
+        "text": "input_left = keyboard_check(vk_left);\ninput_right = keyboard_check(vk_right);\ninput_up = keyboard_check(vk_up);\ninput_down = keyboard_check(vk_down);\n\nmoveX = 0;\nmoveY = 0;\n\nmoveX = (input_right - input_left) * spd;\nmoveY = (input_down - input_up) * spd;\n\nif (COLLISION) {\n  moveX = 0;\n  moveY = 0;\n}\n\nx += moveX;\ny += moveY;\n"
+      },
+      "date": 1557713764710
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "7b92c654e69f4564"
+      },
+      "id": "7b92c654e69f4564",
+      "type": "add",
+      "after": "bb88fed2fb89fd9b",
+      "date": 1557713767443
+    },
+    {
+      "type": "edit",
+      "id": "7b92c654e69f4564",
+      "item": {
+        "type": "paragraph",
+        "id": "7b92c654e69f4564",
+        "text": "Non-biased moving code."
+      },
+      "date": 1557713778820
+    },
+    {
+      "type": "move",
+      "order": [
+        "30c0e1dda0bad110",
+        "c3b5c01e0cdb3aef",
+        "4142cc5042ec1dea",
+        "7b92c654e69f4564",
+        "bb88fed2fb89fd9b"
+      ],
+      "id": "7b92c654e69f4564",
+      "date": 1557713781141
+    },
+    {
+      "type": "add",
+      "id": "cff92053cb571273",
+      "item": {
+        "type": "paragraph",
+        "id": "cff92053cb571273",
+        "text": "Biased moving code. Left always wins."
+      },
+      "after": "c3b5c01e0cdb3aef",
+      "date": 1557713792500
+    },
+    {
+      "type": "add",
+      "id": "9aa23c840c3ca02c",
+      "item": {
+        "type": "paragraph",
+        "id": "9aa23c840c3ca02c",
+        "text": "We are using GameMaker Studio 2."
+      },
+      "after": "30c0e1dda0bad110",
+      "date": 1557713931619
+    },
+    {
+      "type": "add",
+      "id": "037cd47ee2cced0b",
+      "item": {
+        "type": "paragraph",
+        "id": "037cd47ee2cced0b",
+        "text": "Video #2: Character movement."
+      },
+      "after": "c3b5c01e0cdb3aef",
+      "date": 1557713959434
+    },
+    {
+      "type": "edit",
+      "id": "bb88fed2fb89fd9b",
+      "item": {
+        "type": "code",
+        "id": "bb88fed2fb89fd9b",
+        "text": "input_left = keyboard_check(vk_left);\ninput_right = keyboard_check(vk_right);\ninput_up = keyboard_check(vk_up);\ninput_down = keyboard_check(vk_down);\n\nmoveX = 0;\nmoveY = 0;\n\nmoveX = (input_right - input_left) * spd;\nif (moveX == 0) { moveY = (input_down - input_up) * spd; }\n\nif (COLLISION) {\n  moveX = 0;\n  moveY = 0;\n}\n\nx += moveX;\ny += moveY;\n"
+      },
+      "date": 1557713978894
+    },
+    {
+      "type": "edit",
+      "id": "7b92c654e69f4564",
+      "item": {
+        "type": "paragraph",
+        "id": "7b92c654e69f4564",
+        "text": "Less-biased moving code. up / down cancel each other out. left / right cancel each other out. To avoid diagonal movement, moveX wins over moveY."
+      },
+      "date": 1557714048806
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "50ed6968f91902cc"
+      },
+      "id": "50ed6968f91902cc",
+      "type": "add",
+      "after": "bb88fed2fb89fd9b",
+      "date": 1557714080153
+    },
+    {
+      "type": "edit",
+      "id": "50ed6968f91902cc",
+      "item": {
+        "type": "code",
+        "id": "50ed6968f91902cc",
+        "text": "w_spd = 1;\nn_spd = 2;\nr_spd = 3;\nspd = n_spd;"
+      },
+      "date": 1557714109065
+    },
+    {
+      "type": "edit",
+      "id": "50ed6968f91902cc",
+      "item": {
+        "type": "code",
+        "id": "50ed6968f91902cc",
+        "text": "// In create\nw_spd = 1; // walk speed\nn_spd = 2; // normal speed\nr_spd = 3; // run speed\nspd = n_spd;"
+      },
+      "date": 1557714146425
+    },
+    {
+      "type": "edit",
+      "id": "bb88fed2fb89fd9b",
+      "item": {
+        "type": "code",
+        "id": "bb88fed2fb89fd9b",
+        "text": "input_left = keyboard_check(vk_left);\ninput_right = keyboard_check(vk_right);\ninput_up = keyboard_check(vk_up);\ninput_down = keyboard_check(vk_down);\ninput_walk = keyboard_check(vk_control);\ninput_run = keyboard_check(vk_shift);\n\nmoveX = 0;\nmoveY = 0;\n\nmoveX = (input_right - input_left) * spd;\nif (moveX == 0) { moveY = (input_down - input_up) * spd; }\n\nif (COLLISION) {\n  moveX = 0;\n  moveY = 0;\n}\n\nx += moveX;\ny += moveY;\n"
+      },
+      "date": 1557714187039
+    },
+    {
+      "type": "move",
+      "order": [
+        "30c0e1dda0bad110",
+        "9aa23c840c3ca02c",
+        "c3b5c01e0cdb3aef",
+        "037cd47ee2cced0b",
+        "50ed6968f91902cc",
+        "cff92053cb571273",
+        "4142cc5042ec1dea",
+        "7b92c654e69f4564",
+        "bb88fed2fb89fd9b"
+      ],
+      "id": "50ed6968f91902cc",
+      "date": 1557714193073
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "6c88b6ab3b51fa21"
+      },
+      "id": "6c88b6ab3b51fa21",
+      "type": "add",
+      "after": "bb88fed2fb89fd9b",
+      "date": 1557714296802
+    },
+    {
+      "type": "edit",
+      "id": "6c88b6ab3b51fa21",
+      "item": {
+        "type": "code",
+        "id": "6c88b6ab3b51fa21",
+        "text": "// Simple speed w/ bias for walk.\nif (input_walk)     { spd = w_spd; }\nelse if (input_run) { spd = r_spd; }\nelse                { spd = n_spd; }\n\n// More advanced approach.\nif (inptu_walk or input_run) {\n  spd = abs((input_walk*w_spd) - (input_run*r_spd));\n} else {\n  spd = n_spd;\n}\n"
+      },
+      "date": 1557714448777
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "bd520e5390249491"
+      },
+      "id": "bd520e5390249491",
+      "type": "add",
+      "after": "6c88b6ab3b51fa21",
+      "date": 1557714515385
+    },
+    {
+      "type": "edit",
+      "id": "bd520e5390249491",
+      "item": {
+        "type": "paragraph",
+        "id": "bd520e5390249491",
+        "text": "Right hand pane -> Options -> Main -> General: Change FPS from 30 to 60."
+      },
+      "date": 1557714541117
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "fad6793efe871347"
+      },
+      "id": "fad6793efe871347",
+      "type": "add",
+      "after": "bd520e5390249491",
+      "date": 1557715070284
+    },
+    {
+      "type": "edit",
+      "id": "fad6793efe871347",
+      "item": {
+        "type": "code",
+        "id": "fad6793efe871347",
+        "text": "if (place_meeting(x+moveX, y, obj_collision)) {\n  moveX = 0;\n}"
+      },
+      "date": 1557715130707
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "3e79efd38462fb40"
+      },
+      "id": "3e79efd38462fb40",
+      "type": "add",
+      "after": "fad6793efe871347",
+      "date": 1557715132607
+    },
+    {
+      "type": "edit",
+      "id": "3e79efd38462fb40",
+      "item": {
+        "type": "paragraph",
+        "id": "3e79efd38462fb40",
+        "text": "Note: Can only drag objects into an instance layer in a room, not a background layer!"
+      },
+      "date": 1557715157718
+    },
+    {
+      "type": "edit",
+      "id": "fad6793efe871347",
+      "item": {
+        "type": "code",
+        "id": "fad6793efe871347",
+        "text": "// This approach would leave a gap\nif (place_meeting(x+moveX, y, obj_collision)) {\n  moveX = 0;\n}\n\n// Removes gaps\nif (place_meeting(x+moveX, y, obj_collision)) {\n  if (!place_meeting(x+sign(moveX), y, obj_collision)) {\n\n}"
+      },
+      "date": 1557715276794
+    },
+    {
+      "type": "edit",
+      "id": "fad6793efe871347",
+      "item": {
+        "type": "code",
+        "id": "fad6793efe871347",
+        "text": "// This approach would leave a gap\nif (place_meeting(x+moveX, y, obj_collision)) {\n  moveX = 0;\n}\n\n// Removes gaps\nif (place_meeting(x+moveX, y, obj_collision)) {\n  repeat(abs(moveX) {\n  if (!place_meeting(x+sign(moveX), y, obj_collision)) {\n\n}"
+      },
+      "date": 1557715298116
+    },
+    {
+      "type": "edit",
+      "id": "fad6793efe871347",
+      "item": {
+        "type": "code",
+        "id": "fad6793efe871347",
+        "text": "// This approach would leave a gap\nif (place_meeting(x+moveX, y, obj_collision)) {\n  moveX = 0;\n}\n\n// Removes gaps\nif (place_meeting(x+moveX, y, obj_collision)) {\n  repeat(abs(moveX) {\n    if (!place_meeting(x+sign(moveX), y, obj_collision)) {\n      x += sign(moveX);\n    }\n  }\n}\n"
+      },
+      "date": 1557715328760
+    },
+    {
+      "type": "edit",
+      "id": "fad6793efe871347",
+      "item": {
+        "type": "code",
+        "id": "fad6793efe871347",
+        "text": "// This approach would leave a gap\nif (place_meeting(x+moveX, y, obj_collision)) {\n  moveX = 0;\n}\n\n// Removes gaps\nif (place_meeting(x+moveX, y, obj_collision)) {\n  // repeat up to number of pixels we would be moving\n  repeat(abs(moveX)) {\n    // if still a gap, move closer\n    if (!place_meeting(x+sign(moveX), y, obj_collision)) {\n      x += sign(moveX);\n    }\n    // otherwise, we've hit and should stop\n    else {\n      break;\n    }\n  }\n}\n"
+      },
+      "date": 1557715445749
+    },
+    {
+      "type": "edit",
+      "id": "fad6793efe871347",
+      "item": {
+        "type": "code",
+        "id": "fad6793efe871347",
+        "text": "// This approach would leave a gap\nif (place_meeting(x+moveX, y, obj_collision)) {\n  moveX = 0;\n}\n\n// This approach removes gaps\nif (place_meeting(x+moveX, y, obj_collision)) {\n  // repeat up to number of pixels we would be moving\n  repeat(abs(moveX)) {\n    // if still a gap, move closer\n    if (!place_meeting(x+sign(moveX), y, obj_collision)) {\n      x += sign(moveX);\n    }\n    // otherwise, we've hit and should stop\n    else {\n      break;\n    }\n  }\n}\n"
+      },
+      "date": 1557715463297
+    },
+    {
+      "type": "edit",
+      "id": "6c88b6ab3b51fa21",
+      "item": {
+        "type": "code",
+        "id": "6c88b6ab3b51fa21",
+        "text": "// Simple speed w/ bias for walk.\nif (input_walk)     { spd = w_spd; }\nelse if (input_run) { spd = r_spd; }\nelse                { spd = n_spd; }\n\n// More advanced approach.\nif (input_walk or input_run) {\n  spd = abs((input_walk*w_spd) - (input_run*r_spd));\n} else {\n  spd = n_spd;\n}\n"
+      },
+      "date": 1557718484275
+    },
+    {
+      "type": "edit",
+      "id": "c3b5c01e0cdb3aef",
+      "item": {
+        "type": "paragraph",
+        "id": "c3b5c01e0cdb3aef",
+        "text": "Friendly Cosmonaut has a great video series on programming a farming simulator. [https://www.youtube.com/watch?v=cdJoJdtFbwc&list=PLSFMekK0JFgzbFfj1vAsyluKTymnBiriY playlist]"
+      },
+      "date": 1557718545929
+    },
+    {
+      "type": "edit",
+      "id": "c3b5c01e0cdb3aef",
+      "item": {
+        "type": "paragraph",
+        "id": "c3b5c01e0cdb3aef",
+        "text": "FriendlyCosmonaut has a great video series on programming a farming simulator. [https://www.youtube.com/channel/UCKCKHxkH8zqV9ltWZw0JFig youtube] [https://www.youtube.com/watch?v=cdJoJdtFbwc&list=PLSFMekK0JFgzbFfj1vAsyluKTymnBiriY playlist]"
+      },
+      "date": 1557718591487
+    },
+    {
+      "type": "edit",
+      "id": "037cd47ee2cced0b",
+      "item": {
+        "type": "paragraph",
+        "id": "037cd47ee2cced0b",
+        "text": "Movement and Collisions [https://www.youtube.com/watch?v=Tc4ijzjplZs&list=PLSFMekK0JFgzbFfj1vAsyluKTymnBiriY&index=3&t=0s youtube]"
+      },
+      "date": 1557718633327
+    },
+    {
+      "type": "edit",
+      "id": "bd520e5390249491",
+      "item": {
+        "type": "paragraph",
+        "id": "bd520e5390249491",
+        "text": "Suggestion to change FPS from 30 to 60 FPS. Found in right hand pane -> Options -> Main -> General."
+      },
+      "date": 1557718691844
+    },
+    {
+      "type": "edit",
+      "id": "bd520e5390249491",
+      "item": {
+        "type": "paragraph",
+        "id": "bd520e5390249491",
+        "text": "Suggestion to change FPS from 30 to 60 FPS. Option found in right hand pane -> Options -> Main -> General."
+      },
+      "date": 1557718703348
+    },
+    {
+      "type": "edit",
+      "id": "3e79efd38462fb40",
+      "item": {
+        "type": "paragraph",
+        "id": "3e79efd38462fb40",
+        "text": "Create copy for Y movement. Surround both with a guard clause like if (moveX != 0) {} in order to improve efficiency. Note: Can only drag objects into an instance layer in a room, not a background layer!"
+      },
+      "date": 1557718763287
+    },
+    {
+      "type": "edit",
+      "id": "3e79efd38462fb40",
+      "item": {
+        "type": "paragraph",
+        "id": "3e79efd38462fb40",
+        "text": "Create copy for Y movement. Surround both with a guard clause like if (moveX != 0) {} in order to improve efficiency."
+      },
+      "date": 1557718832529
+    },
+    {
+      "type": "add",
+      "id": "46b3b6b43fe7b0b7",
+      "item": {
+        "type": "paragraph",
+        "id": "46b3b6b43fe7b0b7",
+        "text": "Note: Can only drag objects into an instance layer in a room, not a background layer!"
+      },
+      "after": "3e79efd38462fb40",
+      "date": 1557718833989
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "title": "Hubot",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "18f3aa091af236c9",
+      "text": "A chatbot creation framework."
+    },
+    {
+      "type": "paragraph",
+      "id": "7462357485c913a0",
+      "text": "[https://github.com/hubotio/hubot Homepage]"
+    },
+    {
+      "type": "paragraph",
+      "id": "9d093f54ef09f71c",
+      "text": "[https://github.com/hubotio/hubot/blob/master/src/user.js User Object]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Hubot",
+        "story": []
+      },
+      "date": 1556759487310
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "18f3aa091af236c9"
+      },
+      "id": "18f3aa091af236c9",
+      "type": "add",
+      "date": 1556759489704
+    },
+    {
+      "type": "edit",
+      "id": "18f3aa091af236c9",
+      "item": {
+        "type": "paragraph",
+        "id": "18f3aa091af236c9",
+        "text": "A bot creation framework."
+      },
+      "date": 1556759500442
+    },
+    {
+      "type": "edit",
+      "id": "18f3aa091af236c9",
+      "item": {
+        "type": "paragraph",
+        "id": "18f3aa091af236c9",
+        "text": "A chatbot creation framework."
+      },
+      "date": 1556759513805
+    },
+    {
+      "type": "add",
+      "id": "7462357485c913a0",
+      "item": {
+        "type": "paragraph",
+        "id": "7462357485c913a0",
+        "text": "[https://github.com/hubotio/hubot Homepage]"
+      },
+      "after": "18f3aa091af236c9",
+      "date": 1556759524275
+    },
+    {
+      "type": "add",
+      "id": "9d093f54ef09f71c",
+      "item": {
+        "type": "paragraph",
+        "id": "9d093f54ef09f71c",
+        "text": "[https://github.com/hubotio/hubot/blob/master/src/user.js User Object]"
+      },
+      "after": "7462357485c913a0",
+      "date": 1556759550370
+    }
+  ]
+}
